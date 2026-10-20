@@ -1,0 +1,7 @@
+{
+  "validated": true,
+  "scope": "Explicit user request to trace estimation differences; algebraic summaries of already validated counts only",
+  "formal_new_tests": false,
+  "ancestral_polarization": false,
+  "original_historical_reproduction": false
+}

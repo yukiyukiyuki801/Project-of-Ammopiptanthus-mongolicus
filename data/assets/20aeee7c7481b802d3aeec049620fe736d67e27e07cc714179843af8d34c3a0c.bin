@@ -1,0 +1,8 @@
+"note"
+"Descriptive statistics summarize 217 matched individuals (104 core and 113 peripheral) in each reference arm. SD is the sample standard deviation among individuals, not among independent populations."
+"Class means weight individuals equally; no population-level independent-replicate test is implied."
+"Depth and breadth denominators refer to each complete assembly or its observed covered bases; they are not matched homologous RAD regions and are not genotype missingness."
+"The two reference arms use the same cleaned reads. Existing A. nanus PCA scores were reused; new A. mongolicus variants were called with bcftools, not the historical two-caller intersection."
+"No new inferential tests, PCA alignment, Procrustes analysis, functional-load or genomic-offset reruns were performed by this reporting script."
+"PCA agreement must be assessed separately from the plotted point distributions; these summaries do not automatically establish robustness."
+"Fractions are stored unrounded (0-1); multiply by 100 for percentages. Paired differences of fractions become percentage points when multiplied by 100."

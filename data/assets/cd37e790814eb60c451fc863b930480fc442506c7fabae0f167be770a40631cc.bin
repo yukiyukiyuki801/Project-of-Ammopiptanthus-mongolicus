@@ -1,0 +1,12 @@
+{
+  "validated": true,
+  "input_npy": "runs/revision_run_01/outputs/inputs/full_genotypes.npy",
+  "reused_text_conversion": "runs/revision_run_01/outputs/figures/genetic_pca/full_genotypes_conversion.tsv",
+  "shape": [
+    217,
+    38124
+  ],
+  "missing_encoding": 9,
+  "all_genotypes_identical": true,
+  "scope": "Input format conversion audit only; no FST calculation."
+}

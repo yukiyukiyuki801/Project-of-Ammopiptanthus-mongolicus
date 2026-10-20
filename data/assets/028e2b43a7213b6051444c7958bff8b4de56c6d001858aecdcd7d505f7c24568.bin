@@ -1,0 +1,5 @@
+WARNING! E142 not allowed! score: 0.05 median: 0.00 # of sequence: 400
+WARNING! S182 not allowed! score: 0.05 median: 0.00 # of sequence: 400
+WARNING! V442 not allowed! score: 0.05 median: 0.00 # of sequence: 400
+WARNING! Q445 not allowed! score: 0.05 median: 0.00 # of sequence: 400
+I34V	DELETERIOUS	0.01	3.05	399	400

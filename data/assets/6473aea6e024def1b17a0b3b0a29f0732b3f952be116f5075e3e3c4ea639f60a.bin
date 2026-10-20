@@ -1,0 +1,10 @@
+{
+  "validated": true,
+  "scenario": "ssp585_2071-2100_ENSEMBLE",
+  "direction": "reverse",
+  "scoring": "inherited_geographic_penalty_degrees",
+  "grid_cells": 157745,
+  "candidates": 157764,
+  "seconds": 14.884,
+  "no_model_refitting": true
+}

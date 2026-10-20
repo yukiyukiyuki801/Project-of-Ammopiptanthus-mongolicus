@@ -1,0 +1,14 @@
+[
+  {
+    "destination": "public_dependencies/software/ecospat_verified/ecospat.nichedynamic.R",
+    "blob_api_url": "https://api.github.com/repos/ecospat/ecospat/git/blobs/be30d926ad535db17bde06ec8361a8754096d753",
+    "sha256": "7392cce4eea93d3c637c43244f9826b3268d722e3c1cc112dbe8e76d23905890",
+    "upstream_source": "https://github.com/ecospat/ecospat/blob/master/ecospat/R/ecospat.nichedynamic.R"
+  },
+  {
+    "destination": "public_dependencies/software/ecospat_verified/ecospat.nicheoverlap.R",
+    "blob_api_url": "https://api.github.com/repos/ecospat/ecospat/git/blobs/6562a9e81e26f135c2a428a8b83a98213972984b",
+    "sha256": "e9211ea6eb686bf463c2e79add4d348245e461a7777a8407036c448dec19193e",
+    "upstream_source": "https://github.com/ecospat/ecospat/blob/master/ecospat/R/ecospat.nicheoverlap.R"
+  }
+]

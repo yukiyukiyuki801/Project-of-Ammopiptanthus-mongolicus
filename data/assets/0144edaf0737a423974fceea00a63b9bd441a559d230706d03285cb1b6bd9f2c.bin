@@ -1,0 +1,9 @@
+WARNING! Q11 not allowed! score: 0.03 median: 0.00 # of sequence: 400
+WARNING! F13 not allowed! score: 0.04 median: 0.00 # of sequence: 400
+WARNING! N33 not allowed! score: 0.01 median: 0.00 # of sequence: 399
+WARNING! I52 not allowed! score: 0.04 median: 0.00 # of sequence: 400
+WARNING! S63 not allowed! score: 0.01 median: 0.00 # of sequence: 375
+WARNING! S86 not allowed! score: 0.02 median: 0.00 # of sequence: 400
+WARNING! L115 not allowed! score: 0.01 median: 0.00 # of sequence: 400
+D126N	DELETERIOUS	0.00	3.05	400	400
+Q120H	DELETERIOUS	0.01	3.05	400	400

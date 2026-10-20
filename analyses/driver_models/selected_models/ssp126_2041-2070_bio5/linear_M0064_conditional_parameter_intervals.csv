@@ -1,0 +1,3 @@
+"parameter","estimate","SE","lower95","upper95","residual_df","interval","parameter_type"
+"(Intercept)",0.182129842657226,0.00529139130758283,0.170965982848076,0.193293702466376,17,"95% pointwise conditional on selected formula; no model-search correction","linear coefficient on standardized predictors"
+"Lon",-0.0138093999361271,0.00543638777860865,-0.0252791755585783,-0.00233962431367588,17,"95% pointwise conditional on selected formula; no model-search correction","linear coefficient on standardized predictors"

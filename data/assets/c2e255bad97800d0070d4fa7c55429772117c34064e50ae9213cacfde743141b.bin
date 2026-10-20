@@ -1,0 +1,6 @@
+WARNING! F144 not allowed! score: 0.03 median: 0.00 # of sequence: 249
+WARNING! M184 not allowed! score: 0.01 median: 0.00 # of sequence: 246
+WARNING! C345 not allowed! score: 0.03 median: 0.00 # of sequence: 195
+WARNING! D346 not allowed! score: 0.01 median: 2.57 # of sequence: 195
+T216I	DELETERIOUS	0.01	2.42	252	274
+V214I	TOLERATED	0.23	2.43	252	274

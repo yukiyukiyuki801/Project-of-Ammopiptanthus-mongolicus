@@ -1,0 +1,15 @@
+{
+  "analysis": "Explicitly authorized missing-source SDM reconstruction",
+  "original_occurrences": 37,
+  "retained_occurrences": 37,
+  "background_cells": 10000,
+  "folds": 10,
+  "future_GCM_scenarios": 20,
+  "predictors": ["bio4", "bio5", "bio6", "bio15", "bio17", "elevation"],
+  "threshold_MTSS": 0.6557,
+  "mean_heldout_AUC": 0.8153,
+  "scope": "Reconstructed numerical source, not historical model recovery",
+  "population_class_labels_changed": false,
+  "figure_rendering_pending": true,
+  "validated": true
+}

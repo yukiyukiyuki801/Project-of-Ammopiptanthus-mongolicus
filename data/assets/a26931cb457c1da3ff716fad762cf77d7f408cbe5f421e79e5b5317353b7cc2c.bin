@@ -1,0 +1,12 @@
+{
+  "PDF": "/gpfs/ycga/work/coughlan/ps2327/ammo/runs/revision_run_01/outputs/figures/genetic_pca/S2_genetic_PCA_reconstructed.pdf",
+  "individuals": 217,
+  "input_loci": 38124,
+  "retained_loci": 38124,
+  "excluded_constant_or_invalid": 0,
+  "missing_dosages_imputed": 462046,
+  "original_PCA_reproduced": false,
+  "scope": "Necessary missing plotting-result reconstruction authorized by reviewer readability request and user scope rule",
+  "manual_visual_QA": "PASS; see manual_visual_QA.json",
+  "validated": true
+}

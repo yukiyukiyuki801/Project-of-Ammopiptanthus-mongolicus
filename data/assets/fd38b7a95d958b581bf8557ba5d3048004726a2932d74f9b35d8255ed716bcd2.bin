@@ -1,0 +1,5 @@
+WARNING! K408 not allowed! score: 0.04 median: 0.00 # of sequence: 35
+WARNING! S425 not allowed! score: 0.04 median: 0.00 # of sequence: 35
+I432M	DELETERIOUS	0.01	3.26	33	125
+T449S	TOLERATED	1.00	3.20	31	125
+Y498N	TOLERATED	0.26	3.14	35	125

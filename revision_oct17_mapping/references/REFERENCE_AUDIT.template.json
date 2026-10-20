@@ -1,0 +1,62 @@
+{
+  "created_utc": "2026-10-17T18:20:10.961841+00:00",
+  "references": [
+    {
+      "name": "nanus_bundled",
+      "path": "${REPOSITORY_ROOT}/ammo_analysis_package_20261014/cluster_recovery/personal2/sun/sift4g/ammo/chr-src/ammo.fasta.gz",
+      "compressed_bytes": 239865852,
+      "sha256": "5d99d8b199bc23c54400199e62c44c9efb62abddbdb5c21cea73444cc8a5f7f2",
+      "md5": "e18819c417c811d3976b46980a8ed3a7",
+      "gzip_stream_passed": true,
+      "sequence_count": 1099,
+      "total_bases": 823736225,
+      "first_sequence": "Contig00001",
+      "sequence_lengths_file": "nanus_bundled.lengths.tsv"
+    },
+    {
+      "name": "mongolicus_Feng2024_publisher_v1",
+      "path": "${REPOSITORY_ROOT}/public_dependencies/references/A_mongolicus_Feng2024/AMO_genome_v1.0.fasta.gz",
+      "compressed_bytes": 240462739,
+      "sha256": "11909de38fe55a091a0f771c9783eb10ae34456b107590a575a25bc73bf93f81",
+      "md5": "07cba400141e170c21818bca7d3b58fc",
+      "gzip_stream_passed": true,
+      "sequence_count": 498,
+      "total_bases": 843074137,
+      "first_sequence": "Chr01",
+      "sequence_lengths_file": "mongolicus_Feng2024_publisher_v1.lengths.tsv"
+    }
+  ],
+  "publisher_vs_ncbi_comparison": {
+    "ncbi_accession": "GCA_039655645.1",
+    "ncbi_total_bases": 842357595,
+    "ncbi_sequences": 489,
+    "publisher_total_bases": 843074137,
+    "publisher_sequences": 498,
+    "same_name_same_length": 487,
+    "publisher_not_ncbi_names": [
+      "scaffold_194",
+      "scaffold_199",
+      "scaffold_204",
+      "scaffold_239",
+      "scaffold_244",
+      "scaffold_281",
+      "scaffold_340",
+      "scaffold_39",
+      "scaffold_60"
+    ],
+    "ncbi_not_publisher_names": [],
+    "same_name_different_length": [
+      {
+        "sequence": "scaffold_303",
+        "publisher_length": 6482,
+        "ncbi_length": 2429
+      },
+      {
+        "sequence": "scaffold_316",
+        "publisher_length": 5837,
+        "ncbi_length": 5223
+      }
+    ],
+    "identical_assembly_bytes_confirmed": false
+  }
+}

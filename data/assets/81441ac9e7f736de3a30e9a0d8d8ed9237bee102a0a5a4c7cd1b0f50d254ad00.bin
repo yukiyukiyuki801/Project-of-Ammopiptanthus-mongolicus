@@ -1,0 +1,11 @@
+{
+  "occurrences": 37,
+  "populations": 19,
+  "association_rows": 192,
+  "population_polygon_disagreements": 7,
+  "primary_population_definition": "Verified 2022 published classes retained",
+  "alternative": "Continuous occurrence-derived geographic marginality; no outcome-selected binary split",
+  "habitat_geometry_handling": "Duplicate vertices repaired on projected working copies with GEOS; original polygon files retained",
+  "limitations": "Climate-independent construction does not make uneven occurrence sampling, geographic population structure or uncertain true range boundary disappear.",
+  "validated": true
+}

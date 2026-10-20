@@ -1,0 +1,1565 @@
+[
+  {
+    "blueprint": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/stariwayplot/adaptive_non_adaptive/LD_filered_snps/Adapt_peri.blueprint",
+    "blueprint_sha256": "354811e8db736ce5dbbb22508acf20eb3fd1d0ff208ef35ae4be71bf20923850",
+    "population_label_original": "Adapt_peri",
+    "projection_chromosomes": 62,
+    "historical_L_bp": 4041900,
+    "projected_segregating_sum": 26946.34225978997,
+    "L_equals_round_SFS_times150": true,
+    "matching_target_beds": [
+      "targets_2f36de0a6511_proj62.bed"
+    ],
+    "matching_saved_sfs": [
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Adapt_peri_output/dadi/Adapt_peri-62.sfs",
+        "sha256": "3878dc6304cc1677cb61e0b77d9c7798b32bdfdc2c0cf86fbdc22032f761b302",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Adapt_peri_output/datadict.txt",
+        "datadict_sha256": "2f36de0a65114b56c7e265b1d3ae338062014a6262966f36c605090f87f153a9",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Adapt_peri_output/datadict.txt",
+          "sha256": "2f36de0a65114b56c7e265b1d3ae338062014a6262966f36c605090f87f153a9",
+          "projection_chromosomes": 62,
+          "all_datadict_sites": 38124,
+          "positive_SFS_contributor_sites": 27535,
+          "target_bed": "targets_2f36de0a6511_proj62.bed",
+          "target_bed_sha256": "051eaf74d2ed25bd9694ff01677f7dc27761f5c3bc26f336117b009c7af38172",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      },
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Adapt_peri_output/dadi/Adapt_peri.sfs",
+        "sha256": "3878dc6304cc1677cb61e0b77d9c7798b32bdfdc2c0cf86fbdc22032f761b302",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Adapt_peri_output/datadict.txt",
+        "datadict_sha256": "2f36de0a65114b56c7e265b1d3ae338062014a6262966f36c605090f87f153a9",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Adapt_peri_output/datadict.txt",
+          "sha256": "2f36de0a65114b56c7e265b1d3ae338062014a6262966f36c605090f87f153a9",
+          "projection_chromosomes": 62,
+          "all_datadict_sites": 38124,
+          "positive_SFS_contributor_sites": 27535,
+          "target_bed": "targets_2f36de0a6511_proj62.bed",
+          "target_bed_sha256": "051eaf74d2ed25bd9694ff01677f7dc27761f5c3bc26f336117b009c7af38172",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      }
+    ],
+    "reader_row": {
+      "Group": "Adaptive individuals in peripheral populations",
+      "Individuals": 44,
+      "Input panel SNPs": 38124,
+      "Projected chromosomes": 62,
+      "SNPs contributing to projected SFS": 27535,
+      "Archived input L (bp)": 4041900,
+      "New mapped ACGT extent (bp)": 4859179,
+      "Uncovered target SNPs": 20
+    },
+    "historical_execution_or_plot_match_proven": false
+  },
+  {
+    "blueprint": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/stariwayplot/adaptive_non_adaptive/LD_filered_snps/Amon.blueprint",
+    "blueprint_sha256": "38587b04a8d5618280caebc04ac2e0d2e4347e64b8e17d6f7b62751476b2de3c",
+    "population_label_original": "Amon",
+    "projection_chromosomes": 348,
+    "historical_L_bp": 5718600,
+    "projected_segregating_sum": 38123.52340685327,
+    "L_equals_round_SFS_times150": true,
+    "matching_target_beds": [
+      "targets_e3837f7c6f4f_proj348.bed"
+    ],
+    "matching_saved_sfs": [
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Amon_output/dadi/Amon.sfs",
+        "sha256": "784b1b6af484f3e3d40b7529ed234249a78d23cbcf534f8fcc80e1d7d0451b67",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Amon_output/datadict.txt",
+        "datadict_sha256": "e3837f7c6f4fb7ba64f18b9db286e92f3ab393b570663571e90229e418250ab3",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Amon_output/datadict.txt",
+          "sha256": "e3837f7c6f4fb7ba64f18b9db286e92f3ab393b570663571e90229e418250ab3",
+          "projection_chromosomes": 348,
+          "all_datadict_sites": 38124,
+          "positive_SFS_contributor_sites": 38124,
+          "target_bed": "targets_e3837f7c6f4f_proj348.bed",
+          "target_bed_sha256": "5b561accca2e5af12f89d92a08ce78c27eecf3c7da5502566508bf4b86c02402",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      },
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Amon_output/dadi/Amon-348.sfs",
+        "sha256": "784b1b6af484f3e3d40b7529ed234249a78d23cbcf534f8fcc80e1d7d0451b67",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Amon_output/datadict.txt",
+        "datadict_sha256": "e3837f7c6f4fb7ba64f18b9db286e92f3ab393b570663571e90229e418250ab3",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Amon_output/datadict.txt",
+          "sha256": "e3837f7c6f4fb7ba64f18b9db286e92f3ab393b570663571e90229e418250ab3",
+          "projection_chromosomes": 348,
+          "all_datadict_sites": 38124,
+          "positive_SFS_contributor_sites": 38124,
+          "target_bed": "targets_e3837f7c6f4f_proj348.bed",
+          "target_bed_sha256": "5b561accca2e5af12f89d92a08ce78c27eecf3c7da5502566508bf4b86c02402",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      }
+    ],
+    "reader_row": {
+      "Group": "All individuals",
+      "Individuals": 217,
+      "Input panel SNPs": 38124,
+      "Projected chromosomes": 348,
+      "SNPs contributing to projected SFS": 38124,
+      "Archived input L (bp)": 5718600,
+      "New mapped ACGT extent (bp)": 8332643,
+      "Uncovered target SNPs": 10
+    },
+    "historical_execution_or_plot_match_proven": false
+  },
+  {
+    "blueprint": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/stariwayplot/adaptive_non_adaptive/LD_filered_snps/Core.blueprint",
+    "blueprint_sha256": "a5239b80fce3ce7fb9510703c2406ef8a4a06ae0d2ebc85056f8a368fc2bac57",
+    "population_label_original": "Core",
+    "projection_chromosomes": 158,
+    "historical_L_bp": 4945200,
+    "projected_segregating_sum": 32967.55245939576,
+    "L_equals_round_SFS_times150": true,
+    "matching_target_beds": [
+      "targets_62e1dd9efe3b_proj158.bed"
+    ],
+    "matching_saved_sfs": [
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Core_output/dadi/Core.sfs",
+        "sha256": "72562ad6c0f6d3c0c3958c4726752dde6054dc483744e7e7c78623ca78aa7d18",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Core_output/datadict.txt",
+        "datadict_sha256": "62e1dd9efe3b113f4486161b40846abbe270a2aa442fb7ae10dfbea80798b827",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Core_output/datadict.txt",
+          "sha256": "62e1dd9efe3b113f4486161b40846abbe270a2aa442fb7ae10dfbea80798b827",
+          "projection_chromosomes": 158,
+          "all_datadict_sites": 38124,
+          "positive_SFS_contributor_sites": 33597,
+          "target_bed": "targets_62e1dd9efe3b_proj158.bed",
+          "target_bed_sha256": "2101e07056112d8a8f68d087037f6fcb55a83bfa9d602f78bfd80828a0fcbd58",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      },
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Core_output/dadi/Core-158.sfs",
+        "sha256": "72562ad6c0f6d3c0c3958c4726752dde6054dc483744e7e7c78623ca78aa7d18",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Core_output/datadict.txt",
+        "datadict_sha256": "62e1dd9efe3b113f4486161b40846abbe270a2aa442fb7ae10dfbea80798b827",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Core_output/datadict.txt",
+          "sha256": "62e1dd9efe3b113f4486161b40846abbe270a2aa442fb7ae10dfbea80798b827",
+          "projection_chromosomes": 158,
+          "all_datadict_sites": 38124,
+          "positive_SFS_contributor_sites": 33597,
+          "target_bed": "targets_62e1dd9efe3b_proj158.bed",
+          "target_bed_sha256": "2101e07056112d8a8f68d087037f6fcb55a83bfa9d602f78bfd80828a0fcbd58",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      }
+    ],
+    "reader_row": {
+      "Group": "Core populations",
+      "Individuals": 104,
+      "Input panel SNPs": 38124,
+      "Projected chromosomes": 158,
+      "SNPs contributing to projected SFS": 33597,
+      "Archived input L (bp)": 4945200,
+      "New mapped ACGT extent (bp)": 6411275,
+      "Uncovered target SNPs": 15
+    },
+    "historical_execution_or_plot_match_proven": false
+  },
+  {
+    "blueprint": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/stariwayplot/adaptive_non_adaptive/LD_filered_snps/Peri.blueprint",
+    "blueprint_sha256": "48cf6969f339e84332800dd6937c3ef653074b876311b0148ce273140b2e4e15",
+    "population_label_original": "Peri",
+    "projection_chromosomes": 102,
+    "historical_L_bp": 4018800,
+    "projected_segregating_sum": 26792.228446172685,
+    "L_equals_round_SFS_times150": true,
+    "matching_target_beds": [
+      "targets_8e49eb429033_proj102.bed"
+    ],
+    "matching_saved_sfs": [
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Peri_output/dadi/Peri.sfs",
+        "sha256": "ef09e6d31e87b6c3f93b98b7c2fb86822c240383ab5610e512b4a311d72b3258",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Peri_output/datadict.txt",
+        "datadict_sha256": "8e49eb429033b2fc615fcf8794b0fba951c23b25636d867878c4859edf3687d5",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Peri_output/datadict.txt",
+          "sha256": "8e49eb429033b2fc615fcf8794b0fba951c23b25636d867878c4859edf3687d5",
+          "projection_chromosomes": 102,
+          "all_datadict_sites": 38124,
+          "positive_SFS_contributor_sites": 27423,
+          "target_bed": "targets_8e49eb429033_proj102.bed",
+          "target_bed_sha256": "dca665995375ac87301bfaef544cf487b621408a2efc28f7a57fcc3fe9e7a160",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      },
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Peri_output/dadi/Peri-102.sfs",
+        "sha256": "ef09e6d31e87b6c3f93b98b7c2fb86822c240383ab5610e512b4a311d72b3258",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Peri_output/datadict.txt",
+        "datadict_sha256": "8e49eb429033b2fc615fcf8794b0fba951c23b25636d867878c4859edf3687d5",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Peri_output/datadict.txt",
+          "sha256": "8e49eb429033b2fc615fcf8794b0fba951c23b25636d867878c4859edf3687d5",
+          "projection_chromosomes": 102,
+          "all_datadict_sites": 38124,
+          "positive_SFS_contributor_sites": 27423,
+          "target_bed": "targets_8e49eb429033_proj102.bed",
+          "target_bed_sha256": "dca665995375ac87301bfaef544cf487b621408a2efc28f7a57fcc3fe9e7a160",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      }
+    ],
+    "reader_row": {
+      "Group": "Peripheral genetic group",
+      "Individuals": 69,
+      "Input panel SNPs": 38124,
+      "Projected chromosomes": 102,
+      "SNPs contributing to projected SFS": 27423,
+      "Archived input L (bp)": 4018800,
+      "New mapped ACGT extent (bp)": 5155299,
+      "Uncovered target SNPs": 25
+    },
+    "historical_execution_or_plot_match_proven": false
+  },
+  {
+    "blueprint": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/stariwayplot/adaptive_non_adaptive/LD_filered_snps/generation_time_3Y/Adapt_peri.blueprint",
+    "blueprint_sha256": "354811e8db736ce5dbbb22508acf20eb3fd1d0ff208ef35ae4be71bf20923850",
+    "population_label_original": "Adapt_peri",
+    "projection_chromosomes": 62,
+    "historical_L_bp": 4041900,
+    "projected_segregating_sum": 26946.34225978997,
+    "L_equals_round_SFS_times150": true,
+    "matching_target_beds": [
+      "targets_2f36de0a6511_proj62.bed"
+    ],
+    "matching_saved_sfs": [
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Adapt_peri_output/dadi/Adapt_peri-62.sfs",
+        "sha256": "3878dc6304cc1677cb61e0b77d9c7798b32bdfdc2c0cf86fbdc22032f761b302",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Adapt_peri_output/datadict.txt",
+        "datadict_sha256": "2f36de0a65114b56c7e265b1d3ae338062014a6262966f36c605090f87f153a9",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Adapt_peri_output/datadict.txt",
+          "sha256": "2f36de0a65114b56c7e265b1d3ae338062014a6262966f36c605090f87f153a9",
+          "projection_chromosomes": 62,
+          "all_datadict_sites": 38124,
+          "positive_SFS_contributor_sites": 27535,
+          "target_bed": "targets_2f36de0a6511_proj62.bed",
+          "target_bed_sha256": "051eaf74d2ed25bd9694ff01677f7dc27761f5c3bc26f336117b009c7af38172",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      },
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Adapt_peri_output/dadi/Adapt_peri.sfs",
+        "sha256": "3878dc6304cc1677cb61e0b77d9c7798b32bdfdc2c0cf86fbdc22032f761b302",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Adapt_peri_output/datadict.txt",
+        "datadict_sha256": "2f36de0a65114b56c7e265b1d3ae338062014a6262966f36c605090f87f153a9",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Adapt_peri_output/datadict.txt",
+          "sha256": "2f36de0a65114b56c7e265b1d3ae338062014a6262966f36c605090f87f153a9",
+          "projection_chromosomes": 62,
+          "all_datadict_sites": 38124,
+          "positive_SFS_contributor_sites": 27535,
+          "target_bed": "targets_2f36de0a6511_proj62.bed",
+          "target_bed_sha256": "051eaf74d2ed25bd9694ff01677f7dc27761f5c3bc26f336117b009c7af38172",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      }
+    ],
+    "reader_row": {
+      "Group": "Adaptive individuals in peripheral populations",
+      "Individuals": 44,
+      "Input panel SNPs": 38124,
+      "Projected chromosomes": 62,
+      "SNPs contributing to projected SFS": 27535,
+      "Archived input L (bp)": 4041900,
+      "New mapped ACGT extent (bp)": 4859179,
+      "Uncovered target SNPs": 20
+    },
+    "historical_execution_or_plot_match_proven": false
+  },
+  {
+    "blueprint": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/stariwayplot/adaptive_non_adaptive/LD_filered_snps/generation_time_3Y/Amon.blueprint",
+    "blueprint_sha256": "38587b04a8d5618280caebc04ac2e0d2e4347e64b8e17d6f7b62751476b2de3c",
+    "population_label_original": "Amon",
+    "projection_chromosomes": 348,
+    "historical_L_bp": 5718600,
+    "projected_segregating_sum": 38123.52340685327,
+    "L_equals_round_SFS_times150": true,
+    "matching_target_beds": [
+      "targets_e3837f7c6f4f_proj348.bed"
+    ],
+    "matching_saved_sfs": [
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Amon_output/dadi/Amon.sfs",
+        "sha256": "784b1b6af484f3e3d40b7529ed234249a78d23cbcf534f8fcc80e1d7d0451b67",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Amon_output/datadict.txt",
+        "datadict_sha256": "e3837f7c6f4fb7ba64f18b9db286e92f3ab393b570663571e90229e418250ab3",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Amon_output/datadict.txt",
+          "sha256": "e3837f7c6f4fb7ba64f18b9db286e92f3ab393b570663571e90229e418250ab3",
+          "projection_chromosomes": 348,
+          "all_datadict_sites": 38124,
+          "positive_SFS_contributor_sites": 38124,
+          "target_bed": "targets_e3837f7c6f4f_proj348.bed",
+          "target_bed_sha256": "5b561accca2e5af12f89d92a08ce78c27eecf3c7da5502566508bf4b86c02402",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      },
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Amon_output/dadi/Amon-348.sfs",
+        "sha256": "784b1b6af484f3e3d40b7529ed234249a78d23cbcf534f8fcc80e1d7d0451b67",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Amon_output/datadict.txt",
+        "datadict_sha256": "e3837f7c6f4fb7ba64f18b9db286e92f3ab393b570663571e90229e418250ab3",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Amon_output/datadict.txt",
+          "sha256": "e3837f7c6f4fb7ba64f18b9db286e92f3ab393b570663571e90229e418250ab3",
+          "projection_chromosomes": 348,
+          "all_datadict_sites": 38124,
+          "positive_SFS_contributor_sites": 38124,
+          "target_bed": "targets_e3837f7c6f4f_proj348.bed",
+          "target_bed_sha256": "5b561accca2e5af12f89d92a08ce78c27eecf3c7da5502566508bf4b86c02402",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      }
+    ],
+    "reader_row": {
+      "Group": "All individuals",
+      "Individuals": 217,
+      "Input panel SNPs": 38124,
+      "Projected chromosomes": 348,
+      "SNPs contributing to projected SFS": 38124,
+      "Archived input L (bp)": 5718600,
+      "New mapped ACGT extent (bp)": 8332643,
+      "Uncovered target SNPs": 10
+    },
+    "historical_execution_or_plot_match_proven": false
+  },
+  {
+    "blueprint": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/stariwayplot/adaptive_non_adaptive/LD_filered_snps/generation_time_3Y/Core.blueprint",
+    "blueprint_sha256": "a5239b80fce3ce7fb9510703c2406ef8a4a06ae0d2ebc85056f8a368fc2bac57",
+    "population_label_original": "Core",
+    "projection_chromosomes": 158,
+    "historical_L_bp": 4945200,
+    "projected_segregating_sum": 32967.55245939576,
+    "L_equals_round_SFS_times150": true,
+    "matching_target_beds": [
+      "targets_62e1dd9efe3b_proj158.bed"
+    ],
+    "matching_saved_sfs": [
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Core_output/dadi/Core.sfs",
+        "sha256": "72562ad6c0f6d3c0c3958c4726752dde6054dc483744e7e7c78623ca78aa7d18",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Core_output/datadict.txt",
+        "datadict_sha256": "62e1dd9efe3b113f4486161b40846abbe270a2aa442fb7ae10dfbea80798b827",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Core_output/datadict.txt",
+          "sha256": "62e1dd9efe3b113f4486161b40846abbe270a2aa442fb7ae10dfbea80798b827",
+          "projection_chromosomes": 158,
+          "all_datadict_sites": 38124,
+          "positive_SFS_contributor_sites": 33597,
+          "target_bed": "targets_62e1dd9efe3b_proj158.bed",
+          "target_bed_sha256": "2101e07056112d8a8f68d087037f6fcb55a83bfa9d602f78bfd80828a0fcbd58",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      },
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Core_output/dadi/Core-158.sfs",
+        "sha256": "72562ad6c0f6d3c0c3958c4726752dde6054dc483744e7e7c78623ca78aa7d18",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Core_output/datadict.txt",
+        "datadict_sha256": "62e1dd9efe3b113f4486161b40846abbe270a2aa442fb7ae10dfbea80798b827",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Core_output/datadict.txt",
+          "sha256": "62e1dd9efe3b113f4486161b40846abbe270a2aa442fb7ae10dfbea80798b827",
+          "projection_chromosomes": 158,
+          "all_datadict_sites": 38124,
+          "positive_SFS_contributor_sites": 33597,
+          "target_bed": "targets_62e1dd9efe3b_proj158.bed",
+          "target_bed_sha256": "2101e07056112d8a8f68d087037f6fcb55a83bfa9d602f78bfd80828a0fcbd58",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      }
+    ],
+    "reader_row": {
+      "Group": "Core populations",
+      "Individuals": 104,
+      "Input panel SNPs": 38124,
+      "Projected chromosomes": 158,
+      "SNPs contributing to projected SFS": 33597,
+      "Archived input L (bp)": 4945200,
+      "New mapped ACGT extent (bp)": 6411275,
+      "Uncovered target SNPs": 15
+    },
+    "historical_execution_or_plot_match_proven": false
+  },
+  {
+    "blueprint": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/stariwayplot/adaptive_non_adaptive/LD_filered_snps/generation_time_3Y/Peri.blueprint",
+    "blueprint_sha256": "48cf6969f339e84332800dd6937c3ef653074b876311b0148ce273140b2e4e15",
+    "population_label_original": "Peri",
+    "projection_chromosomes": 102,
+    "historical_L_bp": 4018800,
+    "projected_segregating_sum": 26792.228446172685,
+    "L_equals_round_SFS_times150": true,
+    "matching_target_beds": [
+      "targets_8e49eb429033_proj102.bed"
+    ],
+    "matching_saved_sfs": [
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Peri_output/dadi/Peri.sfs",
+        "sha256": "ef09e6d31e87b6c3f93b98b7c2fb86822c240383ab5610e512b4a311d72b3258",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Peri_output/datadict.txt",
+        "datadict_sha256": "8e49eb429033b2fc615fcf8794b0fba951c23b25636d867878c4859edf3687d5",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Peri_output/datadict.txt",
+          "sha256": "8e49eb429033b2fc615fcf8794b0fba951c23b25636d867878c4859edf3687d5",
+          "projection_chromosomes": 102,
+          "all_datadict_sites": 38124,
+          "positive_SFS_contributor_sites": 27423,
+          "target_bed": "targets_8e49eb429033_proj102.bed",
+          "target_bed_sha256": "dca665995375ac87301bfaef544cf487b621408a2efc28f7a57fcc3fe9e7a160",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      },
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Peri_output/dadi/Peri-102.sfs",
+        "sha256": "ef09e6d31e87b6c3f93b98b7c2fb86822c240383ab5610e512b4a311d72b3258",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Peri_output/datadict.txt",
+        "datadict_sha256": "8e49eb429033b2fc615fcf8794b0fba951c23b25636d867878c4859edf3687d5",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Peri_output/datadict.txt",
+          "sha256": "8e49eb429033b2fc615fcf8794b0fba951c23b25636d867878c4859edf3687d5",
+          "projection_chromosomes": 102,
+          "all_datadict_sites": 38124,
+          "positive_SFS_contributor_sites": 27423,
+          "target_bed": "targets_8e49eb429033_proj102.bed",
+          "target_bed_sha256": "dca665995375ac87301bfaef544cf487b621408a2efc28f7a57fcc3fe9e7a160",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      }
+    ],
+    "reader_row": {
+      "Group": "Peripheral genetic group",
+      "Individuals": 69,
+      "Input panel SNPs": 38124,
+      "Projected chromosomes": 102,
+      "SNPs contributing to projected SFS": 27423,
+      "Archived input L (bp)": 4018800,
+      "New mapped ACGT extent (bp)": 5155299,
+      "Uncovered target SNPs": 25
+    },
+    "historical_execution_or_plot_match_proven": false
+  },
+  {
+    "blueprint": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/stariwayplot/adaptive_non_adaptive/neutral_snps/Adapt_peri.blueprint",
+    "blueprint_sha256": "5e99e7494070db70da083aebd610e227d362225db478b4e3d2706d1e7bbd4037",
+    "population_label_original": "Adapt_peri",
+    "projection_chromosomes": 64,
+    "historical_L_bp": 3364200,
+    "projected_segregating_sum": 22428.439503853308,
+    "L_equals_round_SFS_times150": true,
+    "matching_target_beds": [
+      "targets_192defad565b_proj64.bed"
+    ],
+    "matching_saved_sfs": [
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Adapt_peri_output/dadi/Adapt_peri.sfs",
+        "sha256": "c53634a8d9ec2931154db13db0301e649212b81df4ab53573d7efa7cbe7c667c",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Adapt_peri_output/datadict.txt",
+        "datadict_sha256": "192defad565b7588d8e20ef78a137897b214e97d8afc56fcefba65fd8bee9eec",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Adapt_peri_output/datadict.txt",
+          "sha256": "192defad565b7588d8e20ef78a137897b214e97d8afc56fcefba65fd8bee9eec",
+          "projection_chromosomes": 64,
+          "all_datadict_sites": 32765,
+          "positive_SFS_contributor_sites": 22889,
+          "target_bed": "targets_192defad565b_proj64.bed",
+          "target_bed_sha256": "329f641689b0ed84ed3f65cc24558bb55f33fd62bb4721d13fc66488c0316f1e",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      },
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Adapt_peri_output/dadi/Adapt_peri-64.sfs",
+        "sha256": "c53634a8d9ec2931154db13db0301e649212b81df4ab53573d7efa7cbe7c667c",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Adapt_peri_output/datadict.txt",
+        "datadict_sha256": "192defad565b7588d8e20ef78a137897b214e97d8afc56fcefba65fd8bee9eec",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Adapt_peri_output/datadict.txt",
+          "sha256": "192defad565b7588d8e20ef78a137897b214e97d8afc56fcefba65fd8bee9eec",
+          "projection_chromosomes": 64,
+          "all_datadict_sites": 32765,
+          "positive_SFS_contributor_sites": 22889,
+          "target_bed": "targets_192defad565b_proj64.bed",
+          "target_bed_sha256": "329f641689b0ed84ed3f65cc24558bb55f33fd62bb4721d13fc66488c0316f1e",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      }
+    ],
+    "reader_row": {
+      "Group": "Adaptive individuals in peripheral populations",
+      "Individuals": 44,
+      "Input panel SNPs": 32765,
+      "Projected chromosomes": 64,
+      "SNPs contributing to projected SFS": 22889,
+      "Archived input L (bp)": 3364200,
+      "New mapped ACGT extent (bp)": 4184963,
+      "Uncovered target SNPs": 19
+    },
+    "historical_execution_or_plot_match_proven": false
+  },
+  {
+    "blueprint": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/stariwayplot/adaptive_non_adaptive/neutral_snps/Amon.blueprint",
+    "blueprint_sha256": "07f9d6891ba4b23f17349226c68323cb8fac49a58ded6def1c53630d335b0c0e",
+    "population_label_original": "Amon",
+    "projection_chromosomes": 348,
+    "historical_L_bp": 4914750,
+    "projected_segregating_sum": 32764.523470319,
+    "L_equals_round_SFS_times150": true,
+    "matching_target_beds": [
+      "targets_89d375eafa5c_proj348.bed"
+    ],
+    "matching_saved_sfs": [
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Amon_output/dadi/Amon.sfs",
+        "sha256": "74d86f1ef8b4db09b9487356d4f328a66bcd9a201ed83761123cbae3e3aebe56",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Amon_output/datadict.txt",
+        "datadict_sha256": "89d375eafa5cb182af451a76b10902831f476fff2ec7c3bab02b774a1a42add3",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Amon_output/datadict.txt",
+          "sha256": "89d375eafa5cb182af451a76b10902831f476fff2ec7c3bab02b774a1a42add3",
+          "projection_chromosomes": 348,
+          "all_datadict_sites": 32765,
+          "positive_SFS_contributor_sites": 32765,
+          "target_bed": "targets_89d375eafa5c_proj348.bed",
+          "target_bed_sha256": "8936f8aed8dfe1531c3dc51a6f3db6494a4567b3bc9f405028f59795f760062a",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      },
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Amon_output/dadi/Amon-348.sfs",
+        "sha256": "74d86f1ef8b4db09b9487356d4f328a66bcd9a201ed83761123cbae3e3aebe56",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Amon_output/datadict.txt",
+        "datadict_sha256": "89d375eafa5cb182af451a76b10902831f476fff2ec7c3bab02b774a1a42add3",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Amon_output/datadict.txt",
+          "sha256": "89d375eafa5cb182af451a76b10902831f476fff2ec7c3bab02b774a1a42add3",
+          "projection_chromosomes": 348,
+          "all_datadict_sites": 32765,
+          "positive_SFS_contributor_sites": 32765,
+          "target_bed": "targets_89d375eafa5c_proj348.bed",
+          "target_bed_sha256": "8936f8aed8dfe1531c3dc51a6f3db6494a4567b3bc9f405028f59795f760062a",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      }
+    ],
+    "reader_row": {
+      "Group": "All individuals",
+      "Individuals": 217,
+      "Input panel SNPs": 32765,
+      "Projected chromosomes": 348,
+      "SNPs contributing to projected SFS": 32765,
+      "Archived input L (bp)": 4914750,
+      "New mapped ACGT extent (bp)": 7509602,
+      "Uncovered target SNPs": 9
+    },
+    "historical_execution_or_plot_match_proven": false
+  },
+  {
+    "blueprint": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/stariwayplot/adaptive_non_adaptive/neutral_snps/Core.blueprint",
+    "blueprint_sha256": "ce8e029ed16740ed5bbd15730c68d54bb31b101ebda3057d09017fda73c11b81",
+    "population_label_original": "Core",
+    "projection_chromosomes": 160,
+    "historical_L_bp": 4190400,
+    "projected_segregating_sum": 27936.328032368736,
+    "L_equals_round_SFS_times150": true,
+    "matching_target_beds": [
+      "targets_d5c6450b01f7_proj160.bed"
+    ],
+    "matching_saved_sfs": [
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Core_output/dadi/Core.sfs",
+        "sha256": "097b42c61d03134a5dd33a8b01762ce916d7b827f4b68a90ac4e4fd356bb2fd5",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Core_output/datadict.txt",
+        "datadict_sha256": "d5c6450b01f7df8bd2cb3cfa326e36b5fd22a919ef66987e53c4391f1fcf7c16",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Core_output/datadict.txt",
+          "sha256": "d5c6450b01f7df8bd2cb3cfa326e36b5fd22a919ef66987e53c4391f1fcf7c16",
+          "projection_chromosomes": 160,
+          "all_datadict_sites": 32765,
+          "positive_SFS_contributor_sites": 28502,
+          "target_bed": "targets_d5c6450b01f7_proj160.bed",
+          "target_bed_sha256": "1f447681a09d28eac7e5e1ef47b158fe079fea402b8b54cbab151757c639a4c1",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      },
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Core_output/dadi/Core-160.sfs",
+        "sha256": "097b42c61d03134a5dd33a8b01762ce916d7b827f4b68a90ac4e4fd356bb2fd5",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Core_output/datadict.txt",
+        "datadict_sha256": "d5c6450b01f7df8bd2cb3cfa326e36b5fd22a919ef66987e53c4391f1fcf7c16",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Core_output/datadict.txt",
+          "sha256": "d5c6450b01f7df8bd2cb3cfa326e36b5fd22a919ef66987e53c4391f1fcf7c16",
+          "projection_chromosomes": 160,
+          "all_datadict_sites": 32765,
+          "positive_SFS_contributor_sites": 28502,
+          "target_bed": "targets_d5c6450b01f7_proj160.bed",
+          "target_bed_sha256": "1f447681a09d28eac7e5e1ef47b158fe079fea402b8b54cbab151757c639a4c1",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      }
+    ],
+    "reader_row": {
+      "Group": "Core populations",
+      "Individuals": 104,
+      "Input panel SNPs": 32765,
+      "Projected chromosomes": 160,
+      "SNPs contributing to projected SFS": 28502,
+      "Archived input L (bp)": 4190400,
+      "New mapped ACGT extent (bp)": 5672628,
+      "Uncovered target SNPs": 14
+    },
+    "historical_execution_or_plot_match_proven": false
+  },
+  {
+    "blueprint": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/stariwayplot/adaptive_non_adaptive/neutral_snps/Peri.blueprint",
+    "blueprint_sha256": "989a35f2bbfd3ed83a30e0604962cdbb1bc4ed8cf4ed6e2f424ec064f732819a",
+    "population_label_original": "Peri",
+    "projection_chromosomes": 104,
+    "historical_L_bp": 3289350,
+    "projected_segregating_sum": 21928.506147347016,
+    "L_equals_round_SFS_times150": true,
+    "matching_target_beds": [
+      "targets_0efff7a62023_proj104.bed",
+      "targets_347fc7b203cc_proj104.bed"
+    ],
+    "matching_saved_sfs": [
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Peri_output/dadi/Peri-104.sfs",
+        "sha256": "7e05cad38cf1c5e4abd4054c98b1b62aad5ede157b627c141d1c8c515d994a0e",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Peri_output/datadict.txt",
+        "datadict_sha256": "347fc7b203cc3564fd38d86078ad1ba277562568328e1204159382fb1c3bf6f5",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Peri_output/datadict.txt",
+          "sha256": "347fc7b203cc3564fd38d86078ad1ba277562568328e1204159382fb1c3bf6f5",
+          "projection_chromosomes": 104,
+          "all_datadict_sites": 32765,
+          "positive_SFS_contributor_sites": 22488,
+          "target_bed": "targets_347fc7b203cc_proj104.bed",
+          "target_bed_sha256": "f4a4b05f55eb18aa2e90eaadb73744a8492da085310515d133a42eb74191037a",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      },
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Peri_output/dadi/Peri.sfs",
+        "sha256": "7e05cad38cf1c5e4abd4054c98b1b62aad5ede157b627c141d1c8c515d994a0e",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Peri_output/datadict.txt",
+        "datadict_sha256": "347fc7b203cc3564fd38d86078ad1ba277562568328e1204159382fb1c3bf6f5",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Peri_output/datadict.txt",
+          "sha256": "347fc7b203cc3564fd38d86078ad1ba277562568328e1204159382fb1c3bf6f5",
+          "projection_chromosomes": 104,
+          "all_datadict_sites": 32765,
+          "positive_SFS_contributor_sites": 22488,
+          "target_bed": "targets_347fc7b203cc_proj104.bed",
+          "target_bed_sha256": "f4a4b05f55eb18aa2e90eaadb73744a8492da085310515d133a42eb74191037a",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      },
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/peripheral_output/output/dadi/peripheral-104.sfs",
+        "sha256": "d8e436daffb30fe7d516b9f027eae80b1f5c44ca3e00d0eb96853fe19acdf633",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/peripheral_output/output/datadict.txt",
+        "datadict_sha256": "0efff7a62023052639711c8d304a9576566b39bf19df029b177f506833296c34",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/peripheral_output/output/datadict.txt",
+          "sha256": "0efff7a62023052639711c8d304a9576566b39bf19df029b177f506833296c34",
+          "projection_chromosomes": 104,
+          "all_datadict_sites": 32765,
+          "positive_SFS_contributor_sites": 22488,
+          "target_bed": "targets_0efff7a62023_proj104.bed",
+          "target_bed_sha256": "f4a4b05f55eb18aa2e90eaadb73744a8492da085310515d133a42eb74191037a",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      },
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/peripheral_output/output/dadi/peripheral.sfs",
+        "sha256": "d8e436daffb30fe7d516b9f027eae80b1f5c44ca3e00d0eb96853fe19acdf633",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/peripheral_output/output/datadict.txt",
+        "datadict_sha256": "0efff7a62023052639711c8d304a9576566b39bf19df029b177f506833296c34",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/peripheral_output/output/datadict.txt",
+          "sha256": "0efff7a62023052639711c8d304a9576566b39bf19df029b177f506833296c34",
+          "projection_chromosomes": 104,
+          "all_datadict_sites": 32765,
+          "positive_SFS_contributor_sites": 22488,
+          "target_bed": "targets_0efff7a62023_proj104.bed",
+          "target_bed_sha256": "f4a4b05f55eb18aa2e90eaadb73744a8492da085310515d133a42eb74191037a",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      }
+    ],
+    "reader_row": {
+      "Group": "Peripheral genetic group",
+      "Individuals": 69,
+      "Input panel SNPs": 32765,
+      "Projected chromosomes": 104,
+      "SNPs contributing to projected SFS": 22488,
+      "Archived input L (bp)": 3289350,
+      "New mapped ACGT extent (bp)": 4384704,
+      "Uncovered target SNPs": 23
+    },
+    "historical_execution_or_plot_match_proven": false
+  },
+  {
+    "blueprint": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/stariwayplot/core_peripheral/LD_08_filtered/Core.blueprint",
+    "blueprint_sha256": "a5239b80fce3ce7fb9510703c2406ef8a4a06ae0d2ebc85056f8a368fc2bac57",
+    "population_label_original": "Core",
+    "projection_chromosomes": 158,
+    "historical_L_bp": 4945200,
+    "projected_segregating_sum": 32967.55245939576,
+    "L_equals_round_SFS_times150": true,
+    "matching_target_beds": [
+      "targets_62e1dd9efe3b_proj158.bed"
+    ],
+    "matching_saved_sfs": [
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Core_output/dadi/Core.sfs",
+        "sha256": "72562ad6c0f6d3c0c3958c4726752dde6054dc483744e7e7c78623ca78aa7d18",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Core_output/datadict.txt",
+        "datadict_sha256": "62e1dd9efe3b113f4486161b40846abbe270a2aa442fb7ae10dfbea80798b827",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Core_output/datadict.txt",
+          "sha256": "62e1dd9efe3b113f4486161b40846abbe270a2aa442fb7ae10dfbea80798b827",
+          "projection_chromosomes": 158,
+          "all_datadict_sites": 38124,
+          "positive_SFS_contributor_sites": 33597,
+          "target_bed": "targets_62e1dd9efe3b_proj158.bed",
+          "target_bed_sha256": "2101e07056112d8a8f68d087037f6fcb55a83bfa9d602f78bfd80828a0fcbd58",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      },
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Core_output/dadi/Core-158.sfs",
+        "sha256": "72562ad6c0f6d3c0c3958c4726752dde6054dc483744e7e7c78623ca78aa7d18",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Core_output/datadict.txt",
+        "datadict_sha256": "62e1dd9efe3b113f4486161b40846abbe270a2aa442fb7ae10dfbea80798b827",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Core_output/datadict.txt",
+          "sha256": "62e1dd9efe3b113f4486161b40846abbe270a2aa442fb7ae10dfbea80798b827",
+          "projection_chromosomes": 158,
+          "all_datadict_sites": 38124,
+          "positive_SFS_contributor_sites": 33597,
+          "target_bed": "targets_62e1dd9efe3b_proj158.bed",
+          "target_bed_sha256": "2101e07056112d8a8f68d087037f6fcb55a83bfa9d602f78bfd80828a0fcbd58",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      }
+    ],
+    "reader_row": {
+      "Group": "Core populations",
+      "Individuals": 104,
+      "Input panel SNPs": 38124,
+      "Projected chromosomes": 158,
+      "SNPs contributing to projected SFS": 33597,
+      "Archived input L (bp)": 4945200,
+      "New mapped ACGT extent (bp)": 6411275,
+      "Uncovered target SNPs": 15
+    },
+    "historical_execution_or_plot_match_proven": false
+  },
+  {
+    "blueprint": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/stariwayplot/core_peripheral/LD_08_filtered/Peri.blueprint",
+    "blueprint_sha256": "ba3b0b6d0be71dbca5ae4db95c72cedb36d25538b26ef98e89509165bae12286",
+    "population_label_original": "Peri",
+    "projection_chromosomes": 170,
+    "historical_L_bp": 8801700,
+    "projected_segregating_sum": 58678.12590735895,
+    "L_equals_round_SFS_times150": true,
+    "matching_target_beds": [
+      "targets_48d103b4f684_proj170.bed"
+    ],
+    "matching_saved_sfs": [
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/all_peri_output/dadi/Peri-170.sfs",
+        "sha256": "e0da5d95d6bce5918acc28ebb6fb338940594824e8ed660cf8cecf8042fb069e",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/all_peri_output/datadict.txt",
+        "datadict_sha256": "48d103b4f6847bf367f34dfbfbad22a19e8e6ff922ea80edb1994466350e2204",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/all_peri_output/datadict.txt",
+          "sha256": "48d103b4f6847bf367f34dfbfbad22a19e8e6ff922ea80edb1994466350e2204",
+          "projection_chromosomes": 170,
+          "all_datadict_sites": 61697,
+          "positive_SFS_contributor_sites": 59061,
+          "target_bed": "targets_48d103b4f684_proj170.bed",
+          "target_bed_sha256": "9393946169d57f983325e12fd5a6fe596ba20956890508710992cda58f87620a",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      },
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/all_peri_output/dadi/Peri.sfs",
+        "sha256": "e0da5d95d6bce5918acc28ebb6fb338940594824e8ed660cf8cecf8042fb069e",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/all_peri_output/datadict.txt",
+        "datadict_sha256": "48d103b4f6847bf367f34dfbfbad22a19e8e6ff922ea80edb1994466350e2204",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/all_peri_output/datadict.txt",
+          "sha256": "48d103b4f6847bf367f34dfbfbad22a19e8e6ff922ea80edb1994466350e2204",
+          "projection_chromosomes": 170,
+          "all_datadict_sites": 61697,
+          "positive_SFS_contributor_sites": 59061,
+          "target_bed": "targets_48d103b4f684_proj170.bed",
+          "target_bed_sha256": "9393946169d57f983325e12fd5a6fe596ba20956890508710992cda58f87620a",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      }
+    ],
+    "reader_row": {
+      "Group": "Peripheral populations",
+      "Individuals": 113,
+      "Input panel SNPs": 61697,
+      "Projected chromosomes": 170,
+      "SNPs contributing to projected SFS": 59061,
+      "Archived input L (bp)": 8801700,
+      "New mapped ACGT extent (bp)": 8644576,
+      "Uncovered target SNPs": 28
+    },
+    "historical_execution_or_plot_match_proven": false
+  },
+  {
+    "blueprint": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/stariwayplot/core_peripheral/neutral/Core.blueprint",
+    "blueprint_sha256": "ce8e029ed16740ed5bbd15730c68d54bb31b101ebda3057d09017fda73c11b81",
+    "population_label_original": "Core",
+    "projection_chromosomes": 160,
+    "historical_L_bp": 4190400,
+    "projected_segregating_sum": 27936.328032368736,
+    "L_equals_round_SFS_times150": true,
+    "matching_target_beds": [
+      "targets_d5c6450b01f7_proj160.bed"
+    ],
+    "matching_saved_sfs": [
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Core_output/dadi/Core.sfs",
+        "sha256": "097b42c61d03134a5dd33a8b01762ce916d7b827f4b68a90ac4e4fd356bb2fd5",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Core_output/datadict.txt",
+        "datadict_sha256": "d5c6450b01f7df8bd2cb3cfa326e36b5fd22a919ef66987e53c4391f1fcf7c16",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Core_output/datadict.txt",
+          "sha256": "d5c6450b01f7df8bd2cb3cfa326e36b5fd22a919ef66987e53c4391f1fcf7c16",
+          "projection_chromosomes": 160,
+          "all_datadict_sites": 32765,
+          "positive_SFS_contributor_sites": 28502,
+          "target_bed": "targets_d5c6450b01f7_proj160.bed",
+          "target_bed_sha256": "1f447681a09d28eac7e5e1ef47b158fe079fea402b8b54cbab151757c639a4c1",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      },
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Core_output/dadi/Core-160.sfs",
+        "sha256": "097b42c61d03134a5dd33a8b01762ce916d7b827f4b68a90ac4e4fd356bb2fd5",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Core_output/datadict.txt",
+        "datadict_sha256": "d5c6450b01f7df8bd2cb3cfa326e36b5fd22a919ef66987e53c4391f1fcf7c16",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Core_output/datadict.txt",
+          "sha256": "d5c6450b01f7df8bd2cb3cfa326e36b5fd22a919ef66987e53c4391f1fcf7c16",
+          "projection_chromosomes": 160,
+          "all_datadict_sites": 32765,
+          "positive_SFS_contributor_sites": 28502,
+          "target_bed": "targets_d5c6450b01f7_proj160.bed",
+          "target_bed_sha256": "1f447681a09d28eac7e5e1ef47b158fe079fea402b8b54cbab151757c639a4c1",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      }
+    ],
+    "reader_row": {
+      "Group": "Core populations",
+      "Individuals": 104,
+      "Input panel SNPs": 32765,
+      "Projected chromosomes": 160,
+      "SNPs contributing to projected SFS": 28502,
+      "Archived input L (bp)": 4190400,
+      "New mapped ACGT extent (bp)": 5672628,
+      "Uncovered target SNPs": 14
+    },
+    "historical_execution_or_plot_match_proven": false
+  },
+  {
+    "blueprint": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/stariwayplot/core_peripheral/neutral/Peri.blueprint",
+    "blueprint_sha256": "413d54ed5ade37440e9bccf67c427d58865f9bfcfce87fa80591301a13ade219",
+    "population_label_original": "Peri",
+    "projection_chromosomes": 172,
+    "historical_L_bp": 4545600,
+    "projected_segregating_sum": 30304.324233316605,
+    "L_equals_round_SFS_times150": true,
+    "matching_target_beds": [
+      "targets_8ae993c52919_proj172.bed"
+    ],
+    "matching_saved_sfs": [
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/all_peri_output/dadi/Peri-172.sfs",
+        "sha256": "1ee3739747123ee75c443a5ab76905748ff005d0a66ac2d94eb4abb70ea7b4f1",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/all_peri_output/datadict.txt",
+        "datadict_sha256": "8ae993c52919ca003d98e40b3208814185ad2c52663655a31213ccf6ad420fe3",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/all_peri_output/datadict.txt",
+          "sha256": "8ae993c52919ca003d98e40b3208814185ad2c52663655a31213ccf6ad420fe3",
+          "projection_chromosomes": 172,
+          "all_datadict_sites": 32765,
+          "positive_SFS_contributor_sites": 30578,
+          "target_bed": "targets_8ae993c52919_proj172.bed",
+          "target_bed_sha256": "217b9b1c962be79fc685981ecae528ef1c71c03e2222306689521a58a9244b6a",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      },
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/all_peri_output/dadi/Peri.sfs",
+        "sha256": "1ee3739747123ee75c443a5ab76905748ff005d0a66ac2d94eb4abb70ea7b4f1",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/all_peri_output/datadict.txt",
+        "datadict_sha256": "8ae993c52919ca003d98e40b3208814185ad2c52663655a31213ccf6ad420fe3",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/all_peri_output/datadict.txt",
+          "sha256": "8ae993c52919ca003d98e40b3208814185ad2c52663655a31213ccf6ad420fe3",
+          "projection_chromosomes": 172,
+          "all_datadict_sites": 32765,
+          "positive_SFS_contributor_sites": 30578,
+          "target_bed": "targets_8ae993c52919_proj172.bed",
+          "target_bed_sha256": "217b9b1c962be79fc685981ecae528ef1c71c03e2222306689521a58a9244b6a",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      }
+    ],
+    "reader_row": {
+      "Group": "Peripheral populations",
+      "Individuals": 113,
+      "Input panel SNPs": 32765,
+      "Projected chromosomes": 172,
+      "SNPs contributing to projected SFS": 30578,
+      "Archived input L (bp)": 4545600,
+      "New mapped ACGT extent (bp)": 6238664,
+      "Uncovered target SNPs": 20
+    },
+    "historical_execution_or_plot_match_proven": false
+  },
+  {
+    "blueprint": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/stariwayplot/grouped_by_PCA/3_groups/adaptive_1/adaptive_1.blueprint",
+    "blueprint_sha256": "2e7db4fe1e7fecd01f941219b88de4c91f784975ec3198f6163f4c01ad421aba",
+    "population_label_original": "adaptive_1",
+    "projection_chromosomes": 34,
+    "historical_L_bp": 2859300,
+    "projected_segregating_sum": 19061.56983332952,
+    "L_equals_round_SFS_times150": true,
+    "matching_target_beds": [
+      "targets_fca044b55795_proj34.bed"
+    ],
+    "matching_saved_sfs": [
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_1_output/dadi/adaptive_1.sfs",
+        "sha256": "37f77725c0a4fd32568f3e3443b1c675d730234357761c28db65d73468cceeb7",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_1_output/datadict.txt",
+        "datadict_sha256": "fca044b557955c36569c5c38afd7107bc48c38c6241ec93c0b431527085c3aba",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_1_output/datadict.txt",
+          "sha256": "fca044b557955c36569c5c38afd7107bc48c38c6241ec93c0b431527085c3aba",
+          "projection_chromosomes": 34,
+          "all_datadict_sites": 32765,
+          "positive_SFS_contributor_sites": 19851,
+          "target_bed": "targets_fca044b55795_proj34.bed",
+          "target_bed_sha256": "9b1856f22380fe335497ae4c1b45397125d7e447b0a52d2b94dd8626be445223",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      },
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_1_output/dadi/adaptive_1-34.sfs",
+        "sha256": "37f77725c0a4fd32568f3e3443b1c675d730234357761c28db65d73468cceeb7",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_1_output/datadict.txt",
+        "datadict_sha256": "fca044b557955c36569c5c38afd7107bc48c38c6241ec93c0b431527085c3aba",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_1_output/datadict.txt",
+          "sha256": "fca044b557955c36569c5c38afd7107bc48c38c6241ec93c0b431527085c3aba",
+          "projection_chromosomes": 34,
+          "all_datadict_sites": 32765,
+          "positive_SFS_contributor_sites": 19851,
+          "target_bed": "targets_fca044b55795_proj34.bed",
+          "target_bed_sha256": "9b1856f22380fe335497ae4c1b45397125d7e447b0a52d2b94dd8626be445223",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      },
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/3_groups/adaptive_1_output/dadi/adaptive_1.sfs",
+        "sha256": "37f77725c0a4fd32568f3e3443b1c675d730234357761c28db65d73468cceeb7",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/3_groups/adaptive_1_output/datadict.txt",
+        "datadict_sha256": "fca044b557955c36569c5c38afd7107bc48c38c6241ec93c0b431527085c3aba",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_1_output/datadict.txt",
+          "sha256": "fca044b557955c36569c5c38afd7107bc48c38c6241ec93c0b431527085c3aba",
+          "projection_chromosomes": 34,
+          "all_datadict_sites": 32765,
+          "positive_SFS_contributor_sites": 19851,
+          "target_bed": "targets_fca044b55795_proj34.bed",
+          "target_bed_sha256": "9b1856f22380fe335497ae4c1b45397125d7e447b0a52d2b94dd8626be445223",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      },
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/3_groups/adaptive_1_output/dadi/adaptive_1-34.sfs",
+        "sha256": "37f77725c0a4fd32568f3e3443b1c675d730234357761c28db65d73468cceeb7",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/3_groups/adaptive_1_output/datadict.txt",
+        "datadict_sha256": "fca044b557955c36569c5c38afd7107bc48c38c6241ec93c0b431527085c3aba",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_1_output/datadict.txt",
+          "sha256": "fca044b557955c36569c5c38afd7107bc48c38c6241ec93c0b431527085c3aba",
+          "projection_chromosomes": 34,
+          "all_datadict_sites": 32765,
+          "positive_SFS_contributor_sites": 19851,
+          "target_bed": "targets_fca044b55795_proj34.bed",
+          "target_bed_sha256": "9b1856f22380fe335497ae4c1b45397125d7e447b0a52d2b94dd8626be445223",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      }
+    ],
+    "reader_row": {
+      "Group": "Adaptive genetic group 1",
+      "Individuals": 23,
+      "Input panel SNPs": 32765,
+      "Projected chromosomes": 34,
+      "SNPs contributing to projected SFS": 19851,
+      "Archived input L (bp)": 2859300,
+      "New mapped ACGT extent (bp)": 3231629,
+      "Uncovered target SNPs": 29
+    },
+    "historical_execution_or_plot_match_proven": false
+  },
+  {
+    "blueprint": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/stariwayplot/grouped_by_PCA/3_groups/adaptive_2/adaptive_2.blueprint",
+    "blueprint_sha256": "194cdf87036f2c3cc7f9787dda959cf053dae8512f8049a1d7843e5470dafe00",
+    "population_label_original": "adaptive_2",
+    "projection_chromosomes": 34,
+    "historical_L_bp": 2563950,
+    "projected_segregating_sum": 17093.265834862388,
+    "L_equals_round_SFS_times150": true,
+    "matching_target_beds": [
+      "targets_e526b48e0436_proj34.bed"
+    ],
+    "matching_saved_sfs": [
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_2_output/dadi/adaptive_2-34.sfs",
+        "sha256": "a0c191031e9e2aa99e14fb97c72bd8132d99ea277bfb1443c2b3e9a86ae063b3",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_2_output/datadict.txt",
+        "datadict_sha256": "e526b48e043690c992244a837cdfaf89d9b08169da8efd24bec6ee6eafd1979a",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_2_output/datadict.txt",
+          "sha256": "e526b48e043690c992244a837cdfaf89d9b08169da8efd24bec6ee6eafd1979a",
+          "projection_chromosomes": 34,
+          "all_datadict_sites": 32765,
+          "positive_SFS_contributor_sites": 17605,
+          "target_bed": "targets_e526b48e0436_proj34.bed",
+          "target_bed_sha256": "0ddbad5ff663f0e0f9098f34a82cf0b57f91955b95fc4c5a35cad8205e5395a4",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      },
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_2_output/dadi/adaptive_2.sfs",
+        "sha256": "a0c191031e9e2aa99e14fb97c72bd8132d99ea277bfb1443c2b3e9a86ae063b3",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_2_output/datadict.txt",
+        "datadict_sha256": "e526b48e043690c992244a837cdfaf89d9b08169da8efd24bec6ee6eafd1979a",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_2_output/datadict.txt",
+          "sha256": "e526b48e043690c992244a837cdfaf89d9b08169da8efd24bec6ee6eafd1979a",
+          "projection_chromosomes": 34,
+          "all_datadict_sites": 32765,
+          "positive_SFS_contributor_sites": 17605,
+          "target_bed": "targets_e526b48e0436_proj34.bed",
+          "target_bed_sha256": "0ddbad5ff663f0e0f9098f34a82cf0b57f91955b95fc4c5a35cad8205e5395a4",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      },
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/3_groups/adaptive_2_output/dadi/adaptive_2-34.sfs",
+        "sha256": "a0c191031e9e2aa99e14fb97c72bd8132d99ea277bfb1443c2b3e9a86ae063b3",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/3_groups/adaptive_2_output/datadict.txt",
+        "datadict_sha256": "e526b48e043690c992244a837cdfaf89d9b08169da8efd24bec6ee6eafd1979a",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_2_output/datadict.txt",
+          "sha256": "e526b48e043690c992244a837cdfaf89d9b08169da8efd24bec6ee6eafd1979a",
+          "projection_chromosomes": 34,
+          "all_datadict_sites": 32765,
+          "positive_SFS_contributor_sites": 17605,
+          "target_bed": "targets_e526b48e0436_proj34.bed",
+          "target_bed_sha256": "0ddbad5ff663f0e0f9098f34a82cf0b57f91955b95fc4c5a35cad8205e5395a4",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      },
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/3_groups/adaptive_2_output/dadi/adaptive_2.sfs",
+        "sha256": "a0c191031e9e2aa99e14fb97c72bd8132d99ea277bfb1443c2b3e9a86ae063b3",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/3_groups/adaptive_2_output/datadict.txt",
+        "datadict_sha256": "e526b48e043690c992244a837cdfaf89d9b08169da8efd24bec6ee6eafd1979a",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_2_output/datadict.txt",
+          "sha256": "e526b48e043690c992244a837cdfaf89d9b08169da8efd24bec6ee6eafd1979a",
+          "projection_chromosomes": 34,
+          "all_datadict_sites": 32765,
+          "positive_SFS_contributor_sites": 17605,
+          "target_bed": "targets_e526b48e0436_proj34.bed",
+          "target_bed_sha256": "0ddbad5ff663f0e0f9098f34a82cf0b57f91955b95fc4c5a35cad8205e5395a4",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      }
+    ],
+    "reader_row": {
+      "Group": "Adaptive genetic group 2",
+      "Individuals": 24,
+      "Input panel SNPs": 32765,
+      "Projected chromosomes": 34,
+      "SNPs contributing to projected SFS": 17605,
+      "Archived input L (bp)": 2563950,
+      "New mapped ACGT extent (bp)": 3040169,
+      "Uncovered target SNPs": 26
+    },
+    "historical_execution_or_plot_match_proven": false
+  },
+  {
+    "blueprint": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/stariwayplot/grouped_by_PCA/3_groups/non_adaptive/non_adaptive.blueprint",
+    "blueprint_sha256": "1c63baee12768d3248907d06d340484d6b4a8ec424f4d7a351987d5a5e0127e2",
+    "population_label_original": "non_adaptive",
+    "projection_chromosomes": 266,
+    "historical_L_bp": 4104450,
+    "projected_segregating_sum": 27362.93852035249,
+    "L_equals_round_SFS_times150": true,
+    "matching_target_beds": [
+      "targets_bebe1d145b35_proj266.bed"
+    ],
+    "matching_saved_sfs": [
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/3_groups/non_adaptive_output/dadi/non_adaptive.sfs",
+        "sha256": "8228a9cf6baa5b336497453da86007da8ac87b5cf74031da8871098c76661dcc",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/3_groups/non_adaptive_output/datadict.txt",
+        "datadict_sha256": "bebe1d145b3559cb6005cd56f0a8b4e9da1d97d6eb8146c978c6a678cb70e381",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/3_groups/non_adaptive_output/datadict.txt",
+          "sha256": "bebe1d145b3559cb6005cd56f0a8b4e9da1d97d6eb8146c978c6a678cb70e381",
+          "projection_chromosomes": 266,
+          "all_datadict_sites": 32765,
+          "positive_SFS_contributor_sites": 27582,
+          "target_bed": "targets_bebe1d145b35_proj266.bed",
+          "target_bed_sha256": "c807583b01806c7d1d80c0a70f48b9fd1c0c1017597df773eb78f736ded97197",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      },
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/3_groups/non_adaptive_output/dadi/non_adaptive-266.sfs",
+        "sha256": "8228a9cf6baa5b336497453da86007da8ac87b5cf74031da8871098c76661dcc",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/3_groups/non_adaptive_output/datadict.txt",
+        "datadict_sha256": "bebe1d145b3559cb6005cd56f0a8b4e9da1d97d6eb8146c978c6a678cb70e381",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/3_groups/non_adaptive_output/datadict.txt",
+          "sha256": "bebe1d145b3559cb6005cd56f0a8b4e9da1d97d6eb8146c978c6a678cb70e381",
+          "projection_chromosomes": 266,
+          "all_datadict_sites": 32765,
+          "positive_SFS_contributor_sites": 27582,
+          "target_bed": "targets_bebe1d145b35_proj266.bed",
+          "target_bed_sha256": "c807583b01806c7d1d80c0a70f48b9fd1c0c1017597df773eb78f736ded97197",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      }
+    ],
+    "reader_row": {
+      "Group": "Nonadaptive genetic groups pooled",
+      "Individuals": 170,
+      "Input panel SNPs": 32765,
+      "Projected chromosomes": 266,
+      "SNPs contributing to projected SFS": 27582,
+      "Archived input L (bp)": 4104450,
+      "New mapped ACGT extent (bp)": 6152190,
+      "Uncovered target SNPs": 11
+    },
+    "historical_execution_or_plot_match_proven": false
+  },
+  {
+    "blueprint": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/stariwayplot/grouped_by_PCA/4_groups/adaptive_1/adaptive_1.blueprint",
+    "blueprint_sha256": "2e7db4fe1e7fecd01f941219b88de4c91f784975ec3198f6163f4c01ad421aba",
+    "population_label_original": "adaptive_1",
+    "projection_chromosomes": 34,
+    "historical_L_bp": 2859300,
+    "projected_segregating_sum": 19061.56983332952,
+    "L_equals_round_SFS_times150": true,
+    "matching_target_beds": [
+      "targets_fca044b55795_proj34.bed"
+    ],
+    "matching_saved_sfs": [
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_1_output/dadi/adaptive_1.sfs",
+        "sha256": "37f77725c0a4fd32568f3e3443b1c675d730234357761c28db65d73468cceeb7",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_1_output/datadict.txt",
+        "datadict_sha256": "fca044b557955c36569c5c38afd7107bc48c38c6241ec93c0b431527085c3aba",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_1_output/datadict.txt",
+          "sha256": "fca044b557955c36569c5c38afd7107bc48c38c6241ec93c0b431527085c3aba",
+          "projection_chromosomes": 34,
+          "all_datadict_sites": 32765,
+          "positive_SFS_contributor_sites": 19851,
+          "target_bed": "targets_fca044b55795_proj34.bed",
+          "target_bed_sha256": "9b1856f22380fe335497ae4c1b45397125d7e447b0a52d2b94dd8626be445223",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      },
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_1_output/dadi/adaptive_1-34.sfs",
+        "sha256": "37f77725c0a4fd32568f3e3443b1c675d730234357761c28db65d73468cceeb7",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_1_output/datadict.txt",
+        "datadict_sha256": "fca044b557955c36569c5c38afd7107bc48c38c6241ec93c0b431527085c3aba",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_1_output/datadict.txt",
+          "sha256": "fca044b557955c36569c5c38afd7107bc48c38c6241ec93c0b431527085c3aba",
+          "projection_chromosomes": 34,
+          "all_datadict_sites": 32765,
+          "positive_SFS_contributor_sites": 19851,
+          "target_bed": "targets_fca044b55795_proj34.bed",
+          "target_bed_sha256": "9b1856f22380fe335497ae4c1b45397125d7e447b0a52d2b94dd8626be445223",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      },
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/3_groups/adaptive_1_output/dadi/adaptive_1.sfs",
+        "sha256": "37f77725c0a4fd32568f3e3443b1c675d730234357761c28db65d73468cceeb7",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/3_groups/adaptive_1_output/datadict.txt",
+        "datadict_sha256": "fca044b557955c36569c5c38afd7107bc48c38c6241ec93c0b431527085c3aba",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_1_output/datadict.txt",
+          "sha256": "fca044b557955c36569c5c38afd7107bc48c38c6241ec93c0b431527085c3aba",
+          "projection_chromosomes": 34,
+          "all_datadict_sites": 32765,
+          "positive_SFS_contributor_sites": 19851,
+          "target_bed": "targets_fca044b55795_proj34.bed",
+          "target_bed_sha256": "9b1856f22380fe335497ae4c1b45397125d7e447b0a52d2b94dd8626be445223",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      },
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/3_groups/adaptive_1_output/dadi/adaptive_1-34.sfs",
+        "sha256": "37f77725c0a4fd32568f3e3443b1c675d730234357761c28db65d73468cceeb7",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/3_groups/adaptive_1_output/datadict.txt",
+        "datadict_sha256": "fca044b557955c36569c5c38afd7107bc48c38c6241ec93c0b431527085c3aba",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_1_output/datadict.txt",
+          "sha256": "fca044b557955c36569c5c38afd7107bc48c38c6241ec93c0b431527085c3aba",
+          "projection_chromosomes": 34,
+          "all_datadict_sites": 32765,
+          "positive_SFS_contributor_sites": 19851,
+          "target_bed": "targets_fca044b55795_proj34.bed",
+          "target_bed_sha256": "9b1856f22380fe335497ae4c1b45397125d7e447b0a52d2b94dd8626be445223",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      }
+    ],
+    "reader_row": {
+      "Group": "Adaptive genetic group 1",
+      "Individuals": 23,
+      "Input panel SNPs": 32765,
+      "Projected chromosomes": 34,
+      "SNPs contributing to projected SFS": 19851,
+      "Archived input L (bp)": 2859300,
+      "New mapped ACGT extent (bp)": 3231629,
+      "Uncovered target SNPs": 29
+    },
+    "historical_execution_or_plot_match_proven": false
+  },
+  {
+    "blueprint": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/stariwayplot/grouped_by_PCA/4_groups/adaptive_2/adaptive_2.blueprint",
+    "blueprint_sha256": "194cdf87036f2c3cc7f9787dda959cf053dae8512f8049a1d7843e5470dafe00",
+    "population_label_original": "adaptive_2",
+    "projection_chromosomes": 34,
+    "historical_L_bp": 2563950,
+    "projected_segregating_sum": 17093.265834862388,
+    "L_equals_round_SFS_times150": true,
+    "matching_target_beds": [
+      "targets_e526b48e0436_proj34.bed"
+    ],
+    "matching_saved_sfs": [
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_2_output/dadi/adaptive_2-34.sfs",
+        "sha256": "a0c191031e9e2aa99e14fb97c72bd8132d99ea277bfb1443c2b3e9a86ae063b3",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_2_output/datadict.txt",
+        "datadict_sha256": "e526b48e043690c992244a837cdfaf89d9b08169da8efd24bec6ee6eafd1979a",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_2_output/datadict.txt",
+          "sha256": "e526b48e043690c992244a837cdfaf89d9b08169da8efd24bec6ee6eafd1979a",
+          "projection_chromosomes": 34,
+          "all_datadict_sites": 32765,
+          "positive_SFS_contributor_sites": 17605,
+          "target_bed": "targets_e526b48e0436_proj34.bed",
+          "target_bed_sha256": "0ddbad5ff663f0e0f9098f34a82cf0b57f91955b95fc4c5a35cad8205e5395a4",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      },
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_2_output/dadi/adaptive_2.sfs",
+        "sha256": "a0c191031e9e2aa99e14fb97c72bd8132d99ea277bfb1443c2b3e9a86ae063b3",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_2_output/datadict.txt",
+        "datadict_sha256": "e526b48e043690c992244a837cdfaf89d9b08169da8efd24bec6ee6eafd1979a",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_2_output/datadict.txt",
+          "sha256": "e526b48e043690c992244a837cdfaf89d9b08169da8efd24bec6ee6eafd1979a",
+          "projection_chromosomes": 34,
+          "all_datadict_sites": 32765,
+          "positive_SFS_contributor_sites": 17605,
+          "target_bed": "targets_e526b48e0436_proj34.bed",
+          "target_bed_sha256": "0ddbad5ff663f0e0f9098f34a82cf0b57f91955b95fc4c5a35cad8205e5395a4",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      },
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/3_groups/adaptive_2_output/dadi/adaptive_2-34.sfs",
+        "sha256": "a0c191031e9e2aa99e14fb97c72bd8132d99ea277bfb1443c2b3e9a86ae063b3",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/3_groups/adaptive_2_output/datadict.txt",
+        "datadict_sha256": "e526b48e043690c992244a837cdfaf89d9b08169da8efd24bec6ee6eafd1979a",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_2_output/datadict.txt",
+          "sha256": "e526b48e043690c992244a837cdfaf89d9b08169da8efd24bec6ee6eafd1979a",
+          "projection_chromosomes": 34,
+          "all_datadict_sites": 32765,
+          "positive_SFS_contributor_sites": 17605,
+          "target_bed": "targets_e526b48e0436_proj34.bed",
+          "target_bed_sha256": "0ddbad5ff663f0e0f9098f34a82cf0b57f91955b95fc4c5a35cad8205e5395a4",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      },
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/3_groups/adaptive_2_output/dadi/adaptive_2.sfs",
+        "sha256": "a0c191031e9e2aa99e14fb97c72bd8132d99ea277bfb1443c2b3e9a86ae063b3",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/3_groups/adaptive_2_output/datadict.txt",
+        "datadict_sha256": "e526b48e043690c992244a837cdfaf89d9b08169da8efd24bec6ee6eafd1979a",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_2_output/datadict.txt",
+          "sha256": "e526b48e043690c992244a837cdfaf89d9b08169da8efd24bec6ee6eafd1979a",
+          "projection_chromosomes": 34,
+          "all_datadict_sites": 32765,
+          "positive_SFS_contributor_sites": 17605,
+          "target_bed": "targets_e526b48e0436_proj34.bed",
+          "target_bed_sha256": "0ddbad5ff663f0e0f9098f34a82cf0b57f91955b95fc4c5a35cad8205e5395a4",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      }
+    ],
+    "reader_row": {
+      "Group": "Adaptive genetic group 2",
+      "Individuals": 24,
+      "Input panel SNPs": 32765,
+      "Projected chromosomes": 34,
+      "SNPs contributing to projected SFS": 17605,
+      "Archived input L (bp)": 2563950,
+      "New mapped ACGT extent (bp)": 3040169,
+      "Uncovered target SNPs": 26
+    },
+    "historical_execution_or_plot_match_proven": false
+  },
+  {
+    "blueprint": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/stariwayplot/grouped_by_PCA/4_groups/core/core.blueprint",
+    "blueprint_sha256": "c409140a3a950dbe8ed7f1e570c1ea9e7506b826929bd63a65de37433122ac53",
+    "population_label_original": "core",
+    "projection_chromosomes": 154,
+    "historical_L_bp": 3852750,
+    "projected_segregating_sum": 25684.87542154687,
+    "L_equals_round_SFS_times150": true,
+    "matching_target_beds": [
+      "targets_ec9ecfdf3def_proj154.bed"
+    ],
+    "matching_saved_sfs": [
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/core_output/output/dadi/core-154.sfs",
+        "sha256": "f5467edb632b3047a88c5f204eee04f396764d7296acf021858de4da17563b47",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/core_output/output/datadict.txt",
+        "datadict_sha256": "ec9ecfdf3defd17f20cd1ca17b05e37d80f8c27a85ca2d3b43b907cdac3c3587",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/core_output/output/datadict.txt",
+          "sha256": "ec9ecfdf3defd17f20cd1ca17b05e37d80f8c27a85ca2d3b43b907cdac3c3587",
+          "projection_chromosomes": 154,
+          "all_datadict_sites": 32765,
+          "positive_SFS_contributor_sites": 26078,
+          "target_bed": "targets_ec9ecfdf3def_proj154.bed",
+          "target_bed_sha256": "0c2eda8331dcf86918883bea8716be36ba5e48cfe7e1ba54a1e14fc79f59cfbd",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      },
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/core_output/output/dadi/core.sfs",
+        "sha256": "f5467edb632b3047a88c5f204eee04f396764d7296acf021858de4da17563b47",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/core_output/output/datadict.txt",
+        "datadict_sha256": "ec9ecfdf3defd17f20cd1ca17b05e37d80f8c27a85ca2d3b43b907cdac3c3587",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/core_output/output/datadict.txt",
+          "sha256": "ec9ecfdf3defd17f20cd1ca17b05e37d80f8c27a85ca2d3b43b907cdac3c3587",
+          "projection_chromosomes": 154,
+          "all_datadict_sites": 32765,
+          "positive_SFS_contributor_sites": 26078,
+          "target_bed": "targets_ec9ecfdf3def_proj154.bed",
+          "target_bed_sha256": "0c2eda8331dcf86918883bea8716be36ba5e48cfe7e1ba54a1e14fc79f59cfbd",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      }
+    ],
+    "reader_row": {
+      "Group": "Core genetic group",
+      "Individuals": 101,
+      "Input panel SNPs": 32765,
+      "Projected chromosomes": 154,
+      "SNPs contributing to projected SFS": 26078,
+      "Archived input L (bp)": 3852750,
+      "New mapped ACGT extent (bp)": 5237826,
+      "Uncovered target SNPs": 13
+    },
+    "historical_execution_or_plot_match_proven": false
+  },
+  {
+    "blueprint": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/stariwayplot/grouped_by_PCA/4_groups/peripheral/peripheral.blueprint",
+    "blueprint_sha256": "d492cc36187774f108b843c6e5c5fad5470c0a6678faf09e8b8518ddf70bcf6a",
+    "population_label_original": "peripheral",
+    "projection_chromosomes": 104,
+    "historical_L_bp": 3289350,
+    "projected_segregating_sum": 21928.506147347016,
+    "L_equals_round_SFS_times150": true,
+    "matching_target_beds": [
+      "targets_0efff7a62023_proj104.bed",
+      "targets_347fc7b203cc_proj104.bed"
+    ],
+    "matching_saved_sfs": [
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Peri_output/dadi/Peri-104.sfs",
+        "sha256": "7e05cad38cf1c5e4abd4054c98b1b62aad5ede157b627c141d1c8c515d994a0e",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Peri_output/datadict.txt",
+        "datadict_sha256": "347fc7b203cc3564fd38d86078ad1ba277562568328e1204159382fb1c3bf6f5",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Peri_output/datadict.txt",
+          "sha256": "347fc7b203cc3564fd38d86078ad1ba277562568328e1204159382fb1c3bf6f5",
+          "projection_chromosomes": 104,
+          "all_datadict_sites": 32765,
+          "positive_SFS_contributor_sites": 22488,
+          "target_bed": "targets_347fc7b203cc_proj104.bed",
+          "target_bed_sha256": "f4a4b05f55eb18aa2e90eaadb73744a8492da085310515d133a42eb74191037a",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      },
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Peri_output/dadi/Peri.sfs",
+        "sha256": "7e05cad38cf1c5e4abd4054c98b1b62aad5ede157b627c141d1c8c515d994a0e",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Peri_output/datadict.txt",
+        "datadict_sha256": "347fc7b203cc3564fd38d86078ad1ba277562568328e1204159382fb1c3bf6f5",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Peri_output/datadict.txt",
+          "sha256": "347fc7b203cc3564fd38d86078ad1ba277562568328e1204159382fb1c3bf6f5",
+          "projection_chromosomes": 104,
+          "all_datadict_sites": 32765,
+          "positive_SFS_contributor_sites": 22488,
+          "target_bed": "targets_347fc7b203cc_proj104.bed",
+          "target_bed_sha256": "f4a4b05f55eb18aa2e90eaadb73744a8492da085310515d133a42eb74191037a",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      },
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/peripheral_output/output/dadi/peripheral-104.sfs",
+        "sha256": "d8e436daffb30fe7d516b9f027eae80b1f5c44ca3e00d0eb96853fe19acdf633",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/peripheral_output/output/datadict.txt",
+        "datadict_sha256": "0efff7a62023052639711c8d304a9576566b39bf19df029b177f506833296c34",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/peripheral_output/output/datadict.txt",
+          "sha256": "0efff7a62023052639711c8d304a9576566b39bf19df029b177f506833296c34",
+          "projection_chromosomes": 104,
+          "all_datadict_sites": 32765,
+          "positive_SFS_contributor_sites": 22488,
+          "target_bed": "targets_0efff7a62023_proj104.bed",
+          "target_bed_sha256": "f4a4b05f55eb18aa2e90eaadb73744a8492da085310515d133a42eb74191037a",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      },
+      {
+        "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/peripheral_output/output/dadi/peripheral.sfs",
+        "sha256": "d8e436daffb30fe7d516b9f027eae80b1f5c44ca3e00d0eb96853fe19acdf633",
+        "datadict_exists": true,
+        "datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/peripheral_output/output/datadict.txt",
+        "datadict_sha256": "0efff7a62023052639711c8d304a9576566b39bf19df029b177f506833296c34",
+        "target_set": {
+          "source_datadict": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/peripheral_output/output/datadict.txt",
+          "sha256": "0efff7a62023052639711c8d304a9576566b39bf19df029b177f506833296c34",
+          "projection_chromosomes": 104,
+          "all_datadict_sites": 32765,
+          "positive_SFS_contributor_sites": 22488,
+          "target_bed": "targets_0efff7a62023_proj104.bed",
+          "target_bed_sha256": "f4a4b05f55eb18aa2e90eaadb73744a8492da085310515d133a42eb74191037a",
+          "meaning": "BED columns chrom/start0/end1/REFcount/ALTcount; both alleles present and called chromosomes >= projection. Positive expected polymorphism after projection; not one realized random SNP subset."
+        }
+      }
+    ],
+    "reader_row": {
+      "Group": "Peripheral genetic group",
+      "Individuals": 69,
+      "Input panel SNPs": 32765,
+      "Projected chromosomes": 104,
+      "SNPs contributing to projected SFS": 22488,
+      "Archived input L (bp)": 3289350,
+      "New mapped ACGT extent (bp)": 4384704,
+      "Uncovered target SNPs": 23
+    },
+    "historical_execution_or_plot_match_proven": false
+  }
+]

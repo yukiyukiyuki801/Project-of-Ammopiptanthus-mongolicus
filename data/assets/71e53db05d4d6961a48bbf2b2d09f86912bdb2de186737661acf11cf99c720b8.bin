@@ -1,0 +1,12 @@
+{
+  "PDFs": ["/gpfs/ycga/work/coughlan/ps2327/ammo/runs/revision_run_01/outputs/figures/demography/S2_saved_histories_page1_draft.pdf", "/gpfs/ycga/work/coughlan/ps2327/ammo/runs/revision_run_01/outputs/figures/demography/S2_saved_histories_page2_draft.pdf", "/gpfs/ycga/work/coughlan/ps2327/ammo/runs/revision_run_01/outputs/figures/demography/S2_saved_histories_page3_draft.pdf", "/gpfs/ycga/work/coughlan/ps2327/ammo/runs/revision_run_01/outputs/figures/demography/S2_saved_histories_page4_draft.pdf"],
+  "histories": 19,
+  "plotted_rows": 54911,
+  "source_rows": 1051219,
+  "source_mapping": "Candidate submitted-source identity; archived group names retained",
+  "genetic_PCA": "Numerical results not recovered; not redrawn",
+  "analysis_refitted": false,
+  "automated_QA": "Strict alignment,8ptglyphfloor and collision gates passed; manual review pending",
+  "figure_status": "Draft histories conditional on unresolved callable/ascertainment/scaling provenance",
+  "validated": true
+}

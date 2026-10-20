@@ -1,0 +1,15 @@
+{
+  "rows": 7296,
+  "candidate_grid_cells": 157745,
+  "known_population_points_added": 19,
+  "scope": "Full fixed-habitat candidate search for 19 biological focal populations; no all-pixel pseudoreplicated inference. Landscape-wide all-focal maps remain separate.",
+  "native_climate_handling": "Point extraction at identical fixed-grid and known-population coordinates; future habitat contraction not silently applied as a domain change",
+  "geographic_model_note": "Inherited geo_TRUE fit uses Euclidean longitude/latitude degrees; degree-distance penalty retained only as explicitly labeled inherited specification; environmental-only and distance/domain sensitivities reported. Metric-projected refit still pending.",
+  "illustrative_radii_km": [25, 50, 100],
+  "radius_caveat": "Illustrative limits, not empirically estimated species dispersal distances",
+  "range_crs_note": "Original shapefile CRS retained",
+  "habitat_geometry_handling": "Archived rings contain duplicate vertices; transform to EPSG:32648 and GEOS st_make_valid before membership. Original polygons remain unchanged.",
+  "direction": "Forward endpoints are future destinations; reverse endpoints are present candidate analogues/sources",
+  "percentage_denominator": "Nine or ten focal populations per class, not source area or inferred migration probability",
+  "validated": true
+}

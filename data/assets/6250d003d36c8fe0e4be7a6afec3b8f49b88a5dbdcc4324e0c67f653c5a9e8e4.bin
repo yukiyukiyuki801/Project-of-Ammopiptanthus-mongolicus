@@ -1,0 +1,18 @@
+{
+  "authorization": "User explicitly requested reconstructing missing niche/SDM results with supplied data; missing numerical sources prevent redrawing S11 and Fig6.",
+  "scope": "New documented reconstruction, not exact historical replication; source outputs and population classes unchanged.",
+  "occurrence_source": "recovery_audit/published_2022_occurrences.csv; 37 supplied published occurrences",
+  "occurrence_thinning": "Retain first record per occupied native current CHELSA cell; no outcome-based filtering.",
+  "background": "10000 uniformly sampled valid cells across supplied current CHELSA crop (~100–110 E, 36–44 N), excluding occupied cells; inherited study extent is operational calibration domain, not demonstrated accessible area.",
+  "predictors": ["bio4", "bio5", "bio6", "bio15", "bio17", "elevation"],
+  "elevation": "WorldClim v2.1 30 arcsecond country tiles CHN and MNG; static for future; bilinear alignment onto native CHELSA grid",
+  "elevation_source": "https://www.worldclim.org/data/worldclim21.html",
+  "model": "MaxEnt 3.4.4 via dismo; auto features, default regularization multiplier 1; logistic output; no tuning or optional model benchmark.",
+  "maxent_args": ["autofeature=true", "betamultiplier=1", "outputformat=logistic", "randomseed=false", "threads=1", "removeduplicates=false", "responsecurves=false", "jackknife=true", "writeplotdata=true"],
+  "seed": 20261014,
+  "cross_validation": "Seeded balanced random ten-fold presence holdout; background partitioned into matching folds; finite sample AUC is presence versus background, not presence versus confirmed absence; random folds do not establish spatial transferability.",
+  "threshold": "Maximum training sensitivity plus specificity (MTSS) on final all-occurrence model versus calibration background; threshold fixed for all futures.",
+  "projection": "Five individual GCMs × two SSPs × two periods; native future climate bilinear-resampled onto current grid; constant elevation; arithmetic mean/SD/min/max over five suitability predictions. No averaging climates before nonlinear projection.",
+  "extrapolation": "MaxEnt default clamping; per-pixel number of predictors outside observed training/background ranges saved separately; unsuitable/clamped surfaces are not realized colonization.",
+  "uncertainty": "GCM spread is model spread, not independent biological replication; ten random folds have few held-out occurrences and do not prove robust transferability."
+}

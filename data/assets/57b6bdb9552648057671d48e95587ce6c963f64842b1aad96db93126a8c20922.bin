@@ -1,0 +1,15 @@
+{
+  "n_populations": 19,
+  "n_core": 9,
+  "n_peripheral": 10,
+  "background_cells": 1000,
+  "available_complete_raster_cells": 1152000,
+  "repetitions": 999,
+  "seed": 20261014,
+  "observed": {
+    "D": 0.1253,
+    "I": 0.3518
+  },
+  "scope": "New documented population-level niche reconstruction; original historical test objects unavailable; no SDM fitting or EEMS inference.",
+  "validated": true
+}

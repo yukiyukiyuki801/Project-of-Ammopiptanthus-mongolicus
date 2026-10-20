@@ -1,0 +1,49 @@
+{
+  "input": "revision_oct16/driver_combinations/data_audit/population_case_saved_inputs_380.csv",
+  "input_sha256": "4fc4e56e51d17a846698bae07c4de8f31f5b048bc102fde9574e8fbb989e7de4",
+  "output": "revision_oct16/driver_combinations/scripts/model_inputs_380.csv",
+  "output_sha256": "df13e415e90048d72e72b8b24f2e1c22216eb1859d2e2c4206c6800efc56f79b",
+  "predictor_mapping": {
+    "climate_change": "climate_change",
+    "private_alleles": "Private_allele_archived_full",
+    "Ho": "Ho_full",
+    "He": "He_unbiased_full",
+    "Fis": "Fis_archived_full",
+    "Pi": "Pi_archived_full",
+    "Lon": "Lon",
+    "Lat": "Lat",
+    "Alt": "Alt",
+    "DEL": "DEL_ratio",
+    "LoF": "LOF_ratio"
+  },
+  "block_source": "runs/revision_run_01/outputs/model_diagnostics/geographic_block_heldout_predictions.csv",
+  "block_populations": {
+    "BJ": "1",
+    "YL": "1",
+    "ZS": "1",
+    "AA": "2",
+    "AB": "2",
+    "AC": "2",
+    "AD": "2",
+    "AG": "2",
+    "AZA": "2",
+    "AZM": "2",
+    "BW": "2",
+    "EEA": "2",
+    "EEY": "2",
+    "EHA": "2",
+    "WWQ": "2",
+    "AE": "3",
+    "AF": "3",
+    "AYE": "3",
+    "AZS": "3"
+  },
+  "n_predictors": 11,
+  "n_subsets": 2048,
+  "definition_limits": [
+    "Private,Fis,Pi are original saved full-panel metrics; Ho/He are validated full-panel recomputations.",
+    "Pi and He are near-redundant but not numerically identical; both included as requested, coefficient/inclusion claims must discuss collinearity.",
+    "DEL and LoF are corrected reference-relative synonymous-normalized ratios; not measured fitness load.",
+    "Every response is fixed previously estimated RONA: downstream nested selection does not refit candidate detection/RONA."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "validated": true,
+  "completed_utc": "2026-10-14T23:03:14.434655+00:00",
+  "reviewer_basis": "R3.M1 and explicit user request for population segregating-site and ALT-dosage ratio alternatives",
+  "predicted_proteins": 756,
+  "requested_proteins": 1011,
+  "parsed_substitutions": 1047,
+  "selected_missense_variants": 1407,
+  "selected_missense_scored": 1046,
+  "selected_missense_strict_quality": 496,
+  "rules": "Most-severe canonical chosen variant row ONLY; SIFT emitted label uses raw score<0.05; equality tolerated. Printed score has two decimals, so use emitted label. All valid predictions primary; strict-quality sensitivity median<=3.25,>=2 sequences at position,no warning. Missing is unscored.",
+  "limits": "REF-relative ALT, no ancestral polarization or fitness load. SwissProt reconstructed database differs from published UniRef100. No invariant/callable genome denominator.",
+  "script_sha256": "03c53c33c8050c4f79fe9e17d814460c8ba3252f6c19b402d6b23260879ad0aa"
+}

@@ -1,0 +1,15 @@
+Group,Individuals,Input panel SNPs,Projected chromosomes,SNPs contributing to projected SFS,Archived input L (bp),New mapped ACGT extent (bp),Uncovered target SNPs
+All individuals,217,32765,348,32765,4914750,7509602,9
+All individuals,217,38124,348,38124,5718600,8332643,10
+Core populations,104,32765,160,28502,4190400,5672628,14
+Core populations,104,38124,158,33597,4945200,6411275,15
+Peripheral populations,113,32765,172,30578,4545600,6238664,20
+Peripheral populations,113,61697,170,59061,8801700,8644576,28
+Adaptive individuals in peripheral populations,44,32765,64,22889,3364200,4184963,19
+Adaptive individuals in peripheral populations,44,38124,62,27535,4041900,4859179,20
+Nonadaptive genetic groups pooled,170,32765,266,27582,4104450,6152190,11
+Core genetic group,101,32765,154,26078,3852750,5237826,13
+Peripheral genetic group,69,32765,104,22488,3289350,4384704,23
+Peripheral genetic group,69,38124,102,27423,4018800,5155299,25
+Adaptive genetic group 1,23,32765,34,19851,2859300,3231629,29
+Adaptive genetic group 2,24,32765,34,17605,2563950,3040169,26

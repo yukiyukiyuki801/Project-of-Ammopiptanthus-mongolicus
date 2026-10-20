@@ -1,0 +1,22 @@
+{
+  "validated": true,
+  "scope": "Reviewer-scoped EEMS provenance and existing plotting-data audit; no new MCMC",
+  "comments": [
+    "R1.10c",
+    "R1.42",
+    "R2.m2",
+    "R3.m4"
+  ],
+  "report": "runs/revision_run_01/outputs/eems_review_scope.md",
+  "extraction_script": "scripts/revision/extract_existing_eems.R",
+  "no_new_inference": true,
+  "manuscript_deme_settings_match": false,
+  "existing_q_m_replot_feasible": true,
+  "submitted_panel_source_identity_verified": true,
+  "independent_chain_convergence_certified": false,
+  "remaining": [
+    "Correct methods to the actual displayed archived run; disclose limited convergence evidence",
+    "Do not interpret relative effective migration as direct contemporary/future dispersal feasibility"
+  ],
+  "identity_method": "Visual agreement of submitted embedded maps with archived700-deme q/m maps"
+}

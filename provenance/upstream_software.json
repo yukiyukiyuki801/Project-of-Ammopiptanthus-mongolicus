@@ -1,0 +1,35 @@
+{
+  "recorded_utc": "2026-10-13T20:51:10.454511+00:00",
+  "repositories": [
+    {
+      "path": "public_dependencies/software/Maxent",
+      "url": "https://github.com/mrmaxent/Maxent.git",
+      "commit": "963d0114e05a39f92f832dfbe800c22442d9d8a6",
+      "submodules": ""
+    },
+    {
+      "path": "public_dependencies/software/SIFT4G_Annotator",
+      "url": "https://github.com/pauline-ng/SIFT4G_Annotator.git",
+      "commit": "3a642987a4f0ed496ef0008707d7a37b3b41d445",
+      "submodules": ""
+    },
+    {
+      "path": "public_dependencies/software/SIFT4G_Create_Genomic_DB",
+      "url": "https://github.com/pauline-ng/SIFT4G_Create_Genomic_DB.git",
+      "commit": "63d8952ef9618d34a07ff7d3f3ab210acaf5c060",
+      "submodules": ""
+    },
+    {
+      "path": "public_dependencies/software/pyRona",
+      "url": "https://github.com/StuntsPT/pyRona.git",
+      "commit": "4b1c1517af1964dcc42258a7cb15f51304821290",
+      "submodules": ""
+    },
+    {
+      "path": "public_dependencies/software/sift4g",
+      "url": "https://github.com/rvaser/sift4g.git",
+      "commit": "8fd9f4042723f017afa1624400e1bf6a80abd0d1",
+      "submodules": "edaf4e376ff6cb406eb0cc1620b4128c314eaeaf vendor/swsharp (edaf4e3)"
+    }
+  ]
+}

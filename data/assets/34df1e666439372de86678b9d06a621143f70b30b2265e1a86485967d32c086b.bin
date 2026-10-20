@@ -1,0 +1,37 @@
+{
+  "validated": true,
+  "source": "/gpfs/ycga/work/coughlan/ps2327/ammo/ammo_analysis_package_20261014/ammo/ammo_all_deme700/ammo_all_deme700-rEEMSplots-rdist.RData",
+  "source_md5": "648f2317c6006a5fc67a04883ee38443",
+  "scope": "Existing 700-deme plotting-data export only; no model fit and no convergence claim",
+  "scale": "Official plotting source labels these log10 rates after spatial mean centering under defaults; exact original plotting call not recovered",
+  "objects": {
+    "xym.values": {
+      "rows": 11300,
+      "columns": ["x", "y", "m"],
+      "longitude_range": [100.24, 109.82],
+      "latitude_range": [36.36, 42.9],
+      "value_range": [-2.0385, 1.6926],
+      "regular_grid_complete": true
+    },
+    "xyq.values": {
+      "rows": 11300,
+      "columns": ["x", "y", "q"],
+      "longitude_range": [100.24, 109.82],
+      "latitude_range": [36.36, 42.9],
+      "value_range": [-0.1021, 0.0929],
+      "regular_grid_complete": true
+    },
+    "B.component": {
+      "rows": 153,
+      "columns": ["alpha.x", "alpha.y", "beta.x", "beta.y", "fitted", "obsrvd", "size", "col"]
+    },
+    "G.component": {
+      "rows": 153,
+      "columns": ["alpha.x", "alpha.y", "beta.x", "beta.y", "fitted", "obsrvd", "size", "col"]
+    },
+    "W.component": {
+      "rows": 18,
+      "columns": ["alpha.x", "alpha.y", "fitted", "obsrvd", "size", "col"]
+    }
+  }
+}

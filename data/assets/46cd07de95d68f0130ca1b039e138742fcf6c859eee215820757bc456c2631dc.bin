@@ -1,0 +1,3546 @@
+{
+  "validated": true,
+  "completed_utc": "2026-10-18 01:12:58 UTC",
+  "biological_result_status": "DESCRIPTIVE_RESULTS_ONLY; PCA visual and manuscript interpretation pending",
+  "n_individuals": 217,
+  "n_populations": 19,
+  "n_core": 104,
+  "n_peripheral": 113,
+  "mapping_records": 434,
+  "variant_counts": {
+    "raw": 3671841,
+    "site_filtered": 104753,
+    "ld_pruned": 55340
+  },
+  "new_pca_retained_loci": 55340,
+  "mapping_summaries": [
+    {
+      "reference": "nanus",
+      "stratum": "overall",
+      "stratum_level": "all_individuals",
+      "metric": "clean_pairs",
+      "n_individuals": 217,
+      "mean": 2082365.16589862,
+      "sd": 831078.750610904,
+      "median": 1790977,
+      "min": 839809,
+      "max": 5693170
+    },
+    {
+      "reference": "nanus",
+      "stratum": "overall",
+      "stratum_level": "all_individuals",
+      "metric": "primary_records",
+      "n_individuals": 217,
+      "mean": 4164730.33179724,
+      "sd": 1662157.50122181,
+      "median": 3581954,
+      "min": 1679618,
+      "max": 11386340
+    },
+    {
+      "reference": "nanus",
+      "stratum": "overall",
+      "stratum_level": "all_individuals",
+      "metric": "mapped_primary",
+      "n_individuals": 217,
+      "mean": 4136944.55760369,
+      "sd": 1653706.80041161,
+      "median": 3557359,
+      "min": 1665360,
+      "max": 11321427
+    },
+    {
+      "reference": "nanus",
+      "stratum": "overall",
+      "stratum_level": "all_individuals",
+      "metric": "mapped_fraction",
+      "n_individuals": 217,
+      "mean": 0.99315582187048,
+      "sd": 0.00153372671626601,
+      "median": 0.99349258251503,
+      "min": 0.98467319196059,
+      "max": 0.995812629727289
+    },
+    {
+      "reference": "nanus",
+      "stratum": "overall",
+      "stratum_level": "all_individuals",
+      "metric": "properly_paired_primary_fraction",
+      "n_individuals": 217,
+      "mean": 0.841412154730809,
+      "sd": 0.0363999735752855,
+      "median": 0.838359292484019,
+      "min": 0.774883791395112,
+      "max": 0.929297471549339
+    },
+    {
+      "reference": "nanus",
+      "stratum": "overall",
+      "stratum_level": "all_individuals",
+      "metric": "mapq20_primary_fraction",
+      "n_individuals": 217,
+      "mean": 0.634417471845091,
+      "sd": 0.0230248528364893,
+      "median": 0.632610086100861,
+      "min": 0.581318295993894,
+      "max": 0.702890685895854
+    },
+    {
+      "reference": "nanus",
+      "stratum": "overall",
+      "stratum_level": "all_individuals",
+      "metric": "covered_bases_q20Q20",
+      "n_individuals": 217,
+      "mean": 44851976.156682,
+      "sd": 10144993.5267312,
+      "median": 43884824,
+      "min": 26159792,
+      "max": 74992206
+    },
+    {
+      "reference": "nanus",
+      "stratum": "overall",
+      "stratum_level": "all_individuals",
+      "metric": "covered_bases_ge4",
+      "n_individuals": 217,
+      "mean": 16534042.640553,
+      "sd": 4140291.31388875,
+      "median": 15561231,
+      "min": 8655098,
+      "max": 30797487
+    },
+    {
+      "reference": "nanus",
+      "stratum": "overall",
+      "stratum_level": "all_individuals",
+      "metric": "covered_base_mean_depth",
+      "n_individuals": 217,
+      "mean": 7.20920262284009,
+      "sd": 2.46045484746907,
+      "median": 6.82272395849222,
+      "min": 3.66259068390039,
+      "max": 20.8239926222612
+    },
+    {
+      "reference": "nanus",
+      "stratum": "overall",
+      "stratum_level": "all_individuals",
+      "metric": "covered_base_median_depth_lower",
+      "n_individuals": 217,
+      "mean": 2.24423963133641,
+      "sd": 0.527289099226246,
+      "median": 2,
+      "min": 2,
+      "max": 6
+    },
+    {
+      "reference": "nanus",
+      "stratum": "overall",
+      "stratum_level": "all_individuals",
+      "metric": "assembly_bases",
+      "n_individuals": 217,
+      "mean": 823736225,
+      "sd": 0,
+      "median": 823736225,
+      "min": 823736225,
+      "max": 823736225
+    },
+    {
+      "reference": "nanus",
+      "stratum": "overall",
+      "stratum_level": "all_individuals",
+      "metric": "assembly_breadth_ge1",
+      "n_individuals": 217,
+      "mean": 0.0544494399972297,
+      "sd": 0.0123158278327886,
+      "median": 0.0532753358030357,
+      "min": 0.0317574864453727,
+      "max": 0.0910391017464359
+    },
+    {
+      "reference": "nanus",
+      "stratum": "overall",
+      "stratum_level": "all_individuals",
+      "metric": "assembly_breadth_ge4",
+      "n_individuals": 217,
+      "mean": 0.0200720110865016,
+      "sd": 0.00502623435540759,
+      "median": 0.0188910363872853,
+      "min": 0.0105071231995412,
+      "max": 0.037387559348868
+    },
+    {
+      "reference": "nanus",
+      "stratum": "overall",
+      "stratum_level": "all_individuals",
+      "metric": "whole_assembly_mean_depth",
+      "n_individuals": 217,
+      "mean": 0.38621327998479,
+      "sd": 0.14866898857562,
+      "median": 0.341045476056367,
+      "min": 0.157338808306021,
+      "max": 1.05106608368474
+    },
+    {
+      "reference": "nanus",
+      "stratum": "core",
+      "stratum_level": "population_class",
+      "metric": "clean_pairs",
+      "n_individuals": 104,
+      "mean": 2147749.86538462,
+      "sd": 794986.519495686,
+      "median": 1935931.5,
+      "min": 872679,
+      "max": 5693170
+    },
+    {
+      "reference": "nanus",
+      "stratum": "core",
+      "stratum_level": "population_class",
+      "metric": "primary_records",
+      "n_individuals": 104,
+      "mean": 4295499.73076923,
+      "sd": 1589973.03899137,
+      "median": 3871863,
+      "min": 1745358,
+      "max": 11386340
+    },
+    {
+      "reference": "nanus",
+      "stratum": "core",
+      "stratum_level": "population_class",
+      "metric": "mapped_primary",
+      "n_individuals": 104,
+      "mean": 4267471.58653846,
+      "sd": 1582960.30799935,
+      "median": 3845529,
+      "min": 1733834,
+      "max": 11321427
+    },
+    {
+      "reference": "nanus",
+      "stratum": "core",
+      "stratum_level": "population_class",
+      "metric": "mapped_fraction",
+      "n_individuals": 104,
+      "mean": 0.993288744020348,
+      "sd": 0.0014716769889938,
+      "median": 0.993552432780682,
+      "min": 0.98467319196059,
+      "max": 0.995812629727289
+    },
+    {
+      "reference": "nanus",
+      "stratum": "core",
+      "stratum_level": "population_class",
+      "metric": "properly_paired_primary_fraction",
+      "n_individuals": 104,
+      "mean": 0.840256246972245,
+      "sd": 0.0357853379994116,
+      "median": 0.841981147503968,
+      "min": 0.780176144965141,
+      "max": 0.925146412000715
+    },
+    {
+      "reference": "nanus",
+      "stratum": "core",
+      "stratum_level": "population_class",
+      "metric": "mapq20_primary_fraction",
+      "n_individuals": 104,
+      "mean": 0.634182893126307,
+      "sd": 0.0242317410199772,
+      "median": 0.629581740086856,
+      "min": 0.591660396036147,
+      "max": 0.702890685895854
+    },
+    {
+      "reference": "nanus",
+      "stratum": "core",
+      "stratum_level": "population_class",
+      "metric": "covered_bases_q20Q20",
+      "n_individuals": 104,
+      "mean": 43155436.1730769,
+      "sd": 9626648.46933175,
+      "median": 41713723,
+      "min": 26159792,
+      "max": 69107350
+    },
+    {
+      "reference": "nanus",
+      "stratum": "core",
+      "stratum_level": "population_class",
+      "metric": "covered_bases_ge4",
+      "n_individuals": 104,
+      "mean": 16343783.0673077,
+      "sd": 3354912.54655714,
+      "median": 15744595.5,
+      "min": 8655098,
+      "max": 30797487
+    },
+    {
+      "reference": "nanus",
+      "stratum": "core",
+      "stratum_level": "population_class",
+      "metric": "covered_base_mean_depth",
+      "n_individuals": 104,
+      "mean": 7.81429344220101,
+      "sd": 2.82328468066019,
+      "median": 7.26999569911383,
+      "min": 4.14154311369687,
+      "max": 20.8239926222612
+    },
+    {
+      "reference": "nanus",
+      "stratum": "core",
+      "stratum_level": "population_class",
+      "metric": "covered_base_median_depth_lower",
+      "n_individuals": 104,
+      "mean": 2.375,
+      "sd": 0.656372792487963,
+      "median": 2,
+      "min": 2,
+      "max": 6
+    },
+    {
+      "reference": "nanus",
+      "stratum": "core",
+      "stratum_level": "population_class",
+      "metric": "assembly_bases",
+      "n_individuals": 104,
+      "mean": 823736225,
+      "sd": 0,
+      "median": 823736225,
+      "min": 823736225,
+      "max": 823736225
+    },
+    {
+      "reference": "nanus",
+      "stratum": "core",
+      "stratum_level": "population_class",
+      "metric": "assembly_breadth_ge1",
+      "n_individuals": 104,
+      "mean": 0.0523898729512314,
+      "sd": 0.0116865668610504,
+      "median": 0.050639660772476,
+      "min": 0.0317574864453727,
+      "max": 0.0838949992760122
+    },
+    {
+      "reference": "nanus",
+      "stratum": "core",
+      "stratum_level": "population_class",
+      "metric": "assembly_breadth_ge4",
+      "n_individuals": 104,
+      "mean": 0.0198410396086535,
+      "sd": 0.00407279957435056,
+      "median": 0.019113637378276,
+      "min": 0.0105071231995412,
+      "max": 0.037387559348868
+    },
+    {
+      "reference": "nanus",
+      "stratum": "core",
+      "stratum_level": "population_class",
+      "metric": "whole_assembly_mean_depth",
+      "n_individuals": 104,
+      "mean": 0.398496290507596,
+      "sd": 0.145573695727104,
+      "median": 0.360386506008037,
+      "min": 0.169795481557218,
+      "max": 1.05106608368474
+    },
+    {
+      "reference": "nanus",
+      "stratum": "peripheral",
+      "stratum_level": "population_class",
+      "metric": "clean_pairs",
+      "n_individuals": 113,
+      "mean": 2022188.09734513,
+      "sd": 862094.93459994,
+      "median": 1716344,
+      "min": 839809,
+      "max": 5449034
+    },
+    {
+      "reference": "nanus",
+      "stratum": "peripheral",
+      "stratum_level": "population_class",
+      "metric": "primary_records",
+      "n_individuals": 113,
+      "mean": 4044376.19469027,
+      "sd": 1724189.86919988,
+      "median": 3432688,
+      "min": 1679618,
+      "max": 10898068
+    },
+    {
+      "reference": "nanus",
+      "stratum": "peripheral",
+      "stratum_level": "population_class",
+      "metric": "mapped_primary",
+      "n_individuals": 113,
+      "mean": 4016813.48672566,
+      "sd": 1714457.73195,
+      "median": 3404717,
+      "min": 1665360,
+      "max": 10845166
+    },
+    {
+      "reference": "nanus",
+      "stratum": "peripheral",
+      "stratum_level": "population_class",
+      "metric": "mapped_fraction",
+      "n_individuals": 113,
+      "mean": 0.993033486440512,
+      "sd": 0.00158534341320881,
+      "median": 0.993300877180348,
+      "min": 0.986423942966525,
+      "max": 0.995303147212869
+    },
+    {
+      "reference": "nanus",
+      "stratum": "peripheral",
+      "stratum_level": "population_class",
+      "metric": "properly_paired_primary_fraction",
+      "n_individuals": 113,
+      "mean": 0.842475999039576,
+      "sd": 0.0370837957341897,
+      "median": 0.835271916921729,
+      "min": 0.774883791395112,
+      "max": 0.929297471549339
+    },
+    {
+      "reference": "nanus",
+      "stratum": "peripheral",
+      "stratum_level": "population_class",
+      "metric": "mapq20_primary_fraction",
+      "n_individuals": 113,
+      "mean": 0.634633367303087,
+      "sd": 0.0219619846557195,
+      "median": 0.634968034272328,
+      "min": 0.581318295993894,
+      "max": 0.691109676957633
+    },
+    {
+      "reference": "nanus",
+      "stratum": "peripheral",
+      "stratum_level": "population_class",
+      "metric": "covered_bases_q20Q20",
+      "n_individuals": 113,
+      "mean": 46413393.4867257,
+      "sd": 10398671.519031,
+      "median": 44731261,
+      "min": 28751801,
+      "max": 74992206
+    },
+    {
+      "reference": "nanus",
+      "stratum": "peripheral",
+      "stratum_level": "population_class",
+      "metric": "covered_bases_ge4",
+      "n_individuals": 113,
+      "mean": 16709148.7964602,
+      "sd": 4758577.78425203,
+      "median": 15368991,
+      "min": 9862837,
+      "max": 30737769
+    },
+    {
+      "reference": "nanus",
+      "stratum": "peripheral",
+      "stratum_level": "population_class",
+      "metric": "covered_base_mean_depth",
+      "n_individuals": 113,
+      "mean": 6.65230487758756,
+      "sd": 1.92144680538834,
+      "median": 6.45602252855243,
+      "min": 3.66259068390039,
+      "max": 14.2129660236824
+    },
+    {
+      "reference": "nanus",
+      "stratum": "peripheral",
+      "stratum_level": "population_class",
+      "metric": "covered_base_median_depth_lower",
+      "n_individuals": 113,
+      "mean": 2.12389380530973,
+      "sd": 0.330927898999591,
+      "median": 2,
+      "min": 2,
+      "max": 3
+    },
+    {
+      "reference": "nanus",
+      "stratum": "peripheral",
+      "stratum_level": "population_class",
+      "metric": "assembly_bases",
+      "n_individuals": 113,
+      "mean": 823736225,
+      "sd": 0,
+      "median": 823736225,
+      "min": 823736225,
+      "max": 823736225
+    },
+    {
+      "reference": "nanus",
+      "stratum": "peripheral",
+      "stratum_level": "population_class",
+      "metric": "assembly_breadth_ge1",
+      "n_individuals": 113,
+      "mean": 0.05634497072983,
+      "sd": 0.0126237880567059,
+      "median": 0.0543028941090942,
+      "min": 0.034904135726215,
+      "max": 0.0910391017464359
+    },
+    {
+      "reference": "nanus",
+      "stratum": "peripheral",
+      "stratum_level": "population_class",
+      "metric": "assembly_breadth_ge4",
+      "n_individuals": 113,
+      "mean": 0.0202845866059371,
+      "sd": 0.00577682228829019,
+      "median": 0.0186576607092883,
+      "min": 0.0119732952135254,
+      "max": 0.0373150628406563
+    },
+    {
+      "reference": "nanus",
+      "stratum": "peripheral",
+      "stratum_level": "population_class",
+      "metric": "whole_assembly_mean_depth",
+      "n_individuals": 113,
+      "mean": 0.374908562335482,
+      "sd": 0.15122287795282,
+      "median": 0.322767627464726,
+      "min": 0.157338808306021,
+      "max": 0.967855753824594
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "overall",
+      "stratum_level": "all_individuals",
+      "metric": "clean_pairs",
+      "n_individuals": 217,
+      "mean": 2082365.16589862,
+      "sd": 831078.750610904,
+      "median": 1790977,
+      "min": 839809,
+      "max": 5693170
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "overall",
+      "stratum_level": "all_individuals",
+      "metric": "primary_records",
+      "n_individuals": 217,
+      "mean": 4164730.33179724,
+      "sd": 1662157.50122181,
+      "median": 3581954,
+      "min": 1679618,
+      "max": 11386340
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "overall",
+      "stratum_level": "all_individuals",
+      "metric": "mapped_primary",
+      "n_individuals": 217,
+      "mean": 4145992.02304147,
+      "sd": 1656099.98507629,
+      "median": 3565655,
+      "min": 1668835,
+      "max": 11337700
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "overall",
+      "stratum_level": "all_individuals",
+      "metric": "mapped_fraction",
+      "n_individuals": 217,
+      "mean": 0.995396979814213,
+      "sd": 0.00152420306195632,
+      "median": 0.995804729826849,
+      "min": 0.986059687551747,
+      "max": 0.997397597144303
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "overall",
+      "stratum_level": "all_individuals",
+      "metric": "properly_paired_primary_fraction",
+      "n_individuals": 217,
+      "mean": 0.899023117671131,
+      "sd": 0.039179104040973,
+      "median": 0.89959196580156,
+      "min": 0.823889184479607,
+      "max": 0.978413809485151
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "overall",
+      "stratum_level": "all_individuals",
+      "metric": "mapq20_primary_fraction",
+      "n_individuals": 217,
+      "mean": 0.770171488950122,
+      "sd": 0.0193960653906054,
+      "median": 0.768241755872138,
+      "min": 0.718712593629279,
+      "max": 0.82106778458678
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "overall",
+      "stratum_level": "all_individuals",
+      "metric": "covered_bases_q20Q20",
+      "n_individuals": 217,
+      "mean": 59471391.6774194,
+      "sd": 13393381.2161801,
+      "median": 58257220,
+      "min": 34208642,
+      "max": 99665133
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "overall",
+      "stratum_level": "all_individuals",
+      "metric": "covered_bases_ge4",
+      "n_individuals": 217,
+      "mean": 21924132.3917051,
+      "sd": 5650161.84152708,
+      "median": 20445449,
+      "min": 11320514,
+      "max": 41353751
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "overall",
+      "stratum_level": "all_individuals",
+      "metric": "covered_base_mean_depth",
+      "n_individuals": 217,
+      "mean": 6.64887250797467,
+      "sd": 2.26400331580639,
+      "median": 6.27274355379168,
+      "min": 3.37639645441568,
+      "max": 19.4540105436984
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "overall",
+      "stratum_level": "all_individuals",
+      "metric": "covered_base_median_depth_lower",
+      "n_individuals": 217,
+      "mean": 2.25806451612903,
+      "sd": 0.550876351895467,
+      "median": 2,
+      "min": 2,
+      "max": 6
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "overall",
+      "stratum_level": "all_individuals",
+      "metric": "assembly_bases",
+      "n_individuals": 217,
+      "mean": 843074137,
+      "sd": 0,
+      "median": 843074137,
+      "min": 843074137,
+      "max": 843074137
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "overall",
+      "stratum_level": "all_individuals",
+      "metric": "assembly_breadth_ge1",
+      "n_individuals": 217,
+      "mean": 0.0705411174028451,
+      "sd": 0.0158863623356295,
+      "median": 0.0691009455079512,
+      "min": 0.0405760780679719,
+      "max": 0.118216333091001
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "overall",
+      "stratum_level": "all_individuals",
+      "metric": "assembly_breadth_ge4",
+      "n_individuals": 217,
+      "mean": 0.0260049874969715,
+      "sd": 0.00670185644839332,
+      "median": 0.0242510689187468,
+      "min": 0.0134276613445681,
+      "max": 0.049051144122572
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "overall",
+      "stratum_level": "all_individuals",
+      "metric": "whole_assembly_mean_depth",
+      "n_individuals": 217,
+      "mean": 0.463202260237823,
+      "sd": 0.18364907074138,
+      "median": 0.402352677081351,
+      "min": 0.191375491097528,
+      "max": 1.25315125400413
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "core",
+      "stratum_level": "population_class",
+      "metric": "clean_pairs",
+      "n_individuals": 104,
+      "mean": 2147749.86538462,
+      "sd": 794986.519495686,
+      "median": 1935931.5,
+      "min": 872679,
+      "max": 5693170
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "core",
+      "stratum_level": "population_class",
+      "metric": "primary_records",
+      "n_individuals": 104,
+      "mean": 4295499.73076923,
+      "sd": 1589973.03899137,
+      "median": 3871863,
+      "min": 1745358,
+      "max": 11386340
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "core",
+      "stratum_level": "population_class",
+      "metric": "mapped_primary",
+      "n_individuals": 104,
+      "mean": 4276911.98076923,
+      "sd": 1585221.28432884,
+      "median": 3855303,
+      "min": 1738723,
+      "max": 11337700
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "core",
+      "stratum_level": "population_class",
+      "metric": "mapped_fraction",
+      "n_individuals": 104,
+      "mean": 0.995540372406839,
+      "sd": 0.0014292564575396,
+      "median": 0.995895779183408,
+      "min": 0.986059687551747,
+      "max": 0.997397597144303
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "core",
+      "stratum_level": "population_class",
+      "metric": "properly_paired_primary_fraction",
+      "n_individuals": 104,
+      "mean": 0.898257764888729,
+      "sd": 0.040190830616453,
+      "median": 0.904207283348756,
+      "min": 0.823889184479607,
+      "max": 0.976121445918087
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "core",
+      "stratum_level": "population_class",
+      "metric": "mapq20_primary_fraction",
+      "n_individuals": 104,
+      "mean": 0.769436096338196,
+      "sd": 0.0200424996303921,
+      "median": 0.766560924699724,
+      "min": 0.731254784425155,
+      "max": 0.82106778458678
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "core",
+      "stratum_level": "population_class",
+      "metric": "covered_bases_q20Q20",
+      "n_individuals": 104,
+      "mean": 57163920.0096154,
+      "sd": 12813271.5439376,
+      "median": 55455169,
+      "min": 34208642,
+      "max": 92013787
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "core",
+      "stratum_level": "population_class",
+      "metric": "covered_bases_ge4",
+      "n_individuals": 104,
+      "mean": 21694364.9903846,
+      "sd": 4623147.0747011,
+      "median": 20805875,
+      "min": 11320514,
+      "max": 41353751
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "core",
+      "stratum_level": "population_class",
+      "metric": "covered_base_mean_depth",
+      "n_individuals": 104,
+      "mean": 7.20966590833043,
+      "sd": 2.59015662875359,
+      "median": 6.80447994330988,
+      "min": 3.78452444849522,
+      "max": 19.4540105436984
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "core",
+      "stratum_level": "population_class",
+      "metric": "covered_base_median_depth_lower",
+      "n_individuals": 104,
+      "mean": 2.375,
+      "sd": 0.685317586360336,
+      "median": 2,
+      "min": 2,
+      "max": 6
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "core",
+      "stratum_level": "population_class",
+      "metric": "assembly_bases",
+      "n_individuals": 104,
+      "mean": 843074137,
+      "sd": 0,
+      "median": 843074137,
+      "min": 843074137,
+      "max": 843074137
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "core",
+      "stratum_level": "population_class",
+      "metric": "assembly_breadth_ge1",
+      "n_individuals": 104,
+      "mean": 0.0678041437886208,
+      "sd": 0.0151982737716667,
+      "median": 0.065777333885881,
+      "min": 0.0405760780679719,
+      "max": 0.10914080145718
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "core",
+      "stratum_level": "population_class",
+      "metric": "assembly_breadth_ge4",
+      "n_individuals": 104,
+      "mean": 0.0257324522699534,
+      "sd": 0.00548367797303347,
+      "median": 0.0246785829227733,
+      "min": 0.0134276613445681,
+      "max": 0.049051144122572
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "core",
+      "stratum_level": "population_class",
+      "metric": "whole_assembly_mean_depth",
+      "n_individuals": 104,
+      "mean": 0.476942833612454,
+      "sd": 0.177011250831623,
+      "median": 0.430669865276629,
+      "min": 0.200389055464526,
+      "max": 1.25315125400413
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "peripheral",
+      "stratum_level": "population_class",
+      "metric": "clean_pairs",
+      "n_individuals": 113,
+      "mean": 2022188.09734513,
+      "sd": 862094.93459994,
+      "median": 1716344,
+      "min": 839809,
+      "max": 5449034
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "peripheral",
+      "stratum_level": "population_class",
+      "metric": "primary_records",
+      "n_individuals": 113,
+      "mean": 4044376.19469027,
+      "sd": 1724189.86919988,
+      "median": 3432688,
+      "min": 1679618,
+      "max": 10898068
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "peripheral",
+      "stratum_level": "population_class",
+      "metric": "mapped_primary",
+      "n_individuals": 113,
+      "mean": 4025499.31858407,
+      "sd": 1716936.43759306,
+      "median": 3412227,
+      "min": 1668835,
+      "max": 10858175
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "peripheral",
+      "stratum_level": "population_class",
+      "metric": "mapped_fraction",
+      "n_individuals": 113,
+      "mean": 0.995265007870557,
+      "sd": 0.00160161170437434,
+      "median": 0.995686718039421,
+      "min": 0.987863533162431,
+      "max": 0.997298039050106
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "peripheral",
+      "stratum_level": "population_class",
+      "metric": "properly_paired_primary_fraction",
+      "n_individuals": 113,
+      "mean": 0.89972751315228,
+      "sd": 0.038390299594264,
+      "median": 0.896149768887719,
+      "min": 0.825389049276979,
+      "max": 0.978413809485151
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "peripheral",
+      "stratum_level": "population_class",
+      "metric": "mapq20_primary_fraction",
+      "n_individuals": 113,
+      "mean": 0.770848310469063,
+      "sd": 0.0188455888028684,
+      "median": 0.769575363013309,
+      "min": 0.718712593629279,
+      "max": 0.815764747471928
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "peripheral",
+      "stratum_level": "population_class",
+      "metric": "covered_bases_q20Q20",
+      "n_individuals": 113,
+      "mean": 61595082.4159292,
+      "sd": 13618771.446695,
+      "median": 59508693,
+      "min": 38003851,
+      "max": 99665133
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "peripheral",
+      "stratum_level": "population_class",
+      "metric": "covered_bases_ge4",
+      "n_individuals": 113,
+      "mean": 22135599.7345133,
+      "sd": 6466701.80680217,
+      "median": 19844679,
+      "min": 12884448,
+      "max": 40793169
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "peripheral",
+      "stratum_level": "population_class",
+      "metric": "covered_base_mean_depth",
+      "n_individuals": 113,
+      "mean": 6.13274406870919,
+      "sd": 1.77614882367635,
+      "median": 5.98527480018456,
+      "min": 3.37639645441568,
+      "max": 12.4907431708873
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "peripheral",
+      "stratum_level": "population_class",
+      "metric": "covered_base_median_depth_lower",
+      "n_individuals": 113,
+      "mean": 2.15044247787611,
+      "sd": 0.359097055574641,
+      "median": 2,
+      "min": 2,
+      "max": 3
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "peripheral",
+      "stratum_level": "population_class",
+      "metric": "assembly_bases",
+      "n_individuals": 113,
+      "mean": 843074137,
+      "sd": 0,
+      "median": 843074137,
+      "min": 843074137,
+      "max": 843074137
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "peripheral",
+      "stratum_level": "population_class",
+      "metric": "assembly_breadth_ge1",
+      "n_individuals": 113,
+      "mean": 0.073060101968149,
+      "sd": 0.016153705645812,
+      "median": 0.0705853618185419,
+      "min": 0.0450777094589014,
+      "max": 0.118216333091001
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "peripheral",
+      "stratum_level": "population_class",
+      "metric": "assembly_breadth_ge4",
+      "n_individuals": 113,
+      "mean": 0.026255816378475,
+      "sd": 0.00767038333047829,
+      "median": 0.0235384744105844,
+      "min": 0.0152826986792029,
+      "max": 0.0483862180201123
+    },
+    {
+      "reference": "mongolicus",
+      "stratum": "peripheral",
+      "stratum_level": "population_class",
+      "metric": "whole_assembly_mean_depth",
+      "n_individuals": 113,
+      "mean": 0.450556068813383,
+      "sd": 0.189454656515023,
+      "median": 0.386656835613497,
+      "min": 0.191375491097528,
+      "max": 1.19323425289703
+    }
+  ],
+  "paired_change_summaries": [
+    {
+      "stratum": "overall",
+      "metric": "mapped_fraction_mongolicus_minus_nanus",
+      "n_individuals": 217,
+      "mean": 0.00224115794373303,
+      "sd": 0.000487380952685425,
+      "median": 0.00220823869453213,
+      "min": 0.00114490794492161,
+      "max": 0.00341713652128606
+    },
+    {
+      "stratum": "overall",
+      "metric": "properly_paired_primary_fraction_mongolicus_minus_nanus",
+      "n_individuals": 217,
+      "mean": 0.0576109629403221,
+      "sd": 0.0108802436869583,
+      "median": 0.059963780225439,
+      "min": 0.0154492753493424,
+      "max": 0.0771167037180838
+    },
+    {
+      "stratum": "overall",
+      "metric": "mapq20_primary_fraction_mongolicus_minus_nanus",
+      "n_individuals": 217,
+      "mean": 0.135754017105031,
+      "sd": 0.0156393789677429,
+      "median": 0.135185304321016,
+      "min": 0.0873267340867397,
+      "max": 0.178545054647789
+    },
+    {
+      "stratum": "overall",
+      "metric": "covered_base_mean_depth_mongolicus_minus_nanus",
+      "n_individuals": 217,
+      "mean": -0.560330114865423,
+      "sd": 0.284203144106931,
+      "median": -0.494488938908119,
+      "min": -1.72222285279513,
+      "max": -0.0232876473692425
+    },
+    {
+      "stratum": "overall",
+      "metric": "whole_assembly_mean_depth_mongolicus_minus_nanus",
+      "n_individuals": 217,
+      "mean": 0.0769889802530322,
+      "sd": 0.0364714972861725,
+      "median": 0.0661671625921599,
+      "min": 0.0278407269062785,
+      "max": 0.238478834626687
+    },
+    {
+      "stratum": "overall",
+      "metric": "assembly_breadth_ge1_mongolicus_minus_nanus",
+      "n_individuals": 217,
+      "mean": 0.0160916774056154,
+      "sd": 0.00364933372947056,
+      "median": 0.0158423998615026,
+      "min": 0.00875628891155835,
+      "max": 0.0271772313445649
+    },
+    {
+      "stratum": "overall",
+      "metric": "assembly_breadth_ge4_mongolicus_minus_nanus",
+      "n_individuals": 217,
+      "mean": 0.00593297641046991,
+      "sd": 0.00172022674763305,
+      "median": 0.00549633704554512,
+      "min": 0.00292053814502688,
+      "max": 0.011663584773704
+    },
+    {
+      "stratum": "core",
+      "metric": "mapped_fraction_mongolicus_minus_nanus",
+      "n_individuals": 104,
+      "mean": 0.00225162838649034,
+      "sd": 0.000453136522635565,
+      "median": 0.00221380016302258,
+      "min": 0.00130231533943193,
+      "max": 0.00338736934499417
+    },
+    {
+      "stratum": "core",
+      "metric": "properly_paired_primary_fraction_mongolicus_minus_nanus",
+      "n_individuals": 104,
+      "mean": 0.0580015179164842,
+      "sd": 0.0117698459222442,
+      "median": 0.0604524565811401,
+      "min": 0.0154492753493424,
+      "max": 0.0759536336394331
+    },
+    {
+      "stratum": "core",
+      "metric": "mapq20_primary_fraction_mongolicus_minus_nanus",
+      "n_individuals": 104,
+      "mean": 0.135253203211889,
+      "sd": 0.0142625742157524,
+      "median": 0.135920708351446,
+      "min": 0.0887303529334035,
+      "max": 0.169777352668125
+    },
+    {
+      "stratum": "core",
+      "metric": "covered_base_mean_depth_mongolicus_minus_nanus",
+      "n_individuals": 104,
+      "mean": -0.604627533870584,
+      "sd": 0.304228934458438,
+      "median": -0.512646514592704,
+      "min": -1.40980821082269,
+      "max": -0.074642404776819
+    },
+    {
+      "stratum": "core",
+      "metric": "whole_assembly_mean_depth_mongolicus_minus_nanus",
+      "n_individuals": 104,
+      "mean": 0.0784465431048571,
+      "sd": 0.0327809197037197,
+      "median": 0.0702301438054975,
+      "min": 0.0305935739073074,
+      "max": 0.216470412133147
+    },
+    {
+      "stratum": "core",
+      "metric": "assembly_breadth_ge1_mongolicus_minus_nanus",
+      "n_individuals": 104,
+      "mean": 0.0154142708373894,
+      "sd": 0.00358717317452613,
+      "median": 0.0149630035797788,
+      "min": 0.00875628891155835,
+      "max": 0.0256856080182847
+    },
+    {
+      "stratum": "core",
+      "metric": "assembly_breadth_ge4_mongolicus_minus_nanus",
+      "n_individuals": 104,
+      "mean": 0.00589141266129988,
+      "sd": 0.00146672471953771,
+      "median": 0.00564869399561805,
+      "min": 0.00292053814502688,
+      "max": 0.011663584773704
+    },
+    {
+      "stratum": "peripheral",
+      "metric": "mapped_fraction_mongolicus_minus_nanus",
+      "n_individuals": 113,
+      "mean": 0.00223152143004488,
+      "sd": 0.000518734016699559,
+      "median": 0.00218778986030777,
+      "min": 0.00114490794492161,
+      "max": 0.00341713652128606
+    },
+    {
+      "stratum": "peripheral",
+      "metric": "properly_paired_primary_fraction_mongolicus_minus_nanus",
+      "n_individuals": 113,
+      "mean": 0.0572515141127038,
+      "sd": 0.0100316629155969,
+      "median": 0.0592295060726176,
+      "min": 0.0228117301563,
+      "max": 0.0771167037180838
+    },
+    {
+      "stratum": "peripheral",
+      "metric": "mapq20_primary_fraction_mongolicus_minus_nanus",
+      "n_individuals": 113,
+      "mean": 0.136214943165976,
+      "sd": 0.0168578670728494,
+      "median": 0.134763516913114,
+      "min": 0.0873267340867397,
+      "max": 0.178545054647789
+    },
+    {
+      "stratum": "peripheral",
+      "metric": "covered_base_mean_depth_mongolicus_minus_nanus",
+      "n_individuals": 113,
+      "mean": -0.519560808878372,
+      "sd": 0.259145944240768,
+      "median": -0.467742792473156,
+      "min": -1.72222285279513,
+      "max": -0.0232876473692425
+    },
+    {
+      "stratum": "peripheral",
+      "metric": "whole_assembly_mean_depth_mongolicus_minus_nanus",
+      "n_individuals": 113,
+      "mean": 0.0756475064779014,
+      "sd": 0.0396648698323662,
+      "median": 0.0631225376064594,
+      "min": 0.0278407269062785,
+      "max": 0.238478834626687
+    },
+    {
+      "stratum": "peripheral",
+      "metric": "assembly_breadth_ge1_mongolicus_minus_nanus",
+      "n_individuals": 113,
+      "mean": 0.016715131238319,
+      "sd": 0.00360997992233956,
+      "median": 0.0163506333743996,
+      "min": 0.010028825940394,
+      "max": 0.0271772313445649
+    },
+    {
+      "stratum": "peripheral",
+      "metric": "assembly_breadth_ge4_mongolicus_minus_nanus",
+      "n_individuals": 113,
+      "mean": 0.00597122977253791,
+      "sd": 0.00193015517819702,
+      "median": 0.00529067624652048,
+      "min": 0.00330940346567745,
+      "max": 0.0111176603577368
+    }
+  ],
+  "pca_variance": [
+    {
+      "reference": "nanus",
+      "component": 1,
+      "variance_fraction": 0.097098709290992
+    },
+    {
+      "reference": "nanus",
+      "component": 2,
+      "variance_fraction": 0.0352211212608883
+    },
+    {
+      "reference": "nanus",
+      "component": 3,
+      "variance_fraction": 0.0258607848804795
+    },
+    {
+      "reference": "nanus",
+      "component": 4,
+      "variance_fraction": 0.0234856475009657
+    },
+    {
+      "reference": "nanus",
+      "component": 5,
+      "variance_fraction": 0.0218227366709674
+    },
+    {
+      "reference": "nanus",
+      "component": 6,
+      "variance_fraction": 0.0176548329838935
+    },
+    {
+      "reference": "nanus",
+      "component": 7,
+      "variance_fraction": 0.0164356983209848
+    },
+    {
+      "reference": "nanus",
+      "component": 8,
+      "variance_fraction": 0.0158649395408716
+    },
+    {
+      "reference": "nanus",
+      "component": 9,
+      "variance_fraction": 0.0147322118218965
+    },
+    {
+      "reference": "nanus",
+      "component": 10,
+      "variance_fraction": 0.0138975573602332
+    },
+    {
+      "reference": "nanus",
+      "component": 11,
+      "variance_fraction": 0.0123874828768521
+    },
+    {
+      "reference": "nanus",
+      "component": 12,
+      "variance_fraction": 0.011375333496443
+    },
+    {
+      "reference": "nanus",
+      "component": 13,
+      "variance_fraction": 0.0109854594037881
+    },
+    {
+      "reference": "nanus",
+      "component": 14,
+      "variance_fraction": 0.0103601928196416
+    },
+    {
+      "reference": "nanus",
+      "component": 15,
+      "variance_fraction": 0.0100973183306938
+    },
+    {
+      "reference": "nanus",
+      "component": 16,
+      "variance_fraction": 0.00987505084199133
+    },
+    {
+      "reference": "nanus",
+      "component": 17,
+      "variance_fraction": 0.00929066425409796
+    },
+    {
+      "reference": "nanus",
+      "component": 18,
+      "variance_fraction": 0.00871745255449613
+    },
+    {
+      "reference": "nanus",
+      "component": 19,
+      "variance_fraction": 0.00852775089351473
+    },
+    {
+      "reference": "nanus",
+      "component": 20,
+      "variance_fraction": 0.00847928410228856
+    },
+    {
+      "reference": "nanus",
+      "component": 21,
+      "variance_fraction": 0.00791746049698483
+    },
+    {
+      "reference": "nanus",
+      "component": 22,
+      "variance_fraction": 0.00785123446151145
+    },
+    {
+      "reference": "nanus",
+      "component": 23,
+      "variance_fraction": 0.0076769248274643
+    },
+    {
+      "reference": "nanus",
+      "component": 24,
+      "variance_fraction": 0.00762140284276418
+    },
+    {
+      "reference": "nanus",
+      "component": 25,
+      "variance_fraction": 0.00741223108277093
+    },
+    {
+      "reference": "nanus",
+      "component": 26,
+      "variance_fraction": 0.00723655888965101
+    },
+    {
+      "reference": "nanus",
+      "component": 27,
+      "variance_fraction": 0.0071812154237293
+    },
+    {
+      "reference": "nanus",
+      "component": 28,
+      "variance_fraction": 0.00704962953380812
+    },
+    {
+      "reference": "nanus",
+      "component": 29,
+      "variance_fraction": 0.00696897658376162
+    },
+    {
+      "reference": "nanus",
+      "component": 30,
+      "variance_fraction": 0.00672289858391067
+    },
+    {
+      "reference": "nanus",
+      "component": 31,
+      "variance_fraction": 0.00665984708388957
+    },
+    {
+      "reference": "nanus",
+      "component": 32,
+      "variance_fraction": 0.00656844063157296
+    },
+    {
+      "reference": "nanus",
+      "component": 33,
+      "variance_fraction": 0.00640172345870877
+    },
+    {
+      "reference": "nanus",
+      "component": 34,
+      "variance_fraction": 0.00628498013621204
+    },
+    {
+      "reference": "nanus",
+      "component": 35,
+      "variance_fraction": 0.00624414504654972
+    },
+    {
+      "reference": "nanus",
+      "component": 36,
+      "variance_fraction": 0.00622012233719079
+    },
+    {
+      "reference": "nanus",
+      "component": 37,
+      "variance_fraction": 0.00618324196460856
+    },
+    {
+      "reference": "nanus",
+      "component": 38,
+      "variance_fraction": 0.00609770407298514
+    },
+    {
+      "reference": "nanus",
+      "component": 39,
+      "variance_fraction": 0.00604530061930005
+    },
+    {
+      "reference": "nanus",
+      "component": 40,
+      "variance_fraction": 0.0059878863015114
+    },
+    {
+      "reference": "nanus",
+      "component": 41,
+      "variance_fraction": 0.00586924989747082
+    },
+    {
+      "reference": "nanus",
+      "component": 42,
+      "variance_fraction": 0.0057935444448332
+    },
+    {
+      "reference": "nanus",
+      "component": 43,
+      "variance_fraction": 0.0057330820162304
+    },
+    {
+      "reference": "nanus",
+      "component": 44,
+      "variance_fraction": 0.00568938036146088
+    },
+    {
+      "reference": "nanus",
+      "component": 45,
+      "variance_fraction": 0.00565124221034601
+    },
+    {
+      "reference": "nanus",
+      "component": 46,
+      "variance_fraction": 0.00562713386801566
+    },
+    {
+      "reference": "nanus",
+      "component": 47,
+      "variance_fraction": 0.00553417713063566
+    },
+    {
+      "reference": "nanus",
+      "component": 48,
+      "variance_fraction": 0.00548121171918783
+    },
+    {
+      "reference": "nanus",
+      "component": 49,
+      "variance_fraction": 0.00537937535553519
+    },
+    {
+      "reference": "nanus",
+      "component": 50,
+      "variance_fraction": 0.00536624893031206
+    },
+    {
+      "reference": "nanus",
+      "component": 51,
+      "variance_fraction": 0.00519377513898153
+    },
+    {
+      "reference": "nanus",
+      "component": 52,
+      "variance_fraction": 0.00514639809144316
+    },
+    {
+      "reference": "nanus",
+      "component": 53,
+      "variance_fraction": 0.00513813164835362
+    },
+    {
+      "reference": "nanus",
+      "component": 54,
+      "variance_fraction": 0.00512806615317171
+    },
+    {
+      "reference": "nanus",
+      "component": 55,
+      "variance_fraction": 0.00506806032029767
+    },
+    {
+      "reference": "nanus",
+      "component": 56,
+      "variance_fraction": 0.00503957799613168
+    },
+    {
+      "reference": "nanus",
+      "component": 57,
+      "variance_fraction": 0.00499418866761636
+    },
+    {
+      "reference": "nanus",
+      "component": 58,
+      "variance_fraction": 0.00495099955971399
+    },
+    {
+      "reference": "nanus",
+      "component": 59,
+      "variance_fraction": 0.00492958207212491
+    },
+    {
+      "reference": "nanus",
+      "component": 60,
+      "variance_fraction": 0.00483522575594633
+    },
+    {
+      "reference": "nanus",
+      "component": 61,
+      "variance_fraction": 0.00478806089912872
+    },
+    {
+      "reference": "nanus",
+      "component": 62,
+      "variance_fraction": 0.00474099227569552
+    },
+    {
+      "reference": "nanus",
+      "component": 63,
+      "variance_fraction": 0.0046953012412165
+    },
+    {
+      "reference": "nanus",
+      "component": 64,
+      "variance_fraction": 0.00463847738193921
+    },
+    {
+      "reference": "nanus",
+      "component": 65,
+      "variance_fraction": 0.00462917477480201
+    },
+    {
+      "reference": "nanus",
+      "component": 66,
+      "variance_fraction": 0.00458498410387241
+    },
+    {
+      "reference": "nanus",
+      "component": 67,
+      "variance_fraction": 0.00443203668986533
+    },
+    {
+      "reference": "nanus",
+      "component": 68,
+      "variance_fraction": 0.00440727301032794
+    },
+    {
+      "reference": "nanus",
+      "component": 69,
+      "variance_fraction": 0.00439579234577265
+    },
+    {
+      "reference": "nanus",
+      "component": 70,
+      "variance_fraction": 0.00435771107773322
+    },
+    {
+      "reference": "nanus",
+      "component": 71,
+      "variance_fraction": 0.00432801833926475
+    },
+    {
+      "reference": "nanus",
+      "component": 72,
+      "variance_fraction": 0.0042629589387189
+    },
+    {
+      "reference": "nanus",
+      "component": 73,
+      "variance_fraction": 0.00422274939310034
+    },
+    {
+      "reference": "nanus",
+      "component": 74,
+      "variance_fraction": 0.00417268805001135
+    },
+    {
+      "reference": "nanus",
+      "component": 75,
+      "variance_fraction": 0.00410276831165465
+    },
+    {
+      "reference": "nanus",
+      "component": 76,
+      "variance_fraction": 0.00408986219517526
+    },
+    {
+      "reference": "nanus",
+      "component": 77,
+      "variance_fraction": 0.0040711807419841
+    },
+    {
+      "reference": "nanus",
+      "component": 78,
+      "variance_fraction": 0.00399887709362015
+    },
+    {
+      "reference": "nanus",
+      "component": 79,
+      "variance_fraction": 0.00395452592080536
+    },
+    {
+      "reference": "nanus",
+      "component": 80,
+      "variance_fraction": 0.0039137714450825
+    },
+    {
+      "reference": "nanus",
+      "component": 81,
+      "variance_fraction": 0.00383753037631535
+    },
+    {
+      "reference": "nanus",
+      "component": 82,
+      "variance_fraction": 0.00375398663137183
+    },
+    {
+      "reference": "nanus",
+      "component": 83,
+      "variance_fraction": 0.00373301328476178
+    },
+    {
+      "reference": "nanus",
+      "component": 84,
+      "variance_fraction": 0.00369590081320206
+    },
+    {
+      "reference": "nanus",
+      "component": 85,
+      "variance_fraction": 0.00365064471273673
+    },
+    {
+      "reference": "nanus",
+      "component": 86,
+      "variance_fraction": 0.00359500619784576
+    },
+    {
+      "reference": "nanus",
+      "component": 87,
+      "variance_fraction": 0.00357865471224325
+    },
+    {
+      "reference": "nanus",
+      "component": 88,
+      "variance_fraction": 0.0035162614257226
+    },
+    {
+      "reference": "nanus",
+      "component": 89,
+      "variance_fraction": 0.00347600058152045
+    },
+    {
+      "reference": "nanus",
+      "component": 90,
+      "variance_fraction": 0.00344570618271075
+    },
+    {
+      "reference": "nanus",
+      "component": 91,
+      "variance_fraction": 0.00342867817791681
+    },
+    {
+      "reference": "nanus",
+      "component": 92,
+      "variance_fraction": 0.00338524385990846
+    },
+    {
+      "reference": "nanus",
+      "component": 93,
+      "variance_fraction": 0.00336822260489085
+    },
+    {
+      "reference": "nanus",
+      "component": 94,
+      "variance_fraction": 0.00332831994294615
+    },
+    {
+      "reference": "nanus",
+      "component": 95,
+      "variance_fraction": 0.00331973088759681
+    },
+    {
+      "reference": "nanus",
+      "component": 96,
+      "variance_fraction": 0.00326914716237878
+    },
+    {
+      "reference": "nanus",
+      "component": 97,
+      "variance_fraction": 0.0032428125958377
+    },
+    {
+      "reference": "nanus",
+      "component": 98,
+      "variance_fraction": 0.0032152630255462
+    },
+    {
+      "reference": "nanus",
+      "component": 99,
+      "variance_fraction": 0.00319925256233028
+    },
+    {
+      "reference": "nanus",
+      "component": 100,
+      "variance_fraction": 0.00318316461802819
+    },
+    {
+      "reference": "nanus",
+      "component": 101,
+      "variance_fraction": 0.00314621633449334
+    },
+    {
+      "reference": "nanus",
+      "component": 102,
+      "variance_fraction": 0.00313021146362734
+    },
+    {
+      "reference": "nanus",
+      "component": 103,
+      "variance_fraction": 0.00312575054992072
+    },
+    {
+      "reference": "nanus",
+      "component": 104,
+      "variance_fraction": 0.00309842083093317
+    },
+    {
+      "reference": "nanus",
+      "component": 105,
+      "variance_fraction": 0.00307592779143886
+    },
+    {
+      "reference": "nanus",
+      "component": 106,
+      "variance_fraction": 0.00306558344380784
+    },
+    {
+      "reference": "nanus",
+      "component": 107,
+      "variance_fraction": 0.0030563861826483
+    },
+    {
+      "reference": "nanus",
+      "component": 108,
+      "variance_fraction": 0.00303036843366483
+    },
+    {
+      "reference": "nanus",
+      "component": 109,
+      "variance_fraction": 0.00300094522413408
+    },
+    {
+      "reference": "nanus",
+      "component": 110,
+      "variance_fraction": 0.00298668344903559
+    },
+    {
+      "reference": "nanus",
+      "component": 111,
+      "variance_fraction": 0.00297678351715717
+    },
+    {
+      "reference": "nanus",
+      "component": 112,
+      "variance_fraction": 0.0029510949184
+    },
+    {
+      "reference": "nanus",
+      "component": 113,
+      "variance_fraction": 0.00294311170313587
+    },
+    {
+      "reference": "nanus",
+      "component": 114,
+      "variance_fraction": 0.00292879307469491
+    },
+    {
+      "reference": "nanus",
+      "component": 115,
+      "variance_fraction": 0.00291054766227401
+    },
+    {
+      "reference": "nanus",
+      "component": 116,
+      "variance_fraction": 0.00287323839589383
+    },
+    {
+      "reference": "nanus",
+      "component": 117,
+      "variance_fraction": 0.00286881972761951
+    },
+    {
+      "reference": "nanus",
+      "component": 118,
+      "variance_fraction": 0.0028509895929828
+    },
+    {
+      "reference": "nanus",
+      "component": 119,
+      "variance_fraction": 0.00283381651700363
+    },
+    {
+      "reference": "nanus",
+      "component": 120,
+      "variance_fraction": 0.00282025457604385
+    },
+    {
+      "reference": "nanus",
+      "component": 121,
+      "variance_fraction": 0.00280216851932284
+    },
+    {
+      "reference": "nanus",
+      "component": 122,
+      "variance_fraction": 0.00278742528585478
+    },
+    {
+      "reference": "nanus",
+      "component": 123,
+      "variance_fraction": 0.00276976616092935
+    },
+    {
+      "reference": "nanus",
+      "component": 124,
+      "variance_fraction": 0.00274663241635492
+    },
+    {
+      "reference": "nanus",
+      "component": 125,
+      "variance_fraction": 0.00273366701874756
+    },
+    {
+      "reference": "nanus",
+      "component": 126,
+      "variance_fraction": 0.00272743640870573
+    },
+    {
+      "reference": "nanus",
+      "component": 127,
+      "variance_fraction": 0.00270860838435314
+    },
+    {
+      "reference": "nanus",
+      "component": 128,
+      "variance_fraction": 0.00269750697351936
+    },
+    {
+      "reference": "nanus",
+      "component": 129,
+      "variance_fraction": 0.00266474612690145
+    },
+    {
+      "reference": "nanus",
+      "component": 130,
+      "variance_fraction": 0.00264621075939968
+    },
+    {
+      "reference": "nanus",
+      "component": 131,
+      "variance_fraction": 0.00260239582521004
+    },
+    {
+      "reference": "nanus",
+      "component": 132,
+      "variance_fraction": 0.00257719352350581
+    },
+    {
+      "reference": "nanus",
+      "component": 133,
+      "variance_fraction": 0.00256741943261469
+    },
+    {
+      "reference": "nanus",
+      "component": 134,
+      "variance_fraction": 0.00255826499594329
+    },
+    {
+      "reference": "nanus",
+      "component": 135,
+      "variance_fraction": 0.00254197292243179
+    },
+    {
+      "reference": "nanus",
+      "component": 136,
+      "variance_fraction": 0.00253818135472036
+    },
+    {
+      "reference": "nanus",
+      "component": 137,
+      "variance_fraction": 0.00250383010666132
+    },
+    {
+      "reference": "nanus",
+      "component": 138,
+      "variance_fraction": 0.00249007259915659
+    },
+    {
+      "reference": "nanus",
+      "component": 139,
+      "variance_fraction": 0.00247598916311522
+    },
+    {
+      "reference": "nanus",
+      "component": 140,
+      "variance_fraction": 0.00244246716669078
+    },
+    {
+      "reference": "nanus",
+      "component": 141,
+      "variance_fraction": 0.00241536903820483
+    },
+    {
+      "reference": "nanus",
+      "component": 142,
+      "variance_fraction": 0.00240212488400555
+    },
+    {
+      "reference": "nanus",
+      "component": 143,
+      "variance_fraction": 0.00236316297216827
+    },
+    {
+      "reference": "nanus",
+      "component": 144,
+      "variance_fraction": 0.00233321023736577
+    },
+    {
+      "reference": "nanus",
+      "component": 145,
+      "variance_fraction": 0.0023206757106614
+    },
+    {
+      "reference": "nanus",
+      "component": 146,
+      "variance_fraction": 0.00229290031901132
+    },
+    {
+      "reference": "nanus",
+      "component": 147,
+      "variance_fraction": 0.00226903061032077
+    },
+    {
+      "reference": "nanus",
+      "component": 148,
+      "variance_fraction": 0.00225136286541054
+    },
+    {
+      "reference": "nanus",
+      "component": 149,
+      "variance_fraction": 0.00221061892578462
+    },
+    {
+      "reference": "nanus",
+      "component": 150,
+      "variance_fraction": 0.00220548299232092
+    },
+    {
+      "reference": "nanus",
+      "component": 151,
+      "variance_fraction": 0.00214648215556566
+    },
+    {
+      "reference": "nanus",
+      "component": 152,
+      "variance_fraction": 0.00212377413443835
+    },
+    {
+      "reference": "nanus",
+      "component": 153,
+      "variance_fraction": 0.00211877676301186
+    },
+    {
+      "reference": "nanus",
+      "component": 154,
+      "variance_fraction": 0.00211182286637022
+    },
+    {
+      "reference": "nanus",
+      "component": 155,
+      "variance_fraction": 0.0020773742692942
+    },
+    {
+      "reference": "nanus",
+      "component": 156,
+      "variance_fraction": 0.00206429058964993
+    },
+    {
+      "reference": "nanus",
+      "component": 157,
+      "variance_fraction": 0.00202941000709922
+    },
+    {
+      "reference": "nanus",
+      "component": 158,
+      "variance_fraction": 0.0019960878741739
+    },
+    {
+      "reference": "nanus",
+      "component": 159,
+      "variance_fraction": 0.00195557206492225
+    },
+    {
+      "reference": "nanus",
+      "component": 160,
+      "variance_fraction": 0.00193359542249825
+    },
+    {
+      "reference": "nanus",
+      "component": 161,
+      "variance_fraction": 0.00190911292226457
+    },
+    {
+      "reference": "nanus",
+      "component": 162,
+      "variance_fraction": 0.00189259021188082
+    },
+    {
+      "reference": "nanus",
+      "component": 163,
+      "variance_fraction": 0.00182684515311695
+    },
+    {
+      "reference": "nanus",
+      "component": 164,
+      "variance_fraction": 0.00182331007307554
+    },
+    {
+      "reference": "nanus",
+      "component": 165,
+      "variance_fraction": 0.0017855818181961
+    },
+    {
+      "reference": "nanus",
+      "component": 166,
+      "variance_fraction": 0.00176716290722162
+    },
+    {
+      "reference": "nanus",
+      "component": 167,
+      "variance_fraction": 0.00172023948125219
+    },
+    {
+      "reference": "nanus",
+      "component": 168,
+      "variance_fraction": 0.00163877957944756
+    },
+    {
+      "reference": "nanus",
+      "component": 169,
+      "variance_fraction": 0.00162862442793652
+    },
+    {
+      "reference": "nanus",
+      "component": 170,
+      "variance_fraction": 0.00161750760101534
+    },
+    {
+      "reference": "nanus",
+      "component": 171,
+      "variance_fraction": 0.00160926414880088
+    },
+    {
+      "reference": "nanus",
+      "component": 172,
+      "variance_fraction": 0.00153977456437839
+    },
+    {
+      "reference": "nanus",
+      "component": 173,
+      "variance_fraction": 0.00149670611818663
+    },
+    {
+      "reference": "nanus",
+      "component": 174,
+      "variance_fraction": 0.00147762150578646
+    },
+    {
+      "reference": "nanus",
+      "component": 175,
+      "variance_fraction": 0.00144723944532194
+    },
+    {
+      "reference": "nanus",
+      "component": 176,
+      "variance_fraction": 0.00138075623780489
+    },
+    {
+      "reference": "nanus",
+      "component": 177,
+      "variance_fraction": 0.00135140041847444
+    },
+    {
+      "reference": "nanus",
+      "component": 178,
+      "variance_fraction": 0.00134059252603477
+    },
+    {
+      "reference": "nanus",
+      "component": 179,
+      "variance_fraction": 0.00132147005187606
+    },
+    {
+      "reference": "nanus",
+      "component": 180,
+      "variance_fraction": 0.00130752723325144
+    },
+    {
+      "reference": "nanus",
+      "component": 181,
+      "variance_fraction": 0.00128455275893847
+    },
+    {
+      "reference": "nanus",
+      "component": 182,
+      "variance_fraction": 0.00123986805859445
+    },
+    {
+      "reference": "nanus",
+      "component": 183,
+      "variance_fraction": 0.00119383220623617
+    },
+    {
+      "reference": "nanus",
+      "component": 184,
+      "variance_fraction": 0.00110492221908403
+    },
+    {
+      "reference": "nanus",
+      "component": 185,
+      "variance_fraction": 0.00108913164456438
+    },
+    {
+      "reference": "nanus",
+      "component": 186,
+      "variance_fraction": 0.0010679217380145
+    },
+    {
+      "reference": "nanus",
+      "component": 187,
+      "variance_fraction": 0.00104722547087503
+    },
+    {
+      "reference": "nanus",
+      "component": 188,
+      "variance_fraction": 0.00101701489102307
+    },
+    {
+      "reference": "nanus",
+      "component": 189,
+      "variance_fraction": 0.00098420166252542
+    },
+    {
+      "reference": "nanus",
+      "component": 190,
+      "variance_fraction": 0.000970238477961476
+    },
+    {
+      "reference": "nanus",
+      "component": 191,
+      "variance_fraction": 0.000952960350160139
+    },
+    {
+      "reference": "nanus",
+      "component": 192,
+      "variance_fraction": 0.000919133437591863
+    },
+    {
+      "reference": "nanus",
+      "component": 193,
+      "variance_fraction": 0.000912412867523846
+    },
+    {
+      "reference": "nanus",
+      "component": 194,
+      "variance_fraction": 0.000899221186208566
+    },
+    {
+      "reference": "nanus",
+      "component": 195,
+      "variance_fraction": 0.000871023839367668
+    },
+    {
+      "reference": "nanus",
+      "component": 196,
+      "variance_fraction": 0.000851028793260957
+    },
+    {
+      "reference": "nanus",
+      "component": 197,
+      "variance_fraction": 0.000836033138841036
+    },
+    {
+      "reference": "nanus",
+      "component": 198,
+      "variance_fraction": 0.000831371685025301
+    },
+    {
+      "reference": "nanus",
+      "component": 199,
+      "variance_fraction": 0.000826624501092224
+    },
+    {
+      "reference": "nanus",
+      "component": 200,
+      "variance_fraction": 0.000820499482753592
+    },
+    {
+      "reference": "nanus",
+      "component": 201,
+      "variance_fraction": 0.000815521582941616
+    },
+    {
+      "reference": "nanus",
+      "component": 202,
+      "variance_fraction": 0.000810983523783261
+    },
+    {
+      "reference": "nanus",
+      "component": 203,
+      "variance_fraction": 0.00080388087864538
+    },
+    {
+      "reference": "nanus",
+      "component": 204,
+      "variance_fraction": 0.000795167585702513
+    },
+    {
+      "reference": "nanus",
+      "component": 205,
+      "variance_fraction": 0.000789369195097434
+    },
+    {
+      "reference": "nanus",
+      "component": 206,
+      "variance_fraction": 0.000766397253277667
+    },
+    {
+      "reference": "nanus",
+      "component": 207,
+      "variance_fraction": 0.000748269792941695
+    },
+    {
+      "reference": "nanus",
+      "component": 208,
+      "variance_fraction": 0.000741316282348649
+    },
+    {
+      "reference": "nanus",
+      "component": 209,
+      "variance_fraction": 0.000733278584550855
+    },
+    {
+      "reference": "nanus",
+      "component": 210,
+      "variance_fraction": 0.000720833773321472
+    },
+    {
+      "reference": "nanus",
+      "component": 211,
+      "variance_fraction": 0.000715903107611354
+    },
+    {
+      "reference": "nanus",
+      "component": 212,
+      "variance_fraction": 0.000699700693371834
+    },
+    {
+      "reference": "nanus",
+      "component": 213,
+      "variance_fraction": 0.000679861557513614
+    },
+    {
+      "reference": "nanus",
+      "component": 214,
+      "variance_fraction": 0.000586694601537286
+    },
+    {
+      "reference": "nanus",
+      "component": 215,
+      "variance_fraction": 0.000544480820702481
+    },
+    {
+      "reference": "nanus",
+      "component": 216,
+      "variance_fraction": 0.000509443188105782
+    },
+    {
+      "reference": "nanus",
+      "component": 217,
+      "variance_fraction": 1.50273426186583e-32
+    },
+    {
+      "reference": "mongolicus",
+      "component": 1,
+      "variance_fraction": 0.0968640811054715
+    },
+    {
+      "reference": "mongolicus",
+      "component": 2,
+      "variance_fraction": 0.0354005839006444
+    },
+    {
+      "reference": "mongolicus",
+      "component": 3,
+      "variance_fraction": 0.0270869060763849
+    },
+    {
+      "reference": "mongolicus",
+      "component": 4,
+      "variance_fraction": 0.0232318104524866
+    },
+    {
+      "reference": "mongolicus",
+      "component": 5,
+      "variance_fraction": 0.0223830231610184
+    },
+    {
+      "reference": "mongolicus",
+      "component": 6,
+      "variance_fraction": 0.0182159345885204
+    },
+    {
+      "reference": "mongolicus",
+      "component": 7,
+      "variance_fraction": 0.0167204607040995
+    },
+    {
+      "reference": "mongolicus",
+      "component": 8,
+      "variance_fraction": 0.0161141590292276
+    },
+    {
+      "reference": "mongolicus",
+      "component": 9,
+      "variance_fraction": 0.0153260483473284
+    },
+    {
+      "reference": "mongolicus",
+      "component": 10,
+      "variance_fraction": 0.015281232034049
+    },
+    {
+      "reference": "mongolicus",
+      "component": 11,
+      "variance_fraction": 0.01278665505179
+    },
+    {
+      "reference": "mongolicus",
+      "component": 12,
+      "variance_fraction": 0.0118094069258446
+    },
+    {
+      "reference": "mongolicus",
+      "component": 13,
+      "variance_fraction": 0.0112286649198051
+    },
+    {
+      "reference": "mongolicus",
+      "component": 14,
+      "variance_fraction": 0.0103610971450817
+    },
+    {
+      "reference": "mongolicus",
+      "component": 15,
+      "variance_fraction": 0.0101381283547163
+    },
+    {
+      "reference": "mongolicus",
+      "component": 16,
+      "variance_fraction": 0.00957325586361864
+    },
+    {
+      "reference": "mongolicus",
+      "component": 17,
+      "variance_fraction": 0.00935444747318774
+    },
+    {
+      "reference": "mongolicus",
+      "component": 18,
+      "variance_fraction": 0.00887046395580157
+    },
+    {
+      "reference": "mongolicus",
+      "component": 19,
+      "variance_fraction": 0.00870343772553033
+    },
+    {
+      "reference": "mongolicus",
+      "component": 20,
+      "variance_fraction": 0.00828032275369904
+    },
+    {
+      "reference": "mongolicus",
+      "component": 21,
+      "variance_fraction": 0.00808315310319601
+    },
+    {
+      "reference": "mongolicus",
+      "component": 22,
+      "variance_fraction": 0.00791234730969661
+    },
+    {
+      "reference": "mongolicus",
+      "component": 23,
+      "variance_fraction": 0.00779349237191297
+    },
+    {
+      "reference": "mongolicus",
+      "component": 24,
+      "variance_fraction": 0.00763619463963246
+    },
+    {
+      "reference": "mongolicus",
+      "component": 25,
+      "variance_fraction": 0.00740054053927532
+    },
+    {
+      "reference": "mongolicus",
+      "component": 26,
+      "variance_fraction": 0.00721531993425233
+    },
+    {
+      "reference": "mongolicus",
+      "component": 27,
+      "variance_fraction": 0.00710713287962763
+    },
+    {
+      "reference": "mongolicus",
+      "component": 28,
+      "variance_fraction": 0.00698298494451862
+    },
+    {
+      "reference": "mongolicus",
+      "component": 29,
+      "variance_fraction": 0.00692705196895338
+    },
+    {
+      "reference": "mongolicus",
+      "component": 30,
+      "variance_fraction": 0.00679775498489273
+    },
+    {
+      "reference": "mongolicus",
+      "component": 31,
+      "variance_fraction": 0.00666247444841669
+    },
+    {
+      "reference": "mongolicus",
+      "component": 32,
+      "variance_fraction": 0.00656573392033942
+    },
+    {
+      "reference": "mongolicus",
+      "component": 33,
+      "variance_fraction": 0.00643619997029448
+    },
+    {
+      "reference": "mongolicus",
+      "component": 34,
+      "variance_fraction": 0.00636117530038361
+    },
+    {
+      "reference": "mongolicus",
+      "component": 35,
+      "variance_fraction": 0.00627335196741355
+    },
+    {
+      "reference": "mongolicus",
+      "component": 36,
+      "variance_fraction": 0.0062200898984266
+    },
+    {
+      "reference": "mongolicus",
+      "component": 37,
+      "variance_fraction": 0.00613029770648739
+    },
+    {
+      "reference": "mongolicus",
+      "component": 38,
+      "variance_fraction": 0.00608962604707484
+    },
+    {
+      "reference": "mongolicus",
+      "component": 39,
+      "variance_fraction": 0.00595551372620002
+    },
+    {
+      "reference": "mongolicus",
+      "component": 40,
+      "variance_fraction": 0.00589246306614168
+    },
+    {
+      "reference": "mongolicus",
+      "component": 41,
+      "variance_fraction": 0.00581888322729986
+    },
+    {
+      "reference": "mongolicus",
+      "component": 42,
+      "variance_fraction": 0.0057740779237685
+    },
+    {
+      "reference": "mongolicus",
+      "component": 43,
+      "variance_fraction": 0.00569953220810309
+    },
+    {
+      "reference": "mongolicus",
+      "component": 44,
+      "variance_fraction": 0.00564437104859216
+    },
+    {
+      "reference": "mongolicus",
+      "component": 45,
+      "variance_fraction": 0.00549299357418984
+    },
+    {
+      "reference": "mongolicus",
+      "component": 46,
+      "variance_fraction": 0.00547390135706681
+    },
+    {
+      "reference": "mongolicus",
+      "component": 47,
+      "variance_fraction": 0.00539561544049634
+    },
+    {
+      "reference": "mongolicus",
+      "component": 48,
+      "variance_fraction": 0.00529938983174904
+    },
+    {
+      "reference": "mongolicus",
+      "component": 49,
+      "variance_fraction": 0.00526954272324283
+    },
+    {
+      "reference": "mongolicus",
+      "component": 50,
+      "variance_fraction": 0.00521644755020738
+    },
+    {
+      "reference": "mongolicus",
+      "component": 51,
+      "variance_fraction": 0.00517457732275145
+    },
+    {
+      "reference": "mongolicus",
+      "component": 52,
+      "variance_fraction": 0.00510877417649866
+    },
+    {
+      "reference": "mongolicus",
+      "component": 53,
+      "variance_fraction": 0.00509476268485702
+    },
+    {
+      "reference": "mongolicus",
+      "component": 54,
+      "variance_fraction": 0.00501386928516248
+    },
+    {
+      "reference": "mongolicus",
+      "component": 55,
+      "variance_fraction": 0.00494578021554963
+    },
+    {
+      "reference": "mongolicus",
+      "component": 56,
+      "variance_fraction": 0.00484985783888358
+    },
+    {
+      "reference": "mongolicus",
+      "component": 57,
+      "variance_fraction": 0.00483631532027638
+    },
+    {
+      "reference": "mongolicus",
+      "component": 58,
+      "variance_fraction": 0.00479748840759936
+    },
+    {
+      "reference": "mongolicus",
+      "component": 59,
+      "variance_fraction": 0.0047316933906658
+    },
+    {
+      "reference": "mongolicus",
+      "component": 60,
+      "variance_fraction": 0.00468395425054674
+    },
+    {
+      "reference": "mongolicus",
+      "component": 61,
+      "variance_fraction": 0.00467955939007519
+    },
+    {
+      "reference": "mongolicus",
+      "component": 62,
+      "variance_fraction": 0.00461351519014838
+    },
+    {
+      "reference": "mongolicus",
+      "component": 63,
+      "variance_fraction": 0.00455560669094109
+    },
+    {
+      "reference": "mongolicus",
+      "component": 64,
+      "variance_fraction": 0.00455317185738899
+    },
+    {
+      "reference": "mongolicus",
+      "component": 65,
+      "variance_fraction": 0.00448710030916128
+    },
+    {
+      "reference": "mongolicus",
+      "component": 66,
+      "variance_fraction": 0.00445019746462438
+    },
+    {
+      "reference": "mongolicus",
+      "component": 67,
+      "variance_fraction": 0.00441310561010208
+    },
+    {
+      "reference": "mongolicus",
+      "component": 68,
+      "variance_fraction": 0.00439665594586401
+    },
+    {
+      "reference": "mongolicus",
+      "component": 69,
+      "variance_fraction": 0.00433733979535502
+    },
+    {
+      "reference": "mongolicus",
+      "component": 70,
+      "variance_fraction": 0.0043075695599066
+    },
+    {
+      "reference": "mongolicus",
+      "component": 71,
+      "variance_fraction": 0.00429811106288544
+    },
+    {
+      "reference": "mongolicus",
+      "component": 72,
+      "variance_fraction": 0.00423623769772725
+    },
+    {
+      "reference": "mongolicus",
+      "component": 73,
+      "variance_fraction": 0.00420662683100471
+    },
+    {
+      "reference": "mongolicus",
+      "component": 74,
+      "variance_fraction": 0.00414221348607474
+    },
+    {
+      "reference": "mongolicus",
+      "component": 75,
+      "variance_fraction": 0.00411952345985612
+    },
+    {
+      "reference": "mongolicus",
+      "component": 76,
+      "variance_fraction": 0.00407872310278961
+    },
+    {
+      "reference": "mongolicus",
+      "component": 77,
+      "variance_fraction": 0.00401191757930173
+    },
+    {
+      "reference": "mongolicus",
+      "component": 78,
+      "variance_fraction": 0.00397492841676974
+    },
+    {
+      "reference": "mongolicus",
+      "component": 79,
+      "variance_fraction": 0.00391457686220661
+    },
+    {
+      "reference": "mongolicus",
+      "component": 80,
+      "variance_fraction": 0.00387703169232099
+    },
+    {
+      "reference": "mongolicus",
+      "component": 81,
+      "variance_fraction": 0.00386389001138782
+    },
+    {
+      "reference": "mongolicus",
+      "component": 82,
+      "variance_fraction": 0.00382904365779895
+    },
+    {
+      "reference": "mongolicus",
+      "component": 83,
+      "variance_fraction": 0.00382289393188977
+    },
+    {
+      "reference": "mongolicus",
+      "component": 84,
+      "variance_fraction": 0.00375638796334612
+    },
+    {
+      "reference": "mongolicus",
+      "component": 85,
+      "variance_fraction": 0.00371003156097368
+    },
+    {
+      "reference": "mongolicus",
+      "component": 86,
+      "variance_fraction": 0.00366888201478747
+    },
+    {
+      "reference": "mongolicus",
+      "component": 87,
+      "variance_fraction": 0.00362622538578034
+    },
+    {
+      "reference": "mongolicus",
+      "component": 88,
+      "variance_fraction": 0.00359086862832262
+    },
+    {
+      "reference": "mongolicus",
+      "component": 89,
+      "variance_fraction": 0.00354381465067134
+    },
+    {
+      "reference": "mongolicus",
+      "component": 90,
+      "variance_fraction": 0.0035295238406253
+    },
+    {
+      "reference": "mongolicus",
+      "component": 91,
+      "variance_fraction": 0.00349827598002577
+    },
+    {
+      "reference": "mongolicus",
+      "component": 92,
+      "variance_fraction": 0.00347319412559064
+    },
+    {
+      "reference": "mongolicus",
+      "component": 93,
+      "variance_fraction": 0.00343648878820159
+    },
+    {
+      "reference": "mongolicus",
+      "component": 94,
+      "variance_fraction": 0.0034002440585313
+    },
+    {
+      "reference": "mongolicus",
+      "component": 95,
+      "variance_fraction": 0.00339274011059236
+    },
+    {
+      "reference": "mongolicus",
+      "component": 96,
+      "variance_fraction": 0.00335440229303614
+    },
+    {
+      "reference": "mongolicus",
+      "component": 97,
+      "variance_fraction": 0.0033364065881007
+    },
+    {
+      "reference": "mongolicus",
+      "component": 98,
+      "variance_fraction": 0.00333473157195992
+    },
+    {
+      "reference": "mongolicus",
+      "component": 99,
+      "variance_fraction": 0.00326797622740528
+    },
+    {
+      "reference": "mongolicus",
+      "component": 100,
+      "variance_fraction": 0.00322408842222993
+    },
+    {
+      "reference": "mongolicus",
+      "component": 101,
+      "variance_fraction": 0.00321605930881792
+    },
+    {
+      "reference": "mongolicus",
+      "component": 102,
+      "variance_fraction": 0.00318555928692141
+    },
+    {
+      "reference": "mongolicus",
+      "component": 103,
+      "variance_fraction": 0.00315251113503798
+    },
+    {
+      "reference": "mongolicus",
+      "component": 104,
+      "variance_fraction": 0.00313050641461078
+    },
+    {
+      "reference": "mongolicus",
+      "component": 105,
+      "variance_fraction": 0.00309890566811537
+    },
+    {
+      "reference": "mongolicus",
+      "component": 106,
+      "variance_fraction": 0.00306700977011349
+    },
+    {
+      "reference": "mongolicus",
+      "component": 107,
+      "variance_fraction": 0.0030575811753295
+    },
+    {
+      "reference": "mongolicus",
+      "component": 108,
+      "variance_fraction": 0.00302978259925409
+    },
+    {
+      "reference": "mongolicus",
+      "component": 109,
+      "variance_fraction": 0.00299513189537336
+    },
+    {
+      "reference": "mongolicus",
+      "component": 110,
+      "variance_fraction": 0.00297711164954911
+    },
+    {
+      "reference": "mongolicus",
+      "component": 111,
+      "variance_fraction": 0.00296275541322701
+    },
+    {
+      "reference": "mongolicus",
+      "component": 112,
+      "variance_fraction": 0.00294935282208048
+    },
+    {
+      "reference": "mongolicus",
+      "component": 113,
+      "variance_fraction": 0.00291806298925689
+    },
+    {
+      "reference": "mongolicus",
+      "component": 114,
+      "variance_fraction": 0.0029155591584438
+    },
+    {
+      "reference": "mongolicus",
+      "component": 115,
+      "variance_fraction": 0.00287716149215344
+    },
+    {
+      "reference": "mongolicus",
+      "component": 116,
+      "variance_fraction": 0.00286543279095577
+    },
+    {
+      "reference": "mongolicus",
+      "component": 117,
+      "variance_fraction": 0.0028596283772998
+    },
+    {
+      "reference": "mongolicus",
+      "component": 118,
+      "variance_fraction": 0.0028506323505603
+    },
+    {
+      "reference": "mongolicus",
+      "component": 119,
+      "variance_fraction": 0.00283282378590809
+    },
+    {
+      "reference": "mongolicus",
+      "component": 120,
+      "variance_fraction": 0.00282536586823534
+    },
+    {
+      "reference": "mongolicus",
+      "component": 121,
+      "variance_fraction": 0.00278028921365106
+    },
+    {
+      "reference": "mongolicus",
+      "component": 122,
+      "variance_fraction": 0.00275317903865811
+    },
+    {
+      "reference": "mongolicus",
+      "component": 123,
+      "variance_fraction": 0.00273417416850385
+    },
+    {
+      "reference": "mongolicus",
+      "component": 124,
+      "variance_fraction": 0.00271758095256317
+    },
+    {
+      "reference": "mongolicus",
+      "component": 125,
+      "variance_fraction": 0.00271197251202351
+    },
+    {
+      "reference": "mongolicus",
+      "component": 126,
+      "variance_fraction": 0.00269773115385419
+    },
+    {
+      "reference": "mongolicus",
+      "component": 127,
+      "variance_fraction": 0.00268305705906771
+    },
+    {
+      "reference": "mongolicus",
+      "component": 128,
+      "variance_fraction": 0.00266520571765349
+    },
+    {
+      "reference": "mongolicus",
+      "component": 129,
+      "variance_fraction": 0.00265439605829498
+    },
+    {
+      "reference": "mongolicus",
+      "component": 130,
+      "variance_fraction": 0.00263237782034583
+    },
+    {
+      "reference": "mongolicus",
+      "component": 131,
+      "variance_fraction": 0.00261902399939243
+    },
+    {
+      "reference": "mongolicus",
+      "component": 132,
+      "variance_fraction": 0.00257674545396901
+    },
+    {
+      "reference": "mongolicus",
+      "component": 133,
+      "variance_fraction": 0.00257416393155198
+    },
+    {
+      "reference": "mongolicus",
+      "component": 134,
+      "variance_fraction": 0.00255941728498524
+    },
+    {
+      "reference": "mongolicus",
+      "component": 135,
+      "variance_fraction": 0.00252437539406132
+    },
+    {
+      "reference": "mongolicus",
+      "component": 136,
+      "variance_fraction": 0.00247562771679537
+    },
+    {
+      "reference": "mongolicus",
+      "component": 137,
+      "variance_fraction": 0.00246745834296154
+    },
+    {
+      "reference": "mongolicus",
+      "component": 138,
+      "variance_fraction": 0.00245049704420323
+    },
+    {
+      "reference": "mongolicus",
+      "component": 139,
+      "variance_fraction": 0.00242908927817614
+    },
+    {
+      "reference": "mongolicus",
+      "component": 140,
+      "variance_fraction": 0.00241189024501657
+    },
+    {
+      "reference": "mongolicus",
+      "component": 141,
+      "variance_fraction": 0.00240766927908418
+    },
+    {
+      "reference": "mongolicus",
+      "component": 142,
+      "variance_fraction": 0.00236268175830245
+    },
+    {
+      "reference": "mongolicus",
+      "component": 143,
+      "variance_fraction": 0.00235917569456865
+    },
+    {
+      "reference": "mongolicus",
+      "component": 144,
+      "variance_fraction": 0.00233951677371498
+    },
+    {
+      "reference": "mongolicus",
+      "component": 145,
+      "variance_fraction": 0.00232105866918562
+    },
+    {
+      "reference": "mongolicus",
+      "component": 146,
+      "variance_fraction": 0.00230017682679992
+    },
+    {
+      "reference": "mongolicus",
+      "component": 147,
+      "variance_fraction": 0.00225939600157748
+    },
+    {
+      "reference": "mongolicus",
+      "component": 148,
+      "variance_fraction": 0.00224497452715781
+    },
+    {
+      "reference": "mongolicus",
+      "component": 149,
+      "variance_fraction": 0.00223599266407482
+    },
+    {
+      "reference": "mongolicus",
+      "component": 150,
+      "variance_fraction": 0.00221063434676815
+    },
+    {
+      "reference": "mongolicus",
+      "component": 151,
+      "variance_fraction": 0.00214738735855666
+    },
+    {
+      "reference": "mongolicus",
+      "component": 152,
+      "variance_fraction": 0.0021252608285751
+    },
+    {
+      "reference": "mongolicus",
+      "component": 153,
+      "variance_fraction": 0.00210218737695974
+    },
+    {
+      "reference": "mongolicus",
+      "component": 154,
+      "variance_fraction": 0.00206081257505537
+    },
+    {
+      "reference": "mongolicus",
+      "component": 155,
+      "variance_fraction": 0.00203806651066092
+    },
+    {
+      "reference": "mongolicus",
+      "component": 156,
+      "variance_fraction": 0.00200843027697601
+    },
+    {
+      "reference": "mongolicus",
+      "component": 157,
+      "variance_fraction": 0.00197039405475852
+    },
+    {
+      "reference": "mongolicus",
+      "component": 158,
+      "variance_fraction": 0.00195959734354691
+    },
+    {
+      "reference": "mongolicus",
+      "component": 159,
+      "variance_fraction": 0.00192563457749612
+    },
+    {
+      "reference": "mongolicus",
+      "component": 160,
+      "variance_fraction": 0.0019089453388613
+    },
+    {
+      "reference": "mongolicus",
+      "component": 161,
+      "variance_fraction": 0.00187733514424315
+    },
+    {
+      "reference": "mongolicus",
+      "component": 162,
+      "variance_fraction": 0.00183423968111876
+    },
+    {
+      "reference": "mongolicus",
+      "component": 163,
+      "variance_fraction": 0.00181853394519138
+    },
+    {
+      "reference": "mongolicus",
+      "component": 164,
+      "variance_fraction": 0.00179222754238227
+    },
+    {
+      "reference": "mongolicus",
+      "component": 165,
+      "variance_fraction": 0.00177244614496574
+    },
+    {
+      "reference": "mongolicus",
+      "component": 166,
+      "variance_fraction": 0.00167787120892783
+    },
+    {
+      "reference": "mongolicus",
+      "component": 167,
+      "variance_fraction": 0.00162378823076509
+    },
+    {
+      "reference": "mongolicus",
+      "component": 168,
+      "variance_fraction": 0.00161333883291165
+    },
+    {
+      "reference": "mongolicus",
+      "component": 169,
+      "variance_fraction": 0.00158425244440493
+    },
+    {
+      "reference": "mongolicus",
+      "component": 170,
+      "variance_fraction": 0.00156426218828665
+    },
+    {
+      "reference": "mongolicus",
+      "component": 171,
+      "variance_fraction": 0.0015538114174922
+    },
+    {
+      "reference": "mongolicus",
+      "component": 172,
+      "variance_fraction": 0.00148684553044147
+    },
+    {
+      "reference": "mongolicus",
+      "component": 173,
+      "variance_fraction": 0.0014756113549367
+    },
+    {
+      "reference": "mongolicus",
+      "component": 174,
+      "variance_fraction": 0.00146161971196731
+    },
+    {
+      "reference": "mongolicus",
+      "component": 175,
+      "variance_fraction": 0.0014152441908247
+    },
+    {
+      "reference": "mongolicus",
+      "component": 176,
+      "variance_fraction": 0.00140183676061573
+    },
+    {
+      "reference": "mongolicus",
+      "component": 177,
+      "variance_fraction": 0.00138321621569165
+    },
+    {
+      "reference": "mongolicus",
+      "component": 178,
+      "variance_fraction": 0.00134864147793806
+    },
+    {
+      "reference": "mongolicus",
+      "component": 179,
+      "variance_fraction": 0.00129556563722078
+    },
+    {
+      "reference": "mongolicus",
+      "component": 180,
+      "variance_fraction": 0.00126232125327316
+    },
+    {
+      "reference": "mongolicus",
+      "component": 181,
+      "variance_fraction": 0.00123572375983704
+    },
+    {
+      "reference": "mongolicus",
+      "component": 182,
+      "variance_fraction": 0.00117638589202309
+    },
+    {
+      "reference": "mongolicus",
+      "component": 183,
+      "variance_fraction": 0.00110947910039699
+    },
+    {
+      "reference": "mongolicus",
+      "component": 184,
+      "variance_fraction": 0.00098796577605534
+    },
+    {
+      "reference": "mongolicus",
+      "component": 185,
+      "variance_fraction": 0.000953670710430784
+    },
+    {
+      "reference": "mongolicus",
+      "component": 186,
+      "variance_fraction": 0.000930901517448899
+    },
+    {
+      "reference": "mongolicus",
+      "component": 187,
+      "variance_fraction": 0.000925588169531244
+    },
+    {
+      "reference": "mongolicus",
+      "component": 188,
+      "variance_fraction": 0.000911587829231929
+    },
+    {
+      "reference": "mongolicus",
+      "component": 189,
+      "variance_fraction": 0.000899041928217536
+    },
+    {
+      "reference": "mongolicus",
+      "component": 190,
+      "variance_fraction": 0.000885981808579758
+    },
+    {
+      "reference": "mongolicus",
+      "component": 191,
+      "variance_fraction": 0.000879985525557725
+    },
+    {
+      "reference": "mongolicus",
+      "component": 192,
+      "variance_fraction": 0.000867792414843851
+    },
+    {
+      "reference": "mongolicus",
+      "component": 193,
+      "variance_fraction": 0.000858256438080994
+    },
+    {
+      "reference": "mongolicus",
+      "component": 194,
+      "variance_fraction": 0.000851286307477342
+    },
+    {
+      "reference": "mongolicus",
+      "component": 195,
+      "variance_fraction": 0.00084155785733533
+    },
+    {
+      "reference": "mongolicus",
+      "component": 196,
+      "variance_fraction": 0.000840613487622665
+    },
+    {
+      "reference": "mongolicus",
+      "component": 197,
+      "variance_fraction": 0.000819967254458425
+    },
+    {
+      "reference": "mongolicus",
+      "component": 198,
+      "variance_fraction": 0.000804912836205959
+    },
+    {
+      "reference": "mongolicus",
+      "component": 199,
+      "variance_fraction": 0.000790596375387063
+    },
+    {
+      "reference": "mongolicus",
+      "component": 200,
+      "variance_fraction": 0.000768873914223945
+    },
+    {
+      "reference": "mongolicus",
+      "component": 201,
+      "variance_fraction": 0.00076532766987558
+    },
+    {
+      "reference": "mongolicus",
+      "component": 202,
+      "variance_fraction": 0.000737397610507513
+    },
+    {
+      "reference": "mongolicus",
+      "component": 203,
+      "variance_fraction": 0.000732575503181784
+    },
+    {
+      "reference": "mongolicus",
+      "component": 204,
+      "variance_fraction": 0.000727646387328755
+    },
+    {
+      "reference": "mongolicus",
+      "component": 205,
+      "variance_fraction": 0.000720754974536766
+    },
+    {
+      "reference": "mongolicus",
+      "component": 206,
+      "variance_fraction": 0.000716965808955381
+    },
+    {
+      "reference": "mongolicus",
+      "component": 207,
+      "variance_fraction": 0.00067322499555682
+    },
+    {
+      "reference": "mongolicus",
+      "component": 208,
+      "variance_fraction": 0.00066824797259117
+    },
+    {
+      "reference": "mongolicus",
+      "component": 209,
+      "variance_fraction": 0.000653999277566999
+    },
+    {
+      "reference": "mongolicus",
+      "component": 210,
+      "variance_fraction": 0.000641548317784049
+    },
+    {
+      "reference": "mongolicus",
+      "component": 211,
+      "variance_fraction": 0.000638583441894465
+    },
+    {
+      "reference": "mongolicus",
+      "component": 212,
+      "variance_fraction": 0.000635377268549442
+    },
+    {
+      "reference": "mongolicus",
+      "component": 213,
+      "variance_fraction": 0.000611133883955983
+    },
+    {
+      "reference": "mongolicus",
+      "component": 214,
+      "variance_fraction": 0.000535320473740926
+    },
+    {
+      "reference": "mongolicus",
+      "component": 215,
+      "variance_fraction": 0.000515020893082866
+    },
+    {
+      "reference": "mongolicus",
+      "component": 216,
+      "variance_fraction": 0.000461850695983095
+    },
+    {
+      "reference": "mongolicus",
+      "component": 217,
+      "variance_fraction": 1.59624913852288e-32
+    }
+  ],
+  "new_arm_missingness": {
+    "mean": 0.0769810921675641,
+    "sd": 0.0581955502324427,
+    "median": 0.0635345139139863,
+    "min": 0.0043548970003614,
+    "max": 0.303704372967112
+  },
+  "inference_performed": false,
+  "notes": ["Descriptive statistics summarize 217 matched individuals (104 core and 113 peripheral) in each reference arm. SD is the sample standard deviation among individuals, not among independent populations.", "Class means weight individuals equally; no population-level independent-replicate test is implied.", "Depth and breadth denominators refer to each complete assembly or its observed covered bases; they are not matched homologous RAD regions and are not genotype missingness.", "The two reference arms use the same cleaned reads. Existing A. nanus PCA scores were reused; new A. mongolicus variants were called with bcftools, not the historical two-caller intersection.", "No new inferential tests, PCA alignment, Procrustes analysis, functional-load or genomic-offset reruns were performed by this reporting script.", "PCA agreement must be assessed separately from the plotted point distributions; these summaries do not automatically establish robustness.", "Fractions are stored unrounded (0-1); multiply by 100 for percentages. Paired differences of fractions become percentage points when multiplied by 100."],
+  "settings": {
+    "execution_frozen": true,
+    "manifest": "/gpfs/ycga/work/coughlan/ps2327/ammo/revision_oct17_mapping/workflow/samples.tsv",
+    "output_root": "/vast/palmer/scratch/coughlan/ps2327/ammo_oct17_mapping/outputs",
+    "scratch_root": "/vast/palmer/scratch/coughlan/ps2327/ammo_oct17_mapping/tmp",
+    "threads": 8,
+    "sort_memory_per_thread": "1G",
+    "caller": "bcftools_mpileup_call",
+    "pileup_max_depth_per_sample": 10000,
+    "fastp_arguments": ["--detect_adapter_for_pe", "--qualified_quality_phred", "20", "--unqualified_percent_limit", "40", "--length_required", "50", "--n_base_limit", "5"],
+    "reference_audit": "/gpfs/ycga/work/coughlan/ps2327/ammo/revision_oct17_mapping/references/REFERENCE_AUDIT.json",
+    "references": {
+      "nanus": {
+        "source_gz": "/gpfs/ycga/work/coughlan/ps2327/ammo/ammo_analysis_package_20261014/cluster_recovery/personal2/sun/sift4g/ammo/chr-src/ammo.fasta.gz",
+        "compressed_sha256": "5d99d8b199bc23c54400199e62c44c9efb62abddbdb5c21cea73444cc8a5f7f2",
+        "label": "nanus_bundled"
+      },
+      "mongolicus": {
+        "source_gz": "/gpfs/ycga/work/coughlan/ps2327/ammo/public_dependencies/references/A_mongolicus_Feng2024/AMO_genome_v1.0.fasta.gz",
+        "compressed_sha256": "11909de38fe55a091a0f771c9783eb10ae34456b107590a575a25bc73bf93f81",
+        "label": "mongolicus_Feng2024_publisher_v1"
+      }
+    },
+    "existing_pca_scores": "/gpfs/ycga/work/coughlan/ps2327/ammo/runs/revision_run_01/outputs/figures/genetic_pca/PCA_scores_and_group_assignments.csv",
+    "existing_pca_variance": "/gpfs/ycga/work/coughlan/ps2327/ammo/runs/revision_run_01/outputs/figures/genetic_pca/PCA_variance.csv",
+    "tools": {
+      "bwa": "/vast/palmer/apps/avx2/software/BWA/0.7.17-GCCcore-10.2.0/bin/bwa",
+      "samtools": "/gpfs/ycga/work/coughlan/ps2327/ammo/envs/analysis/bin/samtools",
+      "fastp": "/vast/palmer/apps/avx2/software/fastp/0.23.2-GCCcore-10.2.0/bin/fastp",
+      "bcftools": "/gpfs/ycga/work/coughlan/ps2327/ammo/envs/analysis/bin/bcftools",
+      "vcftools": "/gpfs/ycga/work/coughlan/ps2327/ammo/envs/analysis/bin/vcftools",
+      "plink": "/gpfs/ycga/work/coughlan/ps2327/ammo/envs/analysis/bin/plink",
+      "Rscript": "/gpfs/ycga/work/coughlan/ps2327/ammo/envs/analysis/bin/Rscript"
+    }
+  },
+  "tool_versions": {
+    "bwa": "[main] unrecognized command '--version'\n",
+    "samtools": "samtools 1.24\nUsing htslib 1.24\nCopyright (C) 2026 Genome Research Ltd.\n\nSamtools compilation details:\n    Features:       build=configure curses=yes \n    CC:             /opt/conda/conda-bld/samtools_1784062141293/_build_env/bin/x86_64-conda-linux-gnu-cc -std=gnu23\n    CPPFLAGS:       -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /gpfs/ycga/work/coughlan/ps2327/ammo/envs/analysis/include\n    CFLAGS:         -Wall -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -fno-merge-constants -isystem /gpfs/ycga/work/coughlan/ps2327/ammo/envs/analysis/include -fdebug-prefix-map=/opt/conda/conda-bld/samtools_1784062141293/work=/usr/local/src/conda/samtools-1.24 -fdebug-prefix-map=/gpfs/ycga/work/coughlan/ps2327/ammo/envs/analysis=/usr/local/src/conda-prefix\n    LDFLAGS:        -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/gpfs/ycga/work/coughlan/ps2327/ammo/envs/analysis/lib -Wl,-rpath-link,/gpfs/ycga/work/coughlan/ps2327/ammo/envs/analysis/lib -L/gpfs/ycga/work/coughlan/ps2327/ammo/envs/analysis/lib\n    HTSDIR:         \n    LIBS:           \n    CURSES_LIB:     -ltinfow -lncursesw\n\nHTSlib compilation details:\n    Features:       build=configure libcurl=yes S3=yes GCS=yes libdeflate=yes lzma=yes bzip2=yes plugins=yes plugin-path=/gpfs/ycga/work/coughlan/ps2327/ammo/envs/analysis/libexec/htslib htscodecs=1.6.7\n    CC:             /opt/conda/conda-bld/htslib_1783611562234/_build_env/bin/x86_64-conda-linux-gnu-cc -std=gnu23\n    CPPFLAGS:       -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /gpfs/ycga/work/coughlan/ps2327/ammo/envs/analysis/include\n    CFLAGS:         -Wall -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -fno-merge-constants -isystem /gpfs/ycga/work/coughlan/ps2327/ammo/envs/analysis/include -fdebug-prefix-map=/opt/conda/conda-bld/htslib_1783611562234/work=/usr/local/src/conda/htslib-1.24 -fdebug-prefix-map=/gpfs/ycga/work/coughlan/ps2327/ammo/envs/analysis=/usr/local/src/conda-prefix -fvisibility=hidden\n    LDFLAGS:        -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/gpfs/ycga/work/coughlan/ps2327/ammo/envs/analysis/lib -Wl,-rpath-link,/gpfs/ycga/work/coughlan/ps2327/ammo/envs/analysis/lib -L/gpfs/ycga/work/coughlan/ps2327/ammo/envs/analysis/lib -fvisibility=hidden -rdynamic\n\nHTSlib URL scheme handlers present:\n    built-in:\t file, preload, data\n    libcurl:\t gophers, smtp, wss, rtsp, tftp, mqtts, pop3, imaps, pop3s, ws, ftps, ftp, gopher, imap, http, https, sftp, smtps, dict, scp, mqtt, telnet\n    Amazon S3:\t s3+https, s3, s3+http\n    Google Cloud Storage:\t gs+http, gs+https, gs\n    crypt4gh-needed:\t crypt4gh\n    mem:\t mem\n",
+    "fastp": "fastp 0.23.2\n",
+    "bcftools": "bcftools 1.24\nUsing htslib 1.24\nCopyright (C) 2026 Genome Research Ltd.\nLicense GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.\n",
+    "vcftools": "VCFtools (0.1.17)\n",
+    "plink": "PLINK v1.9.0 64-bit (27 Sep 2026)\n",
+    "Rscript": "Rscript (R) version 4.4.3 (2025-02-28)\n",
+    "bwa_actual_invocation": "\nProgram: bwa (alignment via Burrows-Wheeler transformation)\nVersion: 0.7.17-r1188\nContact: Heng Li <lh3@sanger.ac.uk>\n\nUsage:   bwa <command> [options]\n\nCommand: index         index sequences in the FASTA format\n         mem           BWA-MEM algorithm\n         fastmap       identify super-maximal exact matches\n         pemerge       merge overlapping paired ends (EXPERIMENTAL)\n         aln           gapped/ungapped alignment\n         samse         generate alignment (single ended)\n         sampe         generate alignment (paired ended)\n         bwasw         BWA-SW for long queries\n\n         shm           manage indices in shared memory\n         fa2pac        convert FASTA to PAC format\n         pac2bwt       generate BWT from PAC\n         pac2bwtgen    alternative algorithm for generating BWT\n         bwtupdate     update .bwt to the new format\n         bwt2sa        generate SA from BWT and Occ\n\nNote: To use BWA, you need to first index the genome with `bwa index'.\n      There are three alignment algorithms in BWA: `mem', `bwasw', and\n      `aln/samse/sampe'. If you are not sure which to use, try `bwa mem'\n      first. Please `man ./bwa.1' for the manual.\n"
+  },
+  "source_manifest": [
+    {
+      "path": "/vast/palmer/scratch/coughlan/ps2327/ammo_oct17_mapping/outputs/summary/paired_mapping_depth.csv",
+      "sha256": "6d95f6b36c496c58ed9323e67bef18798c2db40ae900e3cb2b9c7f815cda36ec",
+      "_row": "/vast/palmer/scratch/coughlan/ps2327/ammo_oct17_mapping/outputs/summary/paired_mapping_depth.csv"
+    },
+    {
+      "path": "/vast/palmer/scratch/coughlan/ps2327/ammo_oct17_mapping/outputs/variants/filter_counts.json",
+      "sha256": "ba33e88384618fab8cb847caa2fbc4e11a09024c2aa7525643ccafa092aea26e",
+      "_row": "/vast/palmer/scratch/coughlan/ps2327/ammo_oct17_mapping/outputs/variants/filter_counts.json"
+    },
+    {
+      "path": "/vast/palmer/scratch/coughlan/ps2327/ammo_oct17_mapping/outputs/pca/mongolicus_PCA_scores.csv",
+      "sha256": "31befb4fe432fd6a2975dcf67cd6cdaf14e2bc16a0d4ae01032975991f1a4a6b",
+      "_row": "/vast/palmer/scratch/coughlan/ps2327/ammo_oct17_mapping/outputs/pca/mongolicus_PCA_scores.csv"
+    },
+    {
+      "path": "/vast/palmer/scratch/coughlan/ps2327/ammo_oct17_mapping/outputs/pca/mongolicus_PCA_variance.csv",
+      "sha256": "c92585c77180fdba46fe2c3b5e43432fb2df6a0eda8577e2de32b5222ca4734c",
+      "_row": "/vast/palmer/scratch/coughlan/ps2327/ammo_oct17_mapping/outputs/pca/mongolicus_PCA_variance.csv"
+    },
+    {
+      "path": "/vast/palmer/scratch/coughlan/ps2327/ammo_oct17_mapping/outputs/pca/new_arm_genotype_missingness.csv",
+      "sha256": "f739fadbaabd6a111e21247b099ef3f9935bb856ee8c11333a24ddac491118c4",
+      "_row": "/vast/palmer/scratch/coughlan/ps2327/ammo_oct17_mapping/outputs/pca/new_arm_genotype_missingness.csv"
+    },
+    {
+      "path": "/vast/palmer/scratch/coughlan/ps2327/ammo_oct17_mapping/outputs/pca/validation.json",
+      "sha256": "97fdd89edffaf5d4d47a4cad82d3db456c3ef3f672ee759b4584de806d498b42",
+      "_row": "/vast/palmer/scratch/coughlan/ps2327/ammo_oct17_mapping/outputs/pca/validation.json"
+    },
+    {
+      "path": "/vast/palmer/scratch/coughlan/ps2327/ammo_oct17_mapping/outputs/preflight.json",
+      "sha256": "4aeec1bc9d3b3708968a7866c863b135f7ad1992beac245b361e31d3a1c75d56",
+      "_row": "/vast/palmer/scratch/coughlan/ps2327/ammo_oct17_mapping/outputs/preflight.json"
+    },
+    {
+      "path": "/gpfs/ycga/work/coughlan/ps2327/ammo/runs/revision_run_01/outputs/figures/genetic_pca/PCA_scores_and_group_assignments.csv",
+      "sha256": "dbce8781bfe50689022efd1be10c56a511d2318e264dbe3df309db31e919cb6d",
+      "_row": "/gpfs/ycga/work/coughlan/ps2327/ammo/runs/revision_run_01/outputs/figures/genetic_pca/PCA_scores_and_group_assignments.csv"
+    },
+    {
+      "path": "/gpfs/ycga/work/coughlan/ps2327/ammo/runs/revision_run_01/outputs/figures/genetic_pca/PCA_variance.csv",
+      "sha256": "b5b5c1607738d563a487b57dd6efdd3b24230938159d4065249f643d0d47f90b",
+      "_row": "/gpfs/ycga/work/coughlan/ps2327/ammo/runs/revision_run_01/outputs/figures/genetic_pca/PCA_variance.csv"
+    },
+    {
+      "path": "/gpfs/ycga/work/coughlan/ps2327/ammo/revision_oct17_mapping/parent/config.frozen.json",
+      "sha256": "ce8ca1d1d86aef3b82cb081d8f2699b2d6513b7f8e824db10f501442e70c760c",
+      "_row": "/gpfs/ycga/work/coughlan/ps2327/ammo/revision_oct17_mapping/parent/config.frozen.json"
+    },
+    {
+      "path": "/gpfs/ycga/work/coughlan/ps2327/ammo/revision_oct17_mapping/inputs/sample_metadata.csv",
+      "sha256": "1694f7743b95219e690c500f7b36f44c17c67b7a7b6b3f35200ec3ede5ebf9f6",
+      "_row": "/gpfs/ycga/work/coughlan/ps2327/ammo/revision_oct17_mapping/inputs/sample_metadata.csv"
+    },
+    {
+      "path": "/gpfs/ycga/work/coughlan/ps2327/ammo/revision_oct17_mapping/read_access/crosswalk/crosswalk217.tsv",
+      "sha256": "1094fd855d29ba13e1d855dc2b741a8efb667a6a4575d34b83fc561301a6094a",
+      "_row": "/gpfs/ycga/work/coughlan/ps2327/ammo/revision_oct17_mapping/read_access/crosswalk/crosswalk217.tsv"
+    },
+    {
+      "path": "/gpfs/ycga/work/coughlan/ps2327/ammo/revision_oct17_mapping/references/REFERENCE_AUDIT.json",
+      "sha256": "03ce89bf43799e25d5d8f94b2dea7c439a587dd24c5c59f924941fb843928f44",
+      "_row": "/gpfs/ycga/work/coughlan/ps2327/ammo/revision_oct17_mapping/references/REFERENCE_AUDIT.json"
+    },
+    {
+      "path": "/vast/palmer/scratch/coughlan/ps2327/ammo_oct17_mapping/outputs/checkpoints/filter.json",
+      "sha256": "207551d37f21f94fbb0fb3a283fe54ee06248f8a236f4969d4218550b1cc9809",
+      "_row": "/vast/palmer/scratch/coughlan/ps2327/ammo_oct17_mapping/outputs/checkpoints/filter.json"
+    },
+    {
+      "path": "/vast/palmer/scratch/coughlan/ps2327/ammo_oct17_mapping/outputs/checkpoints/pca.json",
+      "sha256": "8287e0f563ec76260e66e2322e1cf3cd3a2e2a09dec3c077ebf93557013904de",
+      "_row": "/vast/palmer/scratch/coughlan/ps2327/ammo_oct17_mapping/outputs/checkpoints/pca.json"
+    },
+    {
+      "path": "/vast/palmer/scratch/coughlan/ps2327/ammo_oct17_mapping/outputs/checkpoints/summarize.json",
+      "sha256": "1aaf2501a027483cdcdb1e6979fbab0a30be010e3dde72210a7bf6796241c5bf",
+      "_row": "/vast/palmer/scratch/coughlan/ps2327/ammo_oct17_mapping/outputs/checkpoints/summarize.json"
+    }
+  ]
+}

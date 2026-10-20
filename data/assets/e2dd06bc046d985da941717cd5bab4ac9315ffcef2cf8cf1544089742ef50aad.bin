@@ -1,0 +1,14 @@
+{
+  "production_cases": 4,
+  "production_scoring": "inherited_geographic_penalty_degrees",
+  "production_directions": [
+    "forward",
+    "reverse"
+  ],
+  "production_searches": 8,
+  "queries": 157745,
+  "candidate_domain": 157764,
+  "refit": false,
+  "new_inference": false,
+  "status": "READY; no Slurm or production run submitted"
+}

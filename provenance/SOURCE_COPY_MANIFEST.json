@@ -1,0 +1,342 @@
+[
+  {
+    "source": "revision_oct17_mapping/workflow/run_workflow.py",
+    "destination": "revision_oct17_mapping/workflow/run_workflow.py",
+    "sha256_source": "288937b50077d5d7fd1c1ca3eb7c014eddc4efc254d835da1ca0b1dac43827ed"
+  },
+  {
+    "source": "revision_oct17_mapping/workflow/pca_comparison.R",
+    "destination": "revision_oct17_mapping/workflow/pca_comparison.R",
+    "sha256_source": "86884d1f17f05ad0bf5fe6d64961c43757e129d87b5c108c59fe9f16aa1d08ad"
+  },
+  {
+    "source": "revision_oct17_mapping/workflow/check_implementation.py",
+    "destination": "revision_oct17_mapping/workflow/check_implementation.py",
+    "sha256_source": "20ecbce7646cf50b15e273b7eedf3c03180227de0f53dadcde1aa319544a3f98"
+  },
+  {
+    "source": "revision_oct17_mapping/parallel_call/call_shards.py",
+    "destination": "revision_oct17_mapping/parallel_call/call_shards.py",
+    "sha256_source": "faebff33c9055f7715ddff088cfe9731b9da29921a90d4eb82ed066643524ffb"
+  },
+  {
+    "source": "revision_oct17_mapping/parallel_call/test_partition.py",
+    "destination": "revision_oct17_mapping/parallel_call/test_partition.py",
+    "sha256_source": "9bca71d5aa4cc76bef838f5e17f16c283c257b19403553b0feb2cfd389312098"
+  },
+  {
+    "source": "revision_oct17_mapping/read_access/download/download_fastq.py",
+    "destination": "revision_oct17_mapping/read_access/download/download_fastq.py",
+    "sha256_source": "0ea7082e8c30a0b57d751dd7b983d6f603f7577f8ff9484927ede4d347db78dd"
+  },
+  {
+    "source": "revision_oct17_mapping/read_access/download/runs.txt",
+    "destination": "revision_oct17_mapping/read_access/download/runs.txt",
+    "sha256_source": "430468f750308094903f31d3f7a8249c9db6d484bc715fbaf759c6fe191f58dd"
+  },
+  {
+    "source": "revision_oct17_mapping/reporting/summarize_mapping.R",
+    "destination": "revision_oct17_mapping/reporting/summarize_mapping.R",
+    "sha256_source": "278eb19409479e8ae35c613d5709e769d448c81542bea7b416101311540f0ccb"
+  },
+  {
+    "source": "revision_oct17_mapping/reporting/export_workbook.py",
+    "destination": "revision_oct17_mapping/reporting/export_workbook.py",
+    "sha256_source": "189de45cb5e8cf9ed50411026c5a9908aab6edefd696e1734f719c88a34b9005"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/audit_saved_inputs.py",
+    "destination": "revision_oct17_mapping/stairway_length/audit_saved_inputs.py",
+    "sha256_source": "7a611959ae4d1ef7da47bce6184af3edc0ba4fcd0dccba81cd6da27674a4f075"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/validate_saved_projection.py",
+    "destination": "revision_oct17_mapping/stairway_length/validate_saved_projection.py",
+    "sha256_source": "05e1e2ad46c3290cc8cc01e47a2663501b3292b21863df7706af61fdcbc0ba2a"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/reporting/build_stairway_report.py",
+    "destination": "revision_oct17_mapping/stairway_length/reporting/build_stairway_report.py",
+    "sha256_source": "99a4696451af89d6ff2de6c5041c87bc382e7e3550157838d68eeabec3e67392"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/code/test_mapped_extent.py",
+    "destination": "revision_oct17_mapping/stairway_length/code/test_mapped_extent.py",
+    "sha256_source": "edf0903c0ec1f99f22b9dcb98d92c6fc434fcf486de911ab5736ebcd93c99ed0"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/code/mapped_extent.py",
+    "destination": "revision_oct17_mapping/stairway_length/code/mapped_extent.py",
+    "sha256_source": "25d412c59e25f054c2a1b1b89c27e3d7df4a438c203c91d5007454f6ea1963c6"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/code/build_registry.py",
+    "destination": "revision_oct17_mapping/stairway_length/code/build_registry.py",
+    "sha256_source": "69ecdcb556d5c42fe8f26a92f2077d175f27cdbbdc408658b780eef54c5db094"
+  },
+  {
+    "source": "revision_oct17_mapping/parallel_call/08.bed",
+    "destination": "revision_oct17_mapping/parallel_call/08.bed",
+    "sha256_source": "a2dece001658adc862ec0516eb74256ffa795ce10226dad7ee1eb182a141c04e"
+  },
+  {
+    "source": "revision_oct17_mapping/parallel_call/09.bed",
+    "destination": "revision_oct17_mapping/parallel_call/09.bed",
+    "sha256_source": "3420dec011d76659cf0382caf850ef0f3ae264a68df602a7c615cc1e07f51ab1"
+  },
+  {
+    "source": "revision_oct17_mapping/parallel_call/00.bed",
+    "destination": "revision_oct17_mapping/parallel_call/00.bed",
+    "sha256_source": "fc82ba6f05aa8199858b2a8c9cbed45a6e8f9765285a6d8a492dddff05c75125"
+  },
+  {
+    "source": "revision_oct17_mapping/parallel_call/03.bed",
+    "destination": "revision_oct17_mapping/parallel_call/03.bed",
+    "sha256_source": "505269613b11000c029644e73fe4ae892d7602648190e854a9f2130dd865fe03"
+  },
+  {
+    "source": "revision_oct17_mapping/parallel_call/01.bed",
+    "destination": "revision_oct17_mapping/parallel_call/01.bed",
+    "sha256_source": "5e9edce56419948dbd5602ba2ae60ad6782022e0cdc43c7c5136bf8e1162b8a0"
+  },
+  {
+    "source": "revision_oct17_mapping/parallel_call/04.bed",
+    "destination": "revision_oct17_mapping/parallel_call/04.bed",
+    "sha256_source": "694e8088a6b6d8080fc177a2d7d2923afd9b0a91bd156c1041cad7364212b9c9"
+  },
+  {
+    "source": "revision_oct17_mapping/parallel_call/02.bed",
+    "destination": "revision_oct17_mapping/parallel_call/02.bed",
+    "sha256_source": "9131492d8c459abbb476d05910e214ea0e57b1ebb841a7a64d61ed688d5d8795"
+  },
+  {
+    "source": "revision_oct17_mapping/parallel_call/05.bed",
+    "destination": "revision_oct17_mapping/parallel_call/05.bed",
+    "sha256_source": "29d9c78a2f6ef0535127b491a73b79972abb628752da3103ef8c2f4f36fee575"
+  },
+  {
+    "source": "revision_oct17_mapping/parallel_call/06.bed",
+    "destination": "revision_oct17_mapping/parallel_call/06.bed",
+    "sha256_source": "f4c8172943c7ec946646eb18d567ee925dfcb679170c2c28a273347631cc4810"
+  },
+  {
+    "source": "revision_oct17_mapping/parallel_call/07.bed",
+    "destination": "revision_oct17_mapping/parallel_call/07.bed",
+    "sha256_source": "7e1185d384cb8e24f2ae677432c3a67bb8f437154cdefe23a3ff9f66a8e82ffd"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/targets_8e49eb429033_proj102.alleles.tsv",
+    "destination": "revision_oct17_mapping/stairway_length/targets_8e49eb429033_proj102.alleles.tsv",
+    "sha256_source": "f98c5c7015143a35d0cd8c1f440fc026ed424d8c34d065483d6fd02752725238"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/targets_e526b48e0436_proj34.alleles.tsv",
+    "destination": "revision_oct17_mapping/stairway_length/targets_e526b48e0436_proj34.alleles.tsv",
+    "sha256_source": "201560b0ff938287f2f53e24779949b82ceb47b4f49077c8ecd7850826dcfde4"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/targets_62e1dd9efe3b_proj158.bed",
+    "destination": "revision_oct17_mapping/stairway_length/targets_62e1dd9efe3b_proj158.bed",
+    "sha256_source": "2101e07056112d8a8f68d087037f6fcb55a83bfa9d602f78bfd80828a0fcbd58"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/targets_192defad565b_proj64.alleles.tsv",
+    "destination": "revision_oct17_mapping/stairway_length/targets_192defad565b_proj64.alleles.tsv",
+    "sha256_source": "66de74d8704298e00d486fda777141842680bc5e280969deabb6fb56301b09e9"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/targets_bebe1d145b35_proj266.alleles.tsv",
+    "destination": "revision_oct17_mapping/stairway_length/targets_bebe1d145b35_proj266.alleles.tsv",
+    "sha256_source": "eb879f8914a21f25c3d51545043f8b73cd145975d39fb5261baf45b52b27c6a4"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/targets_fca044b55795_proj34.alleles.tsv",
+    "destination": "revision_oct17_mapping/stairway_length/targets_fca044b55795_proj34.alleles.tsv",
+    "sha256_source": "b1dc563c1ce5e7e0554891fd2e7deded89315b0a9cd16754c2d910026ee47758"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/targets_48d103b4f684_proj170.alleles.tsv",
+    "destination": "revision_oct17_mapping/stairway_length/targets_48d103b4f684_proj170.alleles.tsv",
+    "sha256_source": "4cf7528e1c4910de5bf428d2b18b6b1a63d5bd4e65ac933d64ff6df9d3d3b946"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/targets_347fc7b203cc_proj104.bed",
+    "destination": "revision_oct17_mapping/stairway_length/targets_347fc7b203cc_proj104.bed",
+    "sha256_source": "f4a4b05f55eb18aa2e90eaadb73744a8492da085310515d133a42eb74191037a"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/targets_8e49eb429033_proj102.bed",
+    "destination": "revision_oct17_mapping/stairway_length/targets_8e49eb429033_proj102.bed",
+    "sha256_source": "dca665995375ac87301bfaef544cf487b621408a2efc28f7a57fcc3fe9e7a160"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/targets_2f36de0a6511_proj62.alleles.tsv",
+    "destination": "revision_oct17_mapping/stairway_length/targets_2f36de0a6511_proj62.alleles.tsv",
+    "sha256_source": "c4045666b5d0bce18e0a04720ce85151e2fa8597f3d32da0bb19765330caef81"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/targets_ec9ecfdf3def_proj154.alleles.tsv",
+    "destination": "revision_oct17_mapping/stairway_length/targets_ec9ecfdf3def_proj154.alleles.tsv",
+    "sha256_source": "2e503bfdf9a11f180ce0ac12b1ca00316633e6c23503b25332cdeb9941ae8ce4"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/targets_48d103b4f684_proj170.bed",
+    "destination": "revision_oct17_mapping/stairway_length/targets_48d103b4f684_proj170.bed",
+    "sha256_source": "9393946169d57f983325e12fd5a6fe596ba20956890508710992cda58f87620a"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/targets_89d375eafa5c_proj348.bed",
+    "destination": "revision_oct17_mapping/stairway_length/targets_89d375eafa5c_proj348.bed",
+    "sha256_source": "8936f8aed8dfe1531c3dc51a6f3db6494a4567b3bc9f405028f59795f760062a"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/targets_347fc7b203cc_proj104.alleles.tsv",
+    "destination": "revision_oct17_mapping/stairway_length/targets_347fc7b203cc_proj104.alleles.tsv",
+    "sha256_source": "7645d2e5ff6dec1814878b7f51f1c0050b2b53208564e12e861e2f2b65f3f21f"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/targets_0efff7a62023_proj104.alleles.tsv",
+    "destination": "revision_oct17_mapping/stairway_length/targets_0efff7a62023_proj104.alleles.tsv",
+    "sha256_source": "7645d2e5ff6dec1814878b7f51f1c0050b2b53208564e12e861e2f2b65f3f21f"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/targets_ec9ecfdf3def_proj154.bed",
+    "destination": "revision_oct17_mapping/stairway_length/targets_ec9ecfdf3def_proj154.bed",
+    "sha256_source": "0c2eda8331dcf86918883bea8716be36ba5e48cfe7e1ba54a1e14fc79f59cfbd"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/targets_89d375eafa5c_proj348.alleles.tsv",
+    "destination": "revision_oct17_mapping/stairway_length/targets_89d375eafa5c_proj348.alleles.tsv",
+    "sha256_source": "43e642211f2c540b69837f1d5fef5c8ea1a0ac6023db13729d62320f4b5ef105"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/targets_d5c6450b01f7_proj160.bed",
+    "destination": "revision_oct17_mapping/stairway_length/targets_d5c6450b01f7_proj160.bed",
+    "sha256_source": "1f447681a09d28eac7e5e1ef47b158fe079fea402b8b54cbab151757c639a4c1"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/targets_e3837f7c6f4f_proj348.bed",
+    "destination": "revision_oct17_mapping/stairway_length/targets_e3837f7c6f4f_proj348.bed",
+    "sha256_source": "5b561accca2e5af12f89d92a08ce78c27eecf3c7da5502566508bf4b86c02402"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/targets_8ae993c52919_proj172.bed",
+    "destination": "revision_oct17_mapping/stairway_length/targets_8ae993c52919_proj172.bed",
+    "sha256_source": "217b9b1c962be79fc685981ecae528ef1c71c03e2222306689521a58a9244b6a"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/targets_fca044b55795_proj34.bed",
+    "destination": "revision_oct17_mapping/stairway_length/targets_fca044b55795_proj34.bed",
+    "sha256_source": "9b1856f22380fe335497ae4c1b45397125d7e447b0a52d2b94dd8626be445223"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/targets_192defad565b_proj64.bed",
+    "destination": "revision_oct17_mapping/stairway_length/targets_192defad565b_proj64.bed",
+    "sha256_source": "329f641689b0ed84ed3f65cc24558bb55f33fd62bb4721d13fc66488c0316f1e"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/targets_d5c6450b01f7_proj160.alleles.tsv",
+    "destination": "revision_oct17_mapping/stairway_length/targets_d5c6450b01f7_proj160.alleles.tsv",
+    "sha256_source": "2f8fb72288a595c7cfb51abfa16dd0a5e5586eb5ae3cfb4a210530f56828366d"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/targets_bebe1d145b35_proj266.bed",
+    "destination": "revision_oct17_mapping/stairway_length/targets_bebe1d145b35_proj266.bed",
+    "sha256_source": "c807583b01806c7d1d80c0a70f48b9fd1c0c1017597df773eb78f736ded97197"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/targets_0efff7a62023_proj104.bed",
+    "destination": "revision_oct17_mapping/stairway_length/targets_0efff7a62023_proj104.bed",
+    "sha256_source": "f4a4b05f55eb18aa2e90eaadb73744a8492da085310515d133a42eb74191037a"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/targets_e3837f7c6f4f_proj348.alleles.tsv",
+    "destination": "revision_oct17_mapping/stairway_length/targets_e3837f7c6f4f_proj348.alleles.tsv",
+    "sha256_source": "aab2b91fd0360a946d583083bdaf46e9f0954010ddd278ad584936508fdd1bd2"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/targets_2f36de0a6511_proj62.bed",
+    "destination": "revision_oct17_mapping/stairway_length/targets_2f36de0a6511_proj62.bed",
+    "sha256_source": "051eaf74d2ed25bd9694ff01677f7dc27761f5c3bc26f336117b009c7af38172"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/targets_62e1dd9efe3b_proj158.alleles.tsv",
+    "destination": "revision_oct17_mapping/stairway_length/targets_62e1dd9efe3b_proj158.alleles.tsv",
+    "sha256_source": "3513908c90dfab060b00359c8caf470e1d535c5d345fc08ac7db72a1a71d21bb"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/targets_e526b48e0436_proj34.bed",
+    "destination": "revision_oct17_mapping/stairway_length/targets_e526b48e0436_proj34.bed",
+    "sha256_source": "0ddbad5ff663f0e0f9098f34a82cf0b57f91955b95fc4c5a35cad8205e5395a4"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/targets_8ae993c52919_proj172.alleles.tsv",
+    "destination": "revision_oct17_mapping/stairway_length/targets_8ae993c52919_proj172.alleles.tsv",
+    "sha256_source": "e9185aa2d5ecac04ddbdb6baa3d0d412bb5d6cb1bf6ae204fce98d3069a37c6e"
+  },
+  {
+    "source": "revision_oct17_mapping/inputs/PCA_scores_and_group_assignments.csv",
+    "destination": "revision_oct17_mapping/inputs/PCA_scores_and_group_assignments.csv",
+    "sha256_source": "dbce8781bfe50689022efd1be10c56a511d2318e264dbe3df309db31e919cb6d"
+  },
+  {
+    "source": "revision_oct17_mapping/inputs/PCA_variance.csv",
+    "destination": "revision_oct17_mapping/inputs/PCA_variance.csv",
+    "sha256_source": "b5b5c1607738d563a487b57dd6efdd3b24230938159d4065249f643d0d47f90b"
+  },
+  {
+    "source": "revision_oct17_mapping/inputs/sample_metadata.csv",
+    "destination": "revision_oct17_mapping/inputs/sample_metadata.csv",
+    "sha256_source": "1694f7743b95219e690c500f7b36f44c17c67b7a7b6b3f35200ec3ede5ebf9f6"
+  },
+  {
+    "source": "revision_oct17_mapping/read_access/DOWNLOAD_COMPLETION.json",
+    "destination": "revision_oct17_mapping/read_access/DOWNLOAD_COMPLETION.json",
+    "sha256_source": "e7f406cfc1d09287040b67ada2b3631b6ada23ff89b20dd0c8437875c907a21e"
+  },
+  {
+    "source": "revision_oct17_mapping/references/nanus_bundled.lengths.tsv",
+    "destination": "revision_oct17_mapping/references/nanus_bundled.lengths.tsv",
+    "sha256_source": "c6856b7476dde8c3a312f54aa63baceef5a2ab3130966a41e918a77006aac5d7"
+  },
+  {
+    "source": "revision_oct17_mapping/references/mongolicus_Feng2024_publisher_v1.lengths.tsv",
+    "destination": "revision_oct17_mapping/references/mongolicus_Feng2024_publisher_v1.lengths.tsv",
+    "sha256_source": "62f8bd1f00511a80e56caec60c7ed3df4e2ef09e32d74bfb73a879f6ca0fd2c7"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/HISTORICAL_L.csv",
+    "destination": "revision_oct17_mapping/stairway_length/HISTORICAL_L.csv",
+    "sha256_source": "8a5abf7c3bd92f7c0965728a24344815778e2ba1395b0b88730c80528bd43244"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/AUTHOR_CONFIRMED_FINAL_LENGTHS.json",
+    "destination": "revision_oct17_mapping/stairway_length/AUTHOR_CONFIRMED_FINAL_LENGTHS.json",
+    "sha256_source": "db6b548265d3a67b8eca636e869e6cd32d5216fa0de63720e771171886b71045"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/PROJECTION_RECOVERY_VALIDATION.json",
+    "destination": "revision_oct17_mapping/stairway_length/PROJECTION_RECOVERY_VALIDATION.json",
+    "sha256_source": "85c93a62e399af26ff72210fd2416ba6c1000415dc20cdb6b77ce04c8695bd44"
+  },
+  {
+    "source": "revision_oct17_mapping/stairway_length/reporting/validated_results/REPORT_QA.json",
+    "destination": "revision_oct17_mapping/stairway_length/reporting/validated_results/REPORT_QA.json",
+    "sha256_source": "a8c16f7e992f8e0cc12146974e3a2a3df01d8bbd80bddefe2127e77c6ea0f30f"
+  },
+  {
+    "source": "revision_oct17_mapping/workflow/run_workflow.py",
+    "destination": "provenance/executed_sources/run_workflow.py",
+    "sha256_source": "288937b50077d5d7fd1c1ca3eb7c014eddc4efc254d835da1ca0b1dac43827ed"
+  },
+  {
+    "source": "revision_oct17_mapping/parallel_call/call_shards.py",
+    "destination": "provenance/executed_sources/call_shards.py",
+    "sha256_source": "faebff33c9055f7715ddff088cfe9731b9da29921a90d4eb82ed066643524ffb"
+  },
+  {
+    "source": "revision_oct17_mapping/read_access/download/download_fastq.py",
+    "destination": "provenance/executed_sources/download_fastq.py",
+    "sha256_source": "0ea7082e8c30a0b57d751dd7b983d6f603f7577f8ff9484927ede4d347db78dd"
+  }
+]

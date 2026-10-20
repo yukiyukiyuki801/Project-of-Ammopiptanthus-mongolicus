@@ -1,0 +1,11 @@
+{
+  "scope": "R3.M1 and explicit user requested population ratio alternatives",
+  "populations": 19,
+  "individuals": 217,
+  "common_rarefaction_chromosomes": 8,
+  "comparison_tests": 21,
+  "bootstrap_replicates": 2000,
+  "ratio_rows": 399,
+  "figure_status": "Pending R saved-result rendering",
+  "validated": true
+}

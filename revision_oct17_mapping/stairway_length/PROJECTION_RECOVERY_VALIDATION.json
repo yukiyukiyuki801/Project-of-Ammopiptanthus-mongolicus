@@ -1,0 +1,373 @@
+{
+  "status": "PASS",
+  "method": "Independent hypergeometric projection of saved per-group REF/ALT counts; fold complementary counts; mask monomorphic bin. Saved results audit only, not demographic rerun.",
+  "targets": [
+    {
+      "target_bed": "targets_2f36de0a6511_proj62.bed",
+      "projection_chromosomes": 62,
+      "contributing_coordinates": 27535,
+      "projected_polymorphic_expected_sum": 26946.342259790337,
+      "max_abs_bin_difference": 9.777068044058979e-11,
+      "saved_matches": [
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Adapt_peri_output/dadi/Adapt_peri-62.sfs",
+          "max_abs_bin_difference": 9.777068044058979e-11
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Adapt_peri_output/dadi/Adapt_peri.sfs",
+          "max_abs_bin_difference": 9.777068044058979e-11
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Adapt_peri_output/dadi/Adapt_peri-62.sfs",
+          "max_abs_bin_difference": 9.777068044058979e-11
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Adapt_peri_output/dadi/Adapt_peri.sfs",
+          "max_abs_bin_difference": 9.777068044058979e-11
+        }
+      ]
+    },
+    {
+      "target_bed": "targets_e3837f7c6f4f_proj348.bed",
+      "projection_chromosomes": 348,
+      "contributing_coordinates": 38124,
+      "projected_polymorphic_expected_sum": 38123.5234068557,
+      "max_abs_bin_difference": 6.070877134334296e-10,
+      "saved_matches": [
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Amon_output/dadi/Amon.sfs",
+          "max_abs_bin_difference": 6.070877134334296e-10
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Amon_output/dadi/Amon-348.sfs",
+          "max_abs_bin_difference": 6.070877134334296e-10
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Amon_output/dadi/Amon.sfs",
+          "max_abs_bin_difference": 6.070877134334296e-10
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Amon_output/dadi/Amon-348.sfs",
+          "max_abs_bin_difference": 6.070877134334296e-10
+        }
+      ]
+    },
+    {
+      "target_bed": "targets_62e1dd9efe3b_proj158.bed",
+      "projection_chromosomes": 158,
+      "contributing_coordinates": 33597,
+      "projected_polymorphic_expected_sum": 32967.55245939485,
+      "max_abs_bin_difference": 3.651621227618307e-10,
+      "saved_matches": [
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Core_output/dadi/Core.sfs",
+          "max_abs_bin_difference": 3.651621227618307e-10
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Core_output/dadi/Core-158.sfs",
+          "max_abs_bin_difference": 3.651621227618307e-10
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Core_output/dadi/Core.sfs",
+          "max_abs_bin_difference": 3.651621227618307e-10
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Core_output/dadi/Core-158.sfs",
+          "max_abs_bin_difference": 3.651621227618307e-10
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Core_output/dadi/Core.sfs",
+          "max_abs_bin_difference": 3.651621227618307e-10
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Core_output/dadi/Core-158.sfs",
+          "max_abs_bin_difference": 3.651621227618307e-10
+        }
+      ]
+    },
+    {
+      "target_bed": "targets_8e49eb429033_proj102.bed",
+      "projection_chromosomes": 102,
+      "contributing_coordinates": 27423,
+      "projected_polymorphic_expected_sum": 26792.228446172576,
+      "max_abs_bin_difference": 2.000888343900442e-10,
+      "saved_matches": [
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Peri_output/dadi/Peri.sfs",
+          "max_abs_bin_difference": 2.000888343900442e-10
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Peri_output/dadi/Peri-102.sfs",
+          "max_abs_bin_difference": 2.000888343900442e-10
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Peri_output/dadi/Peri.sfs",
+          "max_abs_bin_difference": 2.000888343900442e-10
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/Peri_output/dadi/Peri-102.sfs",
+          "max_abs_bin_difference": 2.000888343900442e-10
+        }
+      ]
+    },
+    {
+      "target_bed": "targets_192defad565b_proj64.bed",
+      "projection_chromosomes": 64,
+      "contributing_coordinates": 22889,
+      "projected_polymorphic_expected_sum": 22428.43950385323,
+      "max_abs_bin_difference": 6.184563972055912e-11,
+      "saved_matches": [
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Adapt_peri_output/dadi/Adapt_peri.sfs",
+          "max_abs_bin_difference": 6.184563972055912e-11
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Adapt_peri_output/dadi/Adapt_peri-64.sfs",
+          "max_abs_bin_difference": 6.184563972055912e-11
+        }
+      ]
+    },
+    {
+      "target_bed": "targets_89d375eafa5c_proj348.bed",
+      "projection_chromosomes": 348,
+      "contributing_coordinates": 32765,
+      "projected_polymorphic_expected_sum": 32764.523470321208,
+      "max_abs_bin_difference": 6.057234713807702e-10,
+      "saved_matches": [
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Amon_output/dadi/Amon.sfs",
+          "max_abs_bin_difference": 6.057234713807702e-10
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Amon_output/dadi/Amon-348.sfs",
+          "max_abs_bin_difference": 6.057234713807702e-10
+        }
+      ]
+    },
+    {
+      "target_bed": "targets_d5c6450b01f7_proj160.bed",
+      "projection_chromosomes": 160,
+      "contributing_coordinates": 28502,
+      "projected_polymorphic_expected_sum": 27936.32803236846,
+      "max_abs_bin_difference": 2.473825588822365e-10,
+      "saved_matches": [
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Core_output/dadi/Core.sfs",
+          "max_abs_bin_difference": 2.473825588822365e-10
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Core_output/dadi/Core-160.sfs",
+          "max_abs_bin_difference": 2.473825588822365e-10
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Core_output/dadi/Core.sfs",
+          "max_abs_bin_difference": 2.473825588822365e-10
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Core_output/dadi/Core-160.sfs",
+          "max_abs_bin_difference": 2.473825588822365e-10
+        }
+      ]
+    },
+    {
+      "target_bed": "targets_347fc7b203cc_proj104.bed",
+      "projection_chromosomes": 104,
+      "contributing_coordinates": 22488,
+      "projected_polymorphic_expected_sum": 21928.50614734842,
+      "max_abs_bin_difference": 1.4642864698544145e-10,
+      "saved_matches": [
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Peri_output/dadi/Peri-104.sfs",
+          "max_abs_bin_difference": 1.4642864698544145e-10
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Peri_output/dadi/Peri.sfs",
+          "max_abs_bin_difference": 1.4642864698544145e-10
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Peri_output/dadi/Peri-104.sfs",
+          "max_abs_bin_difference": 1.4642864698544145e-10
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/Peri_output/dadi/Peri.sfs",
+          "max_abs_bin_difference": 1.4642864698544145e-10
+        }
+      ]
+    },
+    {
+      "target_bed": "targets_0efff7a62023_proj104.bed",
+      "projection_chromosomes": 104,
+      "contributing_coordinates": 22488,
+      "projected_polymorphic_expected_sum": 21928.50614734842,
+      "max_abs_bin_difference": 1.4642864698544145e-10,
+      "saved_matches": [
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/peripheral_output/output/dadi/peripheral-104.sfs",
+          "max_abs_bin_difference": 1.4642864698544145e-10
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/peripheral_output/output/dadi/peripheral.sfs",
+          "max_abs_bin_difference": 1.4642864698544145e-10
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/peripheral_output/output/dadi/peripheral-104.sfs",
+          "max_abs_bin_difference": 1.4642864698544145e-10
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/peripheral_output/output/dadi/peripheral.sfs",
+          "max_abs_bin_difference": 1.4642864698544145e-10
+        }
+      ]
+    },
+    {
+      "target_bed": "targets_48d103b4f684_proj170.bed",
+      "projection_chromosomes": 170,
+      "contributing_coordinates": 59061,
+      "projected_polymorphic_expected_sum": 58678.12590735415,
+      "max_abs_bin_difference": 2.3305801732931286e-10,
+      "saved_matches": [
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/all_peri_output/dadi/Peri-170.sfs",
+          "max_abs_bin_difference": 2.3305801732931286e-10
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/LD_filtered_08_snps/all_peri_output/dadi/Peri.sfs",
+          "max_abs_bin_difference": 2.3305801732931286e-10
+        }
+      ]
+    },
+    {
+      "target_bed": "targets_8ae993c52919_proj172.bed",
+      "projection_chromosomes": 172,
+      "contributing_coordinates": 30578,
+      "projected_polymorphic_expected_sum": 30304.32423331524,
+      "max_abs_bin_difference": 1.9554136088117957e-10,
+      "saved_matches": [
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/all_peri_output/dadi/Peri-172.sfs",
+          "max_abs_bin_difference": 1.9554136088117957e-10
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/neutral_snps/all_peri_output/dadi/Peri.sfs",
+          "max_abs_bin_difference": 1.9554136088117957e-10
+        }
+      ]
+    },
+    {
+      "target_bed": "targets_fca044b55795_proj34.bed",
+      "projection_chromosomes": 34,
+      "contributing_coordinates": 19851,
+      "projected_polymorphic_expected_sum": 19061.569833329573,
+      "max_abs_bin_difference": 2.3646862246096134e-11,
+      "saved_matches": [
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_1_output/dadi/adaptive_1.sfs",
+          "max_abs_bin_difference": 2.3646862246096134e-11
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_1_output/dadi/adaptive_1-34.sfs",
+          "max_abs_bin_difference": 2.3646862246096134e-11
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/3_groups/adaptive_1_output/dadi/adaptive_1.sfs",
+          "max_abs_bin_difference": 2.3646862246096134e-11
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/3_groups/adaptive_1_output/dadi/adaptive_1-34.sfs",
+          "max_abs_bin_difference": 2.3646862246096134e-11
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_1_output/dadi/adaptive_1.sfs",
+          "max_abs_bin_difference": 2.3646862246096134e-11
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_1_output/dadi/adaptive_1-34.sfs",
+          "max_abs_bin_difference": 2.3646862246096134e-11
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/3_groups/adaptive_1_output/dadi/adaptive_1.sfs",
+          "max_abs_bin_difference": 2.3646862246096134e-11
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/3_groups/adaptive_1_output/dadi/adaptive_1-34.sfs",
+          "max_abs_bin_difference": 2.3646862246096134e-11
+        }
+      ]
+    },
+    {
+      "target_bed": "targets_e526b48e0436_proj34.bed",
+      "projection_chromosomes": 34,
+      "contributing_coordinates": 17605,
+      "projected_polymorphic_expected_sum": 17093.265834862465,
+      "max_abs_bin_difference": 2.1373125491663814e-11,
+      "saved_matches": [
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_2_output/dadi/adaptive_2-34.sfs",
+          "max_abs_bin_difference": 2.1373125491663814e-11
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_2_output/dadi/adaptive_2.sfs",
+          "max_abs_bin_difference": 2.1373125491663814e-11
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/3_groups/adaptive_2_output/dadi/adaptive_2-34.sfs",
+          "max_abs_bin_difference": 2.1373125491663814e-11
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/3_groups/adaptive_2_output/dadi/adaptive_2.sfs",
+          "max_abs_bin_difference": 2.1373125491663814e-11
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_2_output/dadi/adaptive_2-34.sfs",
+          "max_abs_bin_difference": 2.1373125491663814e-11
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/adaptive_2_output/dadi/adaptive_2.sfs",
+          "max_abs_bin_difference": 2.1373125491663814e-11
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/3_groups/adaptive_2_output/dadi/adaptive_2-34.sfs",
+          "max_abs_bin_difference": 2.1373125491663814e-11
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/3_groups/adaptive_2_output/dadi/adaptive_2.sfs",
+          "max_abs_bin_difference": 2.1373125491663814e-11
+        }
+      ]
+    },
+    {
+      "target_bed": "targets_bebe1d145b35_proj266.bed",
+      "projection_chromosomes": 266,
+      "contributing_coordinates": 27582,
+      "projected_polymorphic_expected_sum": 27362.93852035072,
+      "max_abs_bin_difference": 3.537934389896691e-10,
+      "saved_matches": [
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/3_groups/non_adaptive_output/dadi/non_adaptive.sfs",
+          "max_abs_bin_difference": 3.537934389896691e-10
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/3_groups/non_adaptive_output/dadi/non_adaptive-266.sfs",
+          "max_abs_bin_difference": 3.537934389896691e-10
+        }
+      ]
+    },
+    {
+      "target_bed": "targets_ec9ecfdf3def_proj154.bed",
+      "projection_chromosomes": 154,
+      "contributing_coordinates": 26078,
+      "projected_polymorphic_expected_sum": 25684.875421544337,
+      "max_abs_bin_difference": 1.9667822925839573e-10,
+      "saved_matches": [
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/core_output/output/dadi/core-154.sfs",
+          "max_abs_bin_difference": 1.9667822925839573e-10
+        },
+        {
+          "saved_sfs": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/Demography/easySFS/grouped_by_PCA/4_groups/core_output/output/dadi/core.sfs",
+          "max_abs_bin_difference": 1.9667822925839573e-10
+        }
+      ]
+    }
+  ]
+}

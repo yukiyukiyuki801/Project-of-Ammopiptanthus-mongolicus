@@ -1,0 +1,9 @@
+{
+  "scope": "Explicituserrequestrecoveroriginalperipheral-higherresult withcorrectpopulationunits",
+  "historical_annotation_rebuilt": false,
+  "source_rows": 217,
+  "populations": 19,
+  "primary_tests": 2,
+  "bootstrap": 2000,
+  "validated": true
+}

@@ -1,0 +1,5 @@
+{
+  "PC1_display_bounds": [-2.344, 1.4948],
+  "PC2_display_bounds": [-2.1558, 0.915],
+  "construction": "Union of ALL nonzero density cells in both groups and ALL19 population coordinates, plus4percent padding on each end. Shared display window only; full regional PCA/background and all original numerical grids remain unchanged."
+}

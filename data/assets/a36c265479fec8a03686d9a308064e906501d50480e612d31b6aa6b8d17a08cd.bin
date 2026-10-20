@@ -1,0 +1,9 @@
+"scenario","direction","scoring","seconds","queries","evaluations"
+"ssp126_2041-2070_ENSEMBLE","forward","inherited_geographic_penalty_degrees",14.341,157745,101935892
+"ssp126_2041-2070_ENSEMBLE","reverse","inherited_geographic_penalty_degrees",13.567,157745,92978932
+"ssp126_2071-2100_ENSEMBLE","forward","inherited_geographic_penalty_degrees",13.904,157745,99452083
+"ssp126_2071-2100_ENSEMBLE","reverse","inherited_geographic_penalty_degrees",13.852,157745,95954498
+"ssp585_2041-2070_ENSEMBLE","forward","inherited_geographic_penalty_degrees",10.305,157745,75111346
+"ssp585_2041-2070_ENSEMBLE","reverse","inherited_geographic_penalty_degrees",14.02,157745,95729827
+"ssp585_2071-2100_ENSEMBLE","forward","inherited_geographic_penalty_degrees",11.435,157745,68359547
+"ssp585_2071-2100_ENSEMBLE","reverse","inherited_geographic_penalty_degrees",14.884,157745,101265676

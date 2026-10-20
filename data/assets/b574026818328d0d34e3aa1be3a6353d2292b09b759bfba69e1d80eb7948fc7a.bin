@@ -1,0 +1,5 @@
+"model","metric","value"
+"geo_TRUE","training_RMSE",0.0922397480917392
+"geo_TRUE","explained_deviance",61.7811252192373
+"geo_FALSE","training_RMSE",0.092781125631862
+"geo_FALSE","explained_deviance",61.3302859014

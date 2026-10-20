@@ -1,0 +1,148 @@
+{
+  "caption": "C. Archived demographic inputs and independently reconstructed mapped-region extents. Input panel size is the archived easySFS dictionary size; contributing SNPs have a positive probability of being polymorphic at the historical chromosome projection. The mapped extent counts unique ACGT reference bases in observed covered regions containing these SNPs. It is a new reconstruction, not automatically the historical input L or a validated callable denominator. No Stairway Plot rerun or recalibration was performed. Matching archived input files does not prove their correspondence to the original production run or plotted histories. The earlier RAD-locus \u00d7150 description should therefore be read in light of these recovered numeric inputs and distinct mapped measurements.",
+  "rows": [
+    {
+      "Group": "All individuals",
+      "Individuals": 217,
+      "Input panel SNPs": 32765,
+      "Projected chromosomes": 348,
+      "SNPs contributing to projected SFS": 32765,
+      "Archived input L (bp)": 4914750,
+      "New mapped ACGT extent (bp)": 7509602,
+      "Uncovered target SNPs": 9
+    },
+    {
+      "Group": "All individuals",
+      "Individuals": 217,
+      "Input panel SNPs": 38124,
+      "Projected chromosomes": 348,
+      "SNPs contributing to projected SFS": 38124,
+      "Archived input L (bp)": 5718600,
+      "New mapped ACGT extent (bp)": 8332643,
+      "Uncovered target SNPs": 10
+    },
+    {
+      "Group": "Core populations",
+      "Individuals": 104,
+      "Input panel SNPs": 32765,
+      "Projected chromosomes": 160,
+      "SNPs contributing to projected SFS": 28502,
+      "Archived input L (bp)": 4190400,
+      "New mapped ACGT extent (bp)": 5672628,
+      "Uncovered target SNPs": 14
+    },
+    {
+      "Group": "Core populations",
+      "Individuals": 104,
+      "Input panel SNPs": 38124,
+      "Projected chromosomes": 158,
+      "SNPs contributing to projected SFS": 33597,
+      "Archived input L (bp)": 4945200,
+      "New mapped ACGT extent (bp)": 6411275,
+      "Uncovered target SNPs": 15
+    },
+    {
+      "Group": "Peripheral populations",
+      "Individuals": 113,
+      "Input panel SNPs": 32765,
+      "Projected chromosomes": 172,
+      "SNPs contributing to projected SFS": 30578,
+      "Archived input L (bp)": 4545600,
+      "New mapped ACGT extent (bp)": 6238664,
+      "Uncovered target SNPs": 20
+    },
+    {
+      "Group": "Peripheral populations",
+      "Individuals": 113,
+      "Input panel SNPs": 61697,
+      "Projected chromosomes": 170,
+      "SNPs contributing to projected SFS": 59061,
+      "Archived input L (bp)": 8801700,
+      "New mapped ACGT extent (bp)": 8644576,
+      "Uncovered target SNPs": 28
+    },
+    {
+      "Group": "Adaptive individuals in peripheral populations",
+      "Individuals": 44,
+      "Input panel SNPs": 32765,
+      "Projected chromosomes": 64,
+      "SNPs contributing to projected SFS": 22889,
+      "Archived input L (bp)": 3364200,
+      "New mapped ACGT extent (bp)": 4184963,
+      "Uncovered target SNPs": 19
+    },
+    {
+      "Group": "Adaptive individuals in peripheral populations",
+      "Individuals": 44,
+      "Input panel SNPs": 38124,
+      "Projected chromosomes": 62,
+      "SNPs contributing to projected SFS": 27535,
+      "Archived input L (bp)": 4041900,
+      "New mapped ACGT extent (bp)": 4859179,
+      "Uncovered target SNPs": 20
+    },
+    {
+      "Group": "Nonadaptive genetic groups pooled",
+      "Individuals": 170,
+      "Input panel SNPs": 32765,
+      "Projected chromosomes": 266,
+      "SNPs contributing to projected SFS": 27582,
+      "Archived input L (bp)": 4104450,
+      "New mapped ACGT extent (bp)": 6152190,
+      "Uncovered target SNPs": 11
+    },
+    {
+      "Group": "Core genetic group",
+      "Individuals": 101,
+      "Input panel SNPs": 32765,
+      "Projected chromosomes": 154,
+      "SNPs contributing to projected SFS": 26078,
+      "Archived input L (bp)": 3852750,
+      "New mapped ACGT extent (bp)": 5237826,
+      "Uncovered target SNPs": 13
+    },
+    {
+      "Group": "Peripheral genetic group",
+      "Individuals": 69,
+      "Input panel SNPs": 32765,
+      "Projected chromosomes": 104,
+      "SNPs contributing to projected SFS": 22488,
+      "Archived input L (bp)": 3289350,
+      "New mapped ACGT extent (bp)": 4384704,
+      "Uncovered target SNPs": 23
+    },
+    {
+      "Group": "Peripheral genetic group",
+      "Individuals": 69,
+      "Input panel SNPs": 38124,
+      "Projected chromosomes": 102,
+      "SNPs contributing to projected SFS": 27423,
+      "Archived input L (bp)": 4018800,
+      "New mapped ACGT extent (bp)": 5155299,
+      "Uncovered target SNPs": 25
+    },
+    {
+      "Group": "Adaptive genetic group 1",
+      "Individuals": 23,
+      "Input panel SNPs": 32765,
+      "Projected chromosomes": 34,
+      "SNPs contributing to projected SFS": 19851,
+      "Archived input L (bp)": 2859300,
+      "New mapped ACGT extent (bp)": 3231629,
+      "Uncovered target SNPs": 29
+    },
+    {
+      "Group": "Adaptive genetic group 2",
+      "Individuals": 24,
+      "Input panel SNPs": 32765,
+      "Projected chromosomes": 34,
+      "SNPs contributing to projected SFS": 17605,
+      "Archived input L (bp)": 2563950,
+      "New mapped ACGT extent (bp)": 3040169,
+      "Uncovered target SNPs": 26
+    }
+  ],
+  "numbered_table": "S7",
+  "new_numbered_table_created": false,
+  "historical_L_replaced": false
+}

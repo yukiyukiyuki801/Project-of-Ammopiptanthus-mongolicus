@@ -1,0 +1,34 @@
+{
+  "validated": true,
+  "scope": "Archived configuration/trace provenance audit; not convergence certification",
+  "runs": [
+    {
+      "demes": 700,
+      "seed": "123",
+      "samples": "217",
+      "loci": "38124",
+      "iterations": "2000000",
+      "burnin": "1000000",
+      "thin_parameter": "9999",
+      "actual_save_interval": 10000,
+      "trace_draws": 100,
+      "trace_columns": 2,
+      "directory": "/gpfs/ycga/work/coughlan/ps2327/ammo/ammo_analysis_package_20261014/ammo/ammo_all_deme700",
+      "independent_chains_recovered": 1
+    },
+    {
+      "demes": 1000,
+      "seed": "123",
+      "samples": "217",
+      "loci": "38124",
+      "iterations": "2000000",
+      "burnin": "1000000",
+      "thin_parameter": "9999",
+      "actual_save_interval": 10000,
+      "trace_draws": 100,
+      "trace_columns": 2,
+      "directory": "/gpfs/ycga/work/coughlan/ps2327/ammo/ammo_analysis_package_20261014/ammo/ammo_all_deme1000",
+      "independent_chains_recovered": 1
+    }
+  ]
+}

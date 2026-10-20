@@ -1,0 +1,44 @@
+{
+  "validated": true,
+  "scope": "Static parsing and fresh configuration smoke check only; no reads, mapping, variant calling or scientific computation run",
+  "python_sources_parsed": [
+    "prepare_mapping.py",
+    "provenance/executed_sources/download_fastq.py",
+    "provenance/executed_sources/run_workflow.py",
+    "provenance/executed_sources/call_shards.py",
+    "revision_oct17_mapping/parallel_call/test_partition.py",
+    "revision_oct17_mapping/parallel_call/call_shards.py",
+    "revision_oct17_mapping/workflow/check_implementation.py",
+    "revision_oct17_mapping/workflow/run_workflow.py",
+    "revision_oct17_mapping/reporting/export_workbook.py",
+    "revision_oct17_mapping/stairway_length/validate_saved_projection.py",
+    "revision_oct17_mapping/stairway_length/audit_saved_inputs.py",
+    "revision_oct17_mapping/stairway_length/reporting/build_stairway_report.py",
+    "revision_oct17_mapping/stairway_length/code/test_mapped_extent.py",
+    "revision_oct17_mapping/stairway_length/code/mapped_extent.py",
+    "revision_oct17_mapping/stairway_length/code/build_registry.py",
+    "revision_oct17_mapping/read_access/download/download_fastq.py"
+  ],
+  "configuration_generation": "PASS",
+  "fresh_source_guards": "PASS",
+  "partition498_sequences_843074137_bases_10_shards": "PASS",
+  "manifest217_unique_samples_434_distinct_mate_paths": "PASS",
+  "CLI_help": "PASS",
+  "raw_reference_hashcheck": "Not executed; inputs intentionally absent in configuration smoke test",
+  "errors": [],
+  "generator_output": {
+    "configuration_written": "/vast/palmer/scratch/coughlan/ps2327/tmp/ammo_mapping_portable_i6hn24_d/repo/revision_oct17_mapping/parent/config.frozen.json",
+    "reference_checks": "SKIPPED",
+    "tools_not_on_PATH": [
+      "bwa",
+      "samtools",
+      "fastp",
+      "bcftools",
+      "vcftools",
+      "plink",
+      "Rscript"
+    ],
+    "analysis_run": false,
+    "jobs_submitted": false
+  }
+}

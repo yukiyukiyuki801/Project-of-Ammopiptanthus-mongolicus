@@ -1,0 +1,16 @@
+{
+  "validated": true,
+  "completed_utc": "2026-10-14T23:02:37.574906+00:00",
+  "job_id": "13375692",
+  "scheduler_status": "FAILED_WRAPPER_ASSERTION",
+  "engine_exit": 0,
+  "query_input_substitutions_independently_verified": true,
+  "requested_proteins": 1011,
+  "prediction_files": 756,
+  "missing_proteins": 255,
+  "coverage_complete": false,
+  "missing_rule": "Official sift_prediction.cpp skips empty selected alignments without writing output; absent predictions remain unscored, never tolerated.",
+  "validation_scope": "Completed engine execution and permitted partial prediction coverage, not final score parsing or biological analysis",
+  "database_provenance": "public_dependencies/DOWNLOAD_PROVENANCE.txt; SwissProt download2026-10-13 differs from publishedUniRef100",
+  "rerun_required": false
+}

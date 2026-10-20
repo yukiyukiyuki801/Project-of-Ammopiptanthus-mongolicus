@@ -1,0 +1,30 @@
+{
+  "validated": true,
+  "scope": "Input audit and verified fixed-SFS numeric rescaling, not completed functional annotation, SDM refit, EEMS convergence or demographic ascertainment analysis",
+  "functional": {
+    "annotation_files": 217,
+    "annotation_rows_available": 0,
+    "inherited_audit_rows": 217,
+    "original_individual_summary_present": false,
+    "interpretation": "Historical audit evidence is preserved but is not a current rederivation. Header-only individual annotation files cannot support new dosage, consequence or callable-denominator calculations.",
+    "missing": [
+      "Complete nonempty annotation outputs or a compatible complete annotation rebuild",
+      "Verified allele polarization for any derived-allele wording",
+      "Unique site/transcript and allele-dosage rules",
+      "Validated callable or synonymous denominator and confidence filters"
+    ]
+  },
+  "blueprints": 23,
+  "blueprints_with_invalid_nrand": 5,
+  "demographic_summaries": 19,
+  "scaling_verified_summaries": 19,
+  "scaled_rows": 3153657,
+  "rate_source": "Recovered source states annual synonymous substitution proxy 8.46e-9; multiplication by assumed three years gives 2.538e-8 per generation; not a species mutation-rate measurement",
+  "next_steps": [
+    "Resolve blueprint/sample/callable provenance before demographic model reruns",
+    "Document recent-epoch and rate sensitivity with full curves retained",
+    "Obtain complete annotation evidence or scope down load inference",
+    "Validate EEMS input and chain implementation before new independent chains",
+    "Recover final MaxEnt occurrence/model outputs or define an explicitly new refit"
+  ]
+}

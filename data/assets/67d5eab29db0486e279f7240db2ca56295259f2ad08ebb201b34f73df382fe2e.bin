@@ -1,0 +1,48 @@
+{
+  "pdf": "/gpfs/ycga/work/coughlan/ps2327/ammo/runs/revision_run_01/outputs/niche_reconstruction/figures/S3_niche_density_reconstructed.pdf",
+  "auditable": true,
+  "verdict": "REVIEW REQUIRED",
+  "page_count": 1,
+  "visible_text_box_count": 28,
+  "text_trace_count": 28,
+  "stroke_path_count": 27,
+  "filled_region_count": 26,
+  "image_region_count": 3,
+  "summary": {
+    "fail": 0,
+    "warn": 1,
+    "contained_fill_overlays": 3,
+    "contained_image_overlays": 0
+  },
+  "thresholds": {
+    "text_inset_pt": 0.6,
+    "min_overlap_ratio": 0.05,
+    "clipping_tolerance_pt": 0.5
+  },
+  "findings": [
+    {
+      "severity": "WARN",
+      "kind": "text-fill-edge",
+      "page": 1,
+      "message": "Text partially overlaps the edge of 1 filled region(s)",
+      "text": "1.0",
+      "text_bbox": [
+        370.0199890136719,
+        676.55615234375,
+        383.91998291015625,
+        686.55615234375
+      ],
+      "other_text": null,
+      "other_bbox": [
+        164.97000122070312,
+        648.9600219726562,
+        382.6000061035156,
+        692.0599975585938
+      ],
+      "object_count": 1,
+      "object_indexes": [
+        43000
+      ]
+    }
+  ]
+}

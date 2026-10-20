@@ -1,0 +1,7 @@
+"model","predictor","fitted_spline_height","meaning"
+"geo_TRUE","Geographic",0.0848150433186988,"Fitted contribution, not independently validated predictive importance"
+"geo_TRUE","bio4",0.39995346704289,"Fitted contribution, not independently validated predictive importance"
+"geo_TRUE","bio5",0.226876481073533,"Fitted contribution, not independently validated predictive importance"
+"geo_TRUE","bio6",0.0277483816511931,"Fitted contribution, not independently validated predictive importance"
+"geo_TRUE","bio15",0.0583112353372945,"Fitted contribution, not independently validated predictive importance"
+"geo_TRUE","bio17",0.354259933812884,"Fitted contribution, not independently validated predictive importance"

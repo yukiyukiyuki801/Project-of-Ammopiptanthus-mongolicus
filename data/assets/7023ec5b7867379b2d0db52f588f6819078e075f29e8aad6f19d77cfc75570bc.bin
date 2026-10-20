@@ -1,0 +1,3 @@
+demes,seed,samples,loci,iterations,burnin,thin_parameter,actual_save_interval,trace_draws,trace_columns,directory,independent_chains_recovered
+700,123,217,38124,2000000,1000000,9999,10000,100,2,/gpfs/ycga/work/coughlan/ps2327/ammo/ammo_analysis_package_20261014/ammo/ammo_all_deme700,1
+1000,123,217,38124,2000000,1000000,9999,10000,100,2,/gpfs/ycga/work/coughlan/ps2327/ammo/ammo_analysis_package_20261014/ammo/ammo_all_deme1000,1

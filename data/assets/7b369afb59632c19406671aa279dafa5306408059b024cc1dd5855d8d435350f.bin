@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "applicable": true,
+  "auditable": true,
+  "verdict": "PASS",
+  "backend": "r-patchwork",
+  "summary": {
+    "fail": 0,
+    "warn": 0,
+    "comparisons": 5,
+    "exemptions": 0
+  },
+  "tolerances": {
+    "alignment_pt": 1.5,
+    "gutter_pt": 1.5
+  },
+  "layout": {
+    "schema_version": 1,
+    "backend": "r-patchwork",
+    "figure": {
+      "width_pt": 538.582677165354,
+      "height_pt": 694.488188976378
+    },
+    "panels": [
+      {
+        "id": "a",
+        "bbox_pt": [
+          68.480600249066,
+          482.040684722318,
+          262.496962493013,
+          625.776796697424
+        ],
+        "grid_id": "patchwork-grid-1",
+        "row_start": 12,
+        "row_stop": 13,
+        "col_start": 8,
+        "col_stop": 9
+      },
+      {
+        "id": "b",
+        "bbox_pt": [
+          326.633562742079,
+          482.040684722318,
+          520.649924986027,
+          625.776796697424
+        ],
+        "grid_id": "patchwork-grid-1",
+        "row_start": 12,
+        "row_stop": 13,
+        "col_start": 23,
+        "col_stop": 24
+      },
+      {
+        "id": "c",
+        "bbox_pt": [
+          68.480600249066,
+          261.309312473238,
+          262.496962493013,
+          405.045424448345
+        ],
+        "grid_id": "patchwork-grid-1",
+        "row_start": 30,
+        "row_stop": 31,
+        "col_start": 8,
+        "col_stop": 9
+      },
+      {
+        "id": "d",
+        "bbox_pt": [
+          326.633562742079,
+          261.309312473238,
+          520.649924986027,
+          405.045424448345
+        ],
+        "grid_id": "patchwork-grid-1",
+        "row_start": 30,
+        "row_stop": 31,
+        "col_start": 23,
+        "col_stop": 24
+      },
+      {
+        "id": "e",
+        "bbox_pt": [
+          68.480600249066,
+          40.577940224159,
+          262.496962493013,
+          184.314052199266
+        ],
+        "grid_id": "patchwork-grid-1",
+        "row_start": 48,
+        "row_stop": 49,
+        "col_start": 8,
+        "col_stop": 9
+      },
+      {
+        "id": "f",
+        "bbox_pt": [
+          326.633562742079,
+          40.577940224159,
+          520.649924986027,
+          184.314052199266
+        ],
+        "grid_id": "patchwork-grid-1",
+        "row_start": 48,
+        "row_stop": 49,
+        "col_start": 23,
+        "col_stop": 24
+      }
+    ],
+    "row_groups": [
+      {
+        "id": "inferred-row-1",
+        "panels": [
+          "a",
+          "b"
+        ]
+      },
+      {
+        "id": "inferred-row-2",
+        "panels": [
+          "c",
+          "d"
+        ]
+      },
+      {
+        "id": "inferred-row-3",
+        "panels": [
+          "e",
+          "f"
+        ]
+      }
+    ],
+    "column_groups": [
+      {
+        "id": "inferred-column-1",
+        "panels": [
+          "a",
+          "c",
+          "e"
+        ]
+      },
+      {
+        "id": "inferred-column-2",
+        "panels": [
+          "b",
+          "d",
+          "f"
+        ]
+      }
+    ],
+    "boundary_groups": [],
+    "exemptions": []
+  },
+  "findings": []
+}

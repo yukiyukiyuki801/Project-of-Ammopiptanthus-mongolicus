@@ -1,0 +1,40 @@
+{
+  "validated": true,
+  "completed_utc": "2026-10-14T21:55:59.273740+00:00",
+  "reviewer_basis": "R3.M1 exact original request for LOF consequences, derived-allele evidence and LOF/DEL calculation definitions",
+  "vcf_snps": 38124,
+  "samples": 217,
+  "all_reference_bases_match": 38124,
+  "target_genes": 1488,
+  "valid_canonical_genes": 1487,
+  "sift_target_proteins": 1011,
+  "sift_substitutions": 1414,
+  "consequence_counts": {
+    "not_assigned_valid_canonical_coding_or_splice": 35713,
+    "synonymous": 907,
+    "missense": 1407,
+    "stop_gained": 54,
+    "multiple_variant_codon_unresolved": 30,
+    "splice_donor": 3,
+    "splice_acceptor": 4,
+    "stop_lost": 4,
+    "start_lost": 2
+  },
+  "rules": "Longest valid protein-matching phase-consistent transcript per gene, lexical ID tie-break; most severe consequence across overlapping chosen genes; multi-SNP codons excluded from primary consequence classes because haplotype unresolved; canonical GT-AG coding-adjacent intron2bp only; no indels present",
+  "limits": "Variant-only panel; no invariant/callable denominator, no BAM/DP/GQ mapping audit, no ancestral polarization, no measured fitness load. Stoploss/startloss separate from strict predicted LOF. SIFT not yet run; missense is NOT deleterious classification. SwissProt latest available is new reconstruction, not historical database reproduction.",
+  "sources": {
+    "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/vcftools/Amon.LDfilter_08.vcf": {
+      "bytes": 35132543
+    },
+    "ammo_analysis_package_20261014/cluster_recovery/personal2/sun/sift4g/ammo/gene-annotation-src/ammo.gtf.gz": {
+      "bytes": 3412570
+    },
+    "ammo_analysis_package_20261014/cluster_recovery/personal2/sun/sift4g/ammo/chr-src/ammo.fasta.gz": {
+      "bytes": 239865852
+    },
+    "ammo_analysis_package_20261014/cluster_recovery/personal2/sun/sift4g/ammo/all_prot.fasta": {
+      "bytes": 14663420
+    }
+  },
+  "source_sha256": "cdf141bec9be7f0f1187c5181e61ba561365ff7dd968c14cbda0f332c7de2d9f"
+}

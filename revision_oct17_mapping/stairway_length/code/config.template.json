@@ -1,0 +1,9 @@
+{
+  "measurement": "observed_mapped_positive_coverage_extent",
+  "reference": "nanus",
+  "min_mapq": 20,
+  "exclude_flags": 2308,
+  "workflow_config": "${REPOSITORY_ROOT}/revision_oct17_mapping/parent/config.frozen.json",
+  "registry": "${REPOSITORY_ROOT}/revision_oct17_mapping/stairway_length/MEASUREMENT_REGISTRY.json",
+  "output_root": "${WORK_ROOT}/stairway_extent_v1"
+}

@@ -1,0 +1,5 @@
+WARNING! W168 not allowed! score: 0.03 median: 0.00 # of sequence: 8
+WARNING! W666 not allowed! score: 0.04 median: 0.00 # of sequence: 18
+E324K	TOLERATED	0.41	2.61	17	18
+L427F	DELETERIOUS	0.02	2.50	18	18
+S400R	DELETERIOUS	0.04	2.50	18	18

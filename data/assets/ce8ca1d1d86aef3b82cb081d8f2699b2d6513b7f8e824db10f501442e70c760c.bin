@@ -1,0 +1,45 @@
+{
+  "execution_frozen": true,
+  "manifest": "/gpfs/ycga/work/coughlan/ps2327/ammo/revision_oct17_mapping/workflow/samples.tsv",
+  "output_root": "/vast/palmer/scratch/coughlan/ps2327/ammo_oct17_mapping/outputs",
+  "scratch_root": "/vast/palmer/scratch/coughlan/ps2327/ammo_oct17_mapping/tmp",
+  "threads": 8,
+  "sort_memory_per_thread": "1G",
+  "caller": "bcftools_mpileup_call",
+  "pileup_max_depth_per_sample": 10000,
+  "fastp_arguments": [
+    "--detect_adapter_for_pe",
+    "--qualified_quality_phred",
+    "20",
+    "--unqualified_percent_limit",
+    "40",
+    "--length_required",
+    "50",
+    "--n_base_limit",
+    "5"
+  ],
+  "reference_audit": "/gpfs/ycga/work/coughlan/ps2327/ammo/revision_oct17_mapping/references/REFERENCE_AUDIT.json",
+  "references": {
+    "nanus": {
+      "source_gz": "/gpfs/ycga/work/coughlan/ps2327/ammo/ammo_analysis_package_20261014/cluster_recovery/personal2/sun/sift4g/ammo/chr-src/ammo.fasta.gz",
+      "compressed_sha256": "5d99d8b199bc23c54400199e62c44c9efb62abddbdb5c21cea73444cc8a5f7f2",
+      "label": "nanus_bundled"
+    },
+    "mongolicus": {
+      "source_gz": "/gpfs/ycga/work/coughlan/ps2327/ammo/public_dependencies/references/A_mongolicus_Feng2024/AMO_genome_v1.0.fasta.gz",
+      "compressed_sha256": "11909de38fe55a091a0f771c9783eb10ae34456b107590a575a25bc73bf93f81",
+      "label": "mongolicus_Feng2024_publisher_v1"
+    }
+  },
+  "existing_pca_scores": "/gpfs/ycga/work/coughlan/ps2327/ammo/runs/revision_run_01/outputs/figures/genetic_pca/PCA_scores_and_group_assignments.csv",
+  "existing_pca_variance": "/gpfs/ycga/work/coughlan/ps2327/ammo/runs/revision_run_01/outputs/figures/genetic_pca/PCA_variance.csv",
+  "tools": {
+    "bwa": "/vast/palmer/apps/avx2/software/BWA/0.7.17-GCCcore-10.2.0/bin/bwa",
+    "samtools": "/gpfs/ycga/work/coughlan/ps2327/ammo/envs/analysis/bin/samtools",
+    "fastp": "/vast/palmer/apps/avx2/software/fastp/0.23.2-GCCcore-10.2.0/bin/fastp",
+    "bcftools": "/gpfs/ycga/work/coughlan/ps2327/ammo/envs/analysis/bin/bcftools",
+    "vcftools": "/gpfs/ycga/work/coughlan/ps2327/ammo/envs/analysis/bin/vcftools",
+    "plink": "/gpfs/ycga/work/coughlan/ps2327/ammo/envs/analysis/bin/plink",
+    "Rscript": "/gpfs/ycga/work/coughlan/ps2327/ammo/envs/analysis/bin/Rscript"
+  }
+}

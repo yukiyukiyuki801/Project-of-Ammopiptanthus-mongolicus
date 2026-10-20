@@ -1,0 +1,19 @@
+"predictor","type","gain"
+"BIO4","Without predictor",0.8071
+"BIO5","Without predictor",0.8384
+"BIO6","Without predictor",0.8096
+"BIO15","Without predictor",0.7107
+"BIO17","Without predictor",0.8014
+"Elevation","Without predictor",0.7932
+"BIO4","Predictor only",0.2895
+"BIO5","Predictor only",0.2666
+"BIO6","Predictor only",0.2521
+"BIO15","Predictor only",0.2501
+"BIO17","Predictor only",0.2256
+"Elevation","Predictor only",0.2268
+"BIO4","All predictors",0.8488
+"BIO5","All predictors",0.8488
+"BIO6","All predictors",0.8488
+"BIO15","All predictors",0.8488
+"BIO17","All predictors",0.8488
+"Elevation","All predictors",0.8488

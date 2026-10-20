@@ -1,0 +1,73 @@
+{
+  "actionable_failures": [],
+  "checks": {
+    "credential_pattern_scan": {
+      "pass": true,
+      "hits": [],
+      "scope": "Recognizable token/private-key patterns in text files <=5MB; no values reported"
+    },
+    "forbidden_raw_reads_manuscripts_envs": {
+      "pass": true,
+      "files": []
+    },
+    "citation_author": {
+      "pass": true,
+      "explicit_author": "Pei-Wei Sun",
+      "note": "Commit authorship checked by parent after commit; CFF alone does not determine GitHub contributor attribution"
+    },
+    "python_ast": {
+      "pass": true,
+      "parsed": 24,
+      "errors": []
+    },
+    "R_parse": {
+      "pass": true,
+      "sources": 44,
+      "log": "R_parse.txt"
+    },
+    "staged_gam_exact_copy": {
+      "pass": true,
+      "differences": []
+    },
+    "machine_paths": {
+      "pass": true,
+      "findings": [],
+      "note": "Historical provenance copies excluded. Some optional QA helper references are bypassed by tools/render_saved_figure.R; paths in standalone analytical helpers still require review."
+    },
+    "figure_manifest_existing_inputs": {
+      "pass": true,
+      "missing": [],
+      "note": "Snapshot during data materialization; rerun once parent restores all files"
+    },
+    "generated_mapping_config_ignored": {
+      "pass": true
+    },
+    "required_owned_R_helpers": {
+      "pass": true
+    },
+    "all_26_final_figure_scripts_exist": {
+      "pass": true
+    },
+    "S9_S10_geospatial_environment_portable": {
+      "pass": true
+    },
+    "hierfstat_source_fetch_available": {
+      "pass": true,
+      "note": "Pinned upstream fetch implemented; actual external download not performed by independent audit"
+    },
+    "grid_cpp_proj_installation_discovery": {
+      "pass": true
+    },
+    "QA_python_uses_configurable_command": {
+      "pass": true
+    }
+  },
+  "scientific_fits_run": false,
+  "rendering_run": false,
+  "jobs_submitted": false,
+  "read_only_repository": true,
+  "tracked_commit_authorship": "PARENT_CHECK_REQUIRED",
+  "phase": "Final integration recheck after all reported fixes; static only",
+  "overall_pass": true,
+  "note": "PASS applies to static syntax, supplied/materialized required input presence, recognizable credential scan, portable source guards and package integrity. Fresh environment, numerical refits and drawing were not executed."
+}

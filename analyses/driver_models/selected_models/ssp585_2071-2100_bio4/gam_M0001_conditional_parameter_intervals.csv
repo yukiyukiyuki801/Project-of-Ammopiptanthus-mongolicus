@@ -1,0 +1,4 @@
+"parameter","estimate","SE","lower95","upper95","residual_df","interval","parameter_type"
+"(Intercept)",0.0636916444787188,0.000519763881513148,0.062590883825315,0.0647924051321226,16.1972527961681,"95% pointwise conditional on selected formula; no model-search correction","GAM basis coefficient on standardized predictors; not a linear driver effect"
+"s(climate_change).1",-0.00366908037358465,0.00186501839407862,-0.00761883321154543,0.000280672464376123,16.1972527961681,"95% pointwise conditional on selected formula; no model-search correction","GAM basis coefficient on standardized predictors; not a linear driver effect"
+"s(climate_change).2",0.013612177488112,0.000549153929506796,0.0124491743250154,0.0147751806512086,16.1972527961681,"95% pointwise conditional on selected formula; no model-search correction","GAM basis coefficient on standardized predictors; not a linear driver effect"

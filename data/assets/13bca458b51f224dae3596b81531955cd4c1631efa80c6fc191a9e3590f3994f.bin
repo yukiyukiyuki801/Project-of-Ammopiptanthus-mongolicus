@@ -1,0 +1,43 @@
+$fit_arguments
+$fit_arguments$input
+
+
+$fit_arguments$env
+
+
+$fit_arguments$K
+
+
+$fit_arguments$lambda
+[1] 1e-05
+
+$fit_arguments$effect.sizes
+[1] FALSE
+
+
+$test_arguments
+$test_arguments$object
+
+
+$test_arguments$input
+
+
+$test_arguments$env
+
+
+$test_arguments$full
+[1] FALSE
+
+$test_arguments$genomic.control
+[1] TRUE
+
+$test_arguments$linear
+[1] TRUE
+
+$test_arguments$family
+binomial(link = "logit")
+
+
+$test_body
+standardGeneric("lfmm2.test")
+

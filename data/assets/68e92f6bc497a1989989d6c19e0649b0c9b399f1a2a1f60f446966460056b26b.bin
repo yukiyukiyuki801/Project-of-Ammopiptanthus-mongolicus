@@ -1,0 +1,9 @@
+{
+  "validated": true,
+  "populations": 19,
+  "loci_used": 1637,
+  "excluded_loci": 0,
+  "max_abs_difference": 8.465450562766819e-15,
+  "reference": "Installed unmodified pyRona functions, absdiff with weighted means; population-contiguous paired genotype/environment rows",
+  "graphics_generated": false
+}

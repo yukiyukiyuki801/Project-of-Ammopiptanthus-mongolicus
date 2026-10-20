@@ -1,0 +1,17 @@
+{
+  "validated": true,
+  "project_runs": 222,
+  "original_fastq_files": 444,
+  "compressed_bytes": 55524055994,
+  "analysis_samples": 217,
+  "excluded_extra_samples": [
+    "il",
+    "im",
+    "in",
+    "io",
+    "ip"
+  ],
+  "analysis_manifest": "/gpfs/ycga/work/coughlan/ps2327/ammo/revision_oct17_mapping/workflow/samples.tsv",
+  "analysis_manifest_sha256": "c01c3afaba65ea7e96ab2a61e3cfa5f36c2a303595c78df8519c4ea93cb8d994",
+  "verification": "All444 original FASTQ sizes+MD5+gzip recorded in validated downloads; completion gate rechecked metadata/size"
+}

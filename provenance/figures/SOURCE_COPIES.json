@@ -1,0 +1,156 @@
+[
+  {
+    "source": "revision_oct16/driver_combinations/figures/render_driver_validation.R",
+    "staged_path": "revision_github_20261020/staging_figures/revision_oct16/driver_combinations/figures/render_driver_validation.R",
+    "original_sha256": "b50168c8f9c99e62a3c1f61bb522ba38506716bd242e76b281ace7fc361700a8",
+    "staged_sha256": "da56ab9942f4c996f3e8ea759ba1f2cf9dab625e238e8821c7a96147334ace7b",
+    "changes": "Only absolute external QA/Python string literals parameterized"
+  },
+  {
+    "source": "revision_oct16_night/figures/render_S6_combined.R",
+    "staged_path": "revision_github_20261020/staging_figures/revision_oct16_night/figures/render_S6_combined.R",
+    "original_sha256": "c54faa521741f2e530ae4e22068177fb57828f5f31be070966fb9d685df689c8",
+    "staged_sha256": "1ca0e400b2d588eea7a27bd6e410795946d84423c809c8849a8532df3c1b3f03",
+    "changes": "Only absolute external QA/Python string literals parameterized"
+  },
+  {
+    "source": "revision_oct18/figure_updates/panel_alignment_viewports.R",
+    "staged_path": "revision_github_20261020/staging_figures/revision_oct18/figure_updates/panel_alignment_viewports.R",
+    "original_sha256": "a3474d063ca5edfb04aabfadb0458a7f4d616becfe9cad3761eb5e4e7f775ad2",
+    "staged_sha256": "a3474d063ca5edfb04aabfadb0458a7f4d616becfe9cad3761eb5e4e7f775ad2",
+    "changes": "Unchanged copy"
+  },
+  {
+    "source": "revision_oct18/figure_updates/render_S2.R",
+    "staged_path": "revision_github_20261020/staging_figures/revision_oct18/figure_updates/render_S2.R",
+    "original_sha256": "00d0cdee7eb0efd20acb47e59567251d1e7a5ecb8352a14ee6420d7e255e75f9",
+    "staged_sha256": "c8d426569c3cd3790a9884ff89676a356ec52003926e3a03b537943c2885d301",
+    "changes": "Only absolute external QA/Python string literals parameterized"
+  },
+  {
+    "source": "revision_oct18/figure_updates/render_S20.R",
+    "staged_path": "revision_github_20261020/staging_figures/revision_oct18/figure_updates/render_S20.R",
+    "original_sha256": "250ccdc45c1a515fd4dd969b3c3bc3a0f75c147f41a060bb981e08b53b51d6cb",
+    "staged_sha256": "d27b93f2889ecf1b3739d0ccd2fa324daece942187ffbecf74c1b89742bd88e6",
+    "changes": "Only absolute external QA/Python string literals parameterized"
+  },
+  {
+    "source": "revision_oct18/figure_updates/render_main5.R",
+    "staged_path": "revision_github_20261020/staging_figures/revision_oct18/figure_updates/render_main5.R",
+    "original_sha256": "af17fd6285c8178ea78b7c9d222d5eccde7e0e42dd8ec853e394bd63023fbfef",
+    "staged_sha256": "479394fbdf0c7828bbefaa08e8454e72481af69fa5ec43df57530637209e8b8f",
+    "changes": "Only absolute external QA/Python string literals parameterized"
+  },
+  {
+    "source": "revision_oct18/figure_updates/render_supp_pies.R",
+    "staged_path": "revision_github_20261020/staging_figures/revision_oct18/figure_updates/render_supp_pies.R",
+    "original_sha256": "0298e17bf5db879c9b5f30029e41eef50ab1199d1a3c4c6a48ef91b9993723f9",
+    "staged_sha256": "6ed46ce389b8b90d6adf9c8bb66b54ed9fab664b83ed4db5f496e9a70b74c220",
+    "changes": "Only absolute external QA/Python string literals parameterized"
+  },
+  {
+    "source": "revision_oct18_discussion/figure_niche/render_S1_asia.R",
+    "staged_path": "revision_github_20261020/staging_figures/revision_oct18_discussion/figure_niche/render_S1_asia.R",
+    "original_sha256": "2e94358f57af8cbd88dbf2a013cbf9e1724e0c770a8f5bd0d7c000cf2b231482",
+    "staged_sha256": "c3b1e97c7240f98fa77f23fae5561ed77b2dabecb099ad128a86d9d68d6cdedf",
+    "changes": "Only absolute external QA/Python string literals parameterized"
+  },
+  {
+    "source": "revision_oct18_new_structure/figure6_opacity/render_Figure6.R",
+    "staged_path": "revision_github_20261020/staging_figures/revision_oct18_new_structure/figure6_opacity/render_Figure6.R",
+    "original_sha256": "b20f7d26bd52f7a98132a5e4f11e0da94cfb9e9f158e5a49da0dee2b2772607a",
+    "staged_sha256": "8b464c89c41aa3d5d4c8c79dfd8ad014a6fe20572870ced5f375fde4df41fc6e",
+    "changes": "Only absolute external QA/Python string literals parameterized"
+  },
+  {
+    "source": "scripts/revision/common.R",
+    "staged_path": "revision_github_20261020/staging_figures/scripts/revision/common.R",
+    "original_sha256": "3aa28f0f19305abab63ab0a1832cd051ffa63e5c68ec537b31b170a3abdf1ac7",
+    "staged_sha256": "3aa28f0f19305abab63ab0a1832cd051ffa63e5c68ec537b31b170a3abdf1ac7",
+    "changes": "Unchanged copy"
+  },
+  {
+    "source": "scripts/revision/measure_S1_S2_panels.R",
+    "staged_path": "revision_github_20261020/staging_figures/scripts/revision/measure_S1_S2_panels.R",
+    "original_sha256": "dcb3eb0597fd8f376b7f4f4d6db4a07172e53465a2fd9687bb1f1159f78ad21a",
+    "staged_sha256": "dcb3eb0597fd8f376b7f4f4d6db4a07172e53465a2fd9687bb1f1159f78ad21a",
+    "changes": "Unchanged copy"
+  },
+  {
+    "source": "scripts/revision/measure_S1_S4_panels.R",
+    "staged_path": "revision_github_20261020/staging_figures/scripts/revision/measure_S1_S4_panels.R",
+    "original_sha256": "2113ede8b563e9df314b935eb8c81800c8cade9d17a22400d346e5f5e13cb389",
+    "staged_sha256": "2113ede8b563e9df314b935eb8c81800c8cade9d17a22400d346e5f5e13cb389",
+    "changes": "Unchanged copy"
+  },
+  {
+    "source": "scripts/revision/measure_panels.R",
+    "staged_path": "revision_github_20261020/staging_figures/scripts/revision/measure_panels.R",
+    "original_sha256": "5da090dd7ed18b28a9d03aaf672e95f02e833bb1b62a2227745bdba7fec0af72",
+    "staged_sha256": "5da090dd7ed18b28a9d03aaf672e95f02e833bb1b62a2227745bdba7fec0af72",
+    "changes": "Unchanged copy"
+  },
+  {
+    "source": "scripts/revision/remake_S11_S12_original.R",
+    "staged_path": "revision_github_20261020/staging_figures/scripts/revision/remake_S11_S12_original.R",
+    "original_sha256": "994142a15f05d3268fbc726abc59207124492323a36df875aff4152e87fd5b70",
+    "staged_sha256": "5bc767ef90c53982441b5f26b33b22002f02138ac6d52ed0b05474f60eea4465",
+    "changes": "Only absolute external QA/Python string literals parameterized"
+  },
+  {
+    "source": "scripts/revision/remake_S1_S4_original.R",
+    "staged_path": "revision_github_20261020/staging_figures/scripts/revision/remake_S1_S4_original.R",
+    "original_sha256": "d7907aa50ba3246055ba87cf8364b19917b9a4cac6733e7aaea991b5be947f51",
+    "staged_sha256": "ad1a895ccb1fdae8edc366e6e94063aee177b346d469e7498a6127261bea2e58",
+    "changes": "Only absolute external QA/Python string literals parameterized"
+  },
+  {
+    "source": "scripts/revision/remake_S5_original.R",
+    "staged_path": "revision_github_20261020/staging_figures/scripts/revision/remake_S5_original.R",
+    "original_sha256": "3dea11bbf443d0d7db65662f7681c34ccdb461883777afa54a4cb65013b8793e",
+    "staged_sha256": "e31e3808b60d4de3a859435313bcc9a1bc823feed6cdf19f80e10e9d573e6692",
+    "changes": "Only absolute external QA/Python string literals parameterized"
+  },
+  {
+    "source": "scripts/revision/remake_S7_S8_original.R",
+    "staged_path": "revision_github_20261020/staging_figures/scripts/revision/remake_S7_S8_original.R",
+    "original_sha256": "594ae6dd71d81970ef1b3db7a4aeed4795de8c736cb9c00899aa9dec9100f677",
+    "staged_sha256": "82d45ba2f2c3c1dc5d5a2baf763b34b98763610ab0119f83aba6e12b3d621df1",
+    "changes": "Only absolute external QA/Python string literals parameterized"
+  },
+  {
+    "source": "scripts/revision/remake_S9_S10_original.R",
+    "staged_path": "revision_github_20261020/staging_figures/scripts/revision/remake_S9_S10_original.R",
+    "original_sha256": "29d00d6f0a01967cc0ee32de74fa1e0d715d615d681c0b9f4bbd90f025f93649",
+    "staged_sha256": "756a67a110222bc415d69b3747a3eb5dafa18decaef46f6511015f75f68d2ee7",
+    "changes": "Only absolute external QA/Python string literals parameterized"
+  },
+  {
+    "source": "scripts/revision/remake_main_1_4_original.R",
+    "staged_path": "revision_github_20261020/staging_figures/scripts/revision/remake_main_1_4_original.R",
+    "original_sha256": "4a84610b788eb10b267c9f578fd40bd503f73b4bf7cca77d7e8d525939a08da0",
+    "staged_sha256": "09cafdc0a565db77a8db98263d436e235b9a266e9d19457b32d724d530f345bf",
+    "changes": "Only absolute external QA/Python string literals parameterized"
+  },
+  {
+    "source": "scripts/revision/remake_main_2_6_original.R",
+    "staged_path": "revision_github_20261020/staging_figures/scripts/revision/remake_main_2_6_original.R",
+    "original_sha256": "391adf58844d917b02122e568766de5265835bc8446e66a8e9bf4fb8567a0706",
+    "staged_sha256": "fe93e133db882f9f3524d85a39dd1486ab5d15912c7ad0cfe3562942bc83675f",
+    "changes": "Only absolute external QA/Python string literals parameterized"
+  },
+  {
+    "source": "scripts/revision/remake_main_3_5_original.R",
+    "staged_path": "revision_github_20261020/staging_figures/scripts/revision/remake_main_3_5_original.R",
+    "original_sha256": "7a2c16326a84debd9be74049366ad78ff1714f70c826155f06175a1b8f6de5f5",
+    "staged_sha256": "88aa30b7016257cad94d4447ee8e479aaf460d5eb7aa54527c0bd78693aa1887",
+    "changes": "Only absolute external QA/Python string literals parameterized"
+  },
+  {
+    "source": "scripts/revision/render_requested_S13_S15.R",
+    "staged_path": "revision_github_20261020/staging_figures/scripts/revision/render_requested_S13_S15.R",
+    "original_sha256": "ba71ce5d45e5174ca3050570a478aa3bdc2abce2e1fb8c9da49bc02d4d542744",
+    "staged_sha256": "216641ac2eb152b7d7ab17ff1d55e81d7f6e112f6f10c5e3a869c05ba81f5676",
+    "changes": "External QA/Python path parameterization plus removal of obsolete S13 read/build/export branch; S14/S15 drawing expressions unchanged; scope/count metadata now two figures."
+  }
+]

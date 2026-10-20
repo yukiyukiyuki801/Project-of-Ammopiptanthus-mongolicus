@@ -1,0 +1,8 @@
+{
+  "PDFs": ["/gpfs/ycga/work/coughlan/ps2327/ammo/runs/revision_run_01/outputs/niche_reconstruction/figures/S3_niche_density_reconstructed.pdf", "/gpfs/ycga/work/coughlan/ps2327/ammo/runs/revision_run_01/outputs/niche_reconstruction/figures/S4_niche_tests_reconstructed.pdf"],
+  "n_populations": 19,
+  "repetitions": 999,
+  "scope": "Render-only use of validated new niche results",
+  "automated_QA": "Strict panel alignment,8ptminimum PDF text and collision checks passed; manual visual inspection pending",
+  "validated": true
+}

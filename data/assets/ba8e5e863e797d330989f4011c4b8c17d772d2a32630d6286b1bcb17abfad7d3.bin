@@ -1,0 +1,11 @@
+WARNING! A74 not allowed! score: 0.04 median: 0.00 # of sequence: 169
+WARNING! I76 not allowed! score: 0.04 median: 0.00 # of sequence: 169
+WARNING! S94 not allowed! score: 0.03 median: 0.00 # of sequence: 169
+WARNING! I106 not allowed! score: 0.03 median: 0.00 # of sequence: 169
+WARNING! M107 not allowed! score: 0.04 median: 2.54 # of sequence: 169
+WARNING! N172 not allowed! score: 0.04 median: 0.00 # of sequence: 168
+WARNING! T206 not allowed! score: 0.03 median: 0.00 # of sequence: 169
+WARNING! T233 not allowed! score: 0.03 median: 0.00 # of sequence: 169
+WARNING! T241 not allowed! score: 0.03 median: 0.00 # of sequence: 169
+WARNING! T249 not allowed! score: 0.04 median: 0.00 # of sequence: 169
+T167I	DELETERIOUS	0.01	2.54	169	169

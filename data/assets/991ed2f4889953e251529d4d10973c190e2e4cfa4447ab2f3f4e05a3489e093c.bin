@@ -1,0 +1,7 @@
+"layer","source"
+"suitability","outputs/sdm_reconstruction/current_suitability.tif"
+"threshold_mask","outputs/sdm_reconstruction/current_suitable_MTSS.tif"
+"context","cluster_recovery/personal2/chong/Ammo/ENM/soilgrids/china_mongolia_3.shp"
+"regional_boundaries","ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.shp"
+"core_polygon","ammo/gf/ammo_core.shp"
+"peripheral_polygon","ammo/gf/ammo_peri.shp"

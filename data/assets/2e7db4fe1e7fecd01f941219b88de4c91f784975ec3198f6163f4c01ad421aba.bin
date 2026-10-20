@@ -1,0 +1,25 @@
+#example blueprint file
+#input setting
+popid: adaptive_1 # id of the population (no white space)
+nseq: 34 # number of sequences
+L: 2859300 # total number of observed nucleic sites, including polymorphic and monomorphic
+whether_folded: true # whethr the SFS is folded (true or false)
+SFS: 3465.237293208741 2338.358964849023 1996.166678186094 1827.538164554565 1492.499124417457 1145.237701880158 921.1338185551807 759.2919743178725 659.7622343351273 592.9100659021969 554.1539172419983 530.2477992003896 535.8885804224699 562.2003151836611 624.6024334908213 696.4468250336961 359.8939425500681 # snp frequency spectrum: number of singleton, number of doubleton, etc. (separated by white space)
+#smallest_size_of_SFS_bin_used_for_estimation: 1 # default is 1; to ignore singletons, uncomment this line and change this number to 2
+#largest_size_of_SFS_bin_used_for_estimation: 32 # default is n-1; to ignore singletons, uncomment this line and change this number to nseq-2
+pct_training: 0.67 # percentage of sites for training
+nrand: 8 16 24 32 # number of random break points for each try (separated by white space)
+project_dir: adaptive_1 # project directory
+stairway_plot_dir: stairway_plot_es # directory to the stairway plot files
+ninput: 200 # number of input files to be created for each estimation
+#random_seed: 6
+#output setting
+mu: 2.538e-8 # assumed mutation rate per site per generation
+year_per_generation: 3 # assumed generation time (in years)
+#plot setting
+plot_title: adaptive_1 # title of the plot
+xrange: 0.1,10000 # Time (1k year) range; format: xmin,xmax; "0,0" for default
+yrange: 0,0 # Ne (1k individual) range; format: xmin,xmax; "0,0" for default
+xspacing: 2 # X axis spacing
+yspacing: 2 # Y axis spacing
+fontsize: 12 # Font size

@@ -1,0 +1,4 @@
+Reviewer scope: R2.M3 explicitly requests populations or spatial blocks rather than 1000 autocorrelated pixels, with effect sizes and confidence intervals.
+R1.40 requests explicit scenario comparisons. This stage only summarizes existing full-habitat population matching results. No GDM fitting or landscape search is repeated.
+Both saved scoring definitions are retained; geographic-penalty scoring uses inherited coordinate-degree distances and is not silently treated as a metric-distance model.
+Class tests are unpaired (9 core vs10 peripheral); time/scenario contrasts are paired by population. Bootstrap intervals assume exchangeable populations and do not remove spatial dependence.

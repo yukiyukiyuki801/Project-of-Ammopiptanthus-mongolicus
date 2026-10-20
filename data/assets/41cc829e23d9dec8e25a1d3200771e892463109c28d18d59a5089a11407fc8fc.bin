@@ -1,0 +1,46 @@
+{
+  "validated": true,
+  "sample_future_rows": 5208,
+  "population_future_rows": 456,
+  "extraction": "terra simple cell lookup at explicit sample/population coordinates",
+  "current_raster_manifest_max_differences": [
+    {
+      "bio": "bio4",
+      "max_abs_difference": 4.4141e-06,
+      "median_raster": 1183,
+      "median_manifest": 1183,
+      "_row": "bio4"
+    },
+    {
+      "bio": "bio5",
+      "max_abs_difference": 1.5259e-06,
+      "median_raster": 30.45,
+      "median_manifest": 30.45,
+      "_row": "bio5"
+    },
+    {
+      "bio": "bio6",
+      "max_abs_difference": 7.6294e-07,
+      "median_raster": -14.45,
+      "median_manifest": -14.45,
+      "_row": "bio6"
+    },
+    {
+      "bio": "bio15",
+      "max_abs_difference": 3.0518e-06,
+      "median_raster": 99.8,
+      "median_manifest": 99.8,
+      "_row": "bio15"
+    },
+    {
+      "bio": "bio17",
+      "max_abs_difference": 1.9073e-07,
+      "median_raster": 4.5,
+      "median_manifest": 4.5,
+      "_row": "bio17"
+    }
+  ],
+  "current_for_LFMM_RONA": "verified individual manifest; raster comparison retained",
+  "native_GCM_alignment": "native crop cells; archived ensemble on archived grid; sample-coordinate extraction from each",
+  "future_sample_identity": "sample_id carried from verified metadata; no positional use of unlabeled archived future tables"
+}

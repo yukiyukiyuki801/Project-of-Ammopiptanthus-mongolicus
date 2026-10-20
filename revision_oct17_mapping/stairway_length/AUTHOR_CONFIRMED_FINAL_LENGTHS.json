@@ -1,0 +1,24 @@
+{
+  "recorded_utc": "2026-10-17T20:59:29.013505+00:00",
+  "evidence_type": "AUTHOR_CONFIRMATION",
+  "author_statement_verbatim": "yes your Newly measured length  is identical to my old input",
+  "context": "Author replies to the four historical genetic-group values shown in the preceding answer. These exact four values are author-confirmed historical inputs; do not automatically assign them to other pooled/alternative histories.",
+  "author_confirmed_input_L_bp": {
+    "core_genetic_group_101": 5237826,
+    "peripheral_genetic_group_69": 4384704,
+    "adaptive_genetic_group_1_23": 3231629,
+    "adaptive_genetic_group_2_24": 3040169
+  },
+  "interpretation": "The author confirms these mapping-reconstructed lengths equal the inputs actually used. Different L values in recovered blueprint copies are retained as archived-copy evidence, not automatically final production input values.",
+  "historical_derivation_script_recovered": false,
+  "original_run_log_independently_verified": false,
+  "new_demographic_inference_or_rescaling_performed": false,
+  "required_document_updates": [
+    "Main Methods: describe mapped SNP-containing sequence lengths as author-confirmed original inputs.",
+    "SI: document current mapping reconstruction and distinguish it from independently recovered historical commands.",
+    "S7: distinguish author-confirmed actual input lengths/newly reconstructed measurements from alternative archived blueprint values; do not retain misleading final-input label on conflicting archived copies.",
+    "R1.8/R1.19/R3.M3: reflect author confirmation; retain calibration/rate limitations without alleging the confirmed four actual input lengths are unknown."
+  ],
+  "immutable_measurement_report": "reporting/validated_results/REPORT_QA.json",
+  "applied_to_final_DOCX": false
+}

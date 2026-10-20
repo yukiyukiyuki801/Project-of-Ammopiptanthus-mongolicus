@@ -1,0 +1,4 @@
+WARNING! R418 not allowed! score: 0.05 median: 0.00 # of sequence: 23
+WARNING! W591 not allowed! score: 0.05 median: 0.00 # of sequence: 22
+E211G	TOLERATED	0.21	2.72	23	23
+R227W	DELETERIOUS	0.00	2.72	23	23

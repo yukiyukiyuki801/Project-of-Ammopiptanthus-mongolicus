@@ -1,0 +1,12 @@
+{
+  "review_comments": ["R2.M3", "R1.40"],
+  "source": "Saved full-habitat matching output; no refitting or new searches",
+  "population_rows": 912,
+  "class_effect_rows": 144,
+  "scenario_contrast_rows": 24,
+  "bootstrap_repetitions": 2000,
+  "seed": 20261013,
+  "multiple_testing": "BH across three offset metrics within scoring x scenario-period for class tests, or within scoring x paired contrast for scenario tests",
+  "spatial_limitation": "Population-level tests avoid pixel pseudoreplication; intervals/tests still assume exchangeable populations and are not spatially adjusted.",
+  "validated": true
+}

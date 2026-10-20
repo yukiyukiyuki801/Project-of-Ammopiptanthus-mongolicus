@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "backend": "r-patchwork",
+  "figure": {
+    "width_pt": 538.582677165354,
+    "height_pt": 694.488188976378
+  },
+  "panels": [
+    {
+      "id": "a",
+      "bbox_pt": [68.480600249066, 482.040684722318, 262.496962493013, 625.776796697424],
+      "grid_id": "patchwork-grid-1",
+      "row_start": 12,
+      "row_stop": 13,
+      "col_start": 8,
+      "col_stop": 9
+    },
+    {
+      "id": "b",
+      "bbox_pt": [326.633562742079, 482.040684722318, 520.649924986027, 625.776796697424],
+      "grid_id": "patchwork-grid-1",
+      "row_start": 12,
+      "row_stop": 13,
+      "col_start": 23,
+      "col_stop": 24
+    },
+    {
+      "id": "c",
+      "bbox_pt": [68.480600249066, 261.309312473238, 262.496962493013, 405.045424448345],
+      "grid_id": "patchwork-grid-1",
+      "row_start": 30,
+      "row_stop": 31,
+      "col_start": 8,
+      "col_stop": 9
+    },
+    {
+      "id": "d",
+      "bbox_pt": [326.633562742079, 261.309312473238, 520.649924986027, 405.045424448345],
+      "grid_id": "patchwork-grid-1",
+      "row_start": 30,
+      "row_stop": 31,
+      "col_start": 23,
+      "col_stop": 24
+    },
+    {
+      "id": "e",
+      "bbox_pt": [68.480600249066, 40.577940224159, 262.496962493013, 184.314052199266],
+      "grid_id": "patchwork-grid-1",
+      "row_start": 48,
+      "row_stop": 49,
+      "col_start": 8,
+      "col_stop": 9
+    },
+    {
+      "id": "f",
+      "bbox_pt": [326.633562742079, 40.577940224159, 520.649924986027, 184.314052199266],
+      "grid_id": "patchwork-grid-1",
+      "row_start": 48,
+      "row_stop": 49,
+      "col_start": 23,
+      "col_stop": 24
+    }
+  ],
+  "row_groups": null,
+  "column_groups": null,
+  "exemptions": [],
+  "measurement": "Actual panel viewport device coordinates on final-size native PDF; no tolerance exemptions"
+}

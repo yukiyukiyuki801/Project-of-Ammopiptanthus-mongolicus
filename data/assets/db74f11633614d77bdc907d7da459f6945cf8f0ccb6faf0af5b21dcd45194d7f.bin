@@ -1,0 +1,7 @@
+"test","metric","n_epsilon_negatives_shown_as_zero","tolerance"
+"equivalency","D",0,1e-12
+"equivalency","I",0,1e-12
+"similarity_core_fixed","D",0,1e-12
+"similarity_core_fixed","I",421,1e-12
+"similarity_peripheral_fixed","D",0,1e-12
+"similarity_peripheral_fixed","I",186,1e-12

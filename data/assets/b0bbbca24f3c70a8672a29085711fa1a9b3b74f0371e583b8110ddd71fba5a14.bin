@@ -1,0 +1,49 @@
+{
+  "validated": true,
+  "file": "/gpfs/ycga/work/coughlan/ps2327/ammo/oct17/Mapping_QC_results/Table_S11_reference_mapping_QC.xlsx",
+  "sha256": "46bbbed1bafa488afff40eba0c1337d12198d076a765e91ee5dab8a7576628a6",
+  "sheets": {
+    "sample_QC": [
+      435,
+      22
+    ],
+    "class_overall_summary": [
+      85,
+      10
+    ],
+    "paired_changes": [
+      218,
+      9
+    ],
+    "paired_change_summary": [
+      22,
+      8
+    ],
+    "variant_counts": [
+      4,
+      2
+    ],
+    "PCA_variance": [
+      435,
+      3
+    ],
+    "new_genotype_missing": [
+      218,
+      2
+    ],
+    "metric_definitions": [
+      16,
+      3
+    ],
+    "reporting_notes": [
+      8,
+      1
+    ],
+    "provenance": [
+      17,
+      2
+    ]
+  },
+  "figure_QA": "NOT_ASSESSED",
+  "manuscript_changes": "NOT_APPLIED"
+}

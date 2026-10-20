@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "backend": "r-patchwork",
+  "figure": {
+    "width_pt": 538.582677165354,
+    "height_pt": 297.637795275591
+  },
+  "panels": [
+    {
+      "id": "a",
+      "bbox_pt": [57.791411254479, 90.532477481099, 249.683227452731, 260.62170312117],
+      "grid_id": "patchwork-grid-1",
+      "row_start": 10,
+      "row_stop": 11,
+      "col_start": 8,
+      "col_stop": 9
+    },
+    {
+      "id": "b",
+      "bbox_pt": [321.933297782362, 90.532477481099, 513.825113980614, 260.62170312117],
+      "grid_id": "patchwork-grid-1",
+      "row_start": 10,
+      "row_stop": 11,
+      "col_start": 23,
+      "col_stop": 24
+    }
+  ],
+  "row_groups": [
+    ["a", "b"]
+  ],
+  "column_groups": null,
+  "exemptions": [],
+  "measurement": "Actual panel viewport device coordinates on final-size native PDF; no tolerance exemptions"
+}

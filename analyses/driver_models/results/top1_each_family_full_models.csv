@@ -1,0 +1,41 @@
+"model_id","n_predictors","predictors","full_screen_eligible","full_screen_retained","status","case_id","family","aicc","delta_aicc","akaike_weight","LOPO_RMSE"
+"M0009",2,"climate_change + He",TRUE,TRUE,"eligible","ssp126_2041-2070_bio15","linear",-196.684460233046,0,0.115745836890853,NA
+"M1499",8,"climate_change + private_alleles + He + Fis + Lon + Lat + Alt + LoF",TRUE,TRUE,"eligible","ssp126_2041-2070_bio15","gam",-200.830871447311,0,0.0188173137368231,NA
+"M1025",2,"climate_change + LoF",TRUE,TRUE,"eligible","ssp126_2041-2070_bio17","linear",-291.679165865366,0,0.19453190559878,0.000115556397716053
+"M0655",6,"climate_change + private_alleles + Ho + He + Lat + DEL",TRUE,TRUE,"eligible","ssp126_2041-2070_bio17","gam",-356.024982449275,0,0.189584945559619,NA
+"M0001",1,"climate_change",TRUE,TRUE,"eligible","ssp126_2041-2070_bio4","linear",-189.918914876592,0,0.12933989646013,0.00149259160121886
+"M1285",4,"climate_change + Ho + Alt + LoF",TRUE,TRUE,"eligible","ssp126_2041-2070_bio4","gam",-189.911882333531,0,0.00704765019193367,0.0016138478907556
+"M0064",1,"Lon",TRUE,TRUE,"eligible","ssp126_2041-2070_bio5","linear",-83.8328965034881,0,0.0896895133853784,0.0236997383777571
+"M1499",8,"climate_change + private_alleles + He + Fis + Lon + Lat + Alt + LoF",TRUE,TRUE,"eligible","ssp126_2041-2070_bio5","gam",-111.457261712419,0,0.696033293567173,NA
+"M0000",0,"",TRUE,TRUE,"eligible","ssp126_2041-2070_bio6","linear",-109.084180070924,0,0.0855335682957523,0.0127719026079875
+"M0086",4,"private_alleles + Ho + Fis + Lon",TRUE,TRUE,"eligible","ssp126_2041-2070_bio6","gam",-112.94832878912,0,0.00367813251085613,NA
+"M0129",2,"climate_change + Lat",TRUE,TRUE,"eligible","ssp126_2071-2100_bio15","linear",-221.46948893724,0,0.117725089516876,0.000975694386852604
+"M1537",3,"climate_change + DEL + LoF",TRUE,TRUE,"eligible","ssp126_2071-2100_bio15","gam",-228.643614861915,0,0.0103781825087513,0.00106723398644359
+"M1025",2,"climate_change + LoF",TRUE,TRUE,"eligible","ssp126_2071-2100_bio17","linear",-283.742871710658,0,0.166911197161777,0.000160937173891253
+"M0075",4,"climate_change + private_alleles + He + Lon",TRUE,TRUE,"eligible","ssp126_2071-2100_bio17","gam",-323.393618181455,0,0.0117113665046464,NA
+"M0065",2,"climate_change + Lon",TRUE,TRUE,"eligible","ssp126_2071-2100_bio4","linear",-183.639302917829,0,0.137205707709212,0.00171932037738998
+"M0711",6,"climate_change + private_alleles + Ho + Lon + Lat + DEL",TRUE,TRUE,"eligible","ssp126_2071-2100_bio4","gam",-183.583461817582,0,0.00342991458261209,NA
+"M0064",1,"Lon",TRUE,TRUE,"eligible","ssp126_2071-2100_bio5","linear",-81.7548985290638,0,0.0748776033555986,0.0251191890291827
+"M1481",6,"climate_change + He + Lon + Lat + Alt + LoF",TRUE,TRUE,"eligible","ssp126_2071-2100_bio5","gam",-95.0188519703844,0,0.114240233500773,NA
+"M0000",0,"",TRUE,TRUE,"eligible","ssp126_2071-2100_bio6","linear",-107.405246633542,0,0.0478814498474512,0.0133488482573963
+"M1305",5,"climate_change + He + Fis + Alt + LoF",TRUE,TRUE,"eligible","ssp126_2071-2100_bio6","gam",-116.220543562508,0,0.0175406585269956,NA
+"M0129",2,"climate_change + Lat",TRUE,TRUE,"eligible","ssp585_2041-2070_bio15","linear",-201.430587532091,0,0.243079740758499,0.00223547370924817
+"M0863",8,"climate_change + private_alleles + Ho + He + Fis + Lon + Alt + DEL",TRUE,TRUE,"eligible","ssp585_2041-2070_bio15","gam",-212.844238732529,0,0.088921983547054,NA
+"M1041",3,"climate_change + Fis + LoF",TRUE,TRUE,"eligible","ssp585_2041-2070_bio17","linear",-289.576115622135,0,0.0893487347890377,0.000114349103473172
+"M1353",5,"climate_change + He + Lon + Alt + LoF",TRUE,TRUE,"eligible","ssp585_2041-2070_bio17","gam",-309.540599174075,0,0.119852725317651,NA
+"M0065",2,"climate_change + Lon",TRUE,TRUE,"eligible","ssp585_2041-2070_bio4","linear",-185.090266007104,0,0.229725130699529,0.00162563006526092
+"M0071",4,"climate_change + private_alleles + Ho + Lon",TRUE,TRUE,"eligible","ssp585_2041-2070_bio4","gam",-184.475035741093,0,0.0096506844383314,0.00174064611770634
+"M0068",2,"Ho + Lon",TRUE,TRUE,"eligible","ssp585_2041-2070_bio5","linear",-63.8088375407496,0,0.0704953039538965,0.038256701815172
+"M1949",8,"climate_change + Ho + He + Fis + Lat + Alt + DEL + LoF",TRUE,TRUE,"eligible","ssp585_2041-2070_bio5","gam",-91.6413060076226,0,0.320121700196688,NA
+"M1553",4,"climate_change + Fis + DEL + LoF",TRUE,TRUE,"eligible","ssp585_2041-2070_bio6","linear",-87.5262983842363,0,0.20640247664862,0.021864824844777
+"M1751",8,"climate_change + private_alleles + Ho + Fis + Lon + Lat + DEL + LoF",TRUE,TRUE,"eligible","ssp585_2041-2070_bio6","gam",-101.018969637573,0,0.284999067904597,0.0209581159342911
+"M0129",2,"climate_change + Lat",TRUE,TRUE,"eligible","ssp585_2071-2100_bio15","linear",-157.497716126107,0,0.27419303643825,0.00458673717968483
+"M1091",4,"climate_change + private_alleles + Lon + LoF",TRUE,TRUE,"eligible","ssp585_2071-2100_bio15","gam",-173.030196587154,0,0.00927772162601546,0.00391023597594944
+"M1025",2,"climate_change + LoF",TRUE,TRUE,"eligible","ssp585_2071-2100_bio17","linear",-227.778948138136,0,0.239758596260075,0.000588665021998872
+"M1039",5,"climate_change + private_alleles + Ho + He + LoF",TRUE,TRUE,"eligible","ssp585_2071-2100_bio17","gam",-237.970191769472,0,0.0536597366651923,NA
+"M0065",2,"climate_change + Lon",TRUE,TRUE,"eligible","ssp585_2071-2100_bio4","linear",-170.423124657077,0,0.189793152683258,0.00237062859620686
+"M0001",1,"climate_change",TRUE,TRUE,"eligible","ssp585_2071-2100_bio4","gam",-169.805913474782,0,0.00572368770621218,0.00248151125543728
+"M1346",4,"private_alleles + Lon + Alt + LoF",TRUE,TRUE,"eligible","ssp585_2071-2100_bio5","linear",-55.8280552545959,0,0.222502992034705,0.0484171138905358
+"M1881",7,"climate_change + He + Fis + Lon + Alt + DEL + LoF",TRUE,TRUE,"eligible","ssp585_2071-2100_bio5","gam",-78.0711662051268,0,0.115586979247737,NA
+"M1553",4,"climate_change + Fis + DEL + LoF",TRUE,TRUE,"eligible","ssp585_2071-2100_bio6","linear",-63.4070409904031,0,0.229736452857644,0.0424421325279342
+"M1996",7,"Ho + He + Lon + Lat + Alt + DEL + LoF",TRUE,TRUE,"eligible","ssp585_2071-2100_bio6","gam",-87.5605477538408,0,0.537907546670576,NA

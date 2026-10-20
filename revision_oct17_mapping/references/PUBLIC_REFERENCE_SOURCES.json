@@ -1,0 +1,22 @@
+[
+  {
+    "name": "nanus_bundled",
+    "compressed_bytes": 239865852,
+    "sha256": "5d99d8b199bc23c54400199e62c44c9efb62abddbdb5c21cea73444cc8a5f7f2",
+    "md5": "e18819c417c811d3976b46980a8ed3a7",
+    "sequence_count": 1099,
+    "total_bases": 823736225,
+    "public_url": null,
+    "source_note": "Exact bundled A.nanus assembly required. No verified URL for these exact compressed bytes recovered; provide --nanus-reference and checksum gate prevents silent substitute."
+  },
+  {
+    "name": "mongolicus_Feng2024_publisher_v1",
+    "compressed_bytes": 240462739,
+    "sha256": "11909de38fe55a091a0f771c9783eb10ae34456b107590a575a25bc73bf93f81",
+    "md5": "07cba400141e170c21818bca7d3b58fc",
+    "sequence_count": 498,
+    "total_bases": 843074137,
+    "public_url": "https://ndownloader.figshare.com/files/69382551",
+    "source_note": "Publisher AMO genome v1.0; NCBI assembly differs and is not interchangeable"
+  }
+]

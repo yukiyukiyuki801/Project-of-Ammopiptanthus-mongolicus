@@ -1,0 +1,7 @@
+{
+  "validated": true,
+  "K": 4,
+  "original_pvalue_dimensions": [5, 1637],
+  "output_dimensions": [1637, 5],
+  "test_call": "LEA::lfmm2.test(linear=TRUE); all other arguments at recorded version defaults"
+}

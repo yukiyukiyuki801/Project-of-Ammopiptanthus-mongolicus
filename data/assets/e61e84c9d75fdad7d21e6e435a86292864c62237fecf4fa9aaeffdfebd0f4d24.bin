@@ -1,0 +1,10 @@
+{
+  "primary_K": 4,
+  "sensitivity_K": [2, 6],
+  "samples": 217,
+  "loci": 1637,
+  "covariates": 5,
+  "discovery_scope": "Conditional analysis of inherited candidate SNPs, not a new unbiased genome scan",
+  "K_sensitivity_scope": "LFMM latent-factor K changes; archived genotype imputation held fixed and validated against called genotypes",
+  "validated": true
+}

@@ -1,0 +1,149 @@
+{
+  "files": [
+    {
+      "path": "scripts/revision/project_required_grid_offsets.R",
+      "bytes": 7081,
+      "sha256": "9f7741ce6e7547b8af60d136b2e95c593ab0512325974d7f3680fd6668904e92"
+    },
+    {
+      "path": "scripts/revision/exact_gdm_grid_search.cpp",
+      "bytes": 3615,
+      "sha256": "0a8cd13e6cd5dc43a9e40f411f1a9d94edcb3eb85d181547b6110b20902dbea2"
+    },
+    {
+      "path": "scripts/revision/landscape_search.R",
+      "bytes": 9353,
+      "sha256": "cd196b4c5edc58995df41cd9c3913767e941728f8be7e9f1936330ebbd500aa5"
+    },
+    {
+      "path": "runs/revision_run_01/outputs/gdm/model_geo_TRUE.rds",
+      "bytes": 4553,
+      "sha256": "746fce38759fc7ab28d1cc7c3bf43ceb3ef0cf1ebcad0574855fc7b5c44bd888"
+    },
+    {
+      "path": "runs/revision_run_01/outputs/landscape/current_candidate_domain.csv",
+      "bytes": 21195131,
+      "sha256": "90f6e7094a9d912173b083e318465de60eb30b1fe5276862777894a34f65fb7f"
+    },
+    {
+      "path": "runs/revision_run_01/outputs/landscape/ssp126_2041-2070_ENSEMBLE_matches.csv",
+      "bytes": 79625,
+      "sha256": "875ae784477c4d4d5e2921d9074e8ac61b36f205fd878b8f0a46c1f14bbbf22b"
+    },
+    {
+      "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp126_2040/b4.asc",
+      "bytes": 18980751,
+      "sha256": "ad1e2900720ede88ad80ce3d3ccb4e390069cf32efe583a6addfb1143035c408"
+    },
+    {
+      "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp126_2040/b5.asc",
+      "bytes": 18981037,
+      "sha256": "1c7f0e36aec437d5d00a5c48b379880549590022502a0e2eac87aa7f76ad3e44"
+    },
+    {
+      "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp126_2040/b6.asc",
+      "bytes": 20152548,
+      "sha256": "87dd25a9acab14c06817dca2d824e90e32b11dfe7bbe1cad6127f3bf44fb476e"
+    },
+    {
+      "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp126_2040/b15.asc",
+      "bytes": 18900558,
+      "sha256": "7d08c71eccc27e506429f62b3199638aadd1e80cb9d0c7f5ccdf53e7de8500da"
+    },
+    {
+      "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp126_2040/b17.asc",
+      "bytes": 18553389,
+      "sha256": "e3945d9e554f16c1c76c5a42b3bab087d8ce32f7d94123b63e8487067f0f056a"
+    },
+    {
+      "path": "runs/revision_run_01/outputs/landscape/ssp126_2071-2100_ENSEMBLE_matches.csv",
+      "bytes": 79599,
+      "sha256": "98b32b4d8600ae3c1ac7a62bfb8b723edccc8b41823b7922017e0b58e86d8b56"
+    },
+    {
+      "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp126_2070/b4.asc",
+      "bytes": 18984900,
+      "sha256": "69989e8491670922ebe2768fc2050b36a2e500ffb5c3f72f3e34cb62e1f74735"
+    },
+    {
+      "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp126_2070/b5.asc",
+      "bytes": 19032034,
+      "sha256": "a123e25bcdc44f0fd8f8ea90dc5816d4c81f695aa33e30aeb8b2cd51cda8be00"
+    },
+    {
+      "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp126_2070/b6.asc",
+      "bytes": 20183745,
+      "sha256": "04957ff4871d75c6285273adbf6e52f7fa4946de490e7c56132b9e93ce1e1195"
+    },
+    {
+      "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp126_2070/b15.asc",
+      "bytes": 18914181,
+      "sha256": "75f3c26652106bd2c532a19bdcc7df4ef8f6664fa5f4256ca1ab9ca352f0a015"
+    },
+    {
+      "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp126_2070/b17.asc",
+      "bytes": 18540510,
+      "sha256": "a35afb5344f1f84ffccdc826cd1aff96298d3a90647b0f53a12292e1979a2831"
+    },
+    {
+      "path": "runs/revision_run_01/outputs/landscape/ssp585_2041-2070_ENSEMBLE_matches.csv",
+      "bytes": 79641,
+      "sha256": "d626e6f67b3fcff46dc5b138715d4f627f2114cfd7352401a3e5c78c06a98723"
+    },
+    {
+      "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp585_2040/b4.asc",
+      "bytes": 18985401,
+      "sha256": "641362e7fb10bc3d6edf9489ee4c1aacc829786deb7ec134092dceebf97c936f"
+    },
+    {
+      "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp585_2040/b5.asc",
+      "bytes": 19028209,
+      "sha256": "6442a1a8fcbdb881b9825cfaad5fa3fd4be1f92aa6f2e04f61fb7eb9b2a40a9c"
+    },
+    {
+      "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp585_2040/b6.asc",
+      "bytes": 20134967,
+      "sha256": "8464227f227dd438fa11938e69b475ecf2875f9e5053f7c1eae7178abccb3cbe"
+    },
+    {
+      "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp585_2040/b15.asc",
+      "bytes": 18915713,
+      "sha256": "e06ef8223efba5e34e511215f3a3ce24e9affda11f5e0e5b713a1bd7140f8f43"
+    },
+    {
+      "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp585_2040/b17.asc",
+      "bytes": 18615000,
+      "sha256": "4e7b8d5e55ea86d43bd9e3e6c93b17254236ef2f6c13c7ede5f1d939480a87eb"
+    },
+    {
+      "path": "runs/revision_run_01/outputs/landscape/ssp585_2071-2100_ENSEMBLE_matches.csv",
+      "bytes": 79721,
+      "sha256": "a996e6919f6c99288b3b3262c4e46a4d602fa1e15623ba3b75863c18880e1afa"
+    },
+    {
+      "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp585_2070/b4.asc",
+      "bytes": 18981372,
+      "sha256": "de1099e0dd9848a07ed97d3e2ca0b31bab4cf227460ee1511b70fa7b13e39226"
+    },
+    {
+      "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp585_2070/b5.asc",
+      "bytes": 19047735,
+      "sha256": "d894568af6c27fc7ad4295b6804ee0a90f1bda4631f823be75047db42ead2962"
+    },
+    {
+      "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp585_2070/b6.asc",
+      "bytes": 20125786,
+      "sha256": "857ffcf01375999bd8ae39493eaa61a96dd764e4e13fe597ef1d03109f1f3f14"
+    },
+    {
+      "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp585_2070/b15.asc",
+      "bytes": 18910188,
+      "sha256": "b131627fb62170f026a936e471b0b3a01d1076a05ca1174b6338de69a93f3a69"
+    },
+    {
+      "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp585_2070/b17.asc",
+      "bytes": 18804870,
+      "sha256": "df2266b3da286320820a8b337653b2f8e33407d70ffc14bc845220a212619ac8"
+    }
+  ]
+}

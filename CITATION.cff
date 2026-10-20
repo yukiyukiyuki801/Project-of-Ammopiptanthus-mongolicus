@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite this repository and the source datasets/software described in the analysis documentation."
+title: "Ammopiptanthus mongolicus genomic vulnerability analyses"
+type: software
+authors:
+  - family-names: Sun
+    given-names: Pei-Wei
+repository-code: "https://github.com/yukiyukiyuki801/Project-of-Ammopiptanthus-mongolicus"
+license: MIT

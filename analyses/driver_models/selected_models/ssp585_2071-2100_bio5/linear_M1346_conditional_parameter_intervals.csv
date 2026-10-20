@@ -1,0 +1,6 @@
+"parameter","estimate","SE","lower95","upper95","residual_df","interval","parameter_type"
+"(Intercept)",0.451164886450946,0.00902617538374251,0.431805665645084,0.470524107256808,14,"95% pointwise conditional on selected formula; no model-search correction","linear coefficient on standardized predictors"
+"private_alleles",0.033802479858872,0.0148504961396664,0.00195133342954074,0.0656536262882032,14,"95% pointwise conditional on selected formula; no model-search correction","linear coefficient on standardized predictors"
+"Lon",-0.0372564607750135,0.0101890153067025,-0.0591097251678197,-0.0154031963822074,14,"95% pointwise conditional on selected formula; no model-search correction","linear coefficient on standardized predictors"
+"Alt",-0.0652767018449974,0.0140664323824388,-0.0954461987653481,-0.0351072049246467,14,"95% pointwise conditional on selected formula; no model-search correction","linear coefficient on standardized predictors"
+"LoF",-0.0318975757336386,0.0113308824702984,-0.0561999016182957,-0.00759524984898145,14,"95% pointwise conditional on selected formula; no model-search correction","linear coefficient on standardized predictors"

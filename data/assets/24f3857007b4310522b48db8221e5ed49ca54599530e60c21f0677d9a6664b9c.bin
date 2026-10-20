@@ -1,0 +1,1012 @@
+transcript,requested_substitutions,prediction_file,parsed_substitutions,warnings,missing_status
+EVM0000087.1_R0,1,True,1,,
+EVM0000130.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0000186.1_R0,1,True,1,,
+EVM0000235.1_R0,1,True,1,,
+EVM0000273.1_R0,2,True,2,,
+EVM0000363.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0000396.1_R0,1,True,1,WARNING! A128 not allowed! score: 0.05 median: 0.00 # of sequence: 29 | WARNING! N190 not allowed! score: 0.04 median: 0.00 # of sequence: 29,
+EVM0000427.1_R0,2,True,2,,
+EVM0000431.1_R0,1,True,1,,
+EVM0000513.1_R0,1,True,1,,
+EVM0000538.1_R0,2,True,2,,
+EVM0000550.1_R0,3,True,3,WARNING! I181 not allowed! score: 0.05 median: 0.00 # of sequence: 28,
+EVM0000566.1_R0,1,True,1,,
+EVM0000619.1_R0,1,True,1,,
+EVM0000629.1_R0,1,True,1,,
+EVM0000654.2_R0,1,True,1,WARNING! W56 not allowed! score: 0.03 median: 0.00 # of sequence: 212,
+EVM0000665.1_R0,2,True,2,,
+EVM0000678.1_R0,1,True,1,,
+EVM0000691.1_R0,1,True,1,,
+EVM0000701.1_R0.1.5aa28d68,1,True,1,,
+EVM0000774.1_R0,1,True,1,,
+EVM0000793.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0000876.1_R0,1,True,1,,
+EVM0000917.1_R0,2,True,2,WARNING! R72 not allowed! score: 0.01 median: 0.00 # of sequence: 396 | WARNING! G132 not allowed! score: 0.02 median: 0.00 # of sequence: 398 | WARNING! I249 not allowed! score: 0.03 median: 0.00 # of sequence: 399 | WARNING! N280 not allowed! score: 0.02 median: 0.00 # of sequence: 399 | WARNING! P318 not allowed! score: 0.01 median: 0.00 # of sequence: 399 | WARNING! N353 not allowed! score: 0.01 median: 0.00 # of sequence: 399 | WARNING! Q634 not allowed! score: 0.01 median: 0.00 # of sequence: 400 | WARNING! G685 not allowed! score: 0.01 median: 0.00 # of sequence: 400 | WARNING! R751 not allowed! score: 0.01 median: 0.00 # of sequence: 400 | WARNING! F766 not allowed! score: 0.01 median: 0.00 # of sequence: 400 | WARNING! H789 not allowed! score: 0.00 median: 0.00 # of sequence: 400 | WARNING! I856 not allowed! score: 0.01 median: 0.00 # of sequence: 400 | WARNING! L859 not allowed! score: 0.03 median: 0.00 # of sequence: 400 | WARNING! M866 not allowed! score: 0.01 median: 0.00 # of sequence: 400 | WARNING! C940 not allowed! score: 0.00 median: 0.00 # of sequence: 399 | WARNING! I946 not allowed! score: 0.01 median: 0.00 # of sequence: 365,
+EVM0000928.1_R0,1,True,1,,
+EVM0000939.1_R0,3,True,3,,
+EVM0001037.1_R0,1,True,1,,
+EVM0001085.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0001090.1_R0,3,True,3,,
+EVM0001109.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0001139.1_R0,2,True,2,,
+EVM0001168.1_R0,1,True,1,,
+EVM0001232.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0001304.1_R0,1,True,1,WARNING! S77 not allowed! score: 0.05 median: 0.00 # of sequence: 55 | WARNING! H155 not allowed! score: 0.03 median: 0.00 # of sequence: 56 | WARNING! C399 not allowed! score: 0.04 median: 0.00 # of sequence: 48,
+EVM0001445.1_R0,1,True,1,WARNING! G178 not allowed! score: 0.05 median: 0.00 # of sequence: 10,
+EVM0001508.1_R0,1,True,1,WARNING! G426 not allowed! score: 0.04 median: 0.00 # of sequence: 34,
+EVM0001656.1_R0,3,True,3,,
+EVM0001732.1_R0,3,True,3,,
+EVM0001766.1_R0,3,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0001777.1_R0,3,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0001839.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0001843.1_R0,1,True,1,,
+EVM0001857.1_R0,1,True,1,,
+EVM0001877.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0001920.1_R0,1,True,1,,
+EVM0001923.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0001930.1_R0,1,True,1,,
+EVM0001964.1_R0,1,True,1,,
+EVM0001982.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0002007.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0002023.2_R0,1,True,1,,
+EVM0002053.1_R0,1,True,1,,
+EVM0002100.1_R0,1,True,1,,
+EVM0002112.1_R0,1,True,1,,
+EVM0002162.1_R0,1,True,1,,
+EVM0002171.1_R0,1,True,1,,
+EVM0002181.1_R0,1,True,1,,
+EVM0002250.1_R0,2,True,2,,
+EVM0002317.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0002588.1_R0,1,True,1,,
+EVM0002595.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0002615.1_R0,1,True,1,WARNING! S85 not allowed! score: 0.04 median: 0.00 # of sequence: 54,
+EVM0002622.1_R0,1,True,1,,
+EVM0002696.1_R0,1,True,1,,
+EVM0002719.1_R0,4,True,4,,
+EVM0002725.1_R0,1,True,1,,
+EVM0002752.1_R0,1,True,1,,
+EVM0002791.1_R0,1,True,1,,
+EVM0002815.1_R0,1,True,1,,
+EVM0002829.1_R0,1,True,1,,
+EVM0002855.1_R0,1,True,1,,
+EVM0002875.1_R0,1,True,1,,
+EVM0002974.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0003068.1_R0,1,True,1,,
+EVM0003074.1_R0,4,True,4,,
+EVM0003077.1_R0,2,True,2,,
+EVM0003088.1_R0,1,True,1,,
+EVM0003132.1_R0,7,True,7,,
+EVM0003146.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0003154.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0003172.1_R0,2,True,2,,
+EVM0003292.1_R0,1,True,1,,
+EVM0003378.1_R0,1,True,1,,
+EVM0003393.1_R0,1,True,1,,
+EVM0003406.1_R0,1,True,1,,
+EVM0003428.1_R0,2,True,2,,
+EVM0003432.1_R0,1,True,1,,
+EVM0003437.1_R0,1,True,1,,
+EVM0003467.1_R0,1,True,1,,
+EVM0003478.1_R0,1,True,1,,
+EVM0003529.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0003534.1_R0,1,True,1,,
+EVM0003602.1_R0,1,True,1,,
+EVM0003606.1_R0,1,True,1,WARNING! T85 not allowed! score: 0.05 median: 0.00 # of sequence: 42 | WARNING! W581 not allowed! score: 0.04 median: 0.00 # of sequence: 41,
+EVM0003655.6_R0.6.5aa28d64,1,True,1,WARNING! C452 not allowed! score: 0.05 median: 0.00 # of sequence: 7,
+EVM0003696.1_R0,2,True,2,,
+EVM0003779.1_R0,1,True,1,,
+EVM0003789.1_R0,1,True,1,WARNING! S158 not allowed! score: 0.05 median: 0.00 # of sequence: 43 | WARNING! E222 not allowed! score: 0.05 median: 0.00 # of sequence: 43 | WARNING! L331 not allowed! score: 0.05 median: 0.00 # of sequence: 43 | WARNING! H508 not allowed! score: 0.05 median: 0.00 # of sequence: 42 | WARNING! N517 not allowed! score: 0.05 median: 0.00 # of sequence: 42 | WARNING! P867 not allowed! score: 0.05 median: 0.00 # of sequence: 39,
+EVM0003911.1_R0,5,True,5,,
+EVM0003932.1_R0,1,True,1,WARNING! D210 not allowed! score: 0.05 median: 0.00 # of sequence: 12 | WARNING! W411 not allowed! score: 0.03 median: 0.00 # of sequence: 12,
+EVM0003935.1_R0,1,True,1,,
+EVM0003941.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0003999.1_R0.1.5aa28d63,2,True,2,,
+EVM0004017.1_R0,1,True,1,,
+EVM0004053.1_R0,1,True,1,,
+EVM0004111.1_R0,1,True,1,,
+EVM0004119.1_R0,2,True,2,WARNING! R418 not allowed! score: 0.05 median: 0.00 # of sequence: 23 | WARNING! W591 not allowed! score: 0.05 median: 0.00 # of sequence: 22,
+EVM0004133.1_R0,2,True,2,,
+EVM0004207.1_R0,1,True,1,,
+EVM0004338.1_R0,2,True,2,,
+EVM0004364.1_R0,2,True,2,,
+EVM0004384.1_R0,1,True,1,,
+EVM0004420.1_R0,1,True,1,,
+EVM0004430.1_R0,2,True,2,,
+EVM0004484.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0004486.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0004589.1_R0,1,True,1,,
+EVM0004603.1_R0,2,True,2,,
+EVM0004637.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0004792.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0004793.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0004886.1_R0,1,True,1,,
+EVM0004908.1_R0,1,True,1,,
+EVM0004921.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0004922.1_R0,1,True,1,,
+EVM0004962.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0005020.1_R0,1,True,1,,
+EVM0005036.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0005056.1_R0,1,True,1,,
+EVM0005063.1_R0,1,True,1,WARNING! D68 not allowed! score: 0.05 median: 0.00 # of sequence: 76,
+EVM0005064.1_R0,2,True,2,,
+EVM0005194.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0005237.1_R0,2,True,2,,
+EVM0005276.1_R0,1,True,1,WARNING! W259 not allowed! score: 0.03 median: 0.00 # of sequence: 23,
+EVM0005291.2_R0.1.5aa28d73,1,True,1,,
+EVM0005342.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0005385.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0005463.1_R0,1,True,1,,
+EVM0005481.1_R0,1,True,1,,
+EVM0005569.1_R0,1,True,1,,
+EVM0005650.1_R0,1,True,1,WARNING! F175 not allowed! score: 0.05 median: 0.00 # of sequence: 43,
+EVM0005667.1_R0,2,True,2,,
+EVM0005687.1_R0,2,True,2,,
+EVM0005788.1_R0,1,True,1,,
+EVM0005836.2_R0.1.5aa28d6f,1,True,1,,
+EVM0005851.1_R0,1,True,1,,
+EVM0005877.1_R0,1,True,1,,
+EVM0005897.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0005926.1_R0,1,True,1,,
+EVM0005970.1_R0,1,True,1,,
+EVM0005988.1_R0,1,True,1,WARNING! Q238 not allowed! score: 0.04 median: 0.00 # of sequence: 78 | WARNING! H352 not allowed! score: 0.03 median: 0.00 # of sequence: 78,
+EVM0006004.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0006029.1_R0,1,True,1,,
+EVM0006043.1_R0,2,True,2,,
+EVM0006056.1_R0,2,True,2,,
+EVM0006085.1_R0,3,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0006105.1_R0,1,True,1,,
+EVM0006164.1_R0,1,True,1,,
+EVM0006320.1_R0,1,True,1,,
+EVM0006330.1_R0,1,True,1,,
+EVM0006348.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0006365.1_R0,1,True,1,,
+EVM0006385.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0006421.1_R0,2,True,2,,
+EVM0006435.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0006472.1_R0,4,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0006521.2_R0.10.5aa28d6d,1,True,1,,
+EVM0006541.1_R0,2,True,2,,
+EVM0006584.1_R0,1,True,1,,
+EVM0006585.1_R0,1,True,1,,
+EVM0006629.1_R0,1,True,1,,
+EVM0006682.1_R0,1,True,1,,
+EVM0006697.1_R0,1,True,1,,
+EVM0006868.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0007005.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0007190.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0007191.1_R0,1,True,1,,
+EVM0007208.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0007259.1_R0,1,True,1,,
+EVM0007272.1_R0,1,True,1,WARNING! K27 not allowed! score: 0.05 median: 0.00 # of sequence: 38,
+EVM0007425.1_R0,1,True,1,,
+EVM0007428.1_R0,1,True,1,,
+EVM0007441.1_R0,3,True,3,,
+EVM0007444.1_R0,1,True,1,,
+EVM0007536.1_R0,1,True,1,,
+EVM0007542.3_R0.1.5aa28d6c,2,True,2,,
+EVM0007547.2_R0.2.5aa28d6c,1,True,1,,
+EVM0007599.1_R0,1,True,1,WARNING! W304 not allowed! score: 0.05 median: 0.00 # of sequence: 8,
+EVM0007608.1_R0,2,True,2,,
+EVM0007643.1_R0,1,True,1,,
+EVM0007690.1_R0,1,True,1,,
+EVM0007710.1_R0,1,True,1,,
+EVM0007731.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0007795.1_R0,2,True,2,WARNING! P97 not allowed! score: 0.04 median: 0.00 # of sequence: 7,
+EVM0007805.1_R0,1,True,1,,
+EVM0007806.1_R0,1,True,1,,
+EVM0007807.1_R0,3,True,3,WARNING! K408 not allowed! score: 0.04 median: 0.00 # of sequence: 35 | WARNING! S425 not allowed! score: 0.04 median: 0.00 # of sequence: 35,
+EVM0007845.1_R0.1.5aa28d61,2,True,2,,
+EVM0007890.1_R0,1,True,1,,
+EVM0007893.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0007902.1_R0,4,True,4,,
+EVM0007955.1_R0,2,True,2,,
+EVM0007981.1_R0,1,True,1,,
+EVM0008004.1_R0,1,True,1,,
+EVM0008035.1_R0,1,True,1,WARNING! C163 not allowed! score: 0.04 median: 0.00 # of sequence: 38 | WARNING! D166 not allowed! score: 0.05 median: 0.00 # of sequence: 38,
+EVM0008113.1_R0,1,True,1,,
+EVM0008148.1_R0,2,True,2,,
+EVM0008154.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0008185.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0008191.2_R0,1,True,1,,
+EVM0008198.1_R0.1.5aa28d60,2,True,2,,
+EVM0008207.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0008271.1_R0,2,True,2,,
+EVM0008279.1_R0,1,True,1,,
+EVM0008293.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0008308.1_R0,1,True,1,,
+EVM0008351.1_R0,1,True,1,,
+EVM0008384.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0008454.1_R0,1,True,1,,
+EVM0008459.1_R0,1,True,1,,
+EVM0008469.1_R0,1,True,1,,
+EVM0008482.1_R0,2,True,2,,
+EVM0008509.3_R0.4.5aa28d68,1,True,1,,
+EVM0008557.1_R0,1,True,1,,
+EVM0008558.1_R0,1,True,1,,
+EVM0008582.1_R0,1,True,1,,
+EVM0008664.1_R0,7,True,7,,
+EVM0008811.1_R0,7,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0008906.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0008968.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0009004.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0009045.1_R0,1,True,1,,
+EVM0009052.1_R0,1,True,1,,
+EVM0009109.1_R0,1,True,1,,
+EVM0009112.1_R0,2,True,2,,
+EVM0009146.1_R0,1,True,1,,
+EVM0009188.1_R0,1,True,1,WARNING! E297 not allowed! score: 0.04 median: 0.00 # of sequence: 28,
+EVM0009251.1_R0,2,True,2,,
+EVM0009371.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0009434.1_R0,1,True,1,,
+EVM0009447.1_R0,1,True,1,,
+EVM0009451.1_R0,1,True,1,,
+EVM0009516.1_R0,2,True,2,,
+EVM0009555.1_R0,4,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0009557.1_R0,1,True,1,,
+EVM0009558.1_R0,1,True,1,,
+EVM0009590.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0009683.1_R0,1,True,1,WARNING! I350 not allowed! score: 0.03 median: 0.00 # of sequence: 39,
+EVM0009688.1_R0,2,True,2,,
+EVM0009762.1_R0,1,True,1,,
+EVM0009766.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0009767.1_R0,1,True,1,,
+EVM0009848.1_R0,1,True,1,,
+EVM0009901.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0010011.1_R0,1,True,1,,
+EVM0010056.1_R0,1,True,1,,
+EVM0010091.1_R0,1,True,1,,
+EVM0010125.1_R0,1,True,1,,
+EVM0010191.1_R0,3,True,3,WARNING! W55 not allowed! score: 0.03 median: 0.00 # of sequence: 51,
+EVM0010193.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0010210.1_R0,1,True,1,,
+EVM0010214.1_R0,1,True,1,,
+EVM0010231.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0010250.1_R0,2,True,2,,
+EVM0010256.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0010270.1_R0,2,True,2,,
+EVM0010271.1_R0,1,True,1,,
+EVM0010273.1_R0,2,True,2,,
+EVM0010338.1_R0,2,True,2,,
+EVM0010410.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0010425.1_R0,1,True,1,WARNING! T99 not allowed! score: 0.05 median: 0.00 # of sequence: 33 | WARNING! L222 not allowed! score: 0.05 median: 0.00 # of sequence: 33,
+EVM0010453.1_R0,1,True,1,,
+EVM0010487.1_R0,1,True,1,,
+EVM0010496.1_R0,1,True,1,,
+EVM0010503.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0010527.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0010609.1_R0,1,True,1,WARNING! G547 not allowed! score: 0.04 median: 0.00 # of sequence: 18 | WARNING! G548 not allowed! score: 0.03 median: 2.85 # of sequence: 18,
+EVM0010670.1_R0,1,True,1,,
+EVM0010692.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0010708.1_R0.1.5aa28d61,1,True,1,,
+EVM0010760.1_R0,1,True,1,,
+EVM0010828.1_R0,1,True,1,,
+EVM0010917.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0010952.1_R0,1,True,1,,
+EVM0010963.1_R0,1,True,1,,
+EVM0010967.1_R0,1,True,1,,
+EVM0010981.2_R0,2,True,2,,
+EVM0010983.1_R0,1,True,1,,
+EVM0011000.1_R0,1,True,1,,
+EVM0011028.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0011051.1_R0,3,True,3,,
+EVM0011155.1_R0,2,True,2,,
+EVM0011157.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0011239.1_R0,1,True,1,WARNING! D601 not allowed! score: 0.05 median: 0.00 # of sequence: 18,
+EVM0011304.1_R0,1,True,1,,
+EVM0011333.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0011388.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0011415.1_R0,1,True,1,,
+EVM0011461.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0011466.1_R0,1,True,1,,
+EVM0011482.1_R0,1,True,1,,
+EVM0011503.1_R0,1,True,1,,
+EVM0011541.1_R0,1,True,1,,
+EVM0011577.1_R0,1,True,1,,
+EVM0011619.1_R0,1,True,1,,
+EVM0011672.1_R0,3,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0011716.1_R0,1,True,1,,
+EVM0011723.1_R0,1,True,1,,
+EVM0011756.1_R0.1.5aa28d62,1,True,1,,
+EVM0011761.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0011802.1_R0,1,True,1,,
+EVM0011817.1_R0,1,True,1,,
+EVM0011837.1_R0,2,True,2,,
+EVM0011859.1_R0,1,True,1,,
+EVM0011956.1_R0,1,True,1,,
+EVM0012051.1_R0,1,True,1,,
+EVM0012053.1_R0,1,True,1,,
+EVM0012241.1_R0,1,True,1,WARNING! K85 not allowed! score: 0.04 median: 0.00 # of sequence: 88 | WARNING! I127 not allowed! score: 0.02 median: 0.00 # of sequence: 88 | WARNING! G149 not allowed! score: 0.04 median: 0.00 # of sequence: 88,
+EVM0012254.2_R0.1.5aa28d73,1,True,1,,
+EVM0012273.1_R0,2,True,2,,
+EVM0012292.1_R0,2,True,2,WARNING! Q11 not allowed! score: 0.03 median: 0.00 # of sequence: 400 | WARNING! F13 not allowed! score: 0.04 median: 0.00 # of sequence: 400 | WARNING! N33 not allowed! score: 0.01 median: 0.00 # of sequence: 399 | WARNING! I52 not allowed! score: 0.04 median: 0.00 # of sequence: 400 | WARNING! S63 not allowed! score: 0.01 median: 0.00 # of sequence: 375 | WARNING! S86 not allowed! score: 0.02 median: 0.00 # of sequence: 400 | WARNING! L115 not allowed! score: 0.01 median: 0.00 # of sequence: 400,
+EVM0012312.1_R0,5,True,5,,
+EVM0012330.1_R0,1,True,1,,
+EVM0012342.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0012353.1_R0,1,True,1,,
+EVM0012359.1_R0,1,True,1,,
+EVM0012404.1_R0,1,True,1,,
+EVM0012442.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0012450.1_R0,4,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0012465.1_R0,1,True,1,,
+EVM0012472.1_R0,2,True,2,,
+EVM0012475.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0012536.1_R0,1,True,1,,
+EVM0012579.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0012628.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0012652.1_R0,5,True,5,,
+EVM0012670.1_R0,1,True,1,,
+EVM0012708.1_R0,3,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0012722.1_R0,1,True,1,,
+EVM0012809.1_R0,1,True,1,,
+EVM0012839.1_R0,1,True,1,,
+EVM0012877.1_R0,1,True,1,,
+EVM0012917.1_R0,3,True,3,,
+EVM0012926.1_R0,2,True,2,,
+EVM0012989.1_R0,1,True,1,WARNING! R31 not allowed! score: 0.03 median: 0.00 # of sequence: 85,
+EVM0013021.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0013023.1_R0,1,True,1,,
+EVM0013072.1_R0,2,True,2,,
+EVM0013088.1_R0,4,True,4,,
+EVM0013138.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0013165.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0013175.1_R0,1,True,1,,
+EVM0013269.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0013329.1_R0,1,True,1,,
+EVM0013341.1_R0,5,True,5,,
+EVM0013414.1_R0,1,True,1,,
+EVM0013422.1_R0,1,True,1,WARNING! W965 not allowed! score: 0.03 median: 0.00 # of sequence: 10,
+EVM0013467.1_R0,2,True,2,,
+EVM0013477.1_R0,1,True,1,,
+EVM0013519.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0013526.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0013531.1_R0,1,True,1,,
+EVM0013565.1_R0,1,True,1,,
+EVM0013589.1_R0,4,True,4,,
+EVM0013616.1_R0,1,True,1,WARNING! M424 not allowed! score: 0.05 median: 0.00 # of sequence: 11,
+EVM0013630.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0013638.1_R0,1,True,1,WARNING! W212 not allowed! score: 0.05 median: 0.00 # of sequence: 9,
+EVM0013641.1_R0,1,True,1,,
+EVM0013732.1_R0,1,True,1,,
+EVM0013742.1_R0,1,True,1,,
+EVM0013760.1_R0,1,True,1,,
+EVM0013894.1_R0,2,True,2,,
+EVM0013905.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0013936.1_R0,1,True,1,WARNING! V158 not allowed! score: 0.04 median: 0.00 # of sequence: 36 | WARNING! D164 not allowed! score: 0.04 median: 0.00 # of sequence: 36 | WARNING! V274 not allowed! score: 0.05 median: 0.00 # of sequence: 36,
+EVM0013992.1_R0,1,True,1,,
+EVM0013999.1_R0,1,True,1,,
+EVM0014019.1_R0,2,True,2,,
+EVM0014040.1_R0,2,True,2,,
+EVM0014051.1_R0,1,True,1,,
+EVM0014054.1_R0,2,True,2,,
+EVM0014137.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0014159.2_R0,1,True,1,,
+EVM0014163.1_R0,1,True,1,WARNING! G335 not allowed! score: 0.02 median: 0.00 # of sequence: 18,
+EVM0014206.1_R0,1,True,1,,
+EVM0014228.1_R0,3,True,3,,
+EVM0014244.1_R0,1,True,1,,
+EVM0014259.1_R0,1,True,1,,
+EVM0014284.1_R0,1,True,1,,
+EVM0014298.1_R0,1,True,1,,
+EVM0014311.2_R0,2,True,2,,
+EVM0014326.1_R0,1,True,1,,
+EVM0014365.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0014385.1_R0,1,True,1,,
+EVM0014398.1_R0,1,True,1,,
+EVM0014403.1_R0,1,True,1,,
+EVM0014425.1_R0,1,True,1,WARNING! K68 not allowed! score: 0.04 median: 0.00 # of sequence: 60 | WARNING! S180 not allowed! score: 0.03 median: 0.00 # of sequence: 60 | WARNING! F325 not allowed! score: 0.04 median: 0.00 # of sequence: 60 | WARNING! M575 not allowed! score: 0.04 median: 0.00 # of sequence: 51,
+EVM0014481.1_R0,1,True,1,,
+EVM0014485.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0014498.1_R0,2,True,2,WARNING! N54 not allowed! score: 0.03 median: 0.00 # of sequence: 21,
+EVM0014522.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0014556.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0014589.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0014631.1_R0,1,True,1,,
+EVM0014685.2_R0.2.5aa28d63,1,True,1,,
+EVM0014692.3_R0.3.5aa28d68,1,True,1,,
+EVM0014738.1_R0,1,True,1,,
+EVM0014820.1_R0,1,True,1,,
+EVM0014830.1_R0,1,True,1,WARNING! W1117 not allowed! score: 0.05 median: 0.00 # of sequence: 11,
+EVM0014854.1_R0,1,True,1,,
+EVM0014893.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0014966.1_R0,2,True,2,,
+EVM0014976.2_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0014977.5_R0.2.5aa28d71,1,True,1,,
+EVM0015016.1_R0,1,True,1,,
+EVM0015047.1_R0,1,True,1,,
+EVM0015083.1_R0,1,True,1,,
+EVM0015123.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0015302.1_R0,2,True,2,,
+EVM0015305.1_R0,1,True,1,,
+EVM0015307.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0015357.1_R0,3,True,3,WARNING! W168 not allowed! score: 0.03 median: 0.00 # of sequence: 8 | WARNING! W666 not allowed! score: 0.04 median: 0.00 # of sequence: 18,
+EVM0015358.1_R0,1,True,1,WARNING! W74 not allowed! score: 0.03 median: 0.00 # of sequence: 9,
+EVM0015372.1_R0,3,True,3,,
+EVM0015414.1_R0,1,True,1,,
+EVM0015472.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0015478.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0015524.1_R0,3,True,3,,
+EVM0015584.1_R0,1,True,1,,
+EVM0015714.1_R0,1,True,1,,
+EVM0015776.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0015800.1_R0,2,True,2,,
+EVM0015811.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0015820.1_R0,1,True,1,,
+EVM0015926.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0015972.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0015978.1_R0,1,True,1,,
+EVM0016047.1_R0,1,True,1,,
+EVM0016057.1_R0,2,True,2,,
+EVM0016065.1_R0,2,True,2,,
+EVM0016121.1_R0,3,True,3,,
+EVM0016124.1_R0,3,True,3,,
+EVM0016142.1_R0,1,True,1,,
+EVM0016145.1_R0,2,True,2,,
+EVM0016196.1_R0,1,True,1,WARNING! S429 not allowed! score: 0.04 median: 0.00 # of sequence: 29,
+EVM0016209.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0016212.1_R0,1,True,1,,
+EVM0016253.1_R0,1,True,1,WARNING! N190 not allowed! score: 0.02 median: 0.00 # of sequence: 399 | WARNING! P228 not allowed! score: 0.01 median: 0.00 # of sequence: 399 | WARNING! V351 not allowed! score: 0.04 median: 0.00 # of sequence: 399 | WARNING! M402 not allowed! score: 0.00 median: 0.00 # of sequence: 399 | WARNING! L412 not allowed! score: 0.00 median: 0.00 # of sequence: 399 | WARNING! L425 not allowed! score: 0.01 median: 0.00 # of sequence: 399 | WARNING! H571 not allowed! score: 0.05 median: 0.00 # of sequence: 400 | WARNING! D611 not allowed! score: 0.00 median: 0.00 # of sequence: 400 | WARNING! L791 not allowed! score: 0.03 median: 0.00 # of sequence: 400 | WARNING! M798 not allowed! score: 0.01 median: 0.00 # of sequence: 400 | WARNING! N819 not allowed! score: 0.01 median: 0.00 # of sequence: 400 | WARNING! I878 not allowed! score: 0.01 median: 0.00 # of sequence: 378,
+EVM0016267.1_R0,1,True,1,WARNING! W121 not allowed! score: 0.03 median: 0.00 # of sequence: 8,
+EVM0016275.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0016292.1_R0,1,True,1,,
+EVM0016319.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0016427.1_R0,1,True,1,,
+EVM0016468.1_R0,1,True,1,,
+EVM0016473.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0016520.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0016567.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0016660.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0016684.1_R0,1,True,1,,
+EVM0016730.1_R0,1,True,1,,
+EVM0016921.1_R0,1,True,1,,
+EVM0016930.1_R0,1,True,1,WARNING! M58 not allowed! score: 0.04 median: 0.00 # of sequence: 67 | WARNING! D60 not allowed! score: 0.04 median: 0.00 # of sequence: 67,
+EVM0016934.1_R0,1,True,1,,
+EVM0017006.1_R0,1,True,1,,
+EVM0017011.1_R0,2,True,2,,
+EVM0017123.3_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0017199.1_R0,1,True,1,,
+EVM0017208.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0017219.1_R0,1,True,1,,
+EVM0017241.1_R0,1,True,1,WARNING! R221 not allowed! score: 0.05 median: 0.00 # of sequence: 13,
+EVM0017265.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0017266.1_R0,2,True,2,,
+EVM0017408.1_R0,1,True,1,WARNING! S381 not allowed! score: 0.04 median: 0.00 # of sequence: 13 | WARNING! W994 not allowed! score: 0.03 median: 0.00 # of sequence: 12,
+EVM0017429.1_R0,2,True,2,,
+EVM0017447.1_R0,1,True,1,,
+EVM0017460.1_R0,1,True,1,,
+EVM0017521.1_R0,1,True,1,,
+EVM0017540.1_R0,1,True,1,,
+EVM0017605.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0017677.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0017682.1_R0,1,True,1,,
+EVM0017704.1_R0,2,True,2,,
+EVM0017791.1_R0,3,True,3,,
+EVM0017856.1_R0,1,True,1,,
+EVM0017909.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0017981.1_R0,1,True,1,WARNING! H31 not allowed! score: 0.02 median: 0.00 # of sequence: 161 | WARNING! S102 not allowed! score: 0.02 median: 0.00 # of sequence: 161 | WARNING! T125 not allowed! score: 0.02 median: 0.00 # of sequence: 161 | WARNING! R132 not allowed! score: 0.02 median: 0.00 # of sequence: 161 | WARNING! H224 not allowed! score: 0.02 median: 0.00 # of sequence: 161 | WARNING! Q235 not allowed! score: 0.02 median: 0.00 # of sequence: 161,
+EVM0018000.2_R0.1.5aa28d6c,2,True,2,,
+EVM0018052.1_R0,1,True,1,,
+EVM0018054.1_R0,1,True,1,,
+EVM0018082.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0018194.1_R0.2.5aa28d69,1,True,1,,
+EVM0018205.2_R0.1.5aa28d6d,1,True,1,,
+EVM0018212.1_R0,2,True,2,,
+EVM0018273.1_R0,1,True,1,WARNING! H703 not allowed! score: 0.03 median: 0.00 # of sequence: 38,
+EVM0018337.1_R0,1,True,1,,
+EVM0018349.1_R0,1,True,1,,
+EVM0018437.1_R0,1,True,1,WARNING! M239 not allowed! score: 0.03 median: 0.00 # of sequence: 58,
+EVM0018448.1_R0,1,True,1,WARNING! N151 not allowed! score: 0.03 median: 0.00 # of sequence: 71,
+EVM0018457.1_R0,1,True,1,,
+EVM0018506.1_R0,1,True,1,,
+EVM0018620.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0018656.1_R0,1,True,1,WARNING! S44 not allowed! score: 0.03 median: 0.00 # of sequence: 91,
+EVM0018748.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0018769.1_R0,1,True,1,,
+EVM0018774.1_R0,4,True,4,,
+EVM0018798.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0018802.1_R0,1,True,1,WARNING! A74 not allowed! score: 0.04 median: 0.00 # of sequence: 169 | WARNING! I76 not allowed! score: 0.04 median: 0.00 # of sequence: 169 | WARNING! S94 not allowed! score: 0.03 median: 0.00 # of sequence: 169 | WARNING! I106 not allowed! score: 0.03 median: 0.00 # of sequence: 169 | WARNING! M107 not allowed! score: 0.04 median: 2.54 # of sequence: 169 | WARNING! N172 not allowed! score: 0.04 median: 0.00 # of sequence: 168 | WARNING! T206 not allowed! score: 0.03 median: 0.00 # of sequence: 169 | WARNING! T233 not allowed! score: 0.03 median: 0.00 # of sequence: 169 | WARNING! T241 not allowed! score: 0.03 median: 0.00 # of sequence: 169 | WARNING! T249 not allowed! score: 0.04 median: 0.00 # of sequence: 169,
+EVM0018936.1_R0,1,True,1,,
+EVM0018944.1_R0,1,True,1,,
+EVM0018953.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0018956.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0019016.1_R0,5,True,5,,
+EVM0019089.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0019094.1_R0,3,True,3,,
+EVM0019134.1_R0,1,True,1,,
+EVM0019254.1_R0,1,True,1,,
+EVM0019265.1_R0,2,True,2,WARNING! F144 not allowed! score: 0.03 median: 0.00 # of sequence: 249 | WARNING! M184 not allowed! score: 0.01 median: 0.00 # of sequence: 246 | WARNING! C345 not allowed! score: 0.03 median: 0.00 # of sequence: 195 | WARNING! D346 not allowed! score: 0.01 median: 2.57 # of sequence: 195,
+EVM0019304.1_R0,1,True,1,,
+EVM0019321.1_R0,1,True,1,,
+EVM0019350.1_R0,1,True,1,,
+EVM0019384.1_R0,1,True,1,,
+EVM0019424.1_R0,1,True,1,,
+EVM0019475.1_R0,2,True,2,WARNING! W172 not allowed! score: 0.05 median: 0.00 # of sequence: 6,
+EVM0019531.1_R0,1,True,1,,
+EVM0019548.1_R0,8,True,8,,
+EVM0019558.1_R0,1,True,1,,
+EVM0019569.1_R0.1.5aa28d66,1,True,1,,
+EVM0019585.1_R0.1.5aa28d6f,1,True,1,,
+EVM0019658.2_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0019704.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0019730.1_R0,1,True,1,,
+EVM0019765.1_R0,3,True,3,,
+EVM0019777.2_R0,2,True,2,,
+EVM0019811.1_R0,1,True,1,WARNING! M31 not allowed! score: 0.04 median: 0.00 # of sequence: 56 | WARNING! M84 not allowed! score: 0.05 median: 0.00 # of sequence: 57 | WARNING! W241 not allowed! score: 0.02 median: 0.00 # of sequence: 57,
+EVM0019835.1_R0,1,True,1,WARNING! E221 not allowed! score: 0.04 median: 0.00 # of sequence: 14 | WARNING! C448 not allowed! score: 0.04 median: 0.00 # of sequence: 14,
+EVM0019875.1_R0,1,True,1,,
+EVM0019903.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0019939.1_R0,1,True,1,,
+EVM0019961.1_R0,2,True,2,,
+EVM0020088.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0020142.1_R0,1,True,1,,
+EVM0020190.2_R0,1,True,1,,
+EVM0020252.1_R0,1,True,1,,
+EVM0020341.1_R0,1,True,1,,
+EVM0020377.1_R0,1,True,1,,
+EVM0020394.1_R0,1,True,1,WARNING! Q1213 not allowed! score: 0.05 median: 0.00 # of sequence: 10,
+EVM0020412.1_R0.1.5aa28d6e,1,True,1,,
+EVM0020427.3_R0.1.5aa28d62,1,True,1,,
+EVM0020476.1_R0,1,True,1,,
+EVM0020507.1_R0,1,True,1,,
+EVM0020558.2_R0,1,True,1,,
+EVM0020596.1_R0,2,True,2,,
+EVM0020612.1_R0,1,True,1,,
+EVM0020616.1_R0,1,True,1,,
+EVM0020687.1_R0,1,True,1,,
+EVM0020778.1_R0,2,True,2,,
+EVM0020835.1_R0,2,True,2,,
+EVM0020865.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0020876.2_R0.1.5aa28d61,1,True,1,,
+EVM0020896.1_R0,2,True,2,,
+EVM0020910.1_R0,1,True,1,,
+EVM0020928.1_R0,1,True,1,,
+EVM0020929.1_R0,3,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0020959.1_R0,1,True,1,,
+EVM0021004.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0021012.1_R0,1,True,1,WARNING! W614 not allowed! score: 0.02 median: 0.00 # of sequence: 11,
+EVM0021019.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0021035.1_R0,1,True,1,,
+EVM0021048.1_R0,1,True,1,,
+EVM0021066.1_R0.2.5aa28d61,1,True,1,WARNING! D708 not allowed! score: 0.04 median: 0.00 # of sequence: 23,
+EVM0021115.1_R0,1,True,1,,
+EVM0021120.1_R0,1,True,1,,
+EVM0021178.1_R0,1,True,1,,
+EVM0021215.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0021279.1_R0,1,True,1,WARNING! G310 not allowed! score: 0.04 median: 0.00 # of sequence: 13,
+EVM0021306.1_R0,1,True,1,,
+EVM0021356.1_R0,4,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0021374.1_R0,1,True,1,,
+EVM0021422.1_R0,1,True,1,,
+EVM0021646.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0021692.1_R0,1,True,1,,
+EVM0021708.1_R0,1,True,1,,
+EVM0021727.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0021829.1_R0,1,True,1,,
+EVM0021884.3_R0.2.5aa28d60,1,True,1,,
+EVM0021898.1_R0,1,True,1,,
+EVM0022072.1_R0,1,True,1,,
+EVM0022105.1_R0,1,True,1,,
+EVM0022131.1_R0,1,True,1,,
+EVM0022185.1_R0,3,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0022224.1_R0,1,True,1,,
+EVM0022425.1_R0,3,True,3,,
+EVM0022443.1_R0.1.5aa28d61,2,True,2,,
+EVM0022497.1_R0,2,True,2,,
+EVM0022554.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0022560.1_R0,2,True,2,,
+EVM0022658.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0022670.1_R0,3,True,3,,
+EVM0022674.1_R0,1,True,1,,
+EVM0022695.1_R0.1.5aa28d6a,1,True,1,,
+EVM0022702.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0022712.1_R0,1,True,1,WARNING! D260 not allowed! score: 0.05 median: 0.00 # of sequence: 19,
+EVM0022760.1_R0,1,True,1,,
+EVM0022767.1_R0,2,True,2,WARNING! P856 not allowed! score: 0.04 median: 0.00 # of sequence: 10 | WARNING! P1041 not allowed! score: 0.04 median: 0.00 # of sequence: 10,
+EVM0022805.1_R0,1,True,1,,
+EVM0022853.1_R0,1,True,1,,
+EVM0022935.1_R0,1,True,1,WARNING! C666 not allowed! score: 0.04 median: 0.00 # of sequence: 9,
+EVM0022946.2_R0.1.5aa28d66,1,True,1,,
+EVM0022969.1_R0,1,True,1,,
+EVM0023082.1_R0,1,True,1,,
+EVM0023138.1_R0,1,True,1,,
+EVM0023168.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0023189.1_R0,1,True,1,,
+EVM0023219.1_R0,1,True,1,,
+EVM0023227.1_R0,1,True,1,,
+EVM0023266.1_R0,1,True,1,,
+EVM0023295.1_R0,1,True,1,,
+EVM0023302.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0023314.1_R0,1,True,1,WARNING! P1110 not allowed! score: 0.04 median: 0.00 # of sequence: 26,
+EVM0023350.1_R0,1,True,1,,
+EVM0023351.2_R0.1.5aa28d6c,1,True,1,,
+EVM0023394.1_R0.3.5aa28d69,2,True,2,,
+EVM0023448.1_R0,2,True,2,,
+EVM0023476.1_R0,1,True,1,,
+EVM0023521.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0023523.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0023541.1_R0,3,True,3,,
+EVM0023668.1_R0,1,True,1,,
+EVM0023671.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0023675.1_R0,2,True,2,,
+EVM0023688.1_R0,2,True,2,,
+EVM0023716.2_R0.2.5aa28d73,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0023730.1_R0,1,True,1,,
+EVM0023771.2_R0,1,True,1,,
+EVM0023795.1_R0,1,True,1,,
+EVM0023949.1_R0,3,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0023991.1_R0,1,True,1,WARNING! W259 not allowed! score: 0.04 median: 0.00 # of sequence: 9,
+EVM0023994.1_R0,2,True,2,,
+EVM0023999.1_R0,2,True,2,,
+EVM0024019.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0024065.1_R0,1,True,1,,
+EVM0024075.1_R0,1,True,1,,
+EVM0024094.1_R0,2,True,2,,
+EVM0024134.1_R0,1,True,1,WARNING! G198 not allowed! score: 0.04 median: 0.00 # of sequence: 6,
+EVM0024253.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0024255.1_R0,4,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0024267.1_R0,1,True,1,,
+EVM0024279.1_R0,2,True,2,,
+EVM0024306.1_R0,1,True,1,,
+EVM0024338.1_R0,1,True,1,,
+EVM0024364.1_R0,1,True,1,,
+EVM0024369.1_R0,1,True,1,,
+EVM0024387.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0024430.1_R0,1,True,1,,
+EVM0024456.1_R0,1,True,1,,
+EVM0024532.1_R0,1,True,1,,
+EVM0024637.1_R0,4,True,4,,
+EVM0024639.1_R0,1,True,1,,
+EVM0024652.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0024727.1_R0,2,True,2,,
+EVM0024739.1_R0,1,True,1,WARNING! W482 not allowed! score: 0.04 median: 0.00 # of sequence: 9 | WARNING! W656 not allowed! score: 0.03 median: 0.00 # of sequence: 10,
+EVM0024761.1_R0,3,True,3,,
+EVM0024765.2_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0024797.1_R0,1,True,1,,
+EVM0024867.1_R0,3,True,3,,
+EVM0024940.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0024954.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0024961.1_R0,1,True,1,,
+EVM0024991.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0025008.1_R0,1,True,1,,
+EVM0025018.1_R0,2,True,2,,
+EVM0025021.1_R0,1,True,1,,
+EVM0025032.1_R0,1,True,1,,
+EVM0025037.1_R0,1,True,1,,
+EVM0025073.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0025126.1_R0,1,True,1,,
+EVM0025143.1_R0,3,True,3,,
+EVM0025152.1_R0,1,True,1,,
+EVM0025153.1_R0,3,True,3,,
+EVM0025189.2_R0.1.5aa28d6b,1,True,1,,
+EVM0025202.1_R0,1,True,1,,
+EVM0025279.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0025286.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0025313.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0025355.1_R0,1,True,1,,
+EVM0025456.1_R0,3,True,3,WARNING! N147 not allowed! score: 0.03 median: 0.00 # of sequence: 18,
+EVM0025496.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0025529.1_R0,2,True,2,,
+EVM0025545.1_R0,1,True,1,,
+EVM0025557.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0025591.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0025604.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0025623.1_R0,1,True,1,,
+EVM0025649.1_R0,1,True,1,,
+EVM0025665.1_R0,1,True,1,,
+EVM0025668.1_R0,2,True,2,,
+EVM0025791.1_R0,1,True,1,,
+EVM0025820.1_R0,1,True,1,,
+EVM0025846.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0025888.1_R0,2,True,2,,
+EVM0025901.1_R0,1,True,1,,
+EVM0025983.1_R0,3,True,3,,
+EVM0025989.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0026039.1_R0,3,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0026150.1_R0,3,True,3,,
+EVM0026172.1_R0,1,True,1,,
+EVM0026196.1_R0,1,True,1,,
+EVM0026198.1_R0,1,True,1,WARNING! W960 not allowed! score: 0.03 median: 0.00 # of sequence: 10,
+EVM0026215.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0026262.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0026312.1_R0,2,True,2,,
+EVM0026337.1_R0,1,True,1,,
+EVM0026371.1_R0,1,True,1,WARNING! W808 not allowed! score: 0.02 median: 0.00 # of sequence: 60,
+EVM0026431.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0026488.1_R0,1,True,1,,
+EVM0026538.2_R0,1,True,1,,
+EVM0026557.1_R0,1,True,1,,
+EVM0026571.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0026597.1_R0,1,True,1,WARNING! W41 not allowed! score: 0.04 median: 0.00 # of sequence: 45 | WARNING! D92 not allowed! score: 0.05 median: 0.00 # of sequence: 46 | WARNING! Q214 not allowed! score: 0.04 median: 0.00 # of sequence: 46 | WARNING! C337 not allowed! score: 0.05 median: 0.00 # of sequence: 46 | WARNING! I359 not allowed! score: 0.03 median: 0.00 # of sequence: 46 | WARNING! N374 not allowed! score: 0.04 median: 0.00 # of sequence: 46,
+EVM0026629.1_R0,1,True,1,,
+EVM0026656.2_R0,1,True,1,,
+EVM0026673.1_R0,1,True,1,,
+EVM0026683.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0026706.1_R0,2,True,2,,
+EVM0026709.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0026736.1_R0.1.5aa28d6a,1,True,1,,
+EVM0026776.1_R0,1,True,1,,
+EVM0026992.1_R0,1,True,1,,
+EVM0027085.1_R0,3,True,3,,
+EVM0027095.1_R0,1,True,1,,
+EVM0027098.1_R0,3,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0027204.1_R0,1,True,1,,
+EVM0027236.1_R0,2,True,2,,
+EVM0027285.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0027385.1_R0,2,True,2,,
+EVM0027394.1_R0,1,True,1,,
+EVM0027411.1_R0,1,True,1,,
+EVM0027448.1_R0.1.5aa28d72,2,True,2,,
+EVM0027612.1_R0,1,True,1,,
+EVM0027749.1_R0,1,True,1,,
+EVM0027755.1_R0,1,True,1,,
+EVM0027814.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0027844.1_R0,2,True,2,,
+EVM0027864.1_R0,1,True,1,,
+EVM0027868.1_R0,2,True,2,,
+EVM0027870.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0027902.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0027918.1_R0,1,True,1,,
+EVM0027932.1_R0,2,True,2,WARNING! W768 not allowed! score: 0.04 median: 0.00 # of sequence: 11,
+EVM0028009.1_R0,1,True,1,,
+EVM0028021.1_R0,2,True,2,,
+EVM0028029.1_R0,2,True,2,,
+EVM0028090.1_R0,1,True,1,,
+EVM0028094.2_R0,1,True,1,,
+EVM0028098.1_R0,1,True,1,,
+EVM0028193.1_R0,1,True,1,,
+EVM0028204.1_R0,1,True,1,,
+EVM0028207.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0028246.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0028316.1_R0,1,True,1,,
+EVM0028363.1_R0,1,True,1,,
+EVM0028369.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0028388.1_R0,2,True,2,,
+EVM0028407.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0028410.1_R0,1,True,1,,
+EVM0028472.1_R0,1,True,1,WARNING! W380 not allowed! score: 0.03 median: 0.00 # of sequence: 15,
+EVM0028477.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0028537.1_R0,1,True,1,,
+EVM0028568.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0028637.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0028923.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0028941.1_R0,1,True,1,WARNING! G59 not allowed! score: 0.04 median: 0.00 # of sequence: 397 | WARNING! N74 not allowed! score: 0.01 median: 0.00 # of sequence: 398 | WARNING! C85 not allowed! score: 0.02 median: 0.00 # of sequence: 395 | WARNING! P101 not allowed! score: 0.01 median: 0.00 # of sequence: 400 | WARNING! V168 not allowed! score: 0.05 median: 0.00 # of sequence: 400 | WARNING! F173 not allowed! score: 0.04 median: 0.00 # of sequence: 400 | WARNING! H186 not allowed! score: 0.04 median: 0.00 # of sequence: 400 | WARNING! M287 not allowed! score: 0.05 median: 0.00 # of sequence: 400 | WARNING! Y353 not allowed! score: 0.04 median: 0.00 # of sequence: 399 | WARNING! L377 not allowed! score: 0.02 median: 0.00 # of sequence: 377 | WARNING! S385 not allowed! score: 0.05 median: 0.00 # of sequence: 306,
+EVM0029002.1_R0,1,True,1,,
+EVM0029009.1_R0,1,True,1,,
+EVM0029020.1_R0,1,True,1,,
+EVM0029021.1_R0,2,True,2,,
+EVM0029111.1_R0,1,True,1,,
+EVM0029130.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0029131.1_R0,2,True,2,,
+EVM0029145.1_R0,1,True,1,WARNING! C378 not allowed! score: 0.03 median: 0.00 # of sequence: 17,
+EVM0029188.1_R0,2,True,2,,
+EVM0029196.1_R0,1,True,1,,
+EVM0029394.1_R0,1,True,1,WARNING! W114 not allowed! score: 0.04 median: 0.00 # of sequence: 6,
+EVM0029405.1_R0,1,True,1,,
+EVM0029456.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0029492.1_R0,1,True,1,,
+EVM0029512.1_R0,1,True,1,,
+EVM0029610.1_R0,2,True,2,,
+EVM0029611.1_R0,1,True,1,WARNING! W274 not allowed! score: 0.02 median: 0.00 # of sequence: 39,
+EVM0029620.1_R0,1,True,1,,
+EVM0029721.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0029737.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0029781.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0029800.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0029864.1_R0,2,True,2,,
+EVM0029893.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0029918.1_R0,2,True,2,WARNING! G505 not allowed! score: 0.05 median: 0.00 # of sequence: 16,
+EVM0029922.1_R0,2,True,2,,
+EVM0029965.1_R0,1,True,1,,
+EVM0030032.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0030047.1_R0,1,True,1,,
+EVM0030064.1_R0,2,True,2,,
+EVM0030071.1_R0,1,True,1,WARNING! M224 not allowed! score: 0.03 median: 0.00 # of sequence: 62 | WARNING! V225 not allowed! score: 0.05 median: 2.65 # of sequence: 62 | WARNING! T256 not allowed! score: 0.03 median: 0.00 # of sequence: 62,
+EVM0030082.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0030162.1_R0,1,True,1,,
+EVM0030200.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0030231.1_R0,1,True,1,WARNING! W444 not allowed! score: 0.03 median: 0.00 # of sequence: 9 | WARNING! W618 not allowed! score: 0.05 median: 0.00 # of sequence: 9,
+EVM0030239.1_R0,1,True,1,,
+EVM0030300.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0030419.1_R0,1,True,1,,
+EVM0030476.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0030477.1_R0,1,True,1,,
+EVM0030544.1_R0,1,True,1,,
+EVM0030549.1_R0,1,True,1,WARNING! W299 not allowed! score: 0.03 median: 0.00 # of sequence: 27,
+EVM0030578.1_R0,1,True,1,,
+EVM0030676.1_R0,1,True,1,WARNING! W661 not allowed! score: 0.03 median: 0.00 # of sequence: 13,
+EVM0030717.1_R0,2,True,2,,
+EVM0030801.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0030832.1_R0,2,True,2,,
+EVM0030841.1_R0,1,True,1,,
+EVM0030879.1_R0,1,True,1,,
+EVM0030887.1_R0,1,True,1,,
+EVM0030903.1_R0,1,True,1,,
+EVM0031028.1_R0,1,True,1,,
+EVM0031093.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0031097.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0031107.1_R0,1,True,1,,
+EVM0031178.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0031213.1_R0,2,True,2,,
+EVM0031250.1_R0,1,True,1,,
+EVM0031258.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0031277.1_R0,1,True,1,,
+EVM0031295.1_R0.1.5aa28d65,1,True,1,WARNING! C543 not allowed! score: 0.02 median: 0.00 # of sequence: 5 | WARNING! V822 not allowed! score: 0.04 median: 0.00 # of sequence: 5,
+EVM0031590.2_R0.1.5aa28d6f,1,True,1,WARNING! R546 not allowed! score: 0.04 median: 0.00 # of sequence: 5,
+EVM0031611.1_R0,3,True,3,,
+EVM0031700.1_R0.1.5aa28d65,1,True,1,,
+EVM0031724.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0031745.1_R0,4,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0031759.1_R0,4,True,4,,
+EVM0031760.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0031917.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0031954.1_R0,2,True,2,,
+EVM0031961.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0032027.1_R0,2,True,2,,
+EVM0032040.1_R0,1,True,1,,
+EVM0032121.1_R0,1,True,1,,
+EVM0032171.1_R0,2,True,2,,
+EVM0032173.1_R0,1,True,1,,
+EVM0032234.1_R0,1,True,1,,
+EVM0032255.1_R0,1,True,1,WARNING! S161 not allowed! score: 0.02 median: 0.00 # of sequence: 55 | WARNING! G226 not allowed! score: 0.04 median: 0.00 # of sequence: 55 | WARNING! M300 not allowed! score: 0.03 median: 0.00 # of sequence: 55 | WARNING! Q436 not allowed! score: 0.03 median: 0.00 # of sequence: 51 | WARNING! F1130 not allowed! score: 0.04 median: 0.00 # of sequence: 55,
+EVM0032274.1_R0,1,True,1,,
+EVM0032275.1_R0,2,True,2,,
+EVM0032290.2_R0.1.5aa28d66,2,True,2,WARNING! W363 not allowed! score: 0.03 median: 0.00 # of sequence: 15,
+EVM0032318.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0032319.1_R0,1,True,1,WARNING! S301 not allowed! score: 0.03 median: 0.00 # of sequence: 13,
+EVM0032333.1_R0,1,True,1,,
+EVM0032398.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0032399.1_R0,6,True,6,,
+EVM0032463.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0032490.1_R0,1,True,1,,
+EVM0032507.1_R0,1,True,1,,
+EVM0032575.1_R0,1,True,1,,
+EVM0032577.9_R0.7.5aa28d6c,1,True,1,,
+EVM0032616.1_R0,1,True,1,,
+EVM0032728.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0032757.1_R0,1,True,1,,
+EVM0032772.1_R0,1,True,1,,
+EVM0032784.1_R0,3,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0032800.1_R0,1,True,1,,
+EVM0032817.3_R0.2.5aa28d6f,2,True,2,,
+EVM0032871.1_R0,1,True,1,,
+EVM0032912.1_R0,1,True,1,,
+EVM0032966.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0033009.1_R0,1,True,1,,
+EVM0033040.2_R0.1.5aa28d6f,1,True,1,,
+EVM0033143.1_R0,1,True,1,WARNING! C216 not allowed! score: 0.05 median: 0.00 # of sequence: 14,
+EVM0033179.1_R0,2,True,2,WARNING! W267 not allowed! score: 0.04 median: 0.00 # of sequence: 10,
+EVM0033188.1_R0,1,True,1,,
+EVM0033206.1_R0,1,True,1,,
+EVM0033214.1_R0,3,True,3,,
+EVM0033221.1_R0.1.5aa28d6f,1,True,1,WARNING! P655 not allowed! score: 0.03 median: 0.00 # of sequence: 6,
+EVM0033247.1_R0,1,True,1,,
+EVM0033273.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0033280.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0033358.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0033410.1_R0,1,True,1,,
+EVM0033431.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0033481.1_R0,2,True,2,WARNING! W621 not allowed! score: 0.03 median: 0.00 # of sequence: 10,
+EVM0033498.1_R0,3,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0033533.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0033545.1_R0,1,True,1,,
+EVM0033555.3_R0.1.5aa28d72,2,True,2,,
+EVM0033573.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0033574.1_R0,1,True,1,,
+EVM0033578.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0033601.1_R0,2,True,2,,
+EVM0033633.1_R0,1,True,1,,
+EVM0033638.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0033667.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0033745.1_R0,3,True,3,,
+EVM0033787.1_R0,2,True,2,,
+EVM0033809.1_R0,1,True,1,,
+EVM0033857.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0033867.1_R0,1,True,1,WARNING! Y71 not allowed! score: 0.04 median: 0.00 # of sequence: 62,
+EVM0033887.1_R0,1,True,1,,
+EVM0033890.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0033933.1_R0,1,True,1,,
+EVM0033952.1_R0,2,True,2,,
+EVM0033959.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0033984.1_R0,1,True,1,,
+EVM0034031.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0034097.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0034109.1_R0,1,True,1,WARNING! N188 not allowed! score: 0.04 median: 0.00 # of sequence: 5,
+EVM0034116.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0034121.1_R0,1,True,1,,
+EVM0034228.1_R0,2,True,2,WARNING! W111 not allowed! score: 0.04 median: 0.00 # of sequence: 10,
+EVM0034301.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0034326.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0034328.1_R0,2,True,2,,
+EVM0034332.1_R0,1,True,1,,
+EVM0034386.1_R0,1,True,1,WARNING! G258 not allowed! score: 0.03 median: 0.00 # of sequence: 41,
+EVM0034421.1_R0,2,True,2,,
+EVM0034431.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0034476.1_R0,3,True,3,,
+EVM0034502.1_R0,1,True,1,,
+EVM0034517.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0034569.1_R0,1,True,1,,
+EVM0034628.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0034636.1_R0,1,True,1,,
+EVM0034662.1_R0,1,True,1,,
+EVM0034761.1_R0,2,True,2,,
+EVM0034768.1_R0,3,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0034789.1_R0,3,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0034811.1_R0,1,True,1,,
+EVM0034856.1_R0,1,True,1,WARNING! R219 not allowed! score: 0.03 median: 0.00 # of sequence: 24,
+EVM0034857.1_R0,2,True,2,,
+EVM0034904.1_R0,3,True,3,,
+EVM0034913.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0034923.1_R0,1,True,1,,
+EVM0034958.1_R0,2,True,2,,
+EVM0034966.1_R0,1,True,1,,
+EVM0034974.1_R0,3,True,3,,
+EVM0035035.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0035128.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0035213.1_R0,1,True,1,,
+EVM0035229.1_R0,1,True,1,WARNING! C341 not allowed! score: 0.03 median: 0.00 # of sequence: 56 | WARNING! I1032 not allowed! score: 0.05 median: 0.00 # of sequence: 47,
+EVM0035354.1_R0,1,True,1,,
+EVM0035385.1_R0,1,True,1,,
+EVM0035458.1_R0,1,True,1,,
+EVM0035483.1_R0,2,True,2,,
+EVM0035575.1_R0,3,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0035577.1_R0,1,True,1,,
+EVM0035594.1_R0,1,True,1,,
+EVM0035642.1_R0,1,True,1,,
+EVM0035647.1_R0,1,True,1,,
+EVM0035668.1_R0,1,True,1,,
+EVM0035706.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0035721.1_R0,1,True,1,,
+EVM0035727.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0035738.1_R0,2,True,2,,
+EVM0035741.1_R0,2,True,2,,
+EVM0035754.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0035799.1_R0,2,True,2,,
+EVM0035947.1_R0,1,True,1,,
+EVM0035953.1_R0,2,True,2,,
+EVM0036006.1_R0,1,True,1,,
+EVM0036010.1_R0,1,True,1,,
+EVM0036135.1_R0,1,True,1,,
+EVM0036159.1_R0,2,True,2,WARNING! W372 not allowed! score: 0.04 median: 0.00 # of sequence: 8,
+EVM0036182.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0036200.1_R0,1,True,1,WARNING! E142 not allowed! score: 0.05 median: 0.00 # of sequence: 400 | WARNING! S182 not allowed! score: 0.05 median: 0.00 # of sequence: 400 | WARNING! V442 not allowed! score: 0.05 median: 0.00 # of sequence: 400 | WARNING! Q445 not allowed! score: 0.05 median: 0.00 # of sequence: 400,
+EVM0036203.1_R0,2,True,2,,
+EVM0036212.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0036284.1_R0,1,True,1,,
+EVM0036293.1_R0,3,True,3,,
+EVM0036339.1_R0,1,True,1,,
+EVM0036367.1_R0,2,True,2,,
+EVM0036390.1_R0,1,True,1,,
+EVM0036415.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0036464.1_R0.1.5aa28d69,1,True,1,,
+EVM0036479.1_R0,1,True,1,WARNING! W223 not allowed! score: 0.04 median: 0.00 # of sequence: 8,
+EVM0036501.1_R0,1,True,1,,
+EVM0036507.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0036538.1_R0,1,True,1,,
+EVM0036564.1_R0,1,True,1,,
+EVM0036646.1_R0,1,True,1,,
+EVM0036662.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0036668.1_R0,3,True,3,WARNING! H68 not allowed! score: 0.04 median: 0.00 # of sequence: 22,
+EVM0036692.1_R0.6.5aa28d64,1,True,1,,
+EVM0036711.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0036732.1_R0,1,True,1,,
+EVM0036736.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0036742.1_R0,1,True,1,,
+EVM0036766.1_R0,1,True,1,,
+EVM0036797.1_R0,1,True,1,,
+EVM0036805.1_R0,1,True,1,WARNING! W761 not allowed! score: 0.04 median: 2.67 # of sequence: 9,
+EVM0036813.1_R0,1,True,1,,
+EVM0036879.1_R0.1.5aa28d65,2,True,2,,
+EVM0036912.1_R0,1,True,1,,
+EVM0036923.2_R0.1.5aa28d72,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0036925.1_R0,8,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0036952.1_R0,2,True,2,,
+EVM0036989.3_R0,1,True,1,,
+EVM0037048.1_R0,1,True,1,,
+EVM0037084.1_R0,1,True,1,,
+EVM0037101.1_R0,1,True,1,,
+EVM0037131.1_R0,1,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0037134.1_R0,1,True,1,,
+EVM0037136.1_R0,1,True,1,,
+EVM0037141.1_R0,2,False,0,,No output; engine skips queries lacking selected alignments; not tolerated
+EVM0037175.1_R0,1,True,1,,
+EVM0037181.1_R0,3,True,3,,

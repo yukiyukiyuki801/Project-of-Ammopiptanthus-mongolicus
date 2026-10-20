@@ -1,0 +1,1 @@
+{"validated":true,"case_id":"ssp585_2071-2100_bio6","n_populations":19,"n_predictors":11,"n_subsets":2048,"families":"linear,gam","validation":"conditional_upstream_RONA_fixed_nested_downstream_AICc_selection"}

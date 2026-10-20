@@ -1,0 +1,9 @@
+{
+  "validated": true,
+  "rows": 57,
+  "full_loci": 38124,
+  "adaptive_loci": 1637,
+  "nonadaptive_loci": 36487,
+  "nonadaptive_interpretation": "Full minus adaptive; not certified neutral",
+  "pi_calculated": false
+}

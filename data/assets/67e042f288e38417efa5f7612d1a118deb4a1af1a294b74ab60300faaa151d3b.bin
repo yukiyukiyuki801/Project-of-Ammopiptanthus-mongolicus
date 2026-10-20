@@ -1,0 +1,11 @@
+{
+  "group_effect_rows": 192,
+  "correlation_rows": 40,
+  "models": 160,
+  "heldout_prediction_rows": 3040,
+  "statistics_scope": "First population-based numerical batch. Exchangeability-based intervals plus coordinate-block sensitivity; no claim of full spatial correction.",
+  "GDM_scope": "Local offsets and sampled-population candidate-domain forward/reverse sensitivity; full-landscape forward/reverse main analysis still pending",
+  "model_scope": "Prespecified linear candidates, full/nonadaptive heterozygosity sensitivity; no load terms, no stepwise search; residual spatial and GAM diagnostics next stage",
+  "causality": "Associations and conditional prediction of estimated RONA do not establish causal effects or fitness validity",
+  "validated": true
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "package": "mgcv",
+    "version": "1.9-4"
+  },
+  {
+    "package": "sf",
+    "version": "1.1-3"
+  },
+  {
+    "package": "LEA",
+    "version": "3.18.0"
+  },
+  {
+    "package": "terra",
+    "version": "1.9-50"
+  },
+  {
+    "package": "patchwork",
+    "version": "1.3.2"
+  },
+  {
+    "package": "viridisLite",
+    "version": "0.4.3"
+  },
+  {
+    "package": "scales",
+    "version": "1.4.0"
+  },
+  {
+    "package": "RColorBrewer",
+    "version": "1.1-3"
+  },
+  {
+    "package": "gdm",
+    "version": "1.6.0-7"
+  },
+  {
+    "package": "dismo",
+    "version": "1.3-16"
+  },
+  {
+    "package": "rJava",
+    "version": "1.0-18"
+  },
+  {
+    "package": "jsonlite",
+    "version": "2.0.0"
+  },
+  {
+    "package": "adehabitatHR",
+    "version": "0.4.22"
+  },
+  {
+    "package": "ggplot2",
+    "version": "4.0.3"
+  },
+  {
+    "package": "ade4",
+    "version": "1.7-24"
+  },
+  {
+    "package": "plyr",
+    "version": "1.8.9"
+  },
+  {
+    "package": "reshape2",
+    "version": "1.4.5"
+  },
+  {
+    "package": "Rcpp",
+    "version": "1.1.2"
+  }
+]

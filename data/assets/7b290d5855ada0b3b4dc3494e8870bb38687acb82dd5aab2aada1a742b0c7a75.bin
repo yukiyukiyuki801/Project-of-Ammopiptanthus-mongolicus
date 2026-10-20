@@ -1,0 +1,12 @@
+{
+  "populations": 19,
+  "site_pairs": 171,
+  "heldout_prediction_rows": 684,
+  "offset_rows": 1824,
+  "models": ["geo_TRUE", "geo_FALSE"],
+  "scope": "Validated GDM fits, local population offsets, sampled-population analogue sensitivity; full landscape-domain forward/reverse search remains pending",
+  "geo_handling": "geo_TRUE fit and geo_FALSE sensitivity; temporal matching with geographic distance zero or actual-distance penalty, both reported",
+  "intercept_handling": "removed in link space; roundoff-only nonnegative truncation",
+  "ties": "within 1e-10, then nearest distance and lexical population ID",
+  "validated": true
+}

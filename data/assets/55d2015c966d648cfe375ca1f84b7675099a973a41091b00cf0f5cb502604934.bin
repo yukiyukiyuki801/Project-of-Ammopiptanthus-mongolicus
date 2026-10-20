@@ -1,0 +1,65 @@
+$gdm_transform
+{
+    options(warn.FPU = FALSE)
+    if (!is(model, "gdm")) {
+        stop("model object must be of class 'gdm'.")
+    }
+    if (!(.is_raster(data) | is(data, "data.frame"))) {
+        stop("Data to be transformed must either be a raster object or data frame.")
+    }
+    if (!is(data, "data.frame")) {
+        .check_pkgs("terra")
+        data <- .check_rast(data, "data")
+    }
+    geo <- model$geo
+    if (.is_raster(data)) {
+        if (geo) {
+            rast_ext <- terra::ext(data[[1]])[1:4]
+            output <- terra::interpolate(object = data, model = model, 
+                fun = gdm_trans, xy_range = rast_ext, xyNames = c("xCoord", 
+                  "yCoord"), na.rm = FALSE, filename = filename, 
+                ...)
+        }
+        else {
+            output <- terra::predict(object = data, model = model, 
+                fun = gdm_trans, na.rm = FALSE, filename = filename, 
+                ...)
+        }
+        splineindex <- 1
+        predInd <- c()
+        for (i in 1:length(model$predictors)) {
+            numsplines <- model$splines[i]
+            coeff_sum <- sum(model$coefficients[splineindex:(splineindex + 
+                numsplines - 1)])
+            if (coeff_sum > 0) {
+                predInd <- c(predInd, i)
+            }
+            splineindex <- splineindex + numsplines
+        }
+        if (geo) {
+            predInd <- c(1, 2, predInd[-1] + 1)
+        }
+        output <- terra::subset(output, predInd)
+        return(output)
+    }
+    else {
+        output <- gdm_trans(mod = model, dat = data)
+        colnames(output) <- colnames(data)
+        return(output)
+    }
+}
+
+$gdm_arguments
+$gdm_arguments$data
+
+
+$gdm_arguments$geo
+[1] FALSE
+
+$gdm_arguments$splines
+NULL
+
+$gdm_arguments$knots
+NULL
+
+

@@ -1,0 +1,21 @@
+{
+  "scope": "Explicitly authorized FST subset recovery comparison only; no GDM refit",
+  "samples": 217,
+  "populations": 19,
+  "unique_pairs": 171,
+  "panels": {
+    "all_SNPs": 38124,
+    "candidate": 1637,
+    "noncandidate": 36487
+  },
+  "implementation": "Biallelic simplification of official hierfstat WC ANOVA, diploid ratio of summed variance components",
+  "oracle_commit": "fbc8b8c34f62389213ca0a1b721533744b4735c1",
+  "oracle_checks": 9,
+  "oracle_max_absolute_difference": 2.7756e-17,
+  "closest_rmse_panel": "candidate",
+  "historical_execution_proved": false,
+  "missing_encoding_input": 9,
+  "missing_handling": "Pair/locus-specific called individuals; require both populations typed and total called individuals >2",
+  "source_manifest": "primary_sources/SOURCE_MANIFEST.json",
+  "validated": true
+}

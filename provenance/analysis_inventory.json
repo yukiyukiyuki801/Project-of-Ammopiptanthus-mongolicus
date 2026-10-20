@@ -1,0 +1,1772 @@
+{
+  "created_utc": "2026-10-20T04:14:16.090158+00:00",
+  "authority": "ammo_revision_package_new_structure/01_Main_manuscript_clean.docx",
+  "analyses": [
+    {
+      "id": "inputs",
+      "title": "Verified sample, population, locus and genotype inputs",
+      "code": [
+        {
+          "path": "scripts/revision/audit_inputs.py",
+          "exists": true,
+          "type": "file",
+          "bytes": 7592,
+          "sha256": "a8132d5979cd7b50a3f99e2b79af9f60e49c211a07c7e0f4031f850cfc2c9a1d"
+        },
+        {
+          "path": "scripts/revision/common.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 914,
+          "sha256": "3aa28f0f19305abab63ab0a1832cd051ffa63e5c68ec537b31b170a3abdf1ac7"
+        }
+      ],
+      "inputs": [
+        {
+          "path": "ammo_analysis_package_20261014/ammo/rona/validated_sample_manifest.csv",
+          "exists": true,
+          "type": "file",
+          "bytes": 30588,
+          "sha256": "299d06fec30467918883b1450dab4102ec5de2c2763eecade08b503a0822f00c"
+        },
+        {
+          "path": "ammo_analysis_package_20261014/cluster_recovery/personal2/chong/Ammo/vcftools/Amon.LDfilter_08.vcf",
+          "exists": true,
+          "type": "file",
+          "bytes": 35132543
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/ammo_outliers_3overlap.recode.vcf",
+          "exists": true,
+          "type": "file",
+          "bytes": 1535795,
+          "sha256": "49995a4b13fc8954414460efbb548638d0b058e02ebf933133c1f88535b834e9"
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/rona/ammo_outliers_3overlap.recode.lfmm_imputed.lfmm",
+          "exists": true,
+          "type": "file",
+          "bytes": 710458,
+          "sha256": "233139d9f4fc2a4c3e4761b0ef81f87b299a5a5e3d0561619b583ab0f384c295"
+        },
+        {
+          "path": "recovery_audit/published_2022_population_classification.csv",
+          "exists": true,
+          "type": "file",
+          "bytes": 1901,
+          "sha256": "200e3a771ed7883e426b1bc62602e8316818f8c623e40ba508114b42eaf8d396"
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/ammo_xy_19pop.csv",
+          "exists": true,
+          "type": "file",
+          "bytes": 873,
+          "sha256": "1fb64c1a2db8dd4be2444ada552049490ab462dc26f757ae34a2ead50d31b924"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "runs/revision_run_01/outputs/inputs",
+          "exists": true,
+          "type": "directory"
+        }
+      ],
+      "validation": [
+        {
+          "path": "runs/revision_run_01/outputs/inputs/input_validation.json",
+          "exists": true,
+          "validated": true,
+          "status": null,
+          "keys": [
+            "validated",
+            "samples",
+            "populations",
+            "core_populations",
+            "peripheral_populations",
+            "adaptive_loci",
+            "full_loci",
+            "nonadaptive_loci",
+            "adaptive_missing_calls",
+            "adaptive_missing_fraction",
+            "imputed_called_genotype_changes",
+            "raw_population_contiguous_blocks",
+            "pyrona_grouping_corrected",
+            "negative_pairwise_fst",
+            "fst_min"
+          ]
+        }
+      ],
+      "upstream": [],
+      "notes": [
+        "217 individuals; 19 populations; 38,124 full SNPs; 1,637 candidate SNPs. Source candidates published, not newly discovered in revision. Missing genotypes encoded9 in full matrix."
+      ]
+    },
+    {
+      "id": "climate",
+      "title": "Current and five-GCM future climate extraction",
+      "code": [
+        {
+          "path": "scripts/revision/extract_climate.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 4448,
+          "sha256": "a233b9b1c37c408b1e89f8cb6317e9c82fdd542e4e6164dd6ad910cb9cb91be6"
+        }
+      ],
+      "inputs": [
+        {
+          "path": "runs/revision_run_01/outputs/inputs",
+          "exists": true,
+          "type": "directory"
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected",
+          "exists": true,
+          "type": "directory"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "runs/revision_run_01/outputs/climate",
+          "exists": true,
+          "type": "directory"
+        }
+      ],
+      "validation": [
+        {
+          "path": "runs/revision_run_01/outputs/climate/extraction_validation.json",
+          "exists": true,
+          "validated": true,
+          "status": null,
+          "keys": [
+            "validated",
+            "sample_future_rows",
+            "population_future_rows",
+            "extraction",
+            "current_raster_manifest_max_differences",
+            "current_for_LFMM_RONA",
+            "native_GCM_alignment",
+            "future_sample_identity"
+          ]
+        }
+      ],
+      "upstream": [
+        "inputs"
+      ],
+      "notes": [
+        "Five variables BIO4/5/6/15/17; two SSPs and two periods. Raster collection is an external/large-data dependency."
+      ]
+    },
+    {
+      "id": "diversity",
+      "title": "Population observed/expected heterozygosity and saved diversity predictors",
+      "code": [
+        {
+          "path": "scripts/revision/calculate_diversity.py",
+          "exists": true,
+          "type": "file",
+          "bytes": 1965,
+          "sha256": "08d3fdd76145d53da758d0e32fe8dabcadc33e9139d408d947479fab6a3cea40"
+        },
+        {
+          "path": "scripts/revision/population_statistics.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 8992,
+          "sha256": "f1faa44bdb8f7458730511e6072f9f377a0f4b8ccf66078aa29eba95173ddbce"
+        }
+      ],
+      "inputs": [
+        {
+          "path": "runs/revision_run_01/outputs/inputs",
+          "exists": true,
+          "type": "directory"
+        },
+        {
+          "path": "revision_oct16/driver_combinations/data_audit/population_saved_predictors_19.csv",
+          "exists": true,
+          "type": "file",
+          "bytes": 5672,
+          "sha256": "e392c663406363200d822a32b396d04736d09fc8828875beb1d6f67a3cdda052"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "runs/revision_run_01/outputs/statistics/population_diversity.csv",
+          "exists": true,
+          "type": "file",
+          "bytes": 12265,
+          "sha256": "b501663f7df6fe2aeff39036c9029fa8cd6fd17f919af314e04cd33330be6d42"
+        },
+        {
+          "path": "runs/revision_run_01/outputs/statistics/diversity_validation.json",
+          "exists": true,
+          "type": "file",
+          "bytes": 218,
+          "sha256": "ca19f393c0f6532fa2e8c887cec992c9725d287e197a3ca257dccd1d86901915"
+        },
+        {
+          "path": "revision_oct16/driver_combinations/data_audit/numeric_definition_flags.json",
+          "exists": true,
+          "type": "file",
+          "bytes": 743,
+          "sha256": "ac50e45e9633c6832c064dcfccb7efd7d586040d189c78f4fe89abb90de536a1"
+        }
+      ],
+      "validation": [
+        {
+          "path": "runs/revision_run_01/outputs/statistics/diversity_validation.json",
+          "exists": true,
+          "validated": true,
+          "status": null,
+          "keys": [
+            "validated",
+            "rows",
+            "full_loci",
+            "adaptive_loci",
+            "nonadaptive_loci",
+            "nonadaptive_interpretation",
+            "pi_calculated"
+          ]
+        }
+      ],
+      "upstream": [
+        "inputs"
+      ],
+      "notes": [
+        "Ho/He recomputed from called SNPs, >=80% calls per population. Private alleles and FIS are saved published predictors; not rarefied/newly recalculated here."
+      ]
+    },
+    {
+      "id": "functional",
+      "title": "Reference-relative LoF/SYN and SIFT-deleterious/SYN ratios",
+      "code": [
+        {
+          "path": "scripts/revision/reconstruct_functional_consequences.py",
+          "exists": true,
+          "type": "file",
+          "bytes": 11003,
+          "sha256": "cdf141bec9be7f0f1187c5181e61ba561365ff7dd968c14cbda0f332c7de2d9f"
+        },
+        {
+          "path": "scripts/revision/run_functional_sift.sbatch",
+          "exists": true,
+          "type": "file",
+          "bytes": 1465,
+          "sha256": "5269e8b5f322502d7347b02bd494106c2d79c387e931d2625d7db67465c85aa4"
+        },
+        {
+          "path": "scripts/revision/summarize_functional_scores.py",
+          "exists": true,
+          "type": "file",
+          "bytes": 6999,
+          "sha256": "03c53c33c8050c4f79fe9e17d814460c8ba3252f6c19b402d6b23260879ad0aa"
+        },
+        {
+          "path": "scripts/revision/summarize_functional_populations.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 9759,
+          "sha256": "6b085d0f23f77afdd343b5984759bcca26562e80beeb2c88f1a654b753f71117"
+        },
+        {
+          "path": "scripts/revision/trace_functional_ratio_definitions.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 2716,
+          "sha256": "bd37630a6128823d2b2f118372aa3e830fc8b5731e5c4d0d678f4b9f8434d4ce"
+        },
+        {
+          "path": "scripts/revision/recover_audit_synonymous_fractions.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 1476,
+          "sha256": "bb404be11cbe061e52b4198421ccbe56e337263f08ca05c14759faf9518d8130"
+        }
+      ],
+      "inputs": [
+        {
+          "path": "runs/revision_run_01/outputs/inputs",
+          "exists": true,
+          "type": "directory"
+        },
+        {
+          "path": "runs/revision_run_01/outputs/functional_reconstruction/target_proteins.fasta",
+          "exists": true,
+          "type": "file",
+          "bytes": 615999,
+          "sha256": "5534604e1b195b7adf78621c9c6c688f885e8d57b0d507c2d72fc1d72e48fb9d"
+        },
+        {
+          "path": "runs/revision_run_01/outputs/functional_reconstruction/sift_predictions",
+          "exists": true,
+          "type": "directory"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "runs/revision_run_01/outputs/functional_reconstruction/consequences_by_variant.csv",
+          "exists": true,
+          "type": "file",
+          "bytes": 3474208,
+          "sha256": "280195f64967cced672b8983389c1075e03e078eced474f5366cd0be53619470"
+        },
+        {
+          "path": "runs/revision_run_01/outputs/functional_reconstruction/variant_dosages.npy",
+          "exists": true,
+          "type": "file",
+          "bytes": 8273036,
+          "sha256": "e433fa3cd2eacc767d964865449f53e0c0089f8032d16d658c2337e32a0ac5c2"
+        },
+        {
+          "path": "runs/revision_run_01/outputs/functional_reconstruction/postprocess",
+          "exists": true,
+          "type": "directory"
+        }
+      ],
+      "validation": [
+        {
+          "path": "runs/revision_run_01/outputs/functional_reconstruction/consequence_validation.json",
+          "exists": true,
+          "validated": true,
+          "status": null,
+          "keys": [
+            "validated",
+            "completed_utc",
+            "reviewer_basis",
+            "vcf_snps",
+            "samples",
+            "all_reference_bases_match",
+            "target_genes",
+            "valid_canonical_genes",
+            "sift_target_proteins",
+            "sift_substitutions",
+            "consequence_counts",
+            "rules",
+            "limits",
+            "sources",
+            "source_sha256"
+          ]
+        },
+        {
+          "path": "runs/revision_run_01/outputs/functional_reconstruction/postprocess/validation.json",
+          "exists": true,
+          "validated": true,
+          "status": null,
+          "keys": [
+            "scope",
+            "populations",
+            "individuals",
+            "common_rarefaction_chromosomes",
+            "comparison_tests",
+            "bootstrap_replicates",
+            "ratio_rows",
+            "figure_status",
+            "validated"
+          ]
+        },
+        {
+          "path": "runs/revision_run_01/outputs/functional_reconstruction/postprocess/ratio_trace_validation.json",
+          "exists": true,
+          "validated": true,
+          "status": null,
+          "keys": [
+            "validated",
+            "scope",
+            "formal_new_tests",
+            "ancestral_polarization",
+            "original_historical_reproduction"
+          ]
+        }
+      ],
+      "upstream": [
+        "inputs"
+      ],
+      "notes": [
+        "SIFT4G/Swiss-Prot database and nanus genome/gene models needed for full de novo annotation; explicit source paths must be preserved from scripts and audit manifests. Reference-relative indices do not establish ancestral states or fitness load."
+      ]
+    },
+    {
+      "id": "fst",
+      "title": "FST full/candidate/noncandidate subset comparison",
+      "code": [
+        {
+          "path": "scripts/revision/compare_fst_subsets.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 7853,
+          "sha256": "1988e5208b5bda60c8d8a2314c70fc5081bdaa3188cebda05468c2f8fd21a9fb"
+        }
+      ],
+      "inputs": [
+        {
+          "path": "runs/revision_run_01/outputs/inputs",
+          "exists": true,
+          "type": "directory"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "runs/revision_run_01/outputs/fst_subset_comparison",
+          "exists": true,
+          "type": "directory"
+        }
+      ],
+      "validation": [
+        {
+          "path": "runs/revision_run_01/outputs/fst_subset_comparison/validation.json",
+          "exists": true,
+          "validated": true,
+          "status": null,
+          "keys": [
+            "scope",
+            "samples",
+            "populations",
+            "unique_pairs",
+            "panels",
+            "implementation",
+            "oracle_commit",
+            "oracle_checks",
+            "oracle_max_absolute_difference",
+            "closest_rmse_panel",
+            "historical_execution_proved",
+            "missing_encoding_input",
+            "missing_handling",
+            "source_manifest",
+            "validated"
+          ]
+        }
+      ],
+      "upstream": [
+        "inputs"
+      ],
+      "notes": [
+        "GDM uses candidate SNP FST. Noncandidate panel is full minus candidates, not certified neutral."
+      ]
+    },
+    {
+      "id": "pca",
+      "title": "Full-SNP saved genetic PCA",
+      "code": [
+        {
+          "path": "scripts/revision/plot_genetic_pca_reconstruction.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 7888,
+          "sha256": "7ae7f6d21f7c13c42d68ea65b44363a28d597b1444c0f4312ebf582fb10401fc"
+        },
+        {
+          "path": "scripts/revision/render_genetic_pca_saved.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 6390,
+          "sha256": "3964135dc4f1cfed744fbfbdfb440ff3969ac869644b67a8d9f43e55b4a19a78"
+        }
+      ],
+      "inputs": [
+        {
+          "path": "runs/revision_run_01/outputs/inputs",
+          "exists": true,
+          "type": "directory"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "runs/revision_run_01/outputs/figures/genetic_pca/PCA_scores_and_group_assignments.csv",
+          "exists": true,
+          "type": "file",
+          "bytes": 21787,
+          "sha256": "dbce8781bfe50689022efd1be10c56a511d2318e264dbe3df309db31e919cb6d"
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figures/genetic_pca/PCA_variance.csv",
+          "exists": true,
+          "type": "file",
+          "bytes": 5119,
+          "sha256": "b5b5c1607738d563a487b57dd6efdd3b24230938159d4065249f643d0d47f90b"
+        }
+      ],
+      "validation": [
+        {
+          "path": "runs/revision_run_01/outputs/figures/genetic_pca/validation.json",
+          "exists": true,
+          "validated": true,
+          "status": null,
+          "keys": [
+            "PDF",
+            "individuals",
+            "input_loci",
+            "retained_loci",
+            "excluded_constant_or_invalid",
+            "missing_dosages_imputed",
+            "original_PCA_reproduced",
+            "scope",
+            "manual_visual_QA",
+            "validated"
+          ]
+        }
+      ],
+      "upstream": [
+        "inputs"
+      ],
+      "notes": [
+        "Existing nanus PCA retained for paired-reference figure; new mongolicus PCA is separate dataset."
+      ]
+    },
+    {
+      "id": "demography",
+      "title": "Saved folded-SFS Stairway histories and measured SNP-region length",
+      "code": [
+        {
+          "path": "scripts/revision/plot_demography_saved.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 11979,
+          "sha256": "e479f0bc88fdbcc66fda9db13c487a21621e2fae5aa4742b8e881cf908c51bf3"
+        },
+        {
+          "path": "revision_oct18/figure_updates/render_S2.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 5314,
+          "sha256": "00d0cdee7eb0efd20acb47e59567251d1e7a5ecb8352a14ee6420d7e255e75f9"
+        },
+        {
+          "path": "revision_oct17_mapping/stairway_length/audit_saved_inputs.py",
+          "exists": true,
+          "type": "file",
+          "bytes": 3770,
+          "sha256": "7a611959ae4d1ef7da47bce6184af3edc0ba4fcd0dccba81cd6da27674a4f075"
+        },
+        {
+          "path": "revision_oct17_mapping/stairway_length/validate_saved_projection.py",
+          "exists": true,
+          "type": "file",
+          "bytes": 2131,
+          "sha256": "05e1e2ad46c3290cc8cc01e47a2663501b3292b21863df7706af61fdcbc0ba2a"
+        },
+        {
+          "path": "revision_oct17_mapping/stairway_length/code",
+          "exists": true,
+          "type": "directory"
+        },
+        {
+          "path": "revision_oct17_mapping/stairway_length/reporting/build_stairway_report.py",
+          "exists": true,
+          "type": "file",
+          "bytes": 15281,
+          "sha256": "99a4696451af89d6ff2de6c5041c87bc382e7e3550157838d68eeabec3e67392"
+        }
+      ],
+      "inputs": [
+        {
+          "path": "runs/revision_run_01/outputs/supporting_audit/demography_blueprint_inventory.csv",
+          "exists": true,
+          "type": "file",
+          "bytes": 10570,
+          "sha256": "234f85a69da708ab610b7331c2767a7b63d4a3c3e99ced3411a0fcb5c45c7dcd"
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figures/demography/history_source_manifest.csv",
+          "exists": true,
+          "type": "file",
+          "bytes": 11997,
+          "sha256": "57c471aec01da341e21d9ee1f64b9597a67cc663c1045c2bbe67108d53295d05"
+        },
+        {
+          "path": "revision_oct17_mapping/stairway_length/MEASUREMENT_REGISTRY.json",
+          "exists": true,
+          "type": "file",
+          "bytes": 47859,
+          "sha256": "2046e0f22fa23019122e247f28c33077b9a9f13944bcffa1bb18e9bbbeaf42ef"
+        },
+        {
+          "path": "revision_oct17_mapping/stairway_length/AUTHOR_CONFIRMED_FINAL_LENGTHS.json",
+          "exists": true,
+          "type": "file",
+          "bytes": 1809,
+          "sha256": "db6b548265d3a67b8eca636e869e6cd32d5216fa0de63720e771171886b71045"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "runs/revision_run_01/outputs/figures/demography/lossless_history_plot_data.csv.gz",
+          "exists": true,
+          "type": "file",
+          "bytes": 614257,
+          "sha256": "cc90050259c478f3ae21e4ec13b148727df2ddff185c426146602faf15038d30"
+        },
+        {
+          "path": "revision_oct17_mapping/stairway_length/HISTORICAL_L.csv",
+          "exists": true,
+          "type": "file",
+          "bytes": 4590,
+          "sha256": "8a5abf7c3bd92f7c0965728a24344815778e2ba1395b0b88730c80528bd43244"
+        },
+        {
+          "path": "revision_oct17_mapping/stairway_length/reporting/validated_results",
+          "exists": true,
+          "type": "directory"
+        }
+      ],
+      "validation": [
+        {
+          "path": "revision_oct17_mapping/stairway_length/PROJECTION_RECOVERY_VALIDATION.json",
+          "exists": true,
+          "validated": null,
+          "status": "PASS",
+          "keys": [
+            "status",
+            "method",
+            "targets"
+          ]
+        },
+        {
+          "path": "revision_oct17_mapping/stairway_length/reporting/validated_results/REPORT_QA.json",
+          "exists": true,
+          "validated": null,
+          "status": "PASS",
+          "keys": [
+            "original_cells_verified",
+            "new_section_first_row",
+            "new_data_rows",
+            "three_rule_format",
+            "all_existing_cells_and_styles_preserved",
+            "all_unmodified_workbook_parts_byte_identical",
+            "existing_S7_rows_XML_identical",
+            "other_worksheets_preserved",
+            "status",
+            "blueprints",
+            "measured_target_sets",
+            "collapsed_reader_rows",
+            "all_matches_unambiguous",
+            "source_workbook",
+            "source_workbook_sha256"
+          ]
+        }
+      ],
+      "upstream": [
+        "inputs",
+        "mapping"
+      ],
+      "notes": [
+        "No Stairway demographic model rerun. History manifests list exact summary/blueprint sources; include those referenced sources for genuine repeatability. Author confirmed newly measured lengths correspond to old input; keep confirmation distinct from historical derivation code, which was not recovered. Main generation3yr/rate2.538e-8, folded unpolarized SFS."
+      ]
+    },
+    {
+      "id": "lfmm_rona",
+      "title": "LFMM sensitivity and corrected pyRona results",
+      "code": [
+        {
+          "path": "scripts/revision/fit_lfmm.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 2931,
+          "sha256": "c1cd74350721ae30f94a08a0258ab94139153b9744dc96837ca49e14f01d275d"
+        },
+        {
+          "path": "scripts/revision/calculate_rona.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 5046,
+          "sha256": "7c3085aed41c4d12ae0476f7790f47a520446e412459ced24efd80414ca9d90d"
+        },
+        {
+          "path": "scripts/revision/verify_rona_reference.py",
+          "exists": true,
+          "type": "file",
+          "bytes": 2260,
+          "sha256": "5ea75a458db604b43a8aad1f3d28d3d04b56f0f120ca99765d093c4029835dfc"
+        },
+        {
+          "path": "scripts/revision/imputation_sensitivity.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 5247,
+          "sha256": "0b7a2089672b036fab2ded5aa65b4a25a492065260a92a280cd4f4c6472c6388"
+        },
+        {
+          "path": "scripts/revision/population_statistics.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 8992,
+          "sha256": "f1faa44bdb8f7458730511e6072f9f377a0f4b8ccf66078aa29eba95173ddbce"
+        }
+      ],
+      "inputs": [
+        {
+          "path": "runs/revision_run_01/outputs/inputs",
+          "exists": true,
+          "type": "directory"
+        },
+        {
+          "path": "runs/revision_run_01/outputs/climate",
+          "exists": true,
+          "type": "directory"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "runs/revision_run_01/outputs/lfmm",
+          "exists": true,
+          "type": "directory"
+        },
+        {
+          "path": "runs/revision_run_01/outputs/rona",
+          "exists": true,
+          "type": "directory"
+        },
+        {
+          "path": "runs/revision_run_01/outputs/imputation_sensitivity",
+          "exists": true,
+          "type": "directory"
+        },
+        {
+          "path": "runs/revision_run_01/outputs/statistics/population_group_effects.csv",
+          "exists": true,
+          "type": "file",
+          "bytes": 52989,
+          "sha256": "047857725beb2b01bacf7439ae52300bdff444ba75a6c16f2412f239e4d7b7f2"
+        },
+        {
+          "path": "runs/revision_run_01/outputs/statistics/rona_climate_correlations.csv",
+          "exists": true,
+          "type": "file",
+          "bytes": 7045,
+          "sha256": "b60827e7e80bf279164c3da28a964fbc40cf7dc9d0cbeefb8db694350f942006"
+        }
+      ],
+      "validation": [
+        {
+          "path": "runs/revision_run_01/outputs/lfmm/validation.json",
+          "exists": true,
+          "validated": true,
+          "status": null,
+          "keys": [
+            "primary_K",
+            "sensitivity_K",
+            "samples",
+            "loci",
+            "covariates",
+            "discovery_scope",
+            "K_sensitivity_scope",
+            "validated"
+          ]
+        },
+        {
+          "path": "runs/revision_run_01/outputs/rona/validation.json",
+          "exists": true,
+          "validated": true,
+          "status": null,
+          "keys": [
+            "primary_rows",
+            "all_sensitivity_rows",
+            "reference_numeric_check",
+            "primary_K",
+            "primary_association_filter",
+            "zero_association_handling",
+            "constant_population_frequency_loci",
+            "uncertainty_note",
+            "validated"
+          ]
+        },
+        {
+          "path": "runs/revision_run_01/outputs/imputation_sensitivity/validation.json",
+          "exists": true,
+          "validated": true,
+          "status": null,
+          "keys": [
+            "fresh_snmf_K",
+            "repetitions",
+            "seed",
+            "method",
+            "best_repetition",
+            "missing_calls",
+            "called_genotype_changes",
+            "changed_missing_imputations",
+            "RONA_rows",
+            "comparison",
+            "validated"
+          ]
+        }
+      ],
+      "upstream": [
+        "inputs",
+        "climate"
+      ],
+      "notes": [
+        "Primary uses all1,637 published candidates; LFMM K2/4/6 are sensitivity, not candidate-discovery replacement. Preserve pyRona definition and called-genotype/imputation tests."
+      ]
+    },
+    {
+      "id": "niche",
+      "title": "PCA-environment niche overlap and null tests",
+      "code": [
+        {
+          "path": "scripts/revision/reconstruct_niche.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 8074,
+          "sha256": "9da40d8b1a63849efa364641c53533074de2f924e48c1576f0ac06b5a83f3509"
+        },
+        {
+          "path": "scripts/revision/plot_niche_reconstruction.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 10267,
+          "sha256": "594394670732a79a76902e04d1b4e7defd04e1c0ce7464e50c00002a1b80a2c2"
+        }
+      ],
+      "inputs": [
+        {
+          "path": "runs/revision_run_01/outputs/inputs",
+          "exists": true,
+          "type": "directory"
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current",
+          "exists": true,
+          "type": "directory"
+        },
+        {
+          "path": "public_dependencies/software/ecospat_verified",
+          "exists": true,
+          "type": "directory"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "runs/revision_run_01/outputs/niche_reconstruction",
+          "exists": true,
+          "type": "directory"
+        }
+      ],
+      "validation": [
+        {
+          "path": "runs/revision_run_01/outputs/niche_reconstruction/validation.json",
+          "exists": true,
+          "validated": true,
+          "status": null,
+          "keys": [
+            "n_populations",
+            "n_core",
+            "n_peripheral",
+            "background_cells",
+            "available_complete_raster_cells",
+            "repetitions",
+            "seed",
+            "observed",
+            "scope",
+            "validated"
+          ]
+        }
+      ],
+      "upstream": [
+        "inputs",
+        "climate"
+      ],
+      "notes": [
+        "New reconstruction replaces missing niche grids/nulls; 19 populations 9/10, shared1,000-cell background,999 tests, fixed seeds. Official ecospat source dependencies required; scientific code contains historical reconstruction notes."
+      ]
+    },
+    {
+      "id": "sdm",
+      "title": "MaxEnt suitability, validation and projection",
+      "code": [
+        {
+          "path": "scripts/revision/reconstruct_sdm.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 13240,
+          "sha256": "d86c407eed2d8174101306e791fac4a3f723f1f3f599efe5b95d10deb0fe6011"
+        },
+        {
+          "path": "scripts/revision/plot_sdm_reconstruction.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 10144,
+          "sha256": "36265bc37ad5c87d6d1268de88c15ca703c864309fbe4d9242db7d6c64c73406"
+        }
+      ],
+      "inputs": [
+        {
+          "path": "recovery_audit/published_2022_occurrences.csv",
+          "exists": true,
+          "type": "file",
+          "bytes": 1618,
+          "sha256": "79925a7e514a8451c00526a882bc0bf272447da4a79836abefe736afe7f7046d"
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected",
+          "exists": true,
+          "type": "directory"
+        },
+        {
+          "path": "runs/revision_run_01/outputs/sdm_reconstruction/elevation_source",
+          "exists": true,
+          "type": "directory"
+        },
+        {
+          "path": "runs/revision_run_01/outputs/sdm_reconstruction/maxent_jar.csv",
+          "exists": true,
+          "type": "file",
+          "bytes": 152,
+          "sha256": "24a442acb14f34620bc72dbcdce6e6d27ca79a6b17eb7adc297c7dc385210a83"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "runs/revision_run_01/outputs/sdm_reconstruction",
+          "exists": true,
+          "type": "directory"
+        }
+      ],
+      "validation": [
+        {
+          "path": "runs/revision_run_01/outputs/sdm_reconstruction/validation.json",
+          "exists": true,
+          "validated": true,
+          "status": null,
+          "keys": [
+            "analysis",
+            "original_occurrences",
+            "retained_occurrences",
+            "background_cells",
+            "folds",
+            "future_GCM_scenarios",
+            "predictors",
+            "threshold_MTSS",
+            "mean_heldout_AUC",
+            "scope",
+            "population_class_labels_changed",
+            "figure_rendering_pending",
+            "validated"
+          ]
+        }
+      ],
+      "upstream": [
+        "climate"
+      ],
+      "notes": [
+        "37 supplied occurrences; MaxEnt3.4.4 through dismo; 10-fold and final all-occurrence model;10,000 background; static elevation; fiveGCM x four scenario-period futures. MaxEnt jar licence/redistribution must be checked before uploading binary."
+      ]
+    },
+    {
+      "id": "gdm",
+      "title": "GDM fits, full-habitat matching, grid offsets and population comparisons",
+      "code": [
+        {
+          "path": "scripts/revision/fit_gdm.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 6455,
+          "sha256": "a286844705293381b03263c7216eb96e177cdb3d3bc65aa7e5d11de85ab10196"
+        },
+        {
+          "path": "scripts/revision/landscape_search.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 9353,
+          "sha256": "cd196b4c5edc58995df41cd9c3913767e941728f8be7e9f1936330ebbd500aa5"
+        },
+        {
+          "path": "scripts/revision/exact_gdm_grid_search.cpp",
+          "exists": true,
+          "type": "file",
+          "bytes": 3615,
+          "sha256": "0a8cd13e6cd5dc43a9e40f411f1a9d94edcb3eb85d181547b6110b20902dbea2"
+        },
+        {
+          "path": "scripts/revision/summarize_landscape_populations.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 5796,
+          "sha256": "87242f28c42d82499c203701b52241b305414568b9c9fdaee58ff0521cec5bdf"
+        },
+        {
+          "path": "scripts/revision/project_required_grid_offsets.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 7081,
+          "sha256": "9f7741ce6e7547b8af60d136b2e95c593ab0512325974d7f3680fd6668904e92"
+        }
+      ],
+      "inputs": [
+        {
+          "path": "runs/revision_run_01/outputs/inputs/adaptive_fst.csv",
+          "exists": true,
+          "type": "file",
+          "bytes": 6367,
+          "sha256": "f51852b165884afab52b5a42ab8df42e8a0f38adeb268815f2fcf309a73b3547"
+        },
+        {
+          "path": "runs/revision_run_01/outputs/climate",
+          "exists": true,
+          "type": "directory"
+        },
+        {
+          "path": "runs/revision_run_01/outputs/sdm_reconstruction",
+          "exists": true,
+          "type": "directory"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "runs/revision_run_01/outputs/gdm",
+          "exists": true,
+          "type": "directory"
+        },
+        {
+          "path": "runs/revision_run_01/outputs/landscape",
+          "exists": true,
+          "type": "directory"
+        },
+        {
+          "path": "runs/revision_run_01/outputs/landscape_statistics",
+          "exists": true,
+          "type": "directory"
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection",
+          "exists": true,
+          "type": "directory"
+        }
+      ],
+      "validation": [
+        {
+          "path": "runs/revision_run_01/outputs/gdm/validation.json",
+          "exists": true,
+          "validated": true,
+          "status": null,
+          "keys": [
+            "populations",
+            "site_pairs",
+            "heldout_prediction_rows",
+            "offset_rows",
+            "models",
+            "scope",
+            "geo_handling",
+            "intercept_handling",
+            "ties",
+            "validated"
+          ]
+        },
+        {
+          "path": "runs/revision_run_01/outputs/landscape/validation.json",
+          "exists": true,
+          "validated": true,
+          "status": null,
+          "keys": [
+            "rows",
+            "candidate_grid_cells",
+            "known_population_points_added",
+            "scope",
+            "native_climate_handling",
+            "geographic_model_note",
+            "illustrative_radii_km",
+            "radius_caveat",
+            "range_crs_note",
+            "habitat_geometry_handling",
+            "direction",
+            "percentage_denominator",
+            "validated"
+          ]
+        },
+        {
+          "path": "runs/revision_run_01/outputs/landscape_statistics/validation.json",
+          "exists": true,
+          "validated": true,
+          "status": null,
+          "keys": [
+            "review_comments",
+            "source",
+            "population_rows",
+            "class_effect_rows",
+            "scenario_contrast_rows",
+            "bootstrap_repetitions",
+            "seed",
+            "multiple_testing",
+            "spatial_limitation",
+            "validated"
+          ]
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/validation.json",
+          "exists": true,
+          "validated": true,
+          "status": null,
+          "keys": [
+            "validated",
+            "validation_only",
+            "scenarios",
+            "production_searches",
+            "validation_searches",
+            "grid_cells",
+            "candidates",
+            "no_model_refitting",
+            "score_tolerance",
+            "numerical_pruning_safety"
+          ]
+        }
+      ],
+      "upstream": [
+        "fst",
+        "climate",
+        "sdm"
+      ],
+      "notes": [
+        "171 equal-weight candidate-FST population pairs; modelwith/withoutgeography; held-outpopulations. Forward/reverse grids use exact-searchC++ helper, not sampled endpoints only. Latest .75/MTSS habitat endpoint classes + exactsample overrides are in Oct18 figure/pie render scripts."
+      ]
+    },
+    {
+      "id": "classification",
+      "title": "Geographic marginality and distance/classification sensitivity",
+      "code": [
+        {
+          "path": "scripts/revision/classification_sensitivity.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 4838,
+          "sha256": "e53eb27f097dab8d957b8170e445e35c910c8da05a59fc488351a9d318f50e6d"
+        },
+        {
+          "path": "scripts/revision/oct16_distance_classification.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 18608,
+          "sha256": "75e65ad22a1ae7126cfdf83228e4f9cbc5a376b558989a61c99c753e066ac5fb"
+        },
+        {
+          "path": "revision_oct18/figure_updates/render_main5.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 17524,
+          "sha256": "af17fd6285c8178ea78b7c9d222d5eccde7e0e42dd8ec853e394bd63023fbfef"
+        },
+        {
+          "path": "revision_oct18/figure_updates/render_supp_pies.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 9651,
+          "sha256": "0298e17bf5db879c9b5f30029e41eef50ab1199d1a3c4c6a48ef91b9993723f9"
+        }
+      ],
+      "inputs": [
+        {
+          "path": "recovery_audit/published_2022_occurrences.csv",
+          "exists": true,
+          "type": "file",
+          "bytes": 1618,
+          "sha256": "79925a7e514a8451c00526a882bc0bf272447da4a79836abefe736afe7f7046d"
+        },
+        {
+          "path": "runs/revision_run_01/outputs/landscape",
+          "exists": true,
+          "type": "directory"
+        },
+        {
+          "path": "runs/revision_run_01/outputs/functional_reconstruction/postprocess",
+          "exists": true,
+          "type": "directory"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "runs/revision_run_01/outputs/classification",
+          "exists": true,
+          "type": "directory"
+        },
+        {
+          "path": "runs/revision_run_01/outputs/oct16_revision/distance_classification",
+          "exists": true,
+          "type": "directory"
+        },
+        {
+          "path": "revision_oct18/figure_updates/endpoint_percentages.csv",
+          "exists": true,
+          "type": "file",
+          "bytes": 26453,
+          "sha256": "3c5564e49129267fa9e136005d6e85e215df16eef1d1bb2f40f4927ce2817a72"
+        }
+      ],
+      "validation": [
+        {
+          "path": "runs/revision_run_01/outputs/classification/validation.json",
+          "exists": true,
+          "validated": true,
+          "status": null,
+          "keys": [
+            "occurrences",
+            "populations",
+            "association_rows",
+            "population_polygon_disagreements",
+            "primary_population_definition",
+            "alternative",
+            "habitat_geometry_handling",
+            "limitations",
+            "validated"
+          ]
+        },
+        {
+          "path": "runs/revision_run_01/outputs/oct16_revision/distance_classification/validation.json",
+          "exists": true,
+          "validated": true,
+          "status": null,
+          "keys": [
+            "scope",
+            "missing_radius_match_rows",
+            "all_requested_radius_rows",
+            "endpoint_summary_rows",
+            "classification_effect_rows",
+            "candidate_grid_cells",
+            "added_population_coordinates",
+            "focal_populations",
+            "ENSEMBLE_cases",
+            "new_radii_km",
+            "reused_radii_km",
+            "new_model_fits",
+            "maximum_reused_winner_score_error",
+            "geographic_class_definition",
+            "centre_longitude"
+          ]
+        }
+      ],
+      "upstream": [
+        "gdm",
+        "functional",
+        "sdm"
+      ],
+      "notes": [
+        "Occurrence-based geographic alternative and suitability alternatives;10/50/100/200-km searches. Do not merge environmental population classes with genetic groups."
+      ]
+    },
+    {
+      "id": "gam",
+      "title": "Final all-driver linear/GAM all-subset comparison and nested validation",
+      "code": [
+        {
+          "path": "revision_oct16/driver_combinations/run_production.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 1639,
+          "sha256": "8bc0bc85c5da943b38b457a7992961cf2a7bd3b8fda5113fde7e0fab0e919a21"
+        },
+        {
+          "path": "revision_oct16/driver_combinations/scripts/prepare_model_inputs.py",
+          "exists": true,
+          "type": "file",
+          "bytes": 2226,
+          "sha256": "4446e2f879e8f76965b93c64995e150758f0294981de096ba71905d33527bd11"
+        },
+        {
+          "path": "revision_oct16/driver_combinations/scripts/fit_all_subsets_production.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 16827,
+          "sha256": "e80979b71b44e3587937251dd4340b70ae6554621a9e669a34a4fa03b171323c"
+        },
+        {
+          "path": "revision_oct16/driver_combinations/scripts/postprocess_driver_models.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 9693,
+          "sha256": "93ef83226fdf9f11aa1c2a86bbb3f78304707e5e69d9886c88971998e9d7a1e2"
+        },
+        {
+          "path": "revision_oct16/driver_combinations/data_audit/build_saved_input_audit.py",
+          "exists": true,
+          "type": "file",
+          "bytes": 4458,
+          "sha256": "877e57e67965f118c2edc32525c9bd966d46f547b03a2353e6e3389d53235e45"
+        }
+      ],
+      "inputs": [
+        {
+          "path": "revision_oct16/driver_combinations/scripts/model_inputs_380.csv",
+          "exists": true,
+          "type": "file",
+          "bytes": 71878,
+          "sha256": "df13e415e90048d72e72b8b24f2e1c22216eb1859d2e2c4206c6800efc56f79b"
+        },
+        {
+          "path": "revision_oct16/driver_combinations/scripts/model_inputs_380.csv.manifest.json",
+          "exists": true,
+          "type": "file",
+          "bytes": 1688,
+          "sha256": "d7f883017ed0c3ace0927be89066d31baef7f55462aff32fc6d8fb3a06fbc373"
+        },
+        {
+          "path": "revision_oct16/driver_combinations/data_audit/population_saved_predictors_19.csv",
+          "exists": true,
+          "type": "file",
+          "bytes": 5672,
+          "sha256": "e392c663406363200d822a32b396d04736d09fc8828875beb1d6f67a3cdda052"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "runs/revision_run_01/outputs/oct16_revision/all_driver_models",
+          "exists": true,
+          "type": "directory"
+        },
+        {
+          "path": "runs/revision_run_01/outputs/oct16_revision/all_driver_models_postprocess",
+          "exists": true,
+          "type": "directory"
+        },
+        {
+          "path": "revision_oct16/driver_combinations/data_audit",
+          "exists": true,
+          "type": "directory"
+        }
+      ],
+      "validation": [
+        {
+          "path": "runs/revision_run_01/outputs/oct16_revision/all_driver_models/validation.json",
+          "exists": true,
+          "validated": true,
+          "status": null,
+          "keys": [
+            "validated",
+            "n_cases",
+            "n_populations",
+            "candidate_predictors",
+            "global_subset_ids",
+            "scope",
+            "case_checkpoints"
+          ]
+        },
+        {
+          "path": "runs/revision_run_01/outputs/oct16_revision/all_driver_models_postprocess/validation.json",
+          "exists": true,
+          "validated": true,
+          "status": null,
+          "keys": [
+            "validated",
+            "n_cases",
+            "no_new_model_fits",
+            "top1_models",
+            "Moran_permutations",
+            "GAM_kcheck_replicates"
+          ]
+        },
+        {
+          "path": "revision_oct16/driver_combinations/data_audit/validation.json",
+          "exists": true,
+          "validated": true,
+          "status": null,
+          "keys": [
+            "validated",
+            "scope",
+            "populations",
+            "cases",
+            "long_rows",
+            "original_diversity_matches_original_master",
+            "sources",
+            "limitations"
+          ]
+        }
+      ],
+      "upstream": [
+        "lfmm_rona",
+        "diversity",
+        "functional",
+        "classification"
+      ],
+      "notes": [
+        "FINAL analysis supersedes initial four fixed-model model_diagnostics and earlier benchmark outputs.20 responses x19populations=380 rows;11candidatepredictors; all eligible subsets after original-priority |Spearman|>.8screen; linear and k3shrinkageGAM ML/AICc; screen/scale/select repeated withinLOPO/spatialfolds. OriginalpriorityretainsHe overpi andclimatedelta overlatitude."
+      ]
+    },
+    {
+      "id": "eems",
+      "title": "Existing 700-deme EEMS component extraction and redraw",
+      "code": [
+        {
+          "path": "scripts/revision/extract_existing_eems.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 1752,
+          "sha256": "568fefe92d368dcc9707fd7977a2f8075137c775ab717d48ee11171a30f6b60b"
+        },
+        {
+          "path": "scripts/revision/plot_eems_existing.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 4866,
+          "sha256": "411abaa428d90583713737607ea9e645c0ac9c03dc89255b6a2e8d4de7f23bf1"
+        },
+        {
+          "path": "scripts/revision/remake_S11_S12_original.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 8106,
+          "sha256": "994142a15f05d3268fbc726abc59207124492323a36df875aff4152e87fd5b70"
+        }
+      ],
+      "inputs": [
+        {
+          "path": "runs/revision_run_01/outputs/eems_existing_audit/eems_run_inventory.csv",
+          "exists": true,
+          "type": "file",
+          "bytes": 434,
+          "sha256": "7023ec5b7867379b2d0db52f588f6819078e075f29e8aad6f19d77cfc75570bc"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "runs/revision_run_01/outputs/eems_existing_audit",
+          "exists": true,
+          "type": "directory"
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figures/eems_existing",
+          "exists": true,
+          "type": "directory"
+        }
+      ],
+      "validation": [
+        {
+          "path": "runs/revision_run_01/outputs/eems_existing_audit/validation.json",
+          "exists": true,
+          "validated": true,
+          "status": null,
+          "keys": [
+            "validated",
+            "scope",
+            "comments",
+            "report",
+            "extraction_script",
+            "no_new_inference",
+            "manuscript_deme_settings_match",
+            "existing_q_m_replot_feasible",
+            "submitted_panel_source_identity_verified",
+            "independent_chain_convergence_certified",
+            "remaining",
+            "identity_method"
+          ]
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figures/eems_existing/validation.json",
+          "exists": true,
+          "validated": true,
+          "status": null,
+          "keys": [
+            "validated",
+            "numerical_data_export_validated",
+            "render_complete",
+            "visual_QA_pending",
+            "submitted_panel_identity_verified",
+            "new_inference",
+            "original_grid_rows",
+            "points_outside_archived_boundary_masked",
+            "source_grid",
+            "scope",
+            "identity_method",
+            "pdf_minimum_text_pt",
+            "collision_QA",
+            "alignment_QA",
+            "optional_exports"
+          ]
+        }
+      ],
+      "upstream": [
+        "inputs"
+      ],
+      "notes": [
+        "No new EEMS MCMC. Savedruninventory lists originalbinary/sourceoutputs; extractedB/G/W andxym/xyq componentCSVs retained. Old eems_pilot and pipelineT015 are excludedfrom finalanalysisexecution; never trigger them."
+      ]
+    },
+    {
+      "id": "mapping",
+      "title": "Paired-reference mapping, parallel mongolicus calling, filters and PCA",
+      "code": [
+        {
+          "path": "revision_oct17_mapping/workflow/run_workflow.py",
+          "exists": true,
+          "type": "file",
+          "bytes": 16308,
+          "sha256": "288937b50077d5d7fd1c1ca3eb7c014eddc4efc254d835da1ca0b1dac43827ed"
+        },
+        {
+          "path": "revision_oct17_mapping/workflow/pca_comparison.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 4075,
+          "sha256": "86884d1f17f05ad0bf5fe6d64961c43757e129d87b5c108c59fe9f16aa1d08ad"
+        },
+        {
+          "path": "revision_oct17_mapping/parallel_call/call_shards.py",
+          "exists": true,
+          "type": "file",
+          "bytes": 11672,
+          "sha256": "faebff33c9055f7715ddff088cfe9731b9da29921a90d4eb82ed066643524ffb"
+        },
+        {
+          "path": "revision_oct17_mapping/parallel_call/config.json",
+          "exists": true,
+          "type": "file",
+          "bytes": 33846,
+          "sha256": "8eecbf3b62df55a92a0a23b02705a4ddeaa1d7243a3e16187fcc67a83fbd7cd8"
+        },
+        {
+          "path": "revision_oct17_mapping/reporting/summarize_mapping.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 11275,
+          "sha256": "278eb19409479e8ae35c613d5709e769d448c81542bea7b416101311540f0ccb"
+        },
+        {
+          "path": "revision_oct17_mapping/reporting/export_workbook.py",
+          "exists": true,
+          "type": "file",
+          "bytes": 3639,
+          "sha256": "189de45cb5e8cf9ed50411026c5a9908aab6edefd696e1734f719c88a34b9005"
+        },
+        {
+          "path": "revision_oct17_mapping/read_access/download/download_fastq.py",
+          "exists": true,
+          "type": "file",
+          "bytes": 7685,
+          "sha256": "0ea7082e8c30a0b57d751dd7b983d6f603f7577f8ff9484927ede4d347db78dd"
+        }
+      ],
+      "inputs": [
+        {
+          "path": "revision_oct17_mapping/parent/config.frozen.json",
+          "exists": true,
+          "type": "file",
+          "bytes": 2257,
+          "sha256": "ce8ca1d1d86aef3b82cb081d8f2699b2d6513b7f8e824db10f501442e70c760c"
+        },
+        {
+          "path": "revision_oct17_mapping/workflow/samples.tsv",
+          "exists": true,
+          "type": "file",
+          "bytes": 59204,
+          "sha256": "c01c3afaba65ea7e96ab2a61e3cfa5f36c2a303595c78df8519c4ea93cb8d994"
+        },
+        {
+          "path": "revision_oct17_mapping/read_access/crosswalk/crosswalk217.tsv",
+          "exists": true,
+          "type": "file",
+          "bytes": 43083,
+          "sha256": "1094fd855d29ba13e1d855dc2b741a8efb667a6a4575d34b83fc561301a6094a"
+        },
+        {
+          "path": "revision_oct17_mapping/references/REFERENCE_AUDIT.json",
+          "exists": true,
+          "type": "file",
+          "bytes": 2048,
+          "sha256": "03ce89bf43799e25d5d8f94b2dea7c439a587dd24c5c59f924941fb843928f44"
+        },
+        {
+          "path": "revision_oct17_mapping/read_access/VERIFIED_ORIGINAL_FASTQ_FILES.tsv",
+          "exists": true,
+          "type": "file",
+          "bytes": 83574,
+          "sha256": "e6c3728217c0093f0d7de0f58c3c8180b393e2db693e7974e173852acfe36c0c"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "revision_oct17_mapping/validated_data",
+          "exists": true,
+          "type": "directory"
+        },
+        {
+          "path": "oct17/Mapping_QC_results",
+          "exists": true,
+          "type": "directory"
+        },
+        {
+          "path": "revision_oct18/figure_updates/S20",
+          "exists": true,
+          "type": "directory"
+        }
+      ],
+      "validation": [
+        {
+          "path": "revision_oct17_mapping/validated_data/VALIDATED_DATA_MANIFEST.json",
+          "exists": true,
+          "validated": true,
+          "status": null,
+          "keys": [
+            "validated",
+            "purpose",
+            "files"
+          ]
+        },
+        {
+          "path": "oct17/Mapping_QC_results/WORKBOOK_VALIDATION.json",
+          "exists": true,
+          "validated": true,
+          "status": null,
+          "keys": [
+            "validated",
+            "file",
+            "sha256",
+            "sheets",
+            "figure_QA",
+            "manuscript_changes"
+          ]
+        },
+        {
+          "path": "revision_oct17_mapping/parent/AUTO_pca_STATUS.json",
+          "exists": true,
+          "validated": null,
+          "status": "COMPLETED",
+          "keys": [
+            "stage",
+            "job_id",
+            "started_utc",
+            "status",
+            "source_guard_validated",
+            "interpretation_and_document_updates",
+            "finished_utc"
+          ]
+        }
+      ],
+      "upstream": [
+        "inputs",
+        "pca"
+      ],
+      "notes": [
+        "PRJNA1545357/SRP746694:222publicpairedruns downloaded;217used and5extras excluded. Download original fullquality FASTQs, not SRA-lite archive_url column in crosswalk. HeavyBAM/FASTQ/referenceindices on scratch; variants durableworkcopies. Frozenconfig is authoritative; config.proposed.json is obsolete. parallel_call chr/scaffoldpartition implementation supersedes former singlecall. RawVCF763MB/sitefiltered88MB/PCA49MB needrelease/externaldata route rather than ordinaryGitblob."
+      ]
+    },
+    {
+      "id": "final_figures",
+      "title": "Final original-style figure sources and final opacity",
+      "code": [
+        {
+          "path": "revision_oct18/figure_updates/render_main5.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 17524,
+          "sha256": "af17fd6285c8178ea78b7c9d222d5eccde7e0e42dd8ec853e394bd63023fbfef"
+        },
+        {
+          "path": "revision_oct18/figure_updates/render_supp_pies.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 9651,
+          "sha256": "0298e17bf5db879c9b5f30029e41eef50ab1199d1a3c4c6a48ef91b9993723f9"
+        },
+        {
+          "path": "revision_oct18/figure_updates/render_S2.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 5314,
+          "sha256": "00d0cdee7eb0efd20acb47e59567251d1e7a5ecb8352a14ee6420d7e255e75f9"
+        },
+        {
+          "path": "revision_oct18/figure_updates/render_S20.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 5927,
+          "sha256": "250ccdc45c1a515fd4dd969b3c3bc3a0f75c147f41a060bb981e08b53b51d6cb"
+        },
+        {
+          "path": "revision_oct18_discussion/figure_niche/render_S1_asia.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 14715,
+          "sha256": "2e94358f57af8cbd88dbf2a013cbf9e1724e0c770a8f5bd0d7c000cf2b231482"
+        },
+        {
+          "path": "revision_oct18_new_structure/figure6_opacity/render_Figure6.R",
+          "exists": true,
+          "type": "file",
+          "bytes": 5931,
+          "sha256": "b20f7d26bd52f7a98132a5e4f11e0da94cfb9e9f158e5a49da0dee2b2772607a"
+        }
+      ],
+      "inputs": [
+        {
+          "path": "ammo_revision_package_new_structure/Source_and_provenance",
+          "exists": true,
+          "type": "directory"
+        },
+        {
+          "path": "revision_oct18/figure_updates/map_sources",
+          "exists": true,
+          "type": "directory"
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figure_revision_original_design",
+          "exists": true,
+          "type": "directory"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "ammo_revision_package_new_structure/Figures",
+          "exists": true,
+          "type": "directory"
+        },
+        {
+          "path": "ammo_new_structure_fig6_clearer/Figure_6",
+          "exists": true,
+          "type": "directory"
+        },
+        {
+          "path": "revision_oct18_new_structure/figure6_opacity/colour_scale_source.csv",
+          "exists": true,
+          "type": "file",
+          "bytes": 277,
+          "sha256": "c18d119c492d1d46749f5ec7c97cd75a7f727ee9a815426abbc76905e79cf03b"
+        }
+      ],
+      "validation": [
+        {
+          "path": "revision_oct18_new_structure/figure6_opacity/validation.json",
+          "exists": true,
+          "validated": true,
+          "status": null,
+          "keys": [
+            "scope",
+            "no_model_refit",
+            "shared_colour_maximum",
+            "manual_visual_QA",
+            "validated"
+          ]
+        },
+        {
+          "path": "revision_oct18/figure_updates/VALIDATED_ALL_EIGHT_FIGURES.json",
+          "exists": true,
+          "validated": null,
+          "status": "PASS",
+          "keys": [
+            "time_utc",
+            "status",
+            "PCA_panel_b_exact_sign_reversal_217_samples",
+            "figures",
+            "figure_count",
+            "figures_directory",
+            "all_sources_and_old_figures_unchanged"
+          ]
+        }
+      ],
+      "upstream": [
+        "gam",
+        "gdm",
+        "sdm",
+        "niche",
+        "demography",
+        "eems",
+        "mapping"
+      ],
+      "notes": [
+        "Delivered6main+20supplementaryPDF/PNGpairs. Figure6finalcoregreenalpha.50,peripheralunfilled. No figure titles whereletteredpanels; preserveoriginalarrangement/colours. Dependency skill helperfiles panel_alignment.R/audit scripts in localinstalled nature-figure are portability dependencies, not currently repositoryrelative."
+      ]
+    }
+  ],
+  "caveats": [
+    "Existence and stored checkpoints verified, not a fresh end-to-end execution.",
+    "Historical manifests may retain old caution text; latest author-confirmed lengths/current manuscript take precedence without fabricating recovered historical commands.",
+    "Each listed directory is an inventory source, not permission to blindly publish everything in it. Exclude confidential manuscript/reviewer source files, caches, logs, credentials, installed environments and redundant trial outputs.",
+    "External inputs need download manifests/checksums and lawful distribution; absolute HPC paths and local skill dependencies need portability fixes."
+  ],
+  "missing_listed_paths": [],
+  "path_semantics": "Original executed workspace code/input/output inventory. The README and released_code_index.json identify the public executable surface; the final driver module is under analyses/driver_models. Data restore paths are listed in data_manifest.json. Some original author-document paths are not released."
+}

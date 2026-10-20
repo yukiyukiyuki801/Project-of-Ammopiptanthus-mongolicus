@@ -1,0 +1,26 @@
+{
+  "validated": true,
+  "numerical_data_export_validated": true,
+  "render_complete": true,
+  "visual_QA_pending": false,
+  "submitted_panel_identity_verified": true,
+  "new_inference": false,
+  "original_grid_rows": 11300,
+  "points_outside_archived_boundary_masked": 2500,
+  "source_grid": "700 demes; seed123; 2million iterations; 1million burn; save every10000; 100draws",
+  "scope": "Validated existing-output S12 draft and visual source agreement; no model fitting",
+  "identity_method": "Visual agreement of both decoded submitted EMF raster maps with archived700-deme mrates01/qrates01: titles, scales, boundary and all prominent contour features agree; no pixel-exact claim",
+  "pdf_minimum_text_pt": 9,
+  "collision_QA": "PASS;0fail0warn",
+  "alignment_QA": "PASS;0fail0warn",
+  "optional_exports": [
+    "svg",
+    "tiff"
+  ],
+  "pdf_sha256": "87195e244fb1d945a61a141344990c794c55067093ebed066a90ec3474140010",
+  "limitations": [
+    "One recovered chain; convergence not certified",
+    "Exact original plotting call not recovered",
+    "Relative q/m surfaces do not demonstrate actual contemporary or future dispersal"
+  ]
+}

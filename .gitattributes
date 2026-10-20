@@ -1,0 +1,17 @@
+* text=auto
+*.R text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+*.md text eol=lf
+data/assets/** binary
+*.rds binary
+*.vcf.gz binary
+*.tif binary
+*.png binary
+*.pdf binary
+*.xlsx binary
+# Preserve exact input and recorded-output bytes, including historical CRLF.
+*.csv -text
+*.tsv -text
+*.txt -text
+*.json -text

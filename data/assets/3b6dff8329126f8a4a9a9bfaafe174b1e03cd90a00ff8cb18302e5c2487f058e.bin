@@ -1,0 +1,21 @@
+{
+  "repository": "https://github.com/jgx65/hierfstat",
+  "commit": "fbc8b8c34f62389213ca0a1b721533744b4735c1",
+  "files": [
+    {
+      "file": "misc.R",
+      "url": "https://raw.githubusercontent.com/jgx65/hierfstat/fbc8b8c34f62389213ca0a1b721533744b4735c1/R/misc.R",
+      "sha256": "9d777c29f017eefc33f9131a73fcf583872df1751fb7670f952db1a8ea8aad96"
+    },
+    {
+      "file": "nwc.R",
+      "url": "https://raw.githubusercontent.com/jgx65/hierfstat/fbc8b8c34f62389213ca0a1b721533744b4735c1/R/nwc.R",
+      "sha256": "4a1021123c2d830a149bcb2d7e0f120650c1aa911a8eae3dd4c0459a3b7363b5"
+    },
+    {
+      "file": "pairwise.fst.R",
+      "url": "https://raw.githubusercontent.com/jgx65/hierfstat/fbc8b8c34f62389213ca0a1b721533744b4735c1/R/pairwise.fst.R",
+      "sha256": "8c5a424ed679f690631b623503ec2124b12e7f42d68de21fa85c4aee83407ba2"
+    }
+  ]
+}

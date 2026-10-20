@@ -1,0 +1,29 @@
+source('scripts/revision/common.R')
+suppressPackageStartupMessages({library(ggplot2);library(patchwork);library(terra);library(sf);library(jsonlite)})
+directory<-file.path(root,'revision_oct18_new_structure/figure6_opacity');dir.create(directory,recursive=TRUE,showWarnings=FALSE)
+skill<-Sys.getenv("AMMO_FIGURE_QA_DIR", unset="");source(file.path(skill,'scripts/panel_alignment.R'));source('scripts/revision/measure_panels.R');python<-Sys.getenv("AMMO_PYTHON", unset="python3")
+sf_use_s2(FALSE)
+shape<-function(name){x<-st_read(file.path(bundle,'ammo/gf',name),quiet=TRUE);if(is.na(st_crs(x)))st_crs(x)<-4326;x<-st_transform(st_make_valid(st_transform(x,32648)),4326);suppressWarnings(st_crop(x,st_bbox(c(xmin=100,ymin=36,xmax=110,ymax=44),crs=st_crs(4326))))}
+core<-shape('ammo_core.shp');peri<-shape('ammo_peri.shp')
+cases<-data.frame(ssp=c('ssp126','ssp126','ssp585','ssp585'),period=c('2041-2070','2071-2100','2041-2070','2071-2100'))
+rasters<-lapply(1:4,function(i)rast(file.path(output_dir,'sdm_reconstruction',paste0(cases$ssp[i],'_',cases$period[i],'_ENSEMBLE_mean.tif'))))
+actualmax<-max(vapply(rasters,function(r)max(values(r,mat=FALSE),na.rm=TRUE),numeric(1)));stopifnot(actualmax>0,actualmax<=1)
+palette<-read.csv(file.path(output_dir,'figure_revision_original_design/main_2_6/original_Figure6_legend_palette.csv'))$colour
+raster_layer<-function(r){v<-values(r,mat=FALSE);idx<-pmin(256,pmax(1,round(v/actualmax*255)+1));col<-palette[idx];col[!is.finite(v)]<-'white';e<-as.vector(ext(r));annotation_raster(matrix(col,nrow=nrow(r),ncol=ncol(r),byrow=TRUE),xmin=e[1],xmax=e[2],ymin=e[3],ymax=e[4],interpolate=FALSE)}
+# Short boundary segments preserve vertices and avoid whole-ring PDF bounding-box artifacts.
+segments<-function(x){g<-st_collection_extract(st_geometry(x),'POLYGON');g<-suppressWarnings(st_cast(g,'MULTIPOLYGON'));co<-st_coordinates(st_boundary(g));idcols<-grep('^L',colnames(co));grp<-if(length(idcols))interaction(as.data.frame(co[,idcols,drop=FALSE]),drop=TRUE)else factor(rep(1,nrow(co)));parts<-split(data.frame(x=co[,1],y=co[,2]),grp);do.call(rbind,lapply(parts,function(d){if(nrow(d)<2)return(NULL);data.frame(x=d$x[-nrow(d)],y=d$y[-nrow(d)],xend=d$x[-1],yend=d$y[-1])}))}
+cb<-segments(core);pb<-segments(peri)
+plots<-lapply(1:4,function(i){p<-ggplot()+raster_layer(rasters[[i]])+geom_sf(data=peri,fill=NA,colour=NA)+geom_sf(data=core,fill='#22AA44',colour=NA,alpha=.50)+geom_segment(data=pb,aes(x=x,y=y,xend=xend,yend=yend),colour='grey35',linewidth=.18)+geom_segment(data=cb,aes(x=x,y=y,xend=xend,yend=yend),colour='#245C35',linewidth=.23)+geom_point(data=data.frame(x=100,y=36,value=c(0,actualmax)),aes(x,y,fill=value),alpha=0,shape=22,show.legend=TRUE)+scale_fill_gradientn(colours=palette,limits=c(0,actualmax),breaks=c(0,actualmax/2,actualmax),labels=function(x)formatC(x,digits=3,format='f'),name='Suitability')+coord_sf(default_crs=st_crs(4326),xlim=c(100,110),ylim=c(36,44),expand=FALSE)+theme_void(base_size=9,base_family="Helvetica")+theme(plot.title=element_text(size=10,hjust=.5),legend.title=element_text(size=9),legend.text=element_text(size=8),plot.margin=margin(5,5,5,5))+labs(title=paste(toupper(cases$ssp[i]),gsub('-','–',cases$period[i])))
+ p+guides(fill=guide_colourbar(barwidth=unit(3,'mm'),barheight=unit(42,'mm')))})
+fig<-wrap_plots(plots,ncol=2,guides='collect')&theme(legend.position='right');stem<-file.path(directory,'Figure_6');w<-190;h<-155
+require_patchwork_panel_alignment(fig,paste0(stem,'.alignment-layout.json'),paste0(stem,'.alignment.json'),w/25.4,h/25.4,tolerance_pt=1.5,gutter_tolerance_pt=1.5,audit_script=file.path(skill,'scripts/audit_panel_alignment.py'),python=python,strict=TRUE)
+# The original grDevices::pdf device embeds editable standard-font text and preserves the approved appearance.
+# cairo_pdf is not substituted: the existing PDF device is retained for layout fidelity.
+ggsave(paste0(stem,'.svg'),fig,width=w,height=h,units='mm',device=svglite::svglite,bg='white');ggsave(paste0(stem,'.pdf'),fig,width=w,height=h,units='mm',device=grDevices::pdf,useDingbats=FALSE,bg='white');ggsave(paste0(stem,'.png'),fig,width=w,height=h,units='mm',dpi=600,type='cairo',bg='white');saveRDS(fig,paste0(stem,'.rds'))
+stopifnot(system2(python,c(shQuote(file.path(skill,'scripts/audit_pdf_text.py')),shQuote(paste0(stem,'.pdf')),'--min-pt','8','--json'),stdout=paste0(stem,'.text-audit.json'))==0)
+stopifnot(system2(python,c(shQuote(file.path(skill,'scripts/audit_figure_collisions.py')),shQuote(paste0(stem,'.pdf')),'--json-out',shQuote(paste0(stem,'.collision-audit.json'))))==0)
+write_csv(data.frame(ssp=cases$ssp,period=cases$period,maximum=vapply(rasters,function(r)max(values(r,mat=FALSE),na.rm=TRUE),numeric(1)),shared_colour_maximum=actualmax),file.path(directory,'colour_scale_source.csv'))
+writeLines(paste0('Figure 6. Future potential climatic suitability. Rows show SSP1-2.6 and SSP5-8.5; columns show 2041–2070 and 2071–2100. Colours use a shared scale from zero to the maximum predicted suitability across all four ensemble maps (',formatC(actualmax,digits=4,format='f'),'), rather than extending to one. Values are five-GCM mean logistic predictions from the same fitted MaxEnt model. Dark-green and grey outlines mark the inherited core and peripheral habitat polygons; a semi-transparent green fill identifies core habitat, whereas peripheral habitat has no fill. These habitat polygons do not redefine sampled population classes. The common scale allows comparisons among scenarios and represents conditional potential suitability, not occurrence probability, realized movement or extinction.'),paste0(stem,'.caption.txt'))
+marker(directory,list(scope='Author latest Figure 6 comment: transparent peripheral habitat and semi-transparent green core habitat; retain existing shared suitability scale and layout',no_model_refit=TRUE,shared_colour_maximum=actualmax,manual_visual_QA='PENDING'))
+
+save_session(directory)

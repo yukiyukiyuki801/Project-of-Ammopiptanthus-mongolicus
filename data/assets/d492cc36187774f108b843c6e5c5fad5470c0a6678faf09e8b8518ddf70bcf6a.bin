@@ -1,0 +1,25 @@
+#example blueprint file
+#input setting
+popid: peripheral # id of the population (no white space)
+nseq: 104 # number of sequences
+L: 3289350 # total number of observed nucleic sites, including polymorphic and monomorphic
+whether_folded: true # whethr the SFS is folded (true or false)
+SFS: 2671.982356813413 2094.325785995353 1638.6905081005 1455.067514176091 1248.034267827363 1027.687068145357 838.9536604820439 710.8093689627181 615.4965620884781 536.1460523628716 484.5848088508382 447.6334409288839 402.3366680999744 362.4345530568285 334.4300009695993 312.1492462619456 292.7663011982581 276.855977742115 265.4572618598365 253.7879609443409 243.5214051429131 231.5724661052251 219.9682727773495 207.4533297911787 197.5864824349197 195.9957951463422 189.3217677303391 180.4189009098169 174.5589659654731 169.0303608639015 166.6389858936354 160.7520718167879 154.3633222857019 154.4375803988402 152.2500637988562 154.3320530487933 148.9600605944973 149.0404956059368 149.4380138423737 146.2743913619799 145.6562828198143 143.5517178237105 144.6441899658714 148.2811504095891 151.6128650219759 162.0245408549712 173.1109016230135 192.8772773557831 215.7698475569304 242.8881136531774 257.0317832421051 135.513326638404 # snp frequency spectrum: number of singleton, number of doubleton, etc. (separated by white space)
+#smallest_size_of_SFS_bin_used_for_estimation: 2 # default is 1; to ignore singletons, uncomment this line and change this number to 2
+#largest_size_of_SFS_bin_used_for_estimation: 102 # default is n-1; to ignore singletons, uncomment this line and change this number to nseq-2
+pct_training: 0.67 # percentage of sites for training
+nrand: 26 51 77 102 # number of random break points for each try (separated by white space)
+project_dir: peripheral # project directory
+stairway_plot_dir: stairway_plot_es # directory to the stairway plot files
+ninput: 200 # number of input files to be created for each estimation
+#random_seed: 6
+#output setting
+mu: 2.538e-8 # assumed mutation rate per site per generation
+year_per_generation: 3 # assumed generation time (in years)
+#plot setting
+plot_title: peripheral # title of the plot
+xrange: 0.1,10000 # Time (1k year) range; format: xmin,xmax; "0,0" for default
+yrange: 0,0 # Ne (1k individual) range; format: xmin,xmax; "0,0" for default
+xspacing: 2 # X axis spacing
+yspacing: 2 # Y axis spacing
+fontsize: 12 # Font size

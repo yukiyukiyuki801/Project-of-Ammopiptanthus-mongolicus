@@ -1,0 +1,25 @@
+{
+  "validated": true,
+  "samples": 217,
+  "populations": 19,
+  "core_populations": 9,
+  "peripheral_populations": 10,
+  "adaptive_loci": 1637,
+  "full_loci": 38124,
+  "nonadaptive_loci": 36487,
+  "adaptive_missing_calls": 19496,
+  "adaptive_missing_fraction": 0.054882906519456466,
+  "imputed_called_genotype_changes": 0,
+  "raw_population_contiguous_blocks": 26,
+  "pyrona_grouping_corrected": true,
+  "negative_pairwise_fst": 0,
+  "fst_min": 0.0,
+  "fst_max": 0.667162702382646,
+  "unresolved": [
+    "Original archived neutral locus crosswalk",
+    "Demographic sample-cluster assignments and SFS/callable-L provenance",
+    "Functional-variant metric definitions",
+    "Historical imputation parameters"
+  ],
+  "scope": "Primary metadata/genotype prerequisites verified; not completion of all A01 lineage questions."
+}

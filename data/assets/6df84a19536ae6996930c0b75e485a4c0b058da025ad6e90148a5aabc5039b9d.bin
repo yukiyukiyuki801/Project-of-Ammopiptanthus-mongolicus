@@ -1,0 +1,4 @@
+"subset","loci","pairs","max_absolute_difference","rmse","mean_absolute_difference","mean_difference","pearson","matches_absolute_1e_12","matches_absolute_1e_8","matches_rounded_6dp","matches_rounded_4dp","matches_rounded_3dp","minimum_usable_loci","maximum_excluded_loci"
+"candidate",1637,171,5.51642065360625e-16,2.79411967655731e-16,2.37809284934785e-16,-4.23434841446035e-17,1,171,171,171,171,171,1637,0
+"all_SNPs",38124,171,0.283103478186739,0.12516144967147,0.0975288040162443,-0.0964739048366602,0.90227734548431,0,0,0,0,1,38124,0
+"noncandidate",36487,171,0.317052087271528,0.138057795807347,0.106782024350893,-0.105653048280604,0.861973153092454,0,0,0,0,1,36487,0

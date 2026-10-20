@@ -1,0 +1,18 @@
+{
+  "analysis": "New PCA-env reconstruction, not recovery of historical niche tests",
+  "authorization": "User explicitly requested rerunning missing niche results with their data; original S4 numerical grids/nulls absent; reviewer R1.24 asks metric/null interpretation and R1.66 asks readable niche figure colour coding.",
+  "seed": 20261014,
+  "repetitions": 999,
+  "grid_resolution": 100,
+  "variables": ["bio4", "bio5", "bio6", "bio15", "bio17"],
+  "background_n": 1000,
+  "background": "One shared regional accessible-background approximation: random equal-cell sample of complete five-variable current CHELSA raster cells across the supplied 100-110 E / 36-44 N regional extent. This is an explicit geographic assumption, not a recovered accessible-area estimate; no suitability threshold or group-specific climate clipping.",
+  "units": "19 equally weighted verified population coordinates: nine published core, ten peripheral. The 217 individual records are not treated as independent ecological occurrences. Other recovered 2022 occurrences lack verified population-class identities and are not assigned classes here.",
+  "pca": "Centred and scaled PCA fitted once on the shared background; two axes retained; population values projected using fitted centring/scaling/loadings.",
+  "kernel": "Official ecospat source functions, adehabitat bivariate Gaussian href kernel, th.sp=0, th.env=0; R=100; environmental-prevalence correction enabled for D/I.",
+  "equivalency": "Pooled population-occurrence labels randomly reassigned preserving 9/10 group sizes; lower-tail overlap alternative (observed overlap lower than random relabelling).",
+  "similarity": "Directional rand.type=2 tests: first niche fixed, second niche randomly shifted relative to its background; higher-tail overlap alternative. Both directions have the same shared background; direction does not indicate dispersal or adaptation.",
+  "intersection": 0,
+  "threads": 1,
+  "limitations": "Sparse spatially structured sample (19 populations), assumed shared rectangular regional background, and two-axis projection restrict inference. Nonsignificant equivalency is not evidence that niches are identical; significant similarity is not evidence of adaptation, gene flow or rescue."
+}

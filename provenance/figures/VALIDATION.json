@@ -1,0 +1,11 @@
+{
+  "status": "PARSE_ONLY_PASS",
+  "R_files": 23,
+  "original_scientific_or_drawing_executed": false,
+  "AST_optional_QA_transformation_all_22_sources": "PASS",
+  "S14_S15_drawing_section_exactly_unchanged": true,
+  "obsolete_S13_branch_removed": true,
+  "external_third_party_QA_source_bundled": false,
+  "runtime_rendering": "NOT_RUN",
+  "optional_QA_control_path_smoke": "PASS: drawing marker retained; absent collision JSON read, assertion, dependent status-write skipped; no PASS fabricated"
+}

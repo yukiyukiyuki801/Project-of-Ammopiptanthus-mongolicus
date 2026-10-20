@@ -1,0 +1,19 @@
+{
+  "validated": true,
+  "scope": "Packaging, syntax and data consistency only; no scientific fitting",
+  "copied_source_files_verified": 230,
+  "input_rows": 380,
+  "cases": 20,
+  "populations_per_case": 19,
+  "predictors": 11,
+  "traceability_subsets_per_family_case": 2048,
+  "selected_model_objects": 40,
+  "nested_validation_rows": 120,
+  "input_regeneration_byte_identical": true,
+  "R_scripts_parse_passed": true,
+  "python_ast_and_help_passed": true,
+  "large_results_gzip_lossless": true,
+  "new_model_fits": false,
+  "fresh_environment_tested": false,
+  "full_pipeline_rerun": false
+}

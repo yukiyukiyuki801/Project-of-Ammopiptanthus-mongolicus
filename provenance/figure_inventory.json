@@ -1,0 +1,3501 @@
+{
+  "authoritative_package": "ammo_revision_package_new_structure",
+  "figure_count": 26,
+  "figure_input_mapping": "Old saved input manifests plus current render-source inspection; inputs grouped conservatively by paired renderer",
+  "figures": [
+    {
+      "figure": "1",
+      "script": "scripts/revision/remake_main_1_4_original.R",
+      "inputs": [
+        "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+        "runs/revision_run_01/outputs/inputs/sample_metadata.csv",
+        "runs/revision_run_01/outputs/rona/rona_population_long.csv"
+      ],
+      "read_statements": [
+        "source(file.path('scripts','revision','common.R'))",
+        "source(file.path(skill,'scripts','panel_alignment.R'))",
+        "r <- read.csv(file.path(output_dir,'rona','rona_population_long.csv'))",
+        "g <- read.csv(file.path(output_dir,'landscape_statistics','population_offsets_wide.csv'))",
+        "tests <- read.csv(file.path(output_dir,'landscape_statistics','population_class_effects.csv'))"
+      ],
+      "helpers": [],
+      "external_QA_helpers": [
+        "nature-figure/scripts/panel_alignment.R",
+        "nature-figure/scripts/audit_panel_alignment.py",
+        "nature-figure/scripts/audit_pdf_text.py",
+        "nature-figure/scripts/audit_figure_collisions.py"
+      ],
+      "input_status": [
+        {
+          "path": "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+          "exists": true,
+          "bytes": 1057
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/sample_metadata.csv",
+          "exists": true,
+          "bytes": 10893
+        },
+        {
+          "path": "runs/revision_run_01/outputs/rona/rona_population_long.csv",
+          "exists": true,
+          "bytes": 398995
+        }
+      ],
+      "published_outputs": [
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Main/Figure_1.pdf",
+          "sha256": "6a70a0edb8dcafb4b3f7045e2fae565377f4b3422fbc969a490ab14c32774736",
+          "source_path": "runs/revision_run_01/outputs/figure_revision_original_design/main_1_4/Figure_1.pdf",
+          "byte_identical": true
+        },
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Main/Figure_1.png",
+          "sha256": "a03541f2b93efc67ea8f589a9bd0e578804ab7e1a4ad72d7edb711078589c702",
+          "source_path": "runs/revision_run_01/outputs/figure_revision_original_design/main_1_4/Figure_1.png",
+          "byte_identical": true
+        }
+      ],
+      "code_sha256": "4a84610b788eb10b267c9f578fd40bd503f73b4bf7cca77d7e8d525939a08da0",
+      "minimal_saved_render_data": [
+        "runs/revision_run_01/outputs/figure_revision_original_design/main_1_4/Figure_4_source_population_offsets.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/main_1_4/Figure_1.rds",
+        "runs/revision_run_01/outputs/figure_revision_original_design/main_1_4/Figure_4.rds",
+        "runs/revision_run_01/outputs/figure_revision_original_design/main_1_4/Figure_1_source_population_four_scenario_means.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/main_1_4/Figure_4_source_bar_mean_sd.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/main_1_4/Figure_4_saved_BH_tests.csv"
+      ],
+      "reproducibility_notes": [],
+      "source_stem": "runs/revision_run_01/outputs/figure_revision_original_design/main_1_4/Figure_1"
+    },
+    {
+      "figure": "2",
+      "script": "scripts/revision/remake_main_2_6_original.R",
+      "inputs": [
+        "ammo_analysis_package_20261014/ammo/gf/ammo_binary.cpg",
+        "ammo_analysis_package_20261014/ammo/gf/ammo_binary.dbf",
+        "ammo_analysis_package_20261014/ammo/gf/ammo_binary.prj",
+        "ammo_analysis_package_20261014/ammo/gf/ammo_binary.shp",
+        "ammo_analysis_package_20261014/ammo/gf/ammo_binary.shx",
+        "ammo_analysis_package_20261014/ammo/gf/ammo_core.dbf",
+        "ammo_analysis_package_20261014/ammo/gf/ammo_core.shp",
+        "ammo_analysis_package_20261014/ammo/gf/ammo_core.shx",
+        "ammo_analysis_package_20261014/ammo/gf/ammo_peri.dbf",
+        "ammo_analysis_package_20261014/ammo/gf/ammo_peri.shp",
+        "ammo_analysis_package_20261014/ammo/gf/ammo_peri.shx",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.cpg",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.dbf",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.prj",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.shp",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.shx",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/b15.asc",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/b17.asc",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/b4.asc",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/b5.asc",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/b6.asc",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp126_2040/b15.asc",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp126_2040/b17.asc",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp126_2040/b4.asc",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp126_2040/b5.asc",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp126_2040/b6.asc",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp126_2070/b15.asc",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp126_2070/b17.asc",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp126_2070/b4.asc",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp126_2070/b5.asc",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp126_2070/b6.asc",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp585_2040/b15.asc",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp585_2040/b17.asc",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp585_2040/b4.asc",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp585_2040/b5.asc",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp585_2040/b6.asc",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp585_2070/b15.asc",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp585_2070/b17.asc",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp585_2070/b4.asc",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp585_2070/b5.asc",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp585_2070/b6.asc",
+        "ammo_analysis_package_20261014/ammo/rona/Bio15_avg_avg_diff.asc",
+        "ammo_analysis_package_20261014/ammo/rona/Bio17_avg_avg_diff.asc",
+        "ammo_analysis_package_20261014/ammo/rona/Bio4_avg_avg_diff.asc",
+        "ammo_analysis_package_20261014/ammo/rona/Bio5_avg_avg_diff.asc",
+        "ammo_analysis_package_20261014/ammo/rona/Bio6_avg_avg_diff.asc",
+        "ammo_analysis_package_20261014/ammo/rona/avg_avg_rona_xy.csv",
+        "ammo_analysis_package_20261014/ammo/rona/ssp126_2041_2070_rona_xy.csv",
+        "ammo_analysis_package_20261014/ammo/rona/ssp126_2071_2100_rona_xy.csv",
+        "ammo_analysis_package_20261014/ammo/rona/ssp585_2041_2070_rona_xy.csv",
+        "ammo_analysis_package_20261014/ammo/rona/ssp585_2071_2100_rona_xy.csv",
+        "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+        "runs/revision_run_01/outputs/inputs/sample_metadata.csv",
+        "runs/revision_run_01/outputs/rona/rona_population_long.csv"
+      ],
+      "read_statements": [
+        "source('scripts/revision/common.R')",
+        "source(file.path(skill,'scripts/panel_alignment.R'));source('scripts/revision/measure_panels.R')",
+        "read_shape<-function(name){x<-st_read(file.path(bundle,'ammo/gf',name),quiet=TRUE);if(is.na(st_crs(x)))st_crs(x)<-4326;st_transform(st_make_valid(st_transform(x,32648)),4326)}",
+        "country<-st_read(file.path(bundle,'ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.shp'),quiet=TRUE)",
+        "rona<-read.csv(file.path(output_dir,'rona/rona_population_long.csv'));rona<-rona[rona$gcm=='ENSEMBLE',]",
+        "old_directory<-file.path(bundle,'ammo/rona');oldavg<-read.csv(file.path(old_directory,'avg_avg_rona_xy.csv'),row.names=1)",
+        "oldcases<-lapply(seq_len(nrow(cases)),function(i)read.csv(file.path(old_directory,paste0(cases$ssp[i],'_',gsub('-','_',cases$period[i]),'_rona_xy.csv')),row.names=1))",
+        "bio<-bio_names[i];b<-bio_numbers[i];base<-file.path(bundle,'ammo/gf/chelsa2_crop_selected');cur<-rast(file.path(base,'current',paste0('b',b,'.asc')))",
+        "fut<-lapply(seq_len(4),function(j)rast(file.path(base,paste0(cases$ssp[j],'_',cases$short[j]),paste0('b',b,'.asc'))))",
+        "original<-rast(file.path(old_directory,paste0('Bio',b,'_avg_avg_diff.asc')))",
+        "pal<-read.csv(file.path(directory,'original_Figure6_legend_palette.csv'));stopifnot(nrow(pal)==256)",
+        "fig6plots<-lapply(seq_len(4),function(i){case<-cases[i,];r<-rast(file.path(output_dir,'sdm_reconstruction',paste0(case$ssp,'_',case$period,'_ENSEMBLE_mean.tif')));v<-values(r,mat=FALSE);stopifnot(min(v,na.rm=TRUE)>=0,max(v,na.rm=TRUE)<=1)"
+      ],
+      "helpers": [
+        "scripts/revision/common.R",
+        "scripts/revision/measure_panels.R"
+      ],
+      "external_QA_helpers": [
+        "nature-figure/scripts/panel_alignment.R",
+        "nature-figure/scripts/audit_panel_alignment.py",
+        "nature-figure/scripts/audit_pdf_text.py",
+        "nature-figure/scripts/audit_figure_collisions.py"
+      ],
+      "input_status": [
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/ammo_binary.cpg",
+          "exists": true,
+          "bytes": 5
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/ammo_binary.dbf",
+          "exists": true,
+          "bytes": 26355
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/ammo_binary.prj",
+          "exists": true,
+          "bytes": 145
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/ammo_binary.shp",
+          "exists": true,
+          "bytes": 368324
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/ammo_binary.shx",
+          "exists": true,
+          "bytes": 6876
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/ammo_core.dbf",
+          "exists": true,
+          "bytes": 2426
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/ammo_core.shp",
+          "exists": true,
+          "bytes": 102360
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/ammo_core.shx",
+          "exists": true,
+          "bytes": 1988
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/ammo_peri.dbf",
+          "exists": true,
+          "bytes": 10406
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/ammo_peri.shp",
+          "exists": true,
+          "bytes": 467548
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/ammo_peri.shx",
+          "exists": true,
+          "bytes": 8372
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.cpg",
+          "exists": true,
+          "bytes": 5
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.dbf",
+          "exists": true,
+          "bytes": 2810
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.prj",
+          "exists": true,
+          "bytes": 145
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.shp",
+          "exists": true,
+          "bytes": 273740
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.shx",
+          "exists": true,
+          "bytes": 164
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/b15.asc",
+          "exists": true,
+          "bytes": 16671645
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/b17.asc",
+          "exists": true,
+          "bytes": 16409427
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/b4.asc",
+          "exists": true,
+          "bytes": 16994298
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/b5.asc",
+          "exists": true,
+          "bytes": 17031684
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/b6.asc",
+          "exists": true,
+          "bytes": 18225549
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp126_2040/b15.asc",
+          "exists": true,
+          "bytes": 18900558
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp126_2040/b17.asc",
+          "exists": true,
+          "bytes": 18553389
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp126_2040/b4.asc",
+          "exists": true,
+          "bytes": 18980751
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp126_2040/b5.asc",
+          "exists": true,
+          "bytes": 18981037
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp126_2040/b6.asc",
+          "exists": true,
+          "bytes": 20152548
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp126_2070/b15.asc",
+          "exists": true,
+          "bytes": 18914181
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp126_2070/b17.asc",
+          "exists": true,
+          "bytes": 18540510
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp126_2070/b4.asc",
+          "exists": true,
+          "bytes": 18984900
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp126_2070/b5.asc",
+          "exists": true,
+          "bytes": 19032034
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp126_2070/b6.asc",
+          "exists": true,
+          "bytes": 20183745
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp585_2040/b15.asc",
+          "exists": true,
+          "bytes": 18915713
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp585_2040/b17.asc",
+          "exists": true,
+          "bytes": 18615000
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp585_2040/b4.asc",
+          "exists": true,
+          "bytes": 18985401
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp585_2040/b5.asc",
+          "exists": true,
+          "bytes": 19028209
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp585_2040/b6.asc",
+          "exists": true,
+          "bytes": 20134967
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp585_2070/b15.asc",
+          "exists": true,
+          "bytes": 18910188
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp585_2070/b17.asc",
+          "exists": true,
+          "bytes": 18804870
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp585_2070/b4.asc",
+          "exists": true,
+          "bytes": 18981372
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp585_2070/b5.asc",
+          "exists": true,
+          "bytes": 19047735
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/ssp585_2070/b6.asc",
+          "exists": true,
+          "bytes": 20125786
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/rona/Bio15_avg_avg_diff.asc",
+          "exists": true,
+          "bytes": 20373660
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/rona/Bio17_avg_avg_diff.asc",
+          "exists": true,
+          "bytes": 20235733
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/rona/Bio4_avg_avg_diff.asc",
+          "exists": true,
+          "bytes": 19257285
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/rona/Bio5_avg_avg_diff.asc",
+          "exists": true,
+          "bytes": 19295555
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/rona/Bio6_avg_avg_diff.asc",
+          "exists": true,
+          "bytes": 19386140
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/rona/avg_avg_rona_xy.csv",
+          "exists": true,
+          "bytes": 1777
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/rona/ssp126_2041_2070_rona_xy.csv",
+          "exists": true,
+          "bytes": 1581
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/rona/ssp126_2071_2100_rona_xy.csv",
+          "exists": true,
+          "bytes": 1597
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/rona/ssp585_2041_2070_rona_xy.csv",
+          "exists": true,
+          "bytes": 1598
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/rona/ssp585_2071_2100_rona_xy.csv",
+          "exists": true,
+          "bytes": 1610
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+          "exists": true,
+          "bytes": 1057
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/sample_metadata.csv",
+          "exists": true,
+          "bytes": 10893
+        },
+        {
+          "path": "runs/revision_run_01/outputs/rona/rona_population_long.csv",
+          "exists": true,
+          "bytes": 398995
+        }
+      ],
+      "published_outputs": [
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Main/Figure_2.pdf",
+          "sha256": "a7426f8129aac21f7e21d2baea9632775d1f7806e49e1b00dad92b37cfdc41df",
+          "source_path": "runs/revision_run_01/outputs/figure_revision_original_design/main_2_6/Figure2_original_design.pdf",
+          "byte_identical": true
+        },
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Main/Figure_2.png",
+          "sha256": "ef969fd741c038ee9594dac66b7bd6c60c92abebb44322f9c61e83873e213361",
+          "source_path": "runs/revision_run_01/outputs/figure_revision_original_design/main_2_6/Figure2_original_design.png",
+          "byte_identical": true
+        }
+      ],
+      "code_sha256": "391adf58844d917b02122e568766de5265835bc8446e66a8e9bf4fb8567a0706",
+      "minimal_saved_render_data": [
+        "runs/revision_run_01/outputs/figure_revision_original_design/main_2_6/Figure2_RONA_four_case_mean.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/main_2_6/original_Figure6_legend_palette.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/main_2_6/Figure2_original_design.rds",
+        "runs/revision_run_01/outputs/figure_revision_original_design/main_2_6/Figure2_source_audit.csv"
+      ],
+      "reproducibility_notes": [],
+      "source_stem": "runs/revision_run_01/outputs/figure_revision_original_design/main_2_6/Figure2_original_design",
+      "optional_original_plotobjects_not_required_for_drawing": [
+        "runs/revision_run_01/outputs/figure_revision_original_design/main_2_6/Figure6_original_design.rds"
+      ]
+    },
+    {
+      "figure": "3",
+      "script": "scripts/revision/remake_main_3_5_original.R",
+      "inputs": [
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.cpg",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.dbf",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.prj",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.shp",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.shx",
+        "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp126_2041-2070_ENSEMBLE_forward_inherited_geographic_penalty_degrees_grid.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp126_2041-2070_ENSEMBLE_reverse_inherited_geographic_penalty_degrees_grid.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp126_2071-2100_ENSEMBLE_forward_inherited_geographic_penalty_degrees_grid.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp126_2071-2100_ENSEMBLE_reverse_inherited_geographic_penalty_degrees_grid.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp585_2041-2070_ENSEMBLE_forward_inherited_geographic_penalty_degrees_grid.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp585_2041-2070_ENSEMBLE_reverse_inherited_geographic_penalty_degrees_grid.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp585_2071-2100_ENSEMBLE_forward_inherited_geographic_penalty_degrees_grid.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp585_2071-2100_ENSEMBLE_reverse_inherited_geographic_penalty_degrees_grid.csv",
+        "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+        "runs/revision_run_01/outputs/inputs/sample_metadata.csv"
+      ],
+      "read_statements": [
+        "source('scripts/revision/common.R')",
+        "projection_validation<-jsonlite::read_json(file.path(projection_dir,'validation.json'))",
+        "source(file.path(skill,'scripts/panel_alignment.R'))",
+        "source('scripts/revision/measure_panels.R')",
+        "f<-read.csv(file.path(projection_dir,paste0(stem,'_forward_inherited_geographic_penalty_degrees_grid.csv')))",
+        "r<-read.csv(file.path(projection_dir,paste0(stem,'_reverse_inherited_geographic_penalty_degrees_grid.csv')))",
+        "boundary<-sf::st_read(file.path(base,'chelsa2_crop_selected/current/ammo_extent_country.shp'),quiet=TRUE)",
+        "percent<-read.csv(file.path(output_dir,'landscape/source_destination_population_percentages.csv'))",
+        "report<-jsonlite::read_json(paste0(stem,'.collision-audit.json'))"
+      ],
+      "helpers": [
+        "scripts/revision/common.R",
+        "scripts/revision/measure_panels.R"
+      ],
+      "external_QA_helpers": [
+        "nature-figure/scripts/panel_alignment.R",
+        "nature-figure/scripts/audit_panel_alignment.py",
+        "nature-figure/scripts/audit_pdf_text.py",
+        "nature-figure/scripts/audit_figure_collisions.py"
+      ],
+      "input_status": [
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.cpg",
+          "exists": true,
+          "bytes": 5
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.dbf",
+          "exists": true,
+          "bytes": 2810
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.prj",
+          "exists": true,
+          "bytes": 145
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.shp",
+          "exists": true,
+          "bytes": 273740
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.shx",
+          "exists": true,
+          "bytes": 164
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp126_2041-2070_ENSEMBLE_forward_inherited_geographic_penalty_degrees_grid.csv",
+          "exists": true,
+          "bytes": 32270738
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp126_2041-2070_ENSEMBLE_reverse_inherited_geographic_penalty_degrees_grid.csv",
+          "exists": true,
+          "bytes": 32228048
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp126_2071-2100_ENSEMBLE_forward_inherited_geographic_penalty_degrees_grid.csv",
+          "exists": true,
+          "bytes": 32262999
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp126_2071-2100_ENSEMBLE_reverse_inherited_geographic_penalty_degrees_grid.csv",
+          "exists": true,
+          "bytes": 32214431
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp585_2041-2070_ENSEMBLE_forward_inherited_geographic_penalty_degrees_grid.csv",
+          "exists": true,
+          "bytes": 32072143
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp585_2041-2070_ENSEMBLE_reverse_inherited_geographic_penalty_degrees_grid.csv",
+          "exists": true,
+          "bytes": 32167855
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp585_2071-2100_ENSEMBLE_forward_inherited_geographic_penalty_degrees_grid.csv",
+          "exists": true,
+          "bytes": 32104780
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp585_2071-2100_ENSEMBLE_reverse_inherited_geographic_penalty_degrees_grid.csv",
+          "exists": true,
+          "bytes": 32141733
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+          "exists": true,
+          "bytes": 1057
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/sample_metadata.csv",
+          "exists": true,
+          "bytes": 10893
+        }
+      ],
+      "published_outputs": [
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Main/Figure_3.pdf",
+          "sha256": "d983dd791b6d293024ad6472058c62c78abc1bb72c5f594cbadc9b8c99bab857",
+          "source_path": "runs/revision_run_01/outputs/figure_revision_original_design/main_3_5/Figure_3_original_design.pdf",
+          "byte_identical": true
+        },
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Main/Figure_3.png",
+          "sha256": "389da20c5d525cb66c1274f639a39b1894d720df19820faff7413d2282d8884d",
+          "source_path": "runs/revision_run_01/outputs/figure_revision_original_design/main_3_5/Figure_3_original_design.png",
+          "byte_identical": true
+        }
+      ],
+      "code_sha256": "7a2c16326a84debd9be74049366ad78ff1714f70c826155f06175a1b8f6de5f5",
+      "minimal_saved_render_data": [
+        "runs/revision_run_01/outputs/figure_revision_original_design/main_3_5/Figure_5_source_percentages.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/main_3_5/Figure_5_original_design.rds",
+        "runs/revision_run_01/outputs/figure_revision_original_design/main_3_5/Figure_3_RGB_channel_limits.csv"
+      ],
+      "reproducibility_notes": [],
+      "source_stem": "runs/revision_run_01/outputs/figure_revision_original_design/main_3_5/Figure_3_original_design",
+      "optional_original_plotobjects_not_required_for_drawing": [
+        "runs/revision_run_01/outputs/figure_revision_original_design/main_3_5/Figure_3_original_design.rds"
+      ]
+    },
+    {
+      "figure": "4",
+      "script": "scripts/revision/remake_main_1_4_original.R",
+      "inputs": [
+        "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+        "runs/revision_run_01/outputs/inputs/sample_metadata.csv",
+        "runs/revision_run_01/outputs/landscape_statistics/population_class_effects.csv",
+        "runs/revision_run_01/outputs/landscape_statistics/population_offsets_wide.csv"
+      ],
+      "read_statements": [
+        "source(file.path('scripts','revision','common.R'))",
+        "source(file.path(skill,'scripts','panel_alignment.R'))",
+        "r <- read.csv(file.path(output_dir,'rona','rona_population_long.csv'))",
+        "g <- read.csv(file.path(output_dir,'landscape_statistics','population_offsets_wide.csv'))",
+        "tests <- read.csv(file.path(output_dir,'landscape_statistics','population_class_effects.csv'))"
+      ],
+      "helpers": [],
+      "external_QA_helpers": [
+        "nature-figure/scripts/panel_alignment.R",
+        "nature-figure/scripts/audit_panel_alignment.py",
+        "nature-figure/scripts/audit_pdf_text.py",
+        "nature-figure/scripts/audit_figure_collisions.py"
+      ],
+      "input_status": [
+        {
+          "path": "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+          "exists": true,
+          "bytes": 1057
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/sample_metadata.csv",
+          "exists": true,
+          "bytes": 10893
+        },
+        {
+          "path": "runs/revision_run_01/outputs/landscape_statistics/population_class_effects.csv",
+          "exists": true,
+          "bytes": 22341
+        },
+        {
+          "path": "runs/revision_run_01/outputs/landscape_statistics/population_offsets_wide.csv",
+          "exists": true,
+          "bytes": 122748
+        }
+      ],
+      "published_outputs": [
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Main/Figure_4.pdf",
+          "sha256": "2fd9665f015c49d4db25760077dda390ead0c11941285d79e2aa040c20b217ca",
+          "source_path": "runs/revision_run_01/outputs/figure_revision_original_design/main_1_4/Figure_4.pdf",
+          "byte_identical": true
+        },
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Main/Figure_4.png",
+          "sha256": "97b95a6fa6f69e34b935218f81c4a7bbb0e9867a3856f6769c47be46ebff3303",
+          "source_path": "runs/revision_run_01/outputs/figure_revision_original_design/main_1_4/Figure_4.png",
+          "byte_identical": true
+        }
+      ],
+      "code_sha256": "4a84610b788eb10b267c9f578fd40bd503f73b4bf7cca77d7e8d525939a08da0",
+      "minimal_saved_render_data": [
+        "runs/revision_run_01/outputs/figure_revision_original_design/main_1_4/Figure_4_source_population_offsets.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/main_1_4/Figure_1.rds",
+        "runs/revision_run_01/outputs/figure_revision_original_design/main_1_4/Figure_4.rds",
+        "runs/revision_run_01/outputs/figure_revision_original_design/main_1_4/Figure_1_source_population_four_scenario_means.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/main_1_4/Figure_4_source_bar_mean_sd.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/main_1_4/Figure_4_saved_BH_tests.csv"
+      ],
+      "reproducibility_notes": [],
+      "source_stem": "runs/revision_run_01/outputs/figure_revision_original_design/main_1_4/Figure_4"
+    },
+    {
+      "figure": "5",
+      "script": "revision_oct18/figure_updates/render_main5.R",
+      "inputs": [
+        "revision_oct18/figure_updates/endpoint_percentages.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/validation.json",
+        "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+        "runs/revision_run_01/outputs/inputs/sample_metadata.csv"
+      ],
+      "read_statements": [
+        "source('scripts/revision/common.R')",
+        "projection_validation<-jsonlite::read_json(file.path(projection_dir,'validation.json'))",
+        "source(file.path(skill,'scripts/panel_alignment.R'))",
+        "source('scripts/revision/measure_panels.R')",
+        "f<-read.csv(file.path(projection_dir,paste0(stem,'_forward_inherited_geographic_penalty_degrees_grid.csv')))",
+        "r<-read.csv(file.path(projection_dir,paste0(stem,'_reverse_inherited_geographic_penalty_degrees_grid.csv')))",
+        "boundary<-sf::st_read(file.path(base,'chelsa2_crop_selected/current/ammo_extent_country.shp'),quiet=TRUE)",
+        "percent<-read.csv(file.path(root,'revision_oct18/figure_updates/endpoint_percentages.csv'))",
+        "report<-jsonlite::read_json(paste0(stem,'.collision-audit.json'))"
+      ],
+      "helpers": [
+        "scripts/revision/common.R",
+        "scripts/revision/measure_panels.R"
+      ],
+      "external_QA_helpers": [
+        "nature-figure/scripts/panel_alignment.R",
+        "nature-figure/scripts/audit_panel_alignment.py",
+        "nature-figure/scripts/audit_pdf_text.py",
+        "nature-figure/scripts/audit_figure_collisions.py"
+      ],
+      "input_status": [
+        {
+          "path": "revision_oct18/figure_updates/endpoint_percentages.csv",
+          "exists": true,
+          "bytes": 26453
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/validation.json",
+          "exists": true,
+          "bytes": 270
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+          "exists": true,
+          "bytes": 1057
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/sample_metadata.csv",
+          "exists": true,
+          "bytes": 10893
+        }
+      ],
+      "published_outputs": [
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Main/Figure_5.pdf",
+          "sha256": "068296ae63646cb4ee682d68b147351c606b4ccf31ae561d13a7f84e39112c63",
+          "source_path": "revision_oct18/figure_updates/main5/Figure_5_original_design.pdf",
+          "byte_identical": true
+        },
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Main/Figure_5.png",
+          "sha256": "581c8495a98b6d7e6cdac141f137eaca72c4edc50a28402ddcbbeba6b394c96e",
+          "source_path": "revision_oct18/figure_updates/main5/Figure_5_original_design.png",
+          "byte_identical": true
+        }
+      ],
+      "code_sha256": "af17fd6285c8178ea78b7c9d222d5eccde7e0e42dd8ec853e394bd63023fbfef",
+      "minimal_saved_render_data": [
+        "revision_oct18/figure_updates/main5/Figure_5_source_percentages.csv",
+        "revision_oct18/figure_updates/main5/Figure_5_original_design.rds"
+      ],
+      "reproducibility_notes": [
+        "Final endpoint reporting combines peripheral+unsuitable; numeric source is corrected endpoint_percentages.csv, not original older percentages."
+      ],
+      "source_stem": "revision_oct18/figure_updates/main5/Figure_5_original_design"
+    },
+    {
+      "figure": "6",
+      "script": "revision_oct18_new_structure/figure6_opacity/render_Figure6.R",
+      "inputs": [
+        "ammo_analysis_package_20261014/ammo/gf/ammo_core.dbf",
+        "ammo_analysis_package_20261014/ammo/gf/ammo_core.shp",
+        "ammo_analysis_package_20261014/ammo/gf/ammo_core.shx",
+        "ammo_analysis_package_20261014/ammo/gf/ammo_peri.dbf",
+        "ammo_analysis_package_20261014/ammo/gf/ammo_peri.shp",
+        "ammo_analysis_package_20261014/ammo/gf/ammo_peri.shx",
+        "runs/revision_run_01/outputs/figure_revision_original_design/main_2_6/original_Figure6_legend_palette.csv",
+        "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+        "runs/revision_run_01/outputs/inputs/sample_metadata.csv",
+        "runs/revision_run_01/outputs/sdm_reconstruction/ssp126_2041-2070_ENSEMBLE_mean.tif",
+        "runs/revision_run_01/outputs/sdm_reconstruction/ssp126_2071-2100_ENSEMBLE_mean.tif",
+        "runs/revision_run_01/outputs/sdm_reconstruction/ssp585_2041-2070_ENSEMBLE_mean.tif",
+        "runs/revision_run_01/outputs/sdm_reconstruction/ssp585_2071-2100_ENSEMBLE_mean.tif"
+      ],
+      "read_statements": [
+        "source('scripts/revision/common.R')",
+        "skill<-'/vast/palmer/home.mccleary/ps2327/.codex/skills/nature-figure';source(file.path(skill,'scripts/panel_alignment.R'));source('scripts/revision/measure_panels.R');python<-file.path(root,'envs/analysis/bin/python')",
+        "shape<-function(name){x<-st_read(file.path(bundle,'ammo/gf',name),quiet=TRUE);if(is.na(st_crs(x)))st_crs(x)<-4326;x<-st_transform(st_make_valid(st_transform(x,32648)),4326);suppressWarnings(st_crop(x,st_bbox(c(xmin=100,ymin=36,xmax=110,ymax=44),crs=st_crs(4326))))}",
+        "rasters<-lapply(1:4,function(i)rast(file.path(output_dir,'sdm_reconstruction',paste0(cases$ssp[i],'_',cases$period[i],'_ENSEMBLE_mean.tif'))))",
+        "palette<-read.csv(file.path(output_dir,'figure_revision_original_design/main_2_6/original_Figure6_legend_palette.csv'))$colour"
+      ],
+      "helpers": [
+        "scripts/revision/common.R",
+        "scripts/revision/measure_panels.R"
+      ],
+      "external_QA_helpers": [
+        "nature-figure/scripts/panel_alignment.R",
+        "nature-figure/scripts/audit_panel_alignment.py",
+        "nature-figure/scripts/audit_pdf_text.py",
+        "nature-figure/scripts/audit_figure_collisions.py"
+      ],
+      "input_status": [
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/ammo_core.dbf",
+          "exists": true,
+          "bytes": 2426
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/ammo_core.shp",
+          "exists": true,
+          "bytes": 102360
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/ammo_core.shx",
+          "exists": true,
+          "bytes": 1988
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/ammo_peri.dbf",
+          "exists": true,
+          "bytes": 10406
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/ammo_peri.shp",
+          "exists": true,
+          "bytes": 467548
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/ammo_peri.shx",
+          "exists": true,
+          "bytes": 8372
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figure_revision_original_design/main_2_6/original_Figure6_legend_palette.csv",
+          "exists": true,
+          "bytes": 9588
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+          "exists": true,
+          "bytes": 1057
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/sample_metadata.csv",
+          "exists": true,
+          "bytes": 10893
+        },
+        {
+          "path": "runs/revision_run_01/outputs/sdm_reconstruction/ssp126_2041-2070_ENSEMBLE_mean.tif",
+          "exists": true,
+          "bytes": 4157384
+        },
+        {
+          "path": "runs/revision_run_01/outputs/sdm_reconstruction/ssp126_2071-2100_ENSEMBLE_mean.tif",
+          "exists": true,
+          "bytes": 4157548
+        },
+        {
+          "path": "runs/revision_run_01/outputs/sdm_reconstruction/ssp585_2041-2070_ENSEMBLE_mean.tif",
+          "exists": true,
+          "bytes": 4151071
+        },
+        {
+          "path": "runs/revision_run_01/outputs/sdm_reconstruction/ssp585_2071-2100_ENSEMBLE_mean.tif",
+          "exists": true,
+          "bytes": 4144452
+        }
+      ],
+      "published_outputs": [
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Main/Figure_6.pdf",
+          "sha256": "45755cf04a48c7e292e269251fa2b73846e51468162beb32659c4d87e75a78f2",
+          "source_path": "revision_oct18_new_structure/figure6_opacity/Figure_6.pdf",
+          "byte_identical": true
+        },
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Main/Figure_6.png",
+          "sha256": "990af23877f3eea098f01d7cb7f43cef3272089d45ca4dc7a80024d6a7307221",
+          "source_path": "revision_oct18_new_structure/figure6_opacity/Figure_6.png",
+          "byte_identical": true
+        }
+      ],
+      "code_sha256": "b20f7d26bd52f7a98132a5e4f11e0da94cfb9e9f158e5a49da0dee2b2772607a",
+      "minimal_saved_render_data": [
+        "revision_oct18_new_structure/figure6_opacity/colour_scale_source.csv"
+      ],
+      "reproducibility_notes": [
+        "Latest core opacity .50; peripheral fill NA. Preserve exact 4 numeric suitability rasters + extracted palette + habitat polygon sidecars."
+      ],
+      "source_stem": "revision_oct18_new_structure/figure6_opacity/Figure_6",
+      "optional_original_plotobjects_not_required_for_drawing": [
+        "revision_oct18_new_structure/figure6_opacity/Figure_6.rds"
+      ]
+    },
+    {
+      "figure": "S1",
+      "script": "revision_oct18_discussion/figure_niche/render_S1_asia.R",
+      "inputs": [
+        "ammo_analysis_package_20261014/ammo/gf/ammo_core.dbf",
+        "ammo_analysis_package_20261014/ammo/gf/ammo_core.shp",
+        "ammo_analysis_package_20261014/ammo/gf/ammo_core.shx",
+        "ammo_analysis_package_20261014/ammo/gf/ammo_peri.dbf",
+        "ammo_analysis_package_20261014/ammo/gf/ammo_peri.shp",
+        "ammo_analysis_package_20261014/ammo/gf/ammo_peri.shx",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.cpg",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.dbf",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.prj",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.shp",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.shx",
+        "revision_oct18/figure_updates/map_sources/ne_110m_admin_0_countries.geojson",
+        "runs/revision_run_01/outputs/figures/demography/history_source_manifest.csv",
+        "runs/revision_run_01/outputs/figures/demography/lossless_history_plot_data.csv.gz",
+        "runs/revision_run_01/outputs/figures/genetic_pca/PCA_scores_and_group_assignments.csv",
+        "runs/revision_run_01/outputs/figures/genetic_pca/PCA_variance.csv",
+        "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+        "runs/revision_run_01/outputs/inputs/sample_metadata.csv",
+        "runs/revision_run_01/outputs/sdm_reconstruction/current_suitability.tif",
+        "runs/revision_run_01/outputs/sdm_reconstruction/current_suitable_MTSS.tif"
+      ],
+      "read_statements": [
+        "source('scripts/revision/common.R')",
+        "skill<-'/vast/palmer/home.mccleary/ps2327/.codex/skills/nature-figure';source(file.path(skill,'scripts/panel_alignment.R'));source('scripts/revision/measure_S1_S2_panels.R');python<-file.path(root,'envs/analysis/bin/python')",
+        "pca_dir<-file.path(output_dir,'figures/genetic_pca');scores<-read.csv(file.path(pca_dir,'PCA_scores_and_group_assignments.csv'));var<-read.csv(file.path(pca_dir,'PCA_variance.csv'));stopifnot(nrow(scores)==217)",
+        "manifest<-read.csv(file.path(output_dir,'figures/demography/history_source_manifest.csv'));selected<-manifest[manifest$page==1,];stopifnot(nrow(selected)==6)",
+        "curves<-read.csv(gzfile(file.path(output_dir,'figures/demography/lossless_history_plot_data.csv.gz')))",
+        "read_shape<-function(path){x<-st_read(path,quiet=TRUE);if(is.na(st_crs(x)))st_crs(x)<-4326;st_transform(st_make_valid(st_transform(x,32648)),4326)}",
+        "context<-sf::st_read(file.path(root,'revision_oct18/figure_updates/map_sources/ne_110m_admin_0_countries.geojson'),quiet=TRUE)",
+        "r<-rast(file.path(output_dir,'sdm_reconstruction/current_suitability.tif'));binary<-rast(file.path(output_dir,'sdm_reconstruction/current_suitable_MTSS.tif'));stopifnot(compareGeom(r,binary))"
+      ],
+      "helpers": [
+        "scripts/revision/common.R",
+        "scripts/revision/measure_S1_S2_panels.R"
+      ],
+      "external_QA_helpers": [
+        "nature-figure/scripts/panel_alignment.R",
+        "nature-figure/scripts/audit_panel_alignment.py",
+        "nature-figure/scripts/audit_pdf_text.py",
+        "nature-figure/scripts/audit_figure_collisions.py"
+      ],
+      "input_status": [
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/ammo_core.dbf",
+          "exists": true,
+          "bytes": 2426
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/ammo_core.shp",
+          "exists": true,
+          "bytes": 102360
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/ammo_core.shx",
+          "exists": true,
+          "bytes": 1988
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/ammo_peri.dbf",
+          "exists": true,
+          "bytes": 10406
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/ammo_peri.shp",
+          "exists": true,
+          "bytes": 467548
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/ammo_peri.shx",
+          "exists": true,
+          "bytes": 8372
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.cpg",
+          "exists": true,
+          "bytes": 5
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.dbf",
+          "exists": true,
+          "bytes": 2810
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.prj",
+          "exists": true,
+          "bytes": 145
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.shp",
+          "exists": true,
+          "bytes": 273740
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.shx",
+          "exists": true,
+          "bytes": 164
+        },
+        {
+          "path": "revision_oct18/figure_updates/map_sources/ne_110m_admin_0_countries.geojson",
+          "exists": true,
+          "bytes": 838726
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figures/demography/history_source_manifest.csv",
+          "exists": true,
+          "bytes": 11997
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figures/demography/lossless_history_plot_data.csv.gz",
+          "exists": true,
+          "bytes": 614257
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figures/genetic_pca/PCA_scores_and_group_assignments.csv",
+          "exists": true,
+          "bytes": 21787
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figures/genetic_pca/PCA_variance.csv",
+          "exists": true,
+          "bytes": 5119
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+          "exists": true,
+          "bytes": 1057
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/sample_metadata.csv",
+          "exists": true,
+          "bytes": 10893
+        },
+        {
+          "path": "runs/revision_run_01/outputs/sdm_reconstruction/current_suitability.tif",
+          "exists": true,
+          "bytes": 4158645
+        },
+        {
+          "path": "runs/revision_run_01/outputs/sdm_reconstruction/current_suitable_MTSS.tif",
+          "exists": true,
+          "bytes": 29870
+        }
+      ],
+      "published_outputs": [
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S1.pdf",
+          "sha256": "0b017331e71afbfbdb3fc9417d4d379b9e7de241d9643c188f5b809808e87646",
+          "source_path": "revision_oct18_discussion/figure_niche/S1/S1_original_design.pdf",
+          "byte_identical": true
+        },
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S1.png",
+          "sha256": "fc5c5744276963b1b16abb263ac8068524cec5f4f0c5ec0b731f52fa48878e52",
+          "source_path": "revision_oct18_discussion/figure_niche/S1/S1_original_design.png",
+          "byte_identical": true
+        }
+      ],
+      "code_sha256": "2e94358f57af8cbd88dbf2a013cbf9e1724e0c770a8f5bd0d7c000cf2b231482",
+      "minimal_saved_render_data": [
+        "revision_oct18_discussion/figure_niche/S1/S2_genetic_PCA_points.csv",
+        "revision_oct18_discussion/figure_niche/S1/S2_saved_history_plot_data.csv",
+        "revision_oct18_discussion/figure_niche/S1/S1_population_coordinates_classes.csv",
+        "revision_oct18_discussion/figure_niche/S1/S1_outer_label_positions.csv",
+        "revision_oct18_discussion/figure_niche/S1/S1_cartographic_sources.csv",
+        "revision_oct18_discussion/figure_niche/S1/S1_zoom_population_subset.csv",
+        "revision_oct18_discussion/figure_niche/S1/S1_original_design.rds",
+        "revision_oct18_discussion/figure_niche/S1/S1_zoom_label_positions.csv",
+        "revision_oct18_discussion/figure_niche/S1/S2_history_source_manifest.csv"
+      ],
+      "reproducibility_notes": [],
+      "source_stem": "revision_oct18_discussion/figure_niche/S1/S1_original_design"
+    },
+    {
+      "figure": "S2",
+      "script": "revision_oct18/figure_updates/render_S2.R",
+      "inputs": [
+        "runs/revision_run_01/outputs/figures/demography/history_source_manifest.csv",
+        "runs/revision_run_01/outputs/figures/demography/lossless_history_plot_data.csv.gz",
+        "runs/revision_run_01/outputs/figures/genetic_pca/PCA_scores_and_group_assignments.csv",
+        "runs/revision_run_01/outputs/figures/genetic_pca/PCA_variance.csv",
+        "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+        "runs/revision_run_01/outputs/inputs/sample_metadata.csv"
+      ],
+      "read_statements": [
+        "source('scripts/revision/common.R')",
+        "skill<-'/vast/palmer/home.mccleary/ps2327/.codex/skills/nature-figure';source(file.path(skill,'scripts/panel_alignment.R'));source('scripts/revision/measure_S1_S2_panels.R');python<-file.path(root,'envs/analysis/bin/python')",
+        "pca_dir<-file.path(output_dir,'figures/genetic_pca');scores<-read.csv(file.path(pca_dir,'PCA_scores_and_group_assignments.csv'));var<-read.csv(file.path(pca_dir,'PCA_variance.csv'));stopifnot(nrow(scores)==217)",
+        "manifest<-read.csv(file.path(output_dir,'figures/demography/history_source_manifest.csv'));selected<-manifest[manifest$page==1,];stopifnot(nrow(selected)==6)",
+        "curves<-read.csv(gzfile(file.path(output_dir,'figures/demography/lossless_history_plot_data.csv.gz')))"
+      ],
+      "helpers": [
+        "scripts/revision/common.R",
+        "scripts/revision/measure_S1_S2_panels.R"
+      ],
+      "external_QA_helpers": [
+        "nature-figure/scripts/panel_alignment.R",
+        "nature-figure/scripts/audit_panel_alignment.py",
+        "nature-figure/scripts/audit_pdf_text.py",
+        "nature-figure/scripts/audit_figure_collisions.py"
+      ],
+      "input_status": [
+        {
+          "path": "runs/revision_run_01/outputs/figures/demography/history_source_manifest.csv",
+          "exists": true,
+          "bytes": 11997
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figures/demography/lossless_history_plot_data.csv.gz",
+          "exists": true,
+          "bytes": 614257
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figures/genetic_pca/PCA_scores_and_group_assignments.csv",
+          "exists": true,
+          "bytes": 21787
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figures/genetic_pca/PCA_variance.csv",
+          "exists": true,
+          "bytes": 5119
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+          "exists": true,
+          "bytes": 1057
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/sample_metadata.csv",
+          "exists": true,
+          "bytes": 10893
+        }
+      ],
+      "published_outputs": [
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S2.pdf",
+          "sha256": "2df8aeee10307d2eb6491d151f64ddc79b1b78f6f4e12851acd93e989ae31079",
+          "source_path": "revision_oct18/figure_updates/S2/S2_original_design.pdf",
+          "byte_identical": true
+        },
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S2.png",
+          "sha256": "c155a8b2ac5a9b806d491207fdae86789f05b16db246520f49a78b08fd161548",
+          "source_path": "revision_oct18/figure_updates/S2/S2_original_design.png",
+          "byte_identical": true
+        }
+      ],
+      "code_sha256": "00d0cdee7eb0efd20acb47e59567251d1e7a5ecb8352a14ee6420d7e255e75f9",
+      "minimal_saved_render_data": [
+        "revision_oct18/figure_updates/S2/S2_genetic_PCA_points.csv",
+        "revision_oct18/figure_updates/S2/S2_saved_history_plot_data.csv",
+        "revision_oct18/figure_updates/S2/S2_original_design.rds",
+        "revision_oct18/figure_updates/S2/S2_history_source_manifest.csv"
+      ],
+      "reproducibility_notes": [],
+      "source_stem": "revision_oct18/figure_updates/S2/S2_original_design"
+    },
+    {
+      "figure": "S3",
+      "script": "scripts/revision/remake_S1_S4_original.R",
+      "inputs": [
+        "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+        "runs/revision_run_01/outputs/inputs/sample_metadata.csv",
+        "runs/revision_run_01/outputs/niche_reconstruction/core_density.csv",
+        "runs/revision_run_01/outputs/niche_reconstruction/equivalency_null.csv",
+        "runs/revision_run_01/outputs/niche_reconstruction/niche_plot_objects.rds",
+        "runs/revision_run_01/outputs/niche_reconstruction/pca_variance.csv",
+        "runs/revision_run_01/outputs/niche_reconstruction/peripheral_density.csv",
+        "runs/revision_run_01/outputs/niche_reconstruction/population_climate.csv",
+        "runs/revision_run_01/outputs/niche_reconstruction/population_pca_scores.csv",
+        "runs/revision_run_01/outputs/niche_reconstruction/similarity_core_fixed_null.csv",
+        "runs/revision_run_01/outputs/niche_reconstruction/similarity_peripheral_fixed_null.csv",
+        "runs/revision_run_01/outputs/niche_reconstruction/test_summary.csv",
+        "runs/revision_run_01/outputs/niche_reconstruction/validation.json"
+      ],
+      "read_statements": [
+        "source('scripts/revision/common.R')",
+        "source(file.path(skill,'scripts/panel_alignment.R'));source('scripts/revision/measure_S1_S4_panels.R')",
+        "obj<-readRDS(file.path(input,'niche_plot_objects.rds'))",
+        "core<-read.csv(file.path(input,'core_density.csv'));peri<-read.csv(file.path(input,'peripheral_density.csv'))",
+        "score<-read.csv(file.path(input,'population_pca_scores.csv'))",
+        "variance<-read.csv(file.path(input,'pca_variance.csv'))",
+        "summary<-read.csv(file.path(input,'test_summary.csv'))",
+        "clim<-read.csv(file.path(input,'population_climate.csv'))",
+        "k<-k+1;null<-read.csv(file.path(input,paste0(test,'_null.csv')));vals<-null[[metric]];stopifnot(all(is.finite(vals)),all(vals>=-1e-12),all(vals<=1+1e-12));vals[pmin(abs(vals),1)<1e-12]<-0"
+      ],
+      "helpers": [
+        "scripts/revision/common.R",
+        "scripts/revision/measure_S1_S4_panels.R"
+      ],
+      "external_QA_helpers": [
+        "nature-figure/scripts/panel_alignment.R",
+        "nature-figure/scripts/audit_panel_alignment.py",
+        "nature-figure/scripts/audit_pdf_text.py",
+        "nature-figure/scripts/audit_figure_collisions.py"
+      ],
+      "input_status": [
+        {
+          "path": "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+          "exists": true,
+          "bytes": 1057
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/sample_metadata.csv",
+          "exists": true,
+          "bytes": 10893
+        },
+        {
+          "path": "runs/revision_run_01/outputs/niche_reconstruction/core_density.csv",
+          "exists": true,
+          "bytes": 371534
+        },
+        {
+          "path": "runs/revision_run_01/outputs/niche_reconstruction/equivalency_null.csv",
+          "exists": true,
+          "bytes": 88144
+        },
+        {
+          "path": "runs/revision_run_01/outputs/niche_reconstruction/niche_plot_objects.rds",
+          "exists": true,
+          "bytes": 65346
+        },
+        {
+          "path": "runs/revision_run_01/outputs/niche_reconstruction/pca_variance.csv",
+          "exists": true,
+          "bytes": 123
+        },
+        {
+          "path": "runs/revision_run_01/outputs/niche_reconstruction/peripheral_density.csv",
+          "exists": true,
+          "bytes": 384008
+        },
+        {
+          "path": "runs/revision_run_01/outputs/niche_reconstruction/population_climate.csv",
+          "exists": true,
+          "bytes": 2551
+        },
+        {
+          "path": "runs/revision_run_01/outputs/niche_reconstruction/population_pca_scores.csv",
+          "exists": true,
+          "bytes": 1840
+        },
+        {
+          "path": "runs/revision_run_01/outputs/niche_reconstruction/similarity_core_fixed_null.csv",
+          "exists": true,
+          "bytes": 61396
+        },
+        {
+          "path": "runs/revision_run_01/outputs/niche_reconstruction/similarity_peripheral_fixed_null.csv",
+          "exists": true,
+          "bytes": 70136
+        },
+        {
+          "path": "runs/revision_run_01/outputs/niche_reconstruction/test_summary.csv",
+          "exists": true,
+          "bytes": 705
+        },
+        {
+          "path": "runs/revision_run_01/outputs/niche_reconstruction/validation.json",
+          "exists": true,
+          "bytes": 402
+        }
+      ],
+      "published_outputs": [
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S3.pdf",
+          "sha256": "a9f6a389804ac3e67c76acd5bfabb323e1c4a7cdc57fceba25f89d3911b89b12",
+          "source_path": "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S1_S4/S3_original_design.pdf",
+          "byte_identical": true
+        },
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S3.png",
+          "sha256": "f848f2f3712a9ed3464d9f0dd72d01f60cacceba46cd29ed9bc3718f75a85a9f",
+          "source_path": "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S1_S4/S3_original_design.png",
+          "byte_identical": true
+        }
+      ],
+      "code_sha256": "d7907aa50ba3246055ba87cf8364b19917b9a4cac6733e7aaea991b5be947f51",
+      "minimal_saved_render_data": [
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S1_S4/S3_D_I_QA.rds",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S1_S4/S3_original_design.rds",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S1_S4/S3_descriptive_density_curves.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S1_S4/S4_test_summary.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S1_S4/S4_null_values.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S1_S4/S3_correlation_circle.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S1_S4/S4_original_design.rds",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S1_S4/S4_repair_QA.rds",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S1_S4/S3_overlap_display.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S1_S4/S3_population_climate_source.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S1_S4/S3_repair_QA.rds"
+      ],
+      "reproducibility_notes": [],
+      "source_stem": "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S1_S4/S3_original_design"
+    },
+    {
+      "figure": "S4",
+      "script": "scripts/revision/remake_S1_S4_original.R",
+      "inputs": [
+        "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+        "runs/revision_run_01/outputs/inputs/sample_metadata.csv",
+        "runs/revision_run_01/outputs/niche_reconstruction/core_density.csv",
+        "runs/revision_run_01/outputs/niche_reconstruction/equivalency_null.csv",
+        "runs/revision_run_01/outputs/niche_reconstruction/niche_plot_objects.rds",
+        "runs/revision_run_01/outputs/niche_reconstruction/pca_variance.csv",
+        "runs/revision_run_01/outputs/niche_reconstruction/peripheral_density.csv",
+        "runs/revision_run_01/outputs/niche_reconstruction/population_climate.csv",
+        "runs/revision_run_01/outputs/niche_reconstruction/population_pca_scores.csv",
+        "runs/revision_run_01/outputs/niche_reconstruction/similarity_core_fixed_null.csv",
+        "runs/revision_run_01/outputs/niche_reconstruction/similarity_peripheral_fixed_null.csv",
+        "runs/revision_run_01/outputs/niche_reconstruction/test_summary.csv",
+        "runs/revision_run_01/outputs/niche_reconstruction/validation.json"
+      ],
+      "read_statements": [
+        "source('scripts/revision/common.R')",
+        "source(file.path(skill,'scripts/panel_alignment.R'));source('scripts/revision/measure_S1_S4_panels.R')",
+        "obj<-readRDS(file.path(input,'niche_plot_objects.rds'))",
+        "core<-read.csv(file.path(input,'core_density.csv'));peri<-read.csv(file.path(input,'peripheral_density.csv'))",
+        "score<-read.csv(file.path(input,'population_pca_scores.csv'))",
+        "variance<-read.csv(file.path(input,'pca_variance.csv'))",
+        "summary<-read.csv(file.path(input,'test_summary.csv'))",
+        "clim<-read.csv(file.path(input,'population_climate.csv'))",
+        "k<-k+1;null<-read.csv(file.path(input,paste0(test,'_null.csv')));vals<-null[[metric]];stopifnot(all(is.finite(vals)),all(vals>=-1e-12),all(vals<=1+1e-12));vals[pmin(abs(vals),1)<1e-12]<-0"
+      ],
+      "helpers": [
+        "scripts/revision/common.R",
+        "scripts/revision/measure_S1_S4_panels.R"
+      ],
+      "external_QA_helpers": [
+        "nature-figure/scripts/panel_alignment.R",
+        "nature-figure/scripts/audit_panel_alignment.py",
+        "nature-figure/scripts/audit_pdf_text.py",
+        "nature-figure/scripts/audit_figure_collisions.py"
+      ],
+      "input_status": [
+        {
+          "path": "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+          "exists": true,
+          "bytes": 1057
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/sample_metadata.csv",
+          "exists": true,
+          "bytes": 10893
+        },
+        {
+          "path": "runs/revision_run_01/outputs/niche_reconstruction/core_density.csv",
+          "exists": true,
+          "bytes": 371534
+        },
+        {
+          "path": "runs/revision_run_01/outputs/niche_reconstruction/equivalency_null.csv",
+          "exists": true,
+          "bytes": 88144
+        },
+        {
+          "path": "runs/revision_run_01/outputs/niche_reconstruction/niche_plot_objects.rds",
+          "exists": true,
+          "bytes": 65346
+        },
+        {
+          "path": "runs/revision_run_01/outputs/niche_reconstruction/pca_variance.csv",
+          "exists": true,
+          "bytes": 123
+        },
+        {
+          "path": "runs/revision_run_01/outputs/niche_reconstruction/peripheral_density.csv",
+          "exists": true,
+          "bytes": 384008
+        },
+        {
+          "path": "runs/revision_run_01/outputs/niche_reconstruction/population_climate.csv",
+          "exists": true,
+          "bytes": 2551
+        },
+        {
+          "path": "runs/revision_run_01/outputs/niche_reconstruction/population_pca_scores.csv",
+          "exists": true,
+          "bytes": 1840
+        },
+        {
+          "path": "runs/revision_run_01/outputs/niche_reconstruction/similarity_core_fixed_null.csv",
+          "exists": true,
+          "bytes": 61396
+        },
+        {
+          "path": "runs/revision_run_01/outputs/niche_reconstruction/similarity_peripheral_fixed_null.csv",
+          "exists": true,
+          "bytes": 70136
+        },
+        {
+          "path": "runs/revision_run_01/outputs/niche_reconstruction/test_summary.csv",
+          "exists": true,
+          "bytes": 705
+        },
+        {
+          "path": "runs/revision_run_01/outputs/niche_reconstruction/validation.json",
+          "exists": true,
+          "bytes": 402
+        }
+      ],
+      "published_outputs": [
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S4.pdf",
+          "sha256": "c12b8523ade9b0fa8d743858e02811cc67b8fbead7859874564521b05c180d3a",
+          "source_path": "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S1_S4/S4_original_design.pdf",
+          "byte_identical": true
+        },
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S4.png",
+          "sha256": "b32394b564d647fd2505db05da728f5c7b589384d354b0b4e0475fdc6c369480",
+          "source_path": "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S1_S4/S4_original_design.png",
+          "byte_identical": true
+        }
+      ],
+      "code_sha256": "d7907aa50ba3246055ba87cf8364b19917b9a4cac6733e7aaea991b5be947f51",
+      "minimal_saved_render_data": [
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S1_S4/S3_D_I_QA.rds",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S1_S4/S3_original_design.rds",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S1_S4/S3_descriptive_density_curves.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S1_S4/S4_test_summary.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S1_S4/S4_null_values.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S1_S4/S3_correlation_circle.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S1_S4/S4_original_design.rds",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S1_S4/S4_repair_QA.rds",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S1_S4/S3_overlap_display.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S1_S4/S3_population_climate_source.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S1_S4/S3_repair_QA.rds"
+      ],
+      "reproducibility_notes": [],
+      "source_stem": "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S1_S4/S4_original_design"
+    },
+    {
+      "figure": "S5",
+      "script": "scripts/revision/remake_S5_original.R",
+      "inputs": [
+        "runs/revision_run_01/outputs/functional_reconstruction/postprocess/population_class_comparisons.csv",
+        "runs/revision_run_01/outputs/functional_reconstruction/postprocess/population_ratios.csv",
+        "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+        "runs/revision_run_01/outputs/inputs/sample_metadata.csv"
+      ],
+      "read_statements": [
+        "source('scripts/revision/common.R')",
+        "source(file.path(skill,'scripts/panel_alignment.R'))",
+        "source('scripts/revision/measure_panels.R')",
+        "d <- read.csv(file.path(output_dir,'functional_reconstruction/postprocess/population_ratios.csv'))",
+        "tests <- read.csv(file.path(output_dir,'functional_reconstruction/postprocess/population_class_comparisons.csv'))"
+      ],
+      "helpers": [
+        "scripts/revision/common.R",
+        "scripts/revision/measure_panels.R"
+      ],
+      "external_QA_helpers": [
+        "nature-figure/scripts/panel_alignment.R",
+        "nature-figure/scripts/audit_panel_alignment.py",
+        "nature-figure/scripts/audit_pdf_text.py",
+        "nature-figure/scripts/audit_figure_collisions.py"
+      ],
+      "input_status": [
+        {
+          "path": "runs/revision_run_01/outputs/functional_reconstruction/postprocess/population_class_comparisons.csv",
+          "exists": true,
+          "bytes": 4309
+        },
+        {
+          "path": "runs/revision_run_01/outputs/functional_reconstruction/postprocess/population_ratios.csv",
+          "exists": true,
+          "bytes": 52180
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+          "exists": true,
+          "bytes": 1057
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/sample_metadata.csv",
+          "exists": true,
+          "bytes": 10893
+        }
+      ],
+      "published_outputs": [
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S5.pdf",
+          "sha256": "b825576750b12c00adbe2e74d7e0446002ea3c135bdbca297fc9dc9a31343ac0",
+          "source_path": "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S5/Figure_S5.pdf",
+          "byte_identical": true
+        },
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S5.png",
+          "sha256": "6f2e058482f26960fda416b08b6b244e843068a251b2e53a1b35ff4e9567b960",
+          "source_path": "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S5/Figure_S5.png",
+          "byte_identical": true
+        }
+      ],
+      "code_sha256": "3dea11bbf443d0d7db65662f7681c34ccdb461883777afa54a4cb65013b8793e",
+      "minimal_saved_render_data": [
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S5/Figure_S5.rds",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S5/Figure_S5_source.csv"
+      ],
+      "reproducibility_notes": [],
+      "source_stem": "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S5/Figure_S5"
+    },
+    {
+      "figure": "S6",
+      "script": "revision_oct16_night/figures/render_S6_combined.R",
+      "inputs": [
+        "runs/revision_run_01/outputs/oct16_revision/all_driver_models_postprocess/top1_GAM_conditional_curve_source.csv",
+        "runs/revision_run_01/outputs/oct16_revision/all_driver_models_postprocess/validation.json"
+      ],
+      "read_statements": [
+        "skill<-'/vast/palmer/home.mccleary/ps2327/.codex/skills/nature-figure';python<-file.path(getwd(),'envs/analysis/bin/python');source(file.path(skill,'scripts/panel_alignment.R'));source('scripts/revision/measure_panels.R')",
+        "v<-read_json(file.path(src,'validation.json'),simplifyVector=TRUE);stopifnot(isTRUE(v$validated),v$n_cases==20)",
+        "d<-read.csv(file.path(src,'top1_GAM_conditional_curve_source.csv'));d$bio<-sub('.*_','',d$case_id);d$scenario<-sub('_bio[0-9]+$','',d$case_id)"
+      ],
+      "helpers": [
+        "scripts/revision/measure_panels.R"
+      ],
+      "external_QA_helpers": [
+        "nature-figure/scripts/panel_alignment.R",
+        "nature-figure/scripts/audit_panel_alignment.py",
+        "nature-figure/scripts/audit_pdf_text.py",
+        "nature-figure/scripts/audit_figure_collisions.py"
+      ],
+      "input_status": [
+        {
+          "path": "runs/revision_run_01/outputs/oct16_revision/all_driver_models_postprocess/top1_GAM_conditional_curve_source.csv",
+          "exists": true,
+          "bytes": 3718575
+        },
+        {
+          "path": "runs/revision_run_01/outputs/oct16_revision/all_driver_models_postprocess/validation.json",
+          "exists": true,
+          "bytes": 128
+        }
+      ],
+      "published_outputs": [
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S6.pdf",
+          "sha256": "893d9ba08103c0847f55c8f61fb97fc6c5c79a18fa4040939f4011614faaf398",
+          "source_path": "revision_oct16_night/figures/output_S6/Figure_S6.pdf",
+          "byte_identical": true
+        },
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S6.png",
+          "sha256": "a4ec5a9e0909ebb4fc7a1636db313999fbfce25a07032176fdb9cb684592354c",
+          "source_path": "revision_oct16_night/figures/output_S6/Figure_S6.png",
+          "byte_identical": true
+        }
+      ],
+      "code_sha256": "c54faa521741f2e530ae4e22068177fb57828f5f31be070966fb9d685df689c8",
+      "minimal_saved_render_data": [
+        "revision_oct16_night/figures/output_S6/Figure_S6_source.csv",
+        "revision_oct16_night/figures/output_S6/Figure_S6_data.rds"
+      ],
+      "reproducibility_notes": [
+        "Uses final all-driver selected models and nested selection validation; old climate/Ho-only figures are superseded."
+      ],
+      "source_stem": "revision_oct16_night/figures/output_S6/Figure_S6"
+    },
+    {
+      "figure": "S7",
+      "script": "scripts/revision/remake_S7_S8_original.R",
+      "inputs": [
+        "runs/revision_run_01/outputs/figures/gdm_functions/ispline_source_data.csv",
+        "runs/revision_run_01/outputs/gdm/fitted_predictor_contributions.csv",
+        "runs/revision_run_01/outputs/gdm/model_geo_TRUE.rds",
+        "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+        "runs/revision_run_01/outputs/inputs/sample_metadata.csv"
+      ],
+      "read_statements": [
+        "source(file.path('scripts','revision','common.R'))",
+        "fit <- readRDS(file.path(output_dir,'gdm','model_geo_TRUE.rds'))",
+        "curves <- read.csv(file.path(output_dir,'figures','gdm_functions','ispline_source_data.csv'))",
+        "contrib <- read.csv(file.path(output_dir,'gdm','fitted_predictor_contributions.csv'))",
+        "d <- read.csv(file.path(output_dir,'figures','gdm_transforms','transformed_grid_and_RGB.csv'))"
+      ],
+      "helpers": [],
+      "external_QA_helpers": [
+        "nature-figure/scripts/panel_alignment.R",
+        "nature-figure/scripts/audit_panel_alignment.py",
+        "nature-figure/scripts/audit_pdf_text.py",
+        "nature-figure/scripts/audit_figure_collisions.py"
+      ],
+      "input_status": [
+        {
+          "path": "runs/revision_run_01/outputs/figures/gdm_functions/ispline_source_data.csv",
+          "exists": true,
+          "bytes": 116153
+        },
+        {
+          "path": "runs/revision_run_01/outputs/gdm/fitted_predictor_contributions.csv",
+          "exists": true,
+          "bytes": 1267
+        },
+        {
+          "path": "runs/revision_run_01/outputs/gdm/model_geo_TRUE.rds",
+          "exists": true,
+          "bytes": 4553
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+          "exists": true,
+          "bytes": 1057
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/sample_metadata.csv",
+          "exists": true,
+          "bytes": 10893
+        }
+      ],
+      "published_outputs": [
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S7.pdf",
+          "sha256": "21b3e36909de64c5ed371e4c4103e28d3a8732a8ddf370f2feddc6fd07cafea7",
+          "source_path": "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S7_S8/Figure_S7.pdf",
+          "byte_identical": true
+        },
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S7.png",
+          "sha256": "d9623be3182f4776ba5f00ef902cb418d64506343ea24c5c41f79d2edb59d315",
+          "source_path": "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S7_S8/Figure_S7.png",
+          "byte_identical": true
+        }
+      ],
+      "code_sha256": "594ae6dd71d81970ef1b3db7a4aeed4795de8c736cb9c00899aa9dec9100f677",
+      "minimal_saved_render_data": [
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S7_S8/S7_saved_isplines.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S7_S8/S8_saved_transformed_grid_and_RGB.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S7_S8/S7_saved_fit_diagnostics.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S7_S8/source_plotting_data.rds",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S7_S8/S7_saved_spline_heights.csv"
+      ],
+      "reproducibility_notes": [],
+      "source_stem": "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S7_S8/Figure_S7"
+    },
+    {
+      "figure": "S8",
+      "script": "scripts/revision/remake_S7_S8_original.R",
+      "inputs": [
+        "runs/revision_run_01/outputs/figures/gdm_transforms/transformed_grid_and_RGB.csv",
+        "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+        "runs/revision_run_01/outputs/inputs/sample_metadata.csv"
+      ],
+      "read_statements": [
+        "source(file.path('scripts','revision','common.R'))",
+        "fit <- readRDS(file.path(output_dir,'gdm','model_geo_TRUE.rds'))",
+        "curves <- read.csv(file.path(output_dir,'figures','gdm_functions','ispline_source_data.csv'))",
+        "contrib <- read.csv(file.path(output_dir,'gdm','fitted_predictor_contributions.csv'))",
+        "d <- read.csv(file.path(output_dir,'figures','gdm_transforms','transformed_grid_and_RGB.csv'))"
+      ],
+      "helpers": [],
+      "external_QA_helpers": [
+        "nature-figure/scripts/panel_alignment.R",
+        "nature-figure/scripts/audit_panel_alignment.py",
+        "nature-figure/scripts/audit_pdf_text.py",
+        "nature-figure/scripts/audit_figure_collisions.py"
+      ],
+      "input_status": [
+        {
+          "path": "runs/revision_run_01/outputs/figures/gdm_transforms/transformed_grid_and_RGB.csv",
+          "exists": true,
+          "bytes": 42617657
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+          "exists": true,
+          "bytes": 1057
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/sample_metadata.csv",
+          "exists": true,
+          "bytes": 10893
+        }
+      ],
+      "published_outputs": [
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S8.pdf",
+          "sha256": "cb0e1ae0f581574072475a47268daeeb5ce231bfabd4f7a08f000dd1e28b39a3",
+          "source_path": "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S7_S8/Figure_S8.pdf",
+          "byte_identical": true
+        },
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S8.png",
+          "sha256": "8a3a87e3d075b7c6adca55c5c84b5e672c477f3d8f2921802aa49f8edb19e1c4",
+          "source_path": "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S7_S8/Figure_S8.png",
+          "byte_identical": true
+        }
+      ],
+      "code_sha256": "594ae6dd71d81970ef1b3db7a4aeed4795de8c736cb9c00899aa9dec9100f677",
+      "minimal_saved_render_data": [
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S7_S8/S7_saved_isplines.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S7_S8/S8_saved_transformed_grid_and_RGB.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S7_S8/S7_saved_fit_diagnostics.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S7_S8/source_plotting_data.rds",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S7_S8/S7_saved_spline_heights.csv"
+      ],
+      "reproducibility_notes": [],
+      "source_stem": "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S7_S8/Figure_S8"
+    },
+    {
+      "figure": "S9",
+      "script": "scripts/revision/remake_S9_S10_original.R",
+      "inputs": [
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.cpg",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.dbf",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.prj",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.shp",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.shx",
+        "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp126_2041-2070_ENSEMBLE_forward_inherited_geographic_penalty_degrees_grid.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp126_2041-2070_ENSEMBLE_reverse_inherited_geographic_penalty_degrees_grid.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp126_2071-2100_ENSEMBLE_forward_inherited_geographic_penalty_degrees_grid.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp126_2071-2100_ENSEMBLE_reverse_inherited_geographic_penalty_degrees_grid.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp585_2041-2070_ENSEMBLE_forward_inherited_geographic_penalty_degrees_grid.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp585_2041-2070_ENSEMBLE_reverse_inherited_geographic_penalty_degrees_grid.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp585_2071-2100_ENSEMBLE_forward_inherited_geographic_penalty_degrees_grid.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp585_2071-2100_ENSEMBLE_reverse_inherited_geographic_penalty_degrees_grid.csv",
+        "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+        "runs/revision_run_01/outputs/inputs/sample_metadata.csv"
+      ],
+      "read_statements": [
+        "source('scripts/revision/common.R')",
+        "stopifnot(isTRUE(jsonlite::read_json(file.path(input_dir,'validation.json'))$validated))",
+        "grids<-lapply(seq_len(4),function(i){f<-read.csv(paths[(i-1)*2+1]);r<-read.csv(paths[(i-1)*2+2]);stopifnot(nrow(f)==157745,nrow(r)==157745,identical(f$candidate_index,r$candidate_index),max(abs(f$local_offset-r$local_offset))<1e-12);list(forward=f,reverse=r)})",
+        "boundary<-sf::st_read(file.path(bundle,'ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.shp'),quiet=TRUE)",
+        "source(file.path(skill,'scripts/panel_alignment.R'))",
+        "source('scripts/revision/measure_panels.R')"
+      ],
+      "helpers": [
+        "scripts/revision/common.R",
+        "scripts/revision/measure_panels.R"
+      ],
+      "external_QA_helpers": [
+        "nature-figure/scripts/panel_alignment.R",
+        "nature-figure/scripts/audit_panel_alignment.py",
+        "nature-figure/scripts/audit_pdf_text.py",
+        "nature-figure/scripts/audit_figure_collisions.py"
+      ],
+      "input_status": [
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.cpg",
+          "exists": true,
+          "bytes": 5
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.dbf",
+          "exists": true,
+          "bytes": 2810
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.prj",
+          "exists": true,
+          "bytes": 145
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.shp",
+          "exists": true,
+          "bytes": 273740
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.shx",
+          "exists": true,
+          "bytes": 164
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp126_2041-2070_ENSEMBLE_forward_inherited_geographic_penalty_degrees_grid.csv",
+          "exists": true,
+          "bytes": 32270738
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp126_2041-2070_ENSEMBLE_reverse_inherited_geographic_penalty_degrees_grid.csv",
+          "exists": true,
+          "bytes": 32228048
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp126_2071-2100_ENSEMBLE_forward_inherited_geographic_penalty_degrees_grid.csv",
+          "exists": true,
+          "bytes": 32262999
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp126_2071-2100_ENSEMBLE_reverse_inherited_geographic_penalty_degrees_grid.csv",
+          "exists": true,
+          "bytes": 32214431
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp585_2041-2070_ENSEMBLE_forward_inherited_geographic_penalty_degrees_grid.csv",
+          "exists": true,
+          "bytes": 32072143
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp585_2041-2070_ENSEMBLE_reverse_inherited_geographic_penalty_degrees_grid.csv",
+          "exists": true,
+          "bytes": 32167855
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp585_2071-2100_ENSEMBLE_forward_inherited_geographic_penalty_degrees_grid.csv",
+          "exists": true,
+          "bytes": 32104780
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp585_2071-2100_ENSEMBLE_reverse_inherited_geographic_penalty_degrees_grid.csv",
+          "exists": true,
+          "bytes": 32141733
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+          "exists": true,
+          "bytes": 1057
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/sample_metadata.csv",
+          "exists": true,
+          "bytes": 10893
+        }
+      ],
+      "published_outputs": [
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S9.pdf",
+          "sha256": "d827d0c613bfa070a3e8b821eff13053833be29e5140e1ca4166b40ac3be97a5",
+          "source_path": "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S9_S10/Figure_S9.pdf",
+          "byte_identical": true
+        },
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S9.png",
+          "sha256": "e4f3374e1cb5ae68ece2fb9b9a168ef88495cb8f6e67bb230a4b98048c2d06ac",
+          "source_path": "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S9_S10/Figure_S9.png",
+          "byte_identical": true
+        }
+      ],
+      "code_sha256": "29d00d6f0a01967cc0ee32de74fa1e0d715d615d681c0b9f4bbd90f025f93649",
+      "minimal_saved_render_data": [
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S9_S10/S10_ssp126_2071-2100_plot_data.csv.gz",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S9_S10/S10_ssp126_2041-2070_plot_data.csv.gz",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S9_S10/bounded_S9_numeric.rds",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S9_S10/S10_bearing_data_audit.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S9_S10/S10_rose_histogram_counts.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S9_S10/S10_ssp585_2041-2070_plot_data.csv.gz",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S9_S10/S10_ssp585_2071-2100_plot_data.csv.gz"
+      ],
+      "reproducibility_notes": [],
+      "source_stem": "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S9_S10/Figure_S9",
+      "optional_original_plotobjects_not_required_for_drawing": [
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S9_S10/Figure_S10.rds",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S9_S10/Figure_S9.rds"
+      ]
+    },
+    {
+      "figure": "S10",
+      "script": "scripts/revision/remake_S9_S10_original.R",
+      "inputs": [
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.cpg",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.dbf",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.prj",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.shp",
+        "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.shx",
+        "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp126_2041-2070_ENSEMBLE_forward_inherited_geographic_penalty_degrees_grid.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp126_2041-2070_ENSEMBLE_reverse_inherited_geographic_penalty_degrees_grid.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp126_2071-2100_ENSEMBLE_forward_inherited_geographic_penalty_degrees_grid.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp126_2071-2100_ENSEMBLE_reverse_inherited_geographic_penalty_degrees_grid.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp585_2041-2070_ENSEMBLE_forward_inherited_geographic_penalty_degrees_grid.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp585_2041-2070_ENSEMBLE_reverse_inherited_geographic_penalty_degrees_grid.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp585_2071-2100_ENSEMBLE_forward_inherited_geographic_penalty_degrees_grid.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp585_2071-2100_ENSEMBLE_reverse_inherited_geographic_penalty_degrees_grid.csv",
+        "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+        "runs/revision_run_01/outputs/inputs/sample_metadata.csv"
+      ],
+      "read_statements": [
+        "source('scripts/revision/common.R')",
+        "stopifnot(isTRUE(jsonlite::read_json(file.path(input_dir,'validation.json'))$validated))",
+        "grids<-lapply(seq_len(4),function(i){f<-read.csv(paths[(i-1)*2+1]);r<-read.csv(paths[(i-1)*2+2]);stopifnot(nrow(f)==157745,nrow(r)==157745,identical(f$candidate_index,r$candidate_index),max(abs(f$local_offset-r$local_offset))<1e-12);list(forward=f,reverse=r)})",
+        "boundary<-sf::st_read(file.path(bundle,'ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.shp'),quiet=TRUE)",
+        "source(file.path(skill,'scripts/panel_alignment.R'))",
+        "source('scripts/revision/measure_panels.R')"
+      ],
+      "helpers": [
+        "scripts/revision/common.R",
+        "scripts/revision/measure_panels.R"
+      ],
+      "external_QA_helpers": [
+        "nature-figure/scripts/panel_alignment.R",
+        "nature-figure/scripts/audit_panel_alignment.py",
+        "nature-figure/scripts/audit_pdf_text.py",
+        "nature-figure/scripts/audit_figure_collisions.py"
+      ],
+      "input_status": [
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.cpg",
+          "exists": true,
+          "bytes": 5
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.dbf",
+          "exists": true,
+          "bytes": 2810
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.prj",
+          "exists": true,
+          "bytes": 145
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.shp",
+          "exists": true,
+          "bytes": 273740
+        },
+        {
+          "path": "ammo_analysis_package_20261014/ammo/gf/chelsa2_crop_selected/current/ammo_extent_country.shx",
+          "exists": true,
+          "bytes": 164
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp126_2041-2070_ENSEMBLE_forward_inherited_geographic_penalty_degrees_grid.csv",
+          "exists": true,
+          "bytes": 32270738
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp126_2041-2070_ENSEMBLE_reverse_inherited_geographic_penalty_degrees_grid.csv",
+          "exists": true,
+          "bytes": 32228048
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp126_2071-2100_ENSEMBLE_forward_inherited_geographic_penalty_degrees_grid.csv",
+          "exists": true,
+          "bytes": 32262999
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp126_2071-2100_ENSEMBLE_reverse_inherited_geographic_penalty_degrees_grid.csv",
+          "exists": true,
+          "bytes": 32214431
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp585_2041-2070_ENSEMBLE_forward_inherited_geographic_penalty_degrees_grid.csv",
+          "exists": true,
+          "bytes": 32072143
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp585_2041-2070_ENSEMBLE_reverse_inherited_geographic_penalty_degrees_grid.csv",
+          "exists": true,
+          "bytes": 32167855
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp585_2071-2100_ENSEMBLE_forward_inherited_geographic_penalty_degrees_grid.csv",
+          "exists": true,
+          "bytes": 32104780
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figure_revision_original_design/required_grid_projection/ssp585_2071-2100_ENSEMBLE_reverse_inherited_geographic_penalty_degrees_grid.csv",
+          "exists": true,
+          "bytes": 32141733
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+          "exists": true,
+          "bytes": 1057
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/sample_metadata.csv",
+          "exists": true,
+          "bytes": 10893
+        }
+      ],
+      "published_outputs": [
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S10.pdf",
+          "sha256": "cfcfb28109e68095adee350531789b540182b358de935eef51a7a5172b42eccb",
+          "source_path": "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S9_S10/Figure_S10.pdf",
+          "byte_identical": true
+        },
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S10.png",
+          "sha256": "11e00d974ad82d2d7c0221f07dcc44b11c74888ca3506eddbf72d33ca1ff78d1",
+          "source_path": "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S9_S10/Figure_S10.png",
+          "byte_identical": true
+        }
+      ],
+      "code_sha256": "29d00d6f0a01967cc0ee32de74fa1e0d715d615d681c0b9f4bbd90f025f93649",
+      "minimal_saved_render_data": [
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S9_S10/S10_ssp126_2071-2100_plot_data.csv.gz",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S9_S10/S10_ssp126_2041-2070_plot_data.csv.gz",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S9_S10/bounded_S9_numeric.rds",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S9_S10/S10_bearing_data_audit.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S9_S10/S10_rose_histogram_counts.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S9_S10/S10_ssp585_2041-2070_plot_data.csv.gz",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S9_S10/S10_ssp585_2071-2100_plot_data.csv.gz"
+      ],
+      "reproducibility_notes": [],
+      "source_stem": "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S9_S10/Figure_S10",
+      "optional_original_plotobjects_not_required_for_drawing": [
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S9_S10/Figure_S10.rds",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S9_S10/Figure_S9.rds"
+      ]
+    },
+    {
+      "figure": "S11",
+      "script": "scripts/revision/remake_S11_S12_original.R",
+      "inputs": [
+        "runs/revision_run_01/outputs/figures/sdm_reconstruction/jackknife_source.csv",
+        "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+        "runs/revision_run_01/outputs/inputs/sample_metadata.csv",
+        "runs/revision_run_01/outputs/sdm_reconstruction/conditional_response_curves.csv",
+        "runs/revision_run_01/outputs/sdm_reconstruction/cross_validation.csv",
+        "runs/revision_run_01/outputs/sdm_reconstruction/cross_validation_ROC.csv",
+        "runs/revision_run_01/outputs/sdm_reconstruction/maxent_final_results_long.csv"
+      ],
+      "read_statements": [
+        "source('scripts/revision/common.R')",
+        "source(file.path(skill,'scripts/panel_alignment.R'));source('scripts/revision/measure_panels.R')",
+        "roc<-read.csv(file.path(input,'cross_validation_ROC.csv'));cv<-read.csv(file.path(input,'cross_validation.csv'))",
+        "results<-read.csv(file.path(input,'maxent_final_results_long.csv'))",
+        "jack<-read.csv(file.path(output_dir,'figures/sdm_reconstruction/jackknife_source.csv'))",
+        "responses<-read.csv(file.path(input,'conditional_response_curves.csv'))",
+        "q<-read.csv(file.path(output_dir,'eems_existing_audit/xyq.values.csv'));m<-read.csv(file.path(output_dir,'eems_existing_audit/xym.values.csv'))"
+      ],
+      "helpers": [
+        "scripts/revision/common.R",
+        "scripts/revision/measure_panels.R"
+      ],
+      "external_QA_helpers": [
+        "nature-figure/scripts/panel_alignment.R",
+        "nature-figure/scripts/audit_panel_alignment.py",
+        "nature-figure/scripts/audit_pdf_text.py",
+        "nature-figure/scripts/audit_figure_collisions.py"
+      ],
+      "input_status": [
+        {
+          "path": "runs/revision_run_01/outputs/figures/sdm_reconstruction/jackknife_source.csv",
+          "exists": true,
+          "bytes": 430
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+          "exists": true,
+          "bytes": 1057
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/sample_metadata.csv",
+          "exists": true,
+          "bytes": 10893
+        },
+        {
+          "path": "runs/revision_run_01/outputs/sdm_reconstruction/conditional_response_curves.csv",
+          "exists": true,
+          "bytes": 31537
+        },
+        {
+          "path": "runs/revision_run_01/outputs/sdm_reconstruction/cross_validation.csv",
+          "exists": true,
+          "bytes": 216
+        },
+        {
+          "path": "runs/revision_run_01/outputs/sdm_reconstruction/cross_validation_ROC.csv",
+          "exists": true,
+          "bytes": 238042
+        },
+        {
+          "path": "runs/revision_run_01/outputs/sdm_reconstruction/maxent_final_results_long.csv",
+          "exists": true,
+          "bytes": 3369
+        }
+      ],
+      "published_outputs": [
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S11.pdf",
+          "sha256": "8c589cb74e9292eb5079c46a06acb5dbb9b6b6dd819b7c7b62bfd325f47089b1",
+          "source_path": "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S11_S12/Figure_S11.pdf",
+          "byte_identical": true
+        },
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S11.png",
+          "sha256": "fb78b94cf96ad80e4112bdd2942a5a9bf47d4feff9fd5910217f757382ea401b",
+          "source_path": "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S11_S12/Figure_S11.png",
+          "byte_identical": true
+        }
+      ],
+      "code_sha256": "994142a15f05d3268fbc726abc59207124492323a36df875aff4152e87fd5b70",
+      "minimal_saved_render_data": [
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S11_S12/Figure_S11.rds",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S11_S12/Figure_S12.rds",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S11_S12/S11_ROC_display_source.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S11_S12/S11_jackknife_display_source.csv"
+      ],
+      "reproducibility_notes": [],
+      "source_stem": "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S11_S12/Figure_S11"
+    },
+    {
+      "figure": "S12",
+      "script": "scripts/revision/remake_S11_S12_original.R",
+      "inputs": [
+        "ammo_analysis_package_20261014/eems/ammo_all.coord",
+        "ammo_analysis_package_20261014/eems/ammo_all.outer",
+        "runs/revision_run_01/outputs/eems_existing_audit/xym.values.csv",
+        "runs/revision_run_01/outputs/eems_existing_audit/xyq.values.csv",
+        "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+        "runs/revision_run_01/outputs/inputs/sample_metadata.csv"
+      ],
+      "read_statements": [
+        "source('scripts/revision/common.R')",
+        "source(file.path(skill,'scripts/panel_alignment.R'));source('scripts/revision/measure_panels.R')",
+        "roc<-read.csv(file.path(input,'cross_validation_ROC.csv'));cv<-read.csv(file.path(input,'cross_validation.csv'))",
+        "results<-read.csv(file.path(input,'maxent_final_results_long.csv'))",
+        "jack<-read.csv(file.path(output_dir,'figures/sdm_reconstruction/jackknife_source.csv'))",
+        "responses<-read.csv(file.path(input,'conditional_response_curves.csv'))",
+        "q<-read.csv(file.path(output_dir,'eems_existing_audit/xyq.values.csv'));m<-read.csv(file.path(output_dir,'eems_existing_audit/xym.values.csv'))"
+      ],
+      "helpers": [
+        "scripts/revision/common.R",
+        "scripts/revision/measure_panels.R"
+      ],
+      "external_QA_helpers": [
+        "nature-figure/scripts/panel_alignment.R",
+        "nature-figure/scripts/audit_panel_alignment.py",
+        "nature-figure/scripts/audit_pdf_text.py",
+        "nature-figure/scripts/audit_figure_collisions.py"
+      ],
+      "input_status": [
+        {
+          "path": "ammo_analysis_package_20261014/eems/ammo_all.coord",
+          "exists": true,
+          "bytes": 4104
+        },
+        {
+          "path": "ammo_analysis_package_20261014/eems/ammo_all.outer",
+          "exists": true,
+          "bytes": 111
+        },
+        {
+          "path": "runs/revision_run_01/outputs/eems_existing_audit/xym.values.csv",
+          "exists": true,
+          "bytes": 570130
+        },
+        {
+          "path": "runs/revision_run_01/outputs/eems_existing_audit/xyq.values.csv",
+          "exists": true,
+          "bytes": 588632
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+          "exists": true,
+          "bytes": 1057
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/sample_metadata.csv",
+          "exists": true,
+          "bytes": 10893
+        }
+      ],
+      "published_outputs": [
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S12.pdf",
+          "sha256": "4e885f22c679b2bae6c268d3c3bc4074f470126276d163a9fb7a52b1767b8997",
+          "source_path": "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S11_S12/Figure_S12.pdf",
+          "byte_identical": true
+        },
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S12.png",
+          "sha256": "93ff0c74f7b7e823db81b2e5a12ed79e74239745da46e8c962076df8af501232",
+          "source_path": "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S11_S12/Figure_S12.png",
+          "byte_identical": true
+        }
+      ],
+      "code_sha256": "994142a15f05d3268fbc726abc59207124492323a36df875aff4152e87fd5b70",
+      "minimal_saved_render_data": [
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S11_S12/Figure_S11.rds",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S11_S12/Figure_S12.rds",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S11_S12/S11_ROC_display_source.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S11_S12/S11_jackknife_display_source.csv"
+      ],
+      "reproducibility_notes": [
+        "Existing EEMS surfaces only; no new EEMS MCMC authorized."
+      ],
+      "source_stem": "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S11_S12/Figure_S12"
+    },
+    {
+      "figure": "S13",
+      "script": "revision_oct16/driver_combinations/figures/render_driver_validation.R",
+      "inputs": [
+        "runs/revision_run_01/outputs/oct16_revision/all_driver_models_postprocess/nested_selection_predictor_stability.csv",
+        "runs/revision_run_01/outputs/oct16_revision/all_driver_models_postprocess/nested_selection_validation_performance.csv",
+        "runs/revision_run_01/outputs/oct16_revision/all_driver_models_postprocess/validation.json"
+      ],
+      "read_statements": [
+        "source(file.path(skill,'scripts/panel_alignment.R'));source('scripts/revision/measure_panels.R')",
+        "read <- function(fn)read.csv(file.path(in_dir,fn),check.names=FALSE,stringsAsFactors=FALSE)",
+        "marker <- jsonlite::read_json(file.path(in_dir,'validation.json'),simplifyVector=TRUE)"
+      ],
+      "helpers": [
+        "scripts/revision/measure_panels.R"
+      ],
+      "external_QA_helpers": [
+        "nature-figure/scripts/panel_alignment.R",
+        "nature-figure/scripts/audit_panel_alignment.py",
+        "nature-figure/scripts/audit_pdf_text.py",
+        "nature-figure/scripts/audit_figure_collisions.py"
+      ],
+      "input_status": [
+        {
+          "path": "runs/revision_run_01/outputs/oct16_revision/all_driver_models_postprocess/nested_selection_predictor_stability.csv",
+          "exists": true,
+          "bytes": 248551
+        },
+        {
+          "path": "runs/revision_run_01/outputs/oct16_revision/all_driver_models_postprocess/nested_selection_validation_performance.csv",
+          "exists": true,
+          "bytes": 13361
+        },
+        {
+          "path": "runs/revision_run_01/outputs/oct16_revision/all_driver_models_postprocess/validation.json",
+          "exists": true,
+          "bytes": 128
+        }
+      ],
+      "published_outputs": [
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S13.pdf",
+          "sha256": "30c70731d4ee046c991680a31216fef260bad8c89ccf5c6e764589c99633a81f",
+          "source_path": "runs/revision_run_01/outputs/oct16_revision/all_driver_models_postprocess/figure_S13/Figure_S13.pdf",
+          "byte_identical": true
+        },
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S13.png",
+          "sha256": "5c03a68a2792f2a8d020222e3020cb94d40db078f292816954ac341839236aa8",
+          "source_path": "runs/revision_run_01/outputs/oct16_revision/all_driver_models_postprocess/figure_S13/Figure_S13.png",
+          "byte_identical": true
+        }
+      ],
+      "code_sha256": "b50168c8f9c99e62a3c1f61bb522ba38506716bd242e76b281ace7fc361700a8",
+      "minimal_saved_render_data": [
+        "runs/revision_run_01/outputs/oct16_revision/all_driver_models_postprocess/figure_S13/Figure_S13_all_predictor_eligibility.csv",
+        "runs/revision_run_01/outputs/oct16_revision/all_driver_models_postprocess/figure_S13/Figure_S13_selection_frequency.csv",
+        "runs/revision_run_01/outputs/oct16_revision/all_driver_models_postprocess/figure_S13/Figure_S13.rds",
+        "runs/revision_run_01/outputs/oct16_revision/all_driver_models_postprocess/figure_S13/Figure_S13_LOPO.csv",
+        "runs/revision_run_01/outputs/oct16_revision/all_driver_models_postprocess/figure_S13/Figure_S13_geographic_block.csv"
+      ],
+      "reproducibility_notes": [
+        "Uses final all-driver selected models and nested selection validation; old climate/Ho-only figures are superseded."
+      ],
+      "source_stem": "runs/revision_run_01/outputs/oct16_revision/all_driver_models_postprocess/figure_S13/Figure_S13"
+    },
+    {
+      "figure": "S14",
+      "script": "scripts/revision/render_requested_S13_S15.R",
+      "inputs": [
+        "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+        "runs/revision_run_01/outputs/inputs/sample_metadata.csv",
+        "runs/revision_run_01/outputs/landscape_statistics/population_class_effects.csv",
+        "runs/revision_run_01/outputs/statistics/population_group_effects.csv"
+      ],
+      "read_statements": [
+        "source('scripts/revision/common.R')",
+        "source(file.path(skill,'scripts/panel_alignment.R'))",
+        "source('scripts/revision/measure_panels.R')",
+        "read_saved <- function(path) read.csv(file.path(output_dir,path))"
+      ],
+      "helpers": [
+        "scripts/revision/common.R",
+        "scripts/revision/measure_panels.R"
+      ],
+      "external_QA_helpers": [
+        "nature-figure/scripts/panel_alignment.R",
+        "nature-figure/scripts/audit_panel_alignment.py",
+        "nature-figure/scripts/audit_pdf_text.py",
+        "nature-figure/scripts/audit_figure_collisions.py"
+      ],
+      "input_status": [
+        {
+          "path": "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+          "exists": true,
+          "bytes": 1057
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/sample_metadata.csv",
+          "exists": true,
+          "bytes": 10893
+        },
+        {
+          "path": "runs/revision_run_01/outputs/landscape_statistics/population_class_effects.csv",
+          "exists": true,
+          "bytes": 22341
+        },
+        {
+          "path": "runs/revision_run_01/outputs/statistics/population_group_effects.csv",
+          "exists": true,
+          "bytes": 52989
+        }
+      ],
+      "published_outputs": [
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S14.pdf",
+          "sha256": "11fd8f72366c0ad3baeb1d258c059e890552bb3da2f13065d752afeff8215917",
+          "source_path": "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S13_S15/Figure_S14.pdf",
+          "byte_identical": true
+        },
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S14.png",
+          "sha256": "c7512df5721e5ef1a541d934e9a30ae2ce8181825630fb4c8165d6c8befd6ccf",
+          "source_path": "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S13_S15/Figure_S14.png",
+          "byte_identical": true
+        }
+      ],
+      "code_sha256": "ba71ce5d45e5174ca3050570a478aa3bdc2abce2e1fb8c9da49bc02d4d542744",
+      "minimal_saved_render_data": [
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S13_S15/Figure_S15_associations.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S13_S15/Figure_S14_GDM.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S13_S15/Figure_S14.rds",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S13_S15/Figure_S13.rds",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S13_S15/Figure_S14_RONA.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S13_S15/Figure_S15_populations.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S13_S15/Figure_S13_LOPO.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S13_S15/Figure_S13_geographic_block.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S13_S15/Figure_S15.rds"
+      ],
+      "reproducibility_notes": [
+        "Shared renderer also reads old S13 input dependencies and exports an obsolete S13; isolate these figures before reusing, never overwrite final S13."
+      ],
+      "source_stem": "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S13_S15/Figure_S14"
+    },
+    {
+      "figure": "S15",
+      "script": "scripts/revision/render_requested_S13_S15.R",
+      "inputs": [
+        "runs/revision_run_01/outputs/classification/continuous_geographic_marginality_sensitivity.csv",
+        "runs/revision_run_01/outputs/classification/population_class_and_geographic_marginality.csv",
+        "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+        "runs/revision_run_01/outputs/inputs/sample_metadata.csv"
+      ],
+      "read_statements": [
+        "source('scripts/revision/common.R')",
+        "source(file.path(skill,'scripts/panel_alignment.R'))",
+        "source('scripts/revision/measure_panels.R')",
+        "read_saved <- function(path) read.csv(file.path(output_dir,path))"
+      ],
+      "helpers": [
+        "scripts/revision/common.R",
+        "scripts/revision/measure_panels.R"
+      ],
+      "external_QA_helpers": [
+        "nature-figure/scripts/panel_alignment.R",
+        "nature-figure/scripts/audit_panel_alignment.py",
+        "nature-figure/scripts/audit_pdf_text.py",
+        "nature-figure/scripts/audit_figure_collisions.py"
+      ],
+      "input_status": [
+        {
+          "path": "runs/revision_run_01/outputs/classification/continuous_geographic_marginality_sensitivity.csv",
+          "exists": true,
+          "bytes": 58161
+        },
+        {
+          "path": "runs/revision_run_01/outputs/classification/population_class_and_geographic_marginality.csv",
+          "exists": true,
+          "bytes": 5671
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+          "exists": true,
+          "bytes": 1057
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/sample_metadata.csv",
+          "exists": true,
+          "bytes": 10893
+        }
+      ],
+      "published_outputs": [
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S15.pdf",
+          "sha256": "dee92baef1ccedc66d857df6bca42261a2014a6e3ea4b404acb207aebe76629d",
+          "source_path": "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S13_S15/Figure_S15.pdf",
+          "byte_identical": true
+        },
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S15.png",
+          "sha256": "0725910a51363e73c7d8ca3d3d9f33448ddd8f16496586df2fff22095aa2eaf7",
+          "source_path": "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S13_S15/Figure_S15.png",
+          "byte_identical": true
+        }
+      ],
+      "code_sha256": "ba71ce5d45e5174ca3050570a478aa3bdc2abce2e1fb8c9da49bc02d4d542744",
+      "minimal_saved_render_data": [
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S13_S15/Figure_S15_associations.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S13_S15/Figure_S14_GDM.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S13_S15/Figure_S14.rds",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S13_S15/Figure_S13.rds",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S13_S15/Figure_S14_RONA.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S13_S15/Figure_S15_populations.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S13_S15/Figure_S13_LOPO.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S13_S15/Figure_S13_geographic_block.csv",
+        "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S13_S15/Figure_S15.rds"
+      ],
+      "reproducibility_notes": [
+        "Shared renderer also reads old S13 input dependencies and exports an obsolete S13; isolate these figures before reusing, never overwrite final S13."
+      ],
+      "source_stem": "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S13_S15/Figure_S15"
+    },
+    {
+      "figure": "S16",
+      "script": "revision_oct18/figure_updates/render_supp_pies.R",
+      "inputs": [
+        "revision_oct18/figure_updates/endpoint_percentages.csv",
+        "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+        "runs/revision_run_01/outputs/inputs/sample_metadata.csv",
+        "runs/revision_run_01/outputs/oct16_revision/distance_classification/validation.json"
+      ],
+      "read_statements": [
+        "source(\"scripts/revision/common.R\")",
+        "source(file.path(skill,\"scripts/panel_alignment.R\"))",
+        "validation <- jsonlite::read_json(file.path(input_directory,\"validation.json\"))",
+        "percent <- read.csv(file.path(root,\"revision_oct18/figure_updates/endpoint_percentages.csv\"))",
+        "collision <- jsonlite::read_json(paste0(stem,\".collision-audit.json\"));stopifnot(collision$summary$fail==0)"
+      ],
+      "helpers": [
+        "scripts/revision/common.R"
+      ],
+      "external_QA_helpers": [
+        "nature-figure/scripts/panel_alignment.R",
+        "nature-figure/scripts/audit_panel_alignment.py",
+        "nature-figure/scripts/audit_pdf_text.py",
+        "nature-figure/scripts/audit_figure_collisions.py"
+      ],
+      "input_status": [
+        {
+          "path": "revision_oct18/figure_updates/endpoint_percentages.csv",
+          "exists": true,
+          "bytes": 26453
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+          "exists": true,
+          "bytes": 1057
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/sample_metadata.csv",
+          "exists": true,
+          "bytes": 10893
+        },
+        {
+          "path": "runs/revision_run_01/outputs/oct16_revision/distance_classification/validation.json",
+          "exists": true,
+          "bytes": 1552
+        }
+      ],
+      "published_outputs": [
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S16.pdf",
+          "sha256": "1c00e9db0cd67bce33cdeec314a1141b1e83d8f9db931069f7ec1cd83a1ed380",
+          "source_path": "revision_oct18/figure_updates/distance_pies/Figure_S16.pdf",
+          "byte_identical": true
+        },
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S16.png",
+          "sha256": "78b97ae51a666560a268a94b735a45c3e001a44a92ce5f71035b988c24ae64c7",
+          "source_path": "revision_oct18/figure_updates/distance_pies/Figure_S16.png",
+          "byte_identical": true
+        }
+      ],
+      "code_sha256": "0298e17bf5db879c9b5f30029e41eef50ab1199d1a3c4c6a48ef91b9993723f9",
+      "minimal_saved_render_data": [
+        "revision_oct18/figure_updates/distance_pies/Figure_S18.rds",
+        "revision_oct18/figure_updates/distance_pies/Figure_S16.rds",
+        "revision_oct18/figure_updates/distance_pies/Figure_S17.rds",
+        "revision_oct18/figure_updates/distance_pies/Figure_S19.rds",
+        "revision_oct18/figure_updates/distance_pies/Figure_S16_source_percentages.csv"
+      ],
+      "reproducibility_notes": [
+        "Final endpoint reporting combines peripheral+unsuitable; numeric source is corrected endpoint_percentages.csv, not original older percentages."
+      ],
+      "source_stem": "revision_oct18/figure_updates/distance_pies/Figure_S16"
+    },
+    {
+      "figure": "S17",
+      "script": "revision_oct18/figure_updates/render_supp_pies.R",
+      "inputs": [
+        "revision_oct18/figure_updates/endpoint_percentages.csv",
+        "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+        "runs/revision_run_01/outputs/inputs/sample_metadata.csv",
+        "runs/revision_run_01/outputs/oct16_revision/distance_classification/validation.json"
+      ],
+      "read_statements": [
+        "source(\"scripts/revision/common.R\")",
+        "source(file.path(skill,\"scripts/panel_alignment.R\"))",
+        "validation <- jsonlite::read_json(file.path(input_directory,\"validation.json\"))",
+        "percent <- read.csv(file.path(root,\"revision_oct18/figure_updates/endpoint_percentages.csv\"))",
+        "collision <- jsonlite::read_json(paste0(stem,\".collision-audit.json\"));stopifnot(collision$summary$fail==0)"
+      ],
+      "helpers": [
+        "scripts/revision/common.R"
+      ],
+      "external_QA_helpers": [
+        "nature-figure/scripts/panel_alignment.R",
+        "nature-figure/scripts/audit_panel_alignment.py",
+        "nature-figure/scripts/audit_pdf_text.py",
+        "nature-figure/scripts/audit_figure_collisions.py"
+      ],
+      "input_status": [
+        {
+          "path": "revision_oct18/figure_updates/endpoint_percentages.csv",
+          "exists": true,
+          "bytes": 26453
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+          "exists": true,
+          "bytes": 1057
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/sample_metadata.csv",
+          "exists": true,
+          "bytes": 10893
+        },
+        {
+          "path": "runs/revision_run_01/outputs/oct16_revision/distance_classification/validation.json",
+          "exists": true,
+          "bytes": 1552
+        }
+      ],
+      "published_outputs": [
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S17.pdf",
+          "sha256": "f60548f218a369098067a3f48ba767a502498cbb67fdcc30f4570ed22b486a03",
+          "source_path": "revision_oct18/figure_updates/distance_pies/Figure_S17.pdf",
+          "byte_identical": true
+        },
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S17.png",
+          "sha256": "3dded2f1dbfc7d33daf63fac6b51363f1003e4b531a26afc6d2c856727dbc017",
+          "source_path": "revision_oct18/figure_updates/distance_pies/Figure_S17.png",
+          "byte_identical": true
+        }
+      ],
+      "code_sha256": "0298e17bf5db879c9b5f30029e41eef50ab1199d1a3c4c6a48ef91b9993723f9",
+      "minimal_saved_render_data": [
+        "revision_oct18/figure_updates/distance_pies/Figure_S18.rds",
+        "revision_oct18/figure_updates/distance_pies/Figure_S16.rds",
+        "revision_oct18/figure_updates/distance_pies/Figure_S17.rds",
+        "revision_oct18/figure_updates/distance_pies/Figure_S19.rds",
+        "revision_oct18/figure_updates/distance_pies/Figure_S16_source_percentages.csv"
+      ],
+      "reproducibility_notes": [
+        "Final endpoint reporting combines peripheral+unsuitable; numeric source is corrected endpoint_percentages.csv, not original older percentages."
+      ],
+      "source_stem": "revision_oct18/figure_updates/distance_pies/Figure_S17"
+    },
+    {
+      "figure": "S18",
+      "script": "revision_oct18/figure_updates/render_supp_pies.R",
+      "inputs": [
+        "revision_oct18/figure_updates/endpoint_percentages.csv",
+        "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+        "runs/revision_run_01/outputs/inputs/sample_metadata.csv",
+        "runs/revision_run_01/outputs/oct16_revision/distance_classification/validation.json"
+      ],
+      "read_statements": [
+        "source(\"scripts/revision/common.R\")",
+        "source(file.path(skill,\"scripts/panel_alignment.R\"))",
+        "validation <- jsonlite::read_json(file.path(input_directory,\"validation.json\"))",
+        "percent <- read.csv(file.path(root,\"revision_oct18/figure_updates/endpoint_percentages.csv\"))",
+        "collision <- jsonlite::read_json(paste0(stem,\".collision-audit.json\"));stopifnot(collision$summary$fail==0)"
+      ],
+      "helpers": [
+        "scripts/revision/common.R"
+      ],
+      "external_QA_helpers": [
+        "nature-figure/scripts/panel_alignment.R",
+        "nature-figure/scripts/audit_panel_alignment.py",
+        "nature-figure/scripts/audit_pdf_text.py",
+        "nature-figure/scripts/audit_figure_collisions.py"
+      ],
+      "input_status": [
+        {
+          "path": "revision_oct18/figure_updates/endpoint_percentages.csv",
+          "exists": true,
+          "bytes": 26453
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+          "exists": true,
+          "bytes": 1057
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/sample_metadata.csv",
+          "exists": true,
+          "bytes": 10893
+        },
+        {
+          "path": "runs/revision_run_01/outputs/oct16_revision/distance_classification/validation.json",
+          "exists": true,
+          "bytes": 1552
+        }
+      ],
+      "published_outputs": [
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S18.pdf",
+          "sha256": "c2d3fe9ef61ffd58c742947a43710bc0d355a57884f274e44fd6432dfecf0336",
+          "source_path": "revision_oct18/figure_updates/distance_pies/Figure_S18.pdf",
+          "byte_identical": true
+        },
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S18.png",
+          "sha256": "a673fc242c50880a510aef96d6dcc1de640f40b7c0f9efb48f0731891fed1a2f",
+          "source_path": "revision_oct18/figure_updates/distance_pies/Figure_S18.png",
+          "byte_identical": true
+        }
+      ],
+      "code_sha256": "0298e17bf5db879c9b5f30029e41eef50ab1199d1a3c4c6a48ef91b9993723f9",
+      "minimal_saved_render_data": [
+        "revision_oct18/figure_updates/distance_pies/Figure_S18.rds",
+        "revision_oct18/figure_updates/distance_pies/Figure_S16.rds",
+        "revision_oct18/figure_updates/distance_pies/Figure_S17.rds",
+        "revision_oct18/figure_updates/distance_pies/Figure_S19.rds",
+        "revision_oct18/figure_updates/distance_pies/Figure_S16_source_percentages.csv"
+      ],
+      "reproducibility_notes": [
+        "Final endpoint reporting combines peripheral+unsuitable; numeric source is corrected endpoint_percentages.csv, not original older percentages."
+      ],
+      "source_stem": "revision_oct18/figure_updates/distance_pies/Figure_S18"
+    },
+    {
+      "figure": "S19",
+      "script": "revision_oct18/figure_updates/render_supp_pies.R",
+      "inputs": [
+        "revision_oct18/figure_updates/endpoint_percentages.csv",
+        "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+        "runs/revision_run_01/outputs/inputs/sample_metadata.csv",
+        "runs/revision_run_01/outputs/oct16_revision/distance_classification/validation.json"
+      ],
+      "read_statements": [
+        "source(\"scripts/revision/common.R\")",
+        "source(file.path(skill,\"scripts/panel_alignment.R\"))",
+        "validation <- jsonlite::read_json(file.path(input_directory,\"validation.json\"))",
+        "percent <- read.csv(file.path(root,\"revision_oct18/figure_updates/endpoint_percentages.csv\"))",
+        "collision <- jsonlite::read_json(paste0(stem,\".collision-audit.json\"));stopifnot(collision$summary$fail==0)"
+      ],
+      "helpers": [
+        "scripts/revision/common.R"
+      ],
+      "external_QA_helpers": [
+        "nature-figure/scripts/panel_alignment.R",
+        "nature-figure/scripts/audit_panel_alignment.py",
+        "nature-figure/scripts/audit_pdf_text.py",
+        "nature-figure/scripts/audit_figure_collisions.py"
+      ],
+      "input_status": [
+        {
+          "path": "revision_oct18/figure_updates/endpoint_percentages.csv",
+          "exists": true,
+          "bytes": 26453
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+          "exists": true,
+          "bytes": 1057
+        },
+        {
+          "path": "runs/revision_run_01/outputs/inputs/sample_metadata.csv",
+          "exists": true,
+          "bytes": 10893
+        },
+        {
+          "path": "runs/revision_run_01/outputs/oct16_revision/distance_classification/validation.json",
+          "exists": true,
+          "bytes": 1552
+        }
+      ],
+      "published_outputs": [
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S19.pdf",
+          "sha256": "baebb506cd1919ec15d7f5bf36546dda6f0fdea03e5ee41052eff68b40b37a24",
+          "source_path": "revision_oct18/figure_updates/distance_pies/Figure_S19.pdf",
+          "byte_identical": true
+        },
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S19.png",
+          "sha256": "906f4f4e2abc9803c4859eca51636e5215f64e91fd1bed1e500a8d8847293d52",
+          "source_path": "revision_oct18/figure_updates/distance_pies/Figure_S19.png",
+          "byte_identical": true
+        }
+      ],
+      "code_sha256": "0298e17bf5db879c9b5f30029e41eef50ab1199d1a3c4c6a48ef91b9993723f9",
+      "minimal_saved_render_data": [
+        "revision_oct18/figure_updates/distance_pies/Figure_S18.rds",
+        "revision_oct18/figure_updates/distance_pies/Figure_S16.rds",
+        "revision_oct18/figure_updates/distance_pies/Figure_S17.rds",
+        "revision_oct18/figure_updates/distance_pies/Figure_S19.rds",
+        "revision_oct18/figure_updates/distance_pies/Figure_S16_source_percentages.csv"
+      ],
+      "reproducibility_notes": [
+        "Final endpoint reporting combines peripheral+unsuitable; numeric source is corrected endpoint_percentages.csv, not original older percentages."
+      ],
+      "source_stem": "revision_oct18/figure_updates/distance_pies/Figure_S19"
+    },
+    {
+      "figure": "S20",
+      "script": "revision_oct18/figure_updates/render_S20.R",
+      "inputs": [
+        "data/mapping_work/outputs/pca/mongolicus_PCA_scores.csv",
+        "data/mapping_work/outputs/pca/mongolicus_PCA_variance.csv",
+        "data/mapping_work/outputs/pca/validation.json",
+        "oct17/Source_and_provenance/Analysis_code/parent/config.frozen.json",
+        "runs/revision_run_01/outputs/figures/genetic_pca/PCA_scores_and_group_assignments.csv",
+        "runs/revision_run_01/outputs/figures/genetic_pca/PCA_variance.csv"
+      ],
+      "read_statements": [
+        "old <- read.csv(required[1],stringsAsFactors=FALSE);new <- read.csv(required[3],stringsAsFactors=FALSE)",
+        "oldvar <- read.csv(required[2]);newvar <- read.csv(required[4])",
+        "source(file.path(base,'panel_alignment_viewports.R'))"
+      ],
+      "helpers": [],
+      "external_QA_helpers": [
+        "nature-figure/scripts/panel_alignment.R",
+        "nature-figure/scripts/audit_panel_alignment.py",
+        "nature-figure/scripts/audit_pdf_text.py",
+        "nature-figure/scripts/audit_figure_collisions.py"
+      ],
+      "input_status": [
+        {
+          "path": "data/mapping_work/outputs/pca/mongolicus_PCA_scores.csv",
+          "exists": true,
+          "bytes": 21800
+        },
+        {
+          "path": "data/mapping_work/outputs/pca/mongolicus_PCA_variance.csv",
+          "exists": true,
+          "bytes": 5127
+        },
+        {
+          "path": "data/mapping_work/outputs/pca/validation.json",
+          "exists": true,
+          "bytes": 153
+        },
+        {
+          "path": "oct17/Source_and_provenance/Analysis_code/parent/config.frozen.json",
+          "exists": true,
+          "bytes": 2257
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figures/genetic_pca/PCA_scores_and_group_assignments.csv",
+          "exists": true,
+          "bytes": 21787
+        },
+        {
+          "path": "runs/revision_run_01/outputs/figures/genetic_pca/PCA_variance.csv",
+          "exists": true,
+          "bytes": 5119
+        }
+      ],
+      "published_outputs": [
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S20.pdf",
+          "sha256": "d13acf70bf703aed11505037e2088cabbf2737a916e43c85fa83581de03eb08c",
+          "source_path": "revision_oct18/figure_updates/S20/Figure_S20_reference_PCA.pdf",
+          "byte_identical": true
+        },
+        {
+          "path": "ammo_revision_package_new_structure/Figures/Supplement/Figure_S20.png",
+          "sha256": "d176fb24e3d93f7ab3ab123d92c37826ee758a83179ff054b7d333e8627ae2f1",
+          "source_path": "revision_oct18/figure_updates/S20/Figure_S20_reference_PCA.png",
+          "byte_identical": true
+        }
+      ],
+      "code_sha256": "250ccdc45c1a515fd4dd969b3c3bc3a0f75c147f41a060bb981e08b53b51d6cb",
+      "minimal_saved_render_data": [
+        "revision_oct18/figure_updates/S20/panel_b_source_variance.csv",
+        "revision_oct18/figure_updates/S20/panel_a_source_variance.csv",
+        "revision_oct18/figure_updates/S20/panel_b_source_scores.csv",
+        "revision_oct18/figure_updates/S20/panel_a_source_scores.csv",
+        "revision_oct18/figure_updates/S20/Figure_S20_reference_PCA.rds"
+      ],
+      "reproducibility_notes": [
+        "Panel b signs for PC1/PC2 reversed for display only, 217 matched samples; do not refit PCA."
+      ],
+      "source_stem": "revision_oct18/figure_updates/S20/Figure_S20_reference_PCA"
+    }
+  ],
+  "workbook": {
+    "path": "ammo_revision_package_new_structure/03_Supplementary_tables.xlsx",
+    "sha256": "975b66d15dbb67b8c476b8b9677c9c88765fc7d708cde2f3b29d1254806de43d",
+    "sheet_count": 28,
+    "final_numbering_source": "revision_oct18_discussion/citations/first_citation_numbering/FIRST_CITATION_NUMBERING_QA.json",
+    "assembly_sources": [
+      "revision_oct18/table_audit/package_workbook.py",
+      "revision_oct18/table_audit/update_endpoints.py",
+      "revision_oct18/table_audit/expand_offset_tables.py",
+      "revision_oct18_discussion/citations/renumber_tables_first_citation.py"
+    ],
+    "tables": [
+      {
+        "table": "S1",
+        "title": "Sampled populations and genetic diversity",
+        "old_blocks": [
+          "S2.A"
+        ],
+        "status": "APPLIED",
+        "sources": [
+          "runs/revision_run_01/outputs/inputs/population_metadata.csv"
+        ],
+        "data_rows": 19,
+        "columns": 11,
+        "final_sheet": "S1",
+        "prior_sheet": "S1",
+        "current_title": "Table S1. Sampled populations and genetic diversity.",
+        "rows": 23,
+        "source_status": [
+          {
+            "path": "runs/revision_run_01/outputs/inputs/population_metadata.csv",
+            "exists": true,
+            "bytes": 1057
+          }
+        ],
+        "minimal_exact_data": "Export this final sheet to CSV/TSV without numeric rounding; final workbook is authoritative for paper table numbering."
+      },
+      {
+        "table": "S2",
+        "title": "SNP datasets and analysis panels",
+        "old_blocks": [
+          "S2.B",
+          "S2.C"
+        ],
+        "status": "APPLIED",
+        "sources": [
+          "runs/revision_run_01/outputs/inputs/dataset_lineage.csv",
+          "runs/revision_run_01/outputs/statistics/population_diversity.csv"
+        ],
+        "selection": "Use a single rectangular inventory; combine duplicate panel counts and retain distinct sample/imputation states with source labels.",
+        "data_rows": 4,
+        "columns": 4,
+        "final_sheet": "S2",
+        "prior_sheet": "S2",
+        "current_title": "Table S2. SNP datasets and analysis panels.",
+        "rows": 8,
+        "source_status": [
+          {
+            "path": "runs/revision_run_01/outputs/inputs/dataset_lineage.csv",
+            "exists": true,
+            "bytes": 720
+          },
+          {
+            "path": "runs/revision_run_01/outputs/statistics/population_diversity.csv",
+            "exists": true,
+            "bytes": 12265
+          }
+        ],
+        "minimal_exact_data": "Export this final sheet to CSV/TSV without numeric rounding; final workbook is authoritative for paper table numbering."
+      },
+      {
+        "table": "S6",
+        "title": "Sequence lengths for demographic inference",
+        "old_blocks": [
+          "S7.C"
+        ],
+        "status": "APPLIED",
+        "sources": [
+          "oct17/Source_and_provenance/Oct17_evidence/stairway_length_reporting_validated_results_Table_S7_extension.csv",
+          "oct17/Source_and_provenance/Oct17_evidence/stairway_length_AUTHOR_CONFIRMED_FINAL_LENGTHS.json"
+        ],
+        "data_rows": 4,
+        "columns": 8,
+        "final_sheet": "S3",
+        "prior_sheet": "S6",
+        "current_title": "Table S3. Sequence lengths for demographic inference.",
+        "rows": 8,
+        "source_status": [
+          {
+            "path": "oct17/Source_and_provenance/Oct17_evidence/stairway_length_reporting_validated_results_Table_S7_extension.csv",
+            "exists": true,
+            "bytes": 1073
+          },
+          {
+            "path": "oct17/Source_and_provenance/Oct17_evidence/stairway_length_AUTHOR_CONFIRMED_FINAL_LENGTHS.json",
+            "exists": true,
+            "bytes": 1809
+          }
+        ],
+        "minimal_exact_data": "Export this final sheet to CSV/TSV without numeric rounding; final workbook is authoritative for paper table numbering."
+      },
+      {
+        "table": "S4",
+        "title": "Demographic groups and Stairway Plot settings",
+        "old_blocks": [
+          "S7.A"
+        ],
+        "status": "APPLIED",
+        "sources": [
+          "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S1_S2/S2_history_source_manifest.csv"
+        ],
+        "data_rows": 6,
+        "columns": 4,
+        "final_sheet": "S4",
+        "prior_sheet": "S4",
+        "current_title": "Table S4. Demographic groups and Stairway Plot settings.",
+        "rows": 10,
+        "source_status": [
+          {
+            "path": "runs/revision_run_01/outputs/figure_revision_original_design/supplement_S1_S2/S2_history_source_manifest.csv",
+            "exists": true,
+            "bytes": 3815
+          }
+        ],
+        "minimal_exact_data": "Export this final sheet to CSV/TSV without numeric rounding; final workbook is authoritative for paper table numbering."
+      },
+      {
+        "table": "S13",
+        "title": "Population predictors of genomic vulnerability",
+        "old_blocks": [
+          "S1.A"
+        ],
+        "status": "APPLIED",
+        "sources": [
+          "revision_oct16/driver_combinations/data_audit/population_saved_predictors_19.csv"
+        ],
+        "selection": "19 rows; only the actual 11 potential model predictors plus population ID, class and n. Remove duplicate historical diversity columns; full source unchanged.",
+        "data_rows": 19,
+        "columns": 13,
+        "final_sheet": "S5",
+        "prior_sheet": "S13",
+        "current_title": "Table S5. Population predictors of genomic vulnerability.",
+        "rows": 23,
+        "source_status": [
+          {
+            "path": "revision_oct16/driver_combinations/data_audit/population_saved_predictors_19.csv",
+            "exists": true,
+            "bytes": 5672
+          }
+        ],
+        "minimal_exact_data": "Export this final sheet to CSV/TSV without numeric rounding; final workbook is authoritative for paper table numbering."
+      },
+      {
+        "table": "S3",
+        "title": "Paired mapping and depth metrics for two reference genomes",
+        "old_blocks": [
+          "S11"
+        ],
+        "status": "APPLIED",
+        "sources": [
+          "oct17/Mapping_QC_results/sample_QC.csv"
+        ],
+        "selection": "434 sample-reference rows; retain all original numeric values and accession mapping. Format fraction columns as percentages without changing stored numbers.",
+        "data_rows": 434,
+        "columns": 22,
+        "final_sheet": "S6",
+        "prior_sheet": "S3",
+        "current_title": "Table S6. Paired mapping and depth metrics for two reference genomes.",
+        "rows": 438,
+        "source_status": [
+          {
+            "path": "oct17/Mapping_QC_results/sample_QC.csv",
+            "exists": true,
+            "bytes": 154996
+          }
+        ],
+        "minimal_exact_data": "Export this final sheet to CSV/TSV without numeric rounding; final workbook is authoritative for paper table numbering."
+      },
+      {
+        "table": "S5",
+        "title": "Sensitivity of demographic scaling to mutation rate",
+        "old_blocks": [
+          "S7.B"
+        ],
+        "status": "APPLIED",
+        "sources": [
+          "runs/revision_run_01/outputs/supporting_audit/demography_rate_sensitivity.csv.gz"
+        ],
+        "data_rows": 18,
+        "columns": 8,
+        "final_sheet": "S7",
+        "prior_sheet": "S5",
+        "current_title": "Table S7. Sensitivity of demographic scaling to mutation rate.",
+        "rows": 22,
+        "source_status": [
+          {
+            "path": "runs/revision_run_01/outputs/supporting_audit/demography_rate_sensitivity.csv.gz",
+            "exists": true,
+            "bytes": 50506539
+          }
+        ],
+        "minimal_exact_data": "Export this final sheet to CSV/TSV without numeric rounding; final workbook is authoritative for paper table numbering."
+      },
+      {
+        "table": "S10",
+        "title": "Niche overlap, equivalency and directional similarity",
+        "old_blocks": [
+          "S8.A"
+        ],
+        "status": "APPLIED",
+        "sources": [
+          "runs/revision_run_01/outputs/niche_reconstruction/test_summary.csv"
+        ],
+        "data_rows": 6,
+        "columns": 9,
+        "final_sheet": "S8",
+        "prior_sheet": "S10",
+        "current_title": "Table S8. Niche overlap, equivalency and directional similarity.",
+        "rows": 10,
+        "source_status": [
+          {
+            "path": "runs/revision_run_01/outputs/niche_reconstruction/test_summary.csv",
+            "exists": true,
+            "bytes": 705
+          }
+        ],
+        "minimal_exact_data": "Export this final sheet to CSV/TSV without numeric rounding; final workbook is authoritative for paper table numbering."
+      },
+      {
+        "table": "S7",
+        "title": "Population genetic-load indices and their denominators",
+        "old_blocks": [
+          "S6.A"
+        ],
+        "status": "APPLIED",
+        "sources": [
+          "revision_package/functional_population_summary.csv"
+        ],
+        "data_rows": 19,
+        "columns": 10,
+        "final_sheet": "S9",
+        "prior_sheet": "S7",
+        "current_title": "Table S9. Population genetic-load indices and their denominators.",
+        "rows": 23,
+        "source_status": [
+          {
+            "path": "revision_package/functional_population_summary.csv",
+            "exists": true,
+            "bytes": 14856
+          }
+        ],
+        "minimal_exact_data": "Export this final sheet to CSV/TSV without numeric rounding; final workbook is authoritative for paper table numbering."
+      },
+      {
+        "table": "S8",
+        "title": "Core\u2013peripheral differences in genetic-load indices",
+        "old_blocks": [
+          "S6.B"
+        ],
+        "status": "APPLIED",
+        "sources": [
+          "runs/revision_run_01/outputs/functional_reconstruction/postprocess/population_class_comparisons.csv"
+        ],
+        "data_rows": 2,
+        "columns": 11,
+        "final_sheet": "S10",
+        "prior_sheet": "S8",
+        "current_title": "Table S10. Core\u2013peripheral differences in genetic-load indices.",
+        "rows": 6,
+        "source_status": [
+          {
+            "path": "runs/revision_run_01/outputs/functional_reconstruction/postprocess/population_class_comparisons.csv",
+            "exists": true,
+            "bytes": 4309
+          }
+        ],
+        "minimal_exact_data": "Export this final sheet to CSV/TSV without numeric rounding; final workbook is authoritative for paper table numbering."
+      },
+      {
+        "table": "S9",
+        "title": "Coverage of SIFT missense predictions",
+        "old_blocks": [
+          "S6.C"
+        ],
+        "status": "APPLIED",
+        "sources": [
+          "runs/revision_run_01/outputs/functional_reconstruction/postprocess/population_SIFT_coverage.csv"
+        ],
+        "data_rows": 19,
+        "columns": 4,
+        "final_sheet": "S11",
+        "prior_sheet": "S9",
+        "current_title": "Table S11. Coverage of SIFT missense predictions.",
+        "rows": 23,
+        "source_status": [
+          {
+            "path": "runs/revision_run_01/outputs/functional_reconstruction/postprocess/population_SIFT_coverage.csv",
+            "exists": true,
+            "bytes": 1528
+          }
+        ],
+        "minimal_exact_data": "Export this final sheet to CSV/TSV without numeric rounding; final workbook is authoritative for paper table numbering."
+      },
+      {
+        "table": "S26",
+        "title": "Environmental and geographic classifications of populations",
+        "old_blocks": [
+          "S10.A"
+        ],
+        "status": "APPLIED",
+        "sources": [
+          "runs/revision_run_01/outputs/oct16_revision/distance_classification/alternative_population_classifications.csv"
+        ],
+        "data_rows": 19,
+        "columns": 9,
+        "final_sheet": "S12",
+        "prior_sheet": "S26",
+        "current_title": "Table S12. Environmental and geographic classifications of populations.",
+        "rows": 23,
+        "source_status": [
+          {
+            "path": "runs/revision_run_01/outputs/oct16_revision/distance_classification/alternative_population_classifications.csv",
+            "exists": true,
+            "bytes": 3052
+          }
+        ],
+        "minimal_exact_data": "Export this final sheet to CSV/TSV without numeric rounding; final workbook is authoritative for paper table numbering."
+      },
+      {
+        "table": "S27",
+        "title": "Sensitivity of population contrasts to classification",
+        "old_blocks": [
+          "S10.B"
+        ],
+        "status": "APPLIED",
+        "sources": [
+          "runs/revision_run_01/outputs/oct16_revision/distance_classification/alternative_classification_population_comparisons.csv"
+        ],
+        "data_rows": 141,
+        "columns": 17,
+        "final_sheet": "S13",
+        "prior_sheet": "S27",
+        "current_title": "Table S13. Sensitivity of population contrasts to classification.",
+        "rows": 145,
+        "source_status": [
+          {
+            "path": "runs/revision_run_01/outputs/oct16_revision/distance_classification/alternative_classification_population_comparisons.csv",
+            "exists": true,
+            "bytes": 39217
+          }
+        ],
+        "minimal_exact_data": "Export this final sheet to CSV/TSV without numeric rounding; final workbook is authoritative for paper table numbering."
+      },
+      {
+        "table": "S28",
+        "title": "Associations with continuous geographic marginality",
+        "old_blocks": [
+          "S10.C"
+        ],
+        "status": "APPLIED",
+        "sources": [
+          "runs/revision_run_01/outputs/classification/continuous_geographic_marginality_sensitivity.csv"
+        ],
+        "data_rows": 32,
+        "columns": 10,
+        "final_sheet": "S14",
+        "prior_sheet": "S28",
+        "current_title": "Table S14. Associations with continuous geographic marginality.",
+        "rows": 36,
+        "source_status": [
+          {
+            "path": "runs/revision_run_01/outputs/classification/continuous_geographic_marginality_sensitivity.csv",
+            "exists": true,
+            "bytes": 58161
+          }
+        ],
+        "minimal_exact_data": "Export this final sheet to CSV/TSV without numeric rounding; final workbook is authoritative for paper table numbering."
+      },
+      {
+        "table": "S11",
+        "title": "Core\u2013peripheral differences in RONA",
+        "old_blocks": [
+          "S3.A"
+        ],
+        "status": "APPLIED",
+        "sources": [
+          "runs/revision_run_01/outputs/statistics/population_group_effects.csv"
+        ],
+        "data_rows": 120,
+        "columns": 13,
+        "final_sheet": "S15",
+        "prior_sheet": "S11",
+        "current_title": "Table S15. Core\u2013peripheral differences in RONA.",
+        "rows": 124,
+        "source_status": [
+          {
+            "path": "runs/revision_run_01/outputs/statistics/population_group_effects.csv",
+            "exists": true,
+            "bytes": 52989
+          }
+        ],
+        "minimal_exact_data": "Export this final sheet to CSV/TSV without numeric rounding; final workbook is authoritative for paper table numbering."
+      },
+      {
+        "table": "S12",
+        "title": "Associations between RONA and climatic change",
+        "old_blocks": [
+          "S3.B"
+        ],
+        "status": "APPLIED",
+        "sources": [
+          "runs/revision_run_01/outputs/statistics/rona_climate_correlations.csv"
+        ],
+        "data_rows": 20,
+        "columns": 9,
+        "final_sheet": "S16",
+        "prior_sheet": "S12",
+        "current_title": "Table S16. Associations between RONA and climatic change.",
+        "rows": 24,
+        "source_status": [
+          {
+            "path": "runs/revision_run_01/outputs/statistics/rona_climate_correlations.csv",
+            "exists": true,
+            "bytes": 7045
+          }
+        ],
+        "minimal_exact_data": "Export this final sheet to CSV/TSV without numeric rounding; final workbook is authoritative for paper table numbering."
+      },
+      {
+        "table": "S14",
+        "title": "Five best-supported models of RONA for each climate projection",
+        "old_blocks": [
+          "S1.B"
+        ],
+        "status": "APPLIED",
+        "sources": [
+          "runs/revision_run_01/outputs/oct16_revision/all_driver_models/ssp126_2041-2070_bio15/linear_full_model_ranking.csv"
+        ],
+        "selection": "For each of 20 cases, sort finite-AICc estimable models across linear and GAM by (AICc,family,model_id); retain first five. Existing per-family top-five union guarantees global top five are available. Show global rank and AICc, omit family-normalized weights. No fit rerun.",
+        "data_rows": 100,
+        "columns": 7,
+        "final_sheet": "S17",
+        "prior_sheet": "S14",
+        "current_title": "Table S17. Five best-supported models of RONA for each climate projection.",
+        "rows": 104,
+        "source_scope_note": "Registry names one representative case; retain all 20 per-case directories in outputs/oct16_revision/all_driver_models, not only named example.",
+        "source_status": [
+          {
+            "path": "runs/revision_run_01/outputs/oct16_revision/all_driver_models/ssp126_2041-2070_bio15/linear_full_model_ranking.csv",
+            "exists": true,
+            "bytes": 334747
+          }
+        ],
+        "minimal_exact_data": "Export this final sheet to CSV/TSV without numeric rounding; final workbook is authoritative for paper table numbering."
+      },
+      {
+        "table": "S15",
+        "title": "Predictor correlation screening",
+        "old_blocks": [
+          "S1.M"
+        ],
+        "status": "APPLIED",
+        "sources": [
+          "runs/revision_run_01/outputs/oct16_revision/all_driver_models_postprocess/correlation_screen_decisions.csv"
+        ],
+        "data_rows": 220,
+        "columns": 10,
+        "final_sheet": "S18",
+        "prior_sheet": "S15",
+        "current_title": "Table S18. Predictor correlation screening.",
+        "rows": 224,
+        "source_status": [
+          {
+            "path": "runs/revision_run_01/outputs/oct16_revision/all_driver_models_postprocess/correlation_screen_decisions.csv",
+            "exists": true,
+            "bytes": 784497
+          }
+        ],
+        "minimal_exact_data": "Export this final sheet to CSV/TSV without numeric rounding; final workbook is authoritative for paper table numbering."
+      },
+      {
+        "table": "S16",
+        "title": "Prediction accuracy of selected RONA models",
+        "old_blocks": [
+          "S1.D"
+        ],
+        "status": "APPLIED",
+        "sources": [
+          "runs/revision_run_01/outputs/oct16_revision/all_driver_models/ssp126_2041-2070_bio15/nested_selection_validation_performance.csv"
+        ],
+        "selection": "Retain combined-family downstream selection performance for LOPO and geographic-block validation (40 rows); family-specific values stay source data. Baseline errors and n retained.",
+        "data_rows": 40,
+        "columns": 8,
+        "final_sheet": "S19",
+        "prior_sheet": "S16",
+        "current_title": "Table S19. Prediction accuracy of selected RONA models.",
+        "rows": 44,
+        "source_scope_note": "Registry names one representative case; retain all 20 per-case directories in outputs/oct16_revision/all_driver_models, not only named example.",
+        "source_status": [
+          {
+            "path": "runs/revision_run_01/outputs/oct16_revision/all_driver_models/ssp126_2041-2070_bio15/nested_selection_validation_performance.csv",
+            "exists": true,
+            "bytes": 742
+          }
+        ],
+        "minimal_exact_data": "Export this final sheet to CSV/TSV without numeric rounding; final workbook is authoritative for paper table numbering."
+      },
+      {
+        "table": "S17",
+        "title": "Conditional associations in selected RONA models",
+        "old_blocks": [
+          "S1.F"
+        ],
+        "status": "APPLIED",
+        "sources": [
+          "runs/revision_run_01/outputs/oct16_revision/all_driver_models/ssp126_2041-2070_bio15/linear_M0009_conditional_coefficients.csv"
+        ],
+        "data_rows": 171,
+        "columns": 11,
+        "final_sheet": "S20",
+        "prior_sheet": "S17",
+        "current_title": "Table S20. Conditional associations in selected RONA models.",
+        "rows": 175,
+        "source_scope_note": "Registry names one representative case; retain all 20 per-case directories in outputs/oct16_revision/all_driver_models, not only named example.",
+        "source_status": [
+          {
+            "path": "runs/revision_run_01/outputs/oct16_revision/all_driver_models/ssp126_2041-2070_bio15/linear_M0009_conditional_coefficients.csv",
+            "exists": true,
+            "bytes": 319
+          }
+        ],
+        "minimal_exact_data": "Export this final sheet to CSV/TSV without numeric rounding; final workbook is authoritative for paper table numbering."
+      },
+      {
+        "table": "S18",
+        "title": "Diagnostics of selected RONA models",
+        "old_blocks": [
+          "S1.G"
+        ],
+        "status": "APPLIED",
+        "sources": [
+          "runs/revision_run_01/outputs/oct16_revision/all_driver_models_postprocess/top1_conditional_diagnostics.csv"
+        ],
+        "data_rows": 40,
+        "columns": 16,
+        "final_sheet": "S21",
+        "prior_sheet": "S18",
+        "current_title": "Table S21. Diagnostics of selected RONA models.",
+        "rows": 44,
+        "source_status": [
+          {
+            "path": "runs/revision_run_01/outputs/oct16_revision/all_driver_models_postprocess/top1_conditional_diagnostics.csv",
+            "exists": true,
+            "bytes": 13259
+          }
+        ],
+        "minimal_exact_data": "Export this final sheet to CSV/TSV without numeric rounding; final workbook is authoritative for paper table numbering."
+      },
+      {
+        "table": "S19",
+        "title": "Fitted environmental and geographic contributions to GDM",
+        "old_blocks": [
+          "S4.B"
+        ],
+        "status": "APPLIED",
+        "sources": [
+          "runs/revision_run_01/outputs/gdm/fitted_predictor_contributions.csv"
+        ],
+        "data_rows": 6,
+        "columns": 2,
+        "final_sheet": "S22",
+        "prior_sheet": "S19",
+        "current_title": "Table S22. Fitted environmental and geographic contributions to GDM.",
+        "rows": 10,
+        "source_status": [
+          {
+            "path": "runs/revision_run_01/outputs/gdm/fitted_predictor_contributions.csv",
+            "exists": true,
+            "bytes": 1267
+          }
+        ],
+        "minimal_exact_data": "Export this final sheet to CSV/TSV without numeric rounding; final workbook is authoritative for paper table numbering."
+      },
+      {
+        "table": "S20",
+        "title": "Core\u2013peripheral differences in genomic offset",
+        "old_blocks": [
+          "S4.C"
+        ],
+        "status": "APPLIED",
+        "sources": [
+          "runs/revision_run_01/outputs/landscape_statistics/population_class_effects.csv"
+        ],
+        "data_rows": 144,
+        "columns": 15,
+        "selection": "Both environmental-only and geographic-distance scoring; saved original counts, estimates, intervals and tests unchanged.",
+        "final_sheet": "S23",
+        "prior_sheet": "S20",
+        "current_title": "Table S23. Core\u2013peripheral differences in genomic offset.",
+        "rows": 148,
+        "latest_update": "revision_oct18/table_audit/expand_offset_tables.py",
+        "source_status": [
+          {
+            "path": "runs/revision_run_01/outputs/landscape_statistics/population_class_effects.csv",
+            "exists": true,
+            "bytes": 22341
+          }
+        ],
+        "minimal_exact_data": "Export this final sheet to CSV/TSV without numeric rounding; final workbook is authoritative for paper table numbering."
+      },
+      {
+        "table": "S21",
+        "title": "Paired differences in genomic offset among projections",
+        "old_blocks": [
+          "S4.D"
+        ],
+        "status": "APPLIED",
+        "sources": [
+          "runs/revision_run_01/outputs/landscape_statistics/paired_scenario_contrasts.csv"
+        ],
+        "data_rows": 24,
+        "columns": 10,
+        "selection": "Both environmental-only and geographic-distance scoring; saved original counts, estimates, intervals and tests unchanged.",
+        "final_sheet": "S24",
+        "prior_sheet": "S21",
+        "current_title": "Table S24. Paired differences in genomic offset among projections.",
+        "rows": 28,
+        "latest_update": "revision_oct18/table_audit/expand_offset_tables.py",
+        "source_status": [
+          {
+            "path": "runs/revision_run_01/outputs/landscape_statistics/paired_scenario_contrasts.csv",
+            "exists": true,
+            "bytes": 4581
+          }
+        ],
+        "minimal_exact_data": "Export this final sheet to CSV/TSV without numeric rounding; final workbook is authoritative for paper table numbering."
+      },
+      {
+        "table": "S22",
+        "title": "Class composition of matching destinations and sources",
+        "old_blocks": [
+          "S5.A"
+        ],
+        "status": "APPLIED",
+        "sources": [
+          "revision_oct18/pie_audit/PROPOSED_combined_endpoint_percentages.csv",
+          "revision_oct18/figure_updates/endpoint_percentages.csv"
+        ],
+        "selection": "Endpoint labels/percentages must follow concurrent pie-classification audit; preserve counts, per-scenario radius and scoring definitions. Do not copy stale Other labels without checking parent.",
+        "data_rows": 160,
+        "columns": 16,
+        "final_sheet": "S25",
+        "prior_sheet": "S22",
+        "current_title": "Table S25. Class composition of matching destinations and sources.",
+        "rows": 164,
+        "latest_update": "revision_oct18/table_audit/update_endpoints.py",
+        "source_status": [
+          {
+            "path": "revision_oct18/pie_audit/PROPOSED_combined_endpoint_percentages.csv",
+            "exists": true,
+            "bytes": 45838
+          },
+          {
+            "path": "revision_oct18/figure_updates/endpoint_percentages.csv",
+            "exists": true,
+            "bytes": 26453
+          }
+        ],
+        "minimal_exact_data": "Export this final sheet to CSV/TSV without numeric rounding; final workbook is authoritative for paper table numbering."
+      },
+      {
+        "table": "S24",
+        "title": "Projected suitable area across climate models",
+        "old_blocks": [
+          "S9.C"
+        ],
+        "status": "APPLIED",
+        "sources": [
+          "runs/revision_run_01/outputs/sdm_reconstruction/habitat_area_GCM_descriptive_summary.csv"
+        ],
+        "data_rows": 4,
+        "columns": 10,
+        "final_sheet": "S26",
+        "prior_sheet": "S24",
+        "current_title": "Table S26. Projected suitable area across climate models.",
+        "rows": 8,
+        "source_status": [
+          {
+            "path": "runs/revision_run_01/outputs/sdm_reconstruction/habitat_area_GCM_descriptive_summary.csv",
+            "exists": true,
+            "bytes": 1347
+          }
+        ],
+        "minimal_exact_data": "Export this final sheet to CSV/TSV without numeric rounding; final workbook is authoritative for paper table numbering."
+      },
+      {
+        "table": "S25",
+        "title": "Suitable-area projections from individual climate models",
+        "old_blocks": [
+          "S9.D"
+        ],
+        "status": "APPLIED",
+        "sources": [
+          "runs/revision_run_01/outputs/sdm_reconstruction/habitat_area_per_GCM.csv"
+        ],
+        "data_rows": 20,
+        "columns": 7,
+        "final_sheet": "S27",
+        "prior_sheet": "S25",
+        "current_title": "Table S27. Suitable-area projections from individual climate models.",
+        "rows": 24,
+        "source_status": [
+          {
+            "path": "runs/revision_run_01/outputs/sdm_reconstruction/habitat_area_per_GCM.csv",
+            "exists": true,
+            "bytes": 2868
+          }
+        ],
+        "minimal_exact_data": "Export this final sheet to CSV/TSV without numeric rounding; final workbook is authoritative for paper table numbering."
+      },
+      {
+        "table": "S23",
+        "title": "MaxEnt predictive performance",
+        "old_blocks": [
+          "S9.A"
+        ],
+        "status": "APPLIED",
+        "sources": [
+          "runs/revision_run_01/outputs/sdm_reconstruction/cross_validation.csv"
+        ],
+        "data_rows": 10,
+        "columns": 4,
+        "final_sheet": "S28",
+        "prior_sheet": "S23",
+        "current_title": "Table S28. MaxEnt predictive performance.",
+        "rows": 14,
+        "source_status": [
+          {
+            "path": "runs/revision_run_01/outputs/sdm_reconstruction/cross_validation.csv",
+            "exists": true,
+            "bytes": 216
+          }
+        ],
+        "minimal_exact_data": "Export this final sheet to CSV/TSV without numeric rounding; final workbook is authoritative for paper table numbering."
+      }
+    ]
+  },
+  "unresolved_links": [
+    "Renderers use absolute local paths and external nature-figure QA helpers; parent should vendor required helpers or make QA optional and replace paths with repository-root arguments.",
+    "Older SOURCE_DELIVERY_MANIFEST is dated Oct15 and has stale hashes for some rerendered figures; source output hashes in this inventory were checked against current publication assets.",
+    "The minimal render datasets reproduce plots from saved results, not full estimation from raw reads. Full upstream scripts/inputs must be curated separately.",
+    "S14/S15 shared renderer contains old S13 rendering; preserve final all-driver S13 separately.",
+    "Do not include raw FASTQ/BAM/reference genomes or large climate grids in ordinary Git; use accession/download manifests or external repository, retaining checksum metadata."
+  ],
+  "path_semantics": "Renderer/data paths are repository-relative after tools/prepare_data.py; original source hashes and output hashes identify the executed lineage. Author-document locations and missing optional plot objects are provenance only, not inputs required by a renderer."
+}

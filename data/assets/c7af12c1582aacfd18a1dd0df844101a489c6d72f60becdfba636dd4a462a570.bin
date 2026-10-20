@@ -1,0 +1,11 @@
+{
+  "primary_rows": 2280,
+  "all_sensitivity_rows": 20520,
+  "reference_numeric_check": "passed pyRona default absdiff/R2-weighted calculation and grouped sample parsing",
+  "primary_K": 4,
+  "primary_association_filter": "p<1 as inherited command; conditional on preselected candidates",
+  "zero_association_handling": "NA, never zero",
+  "constant_population_frequency_loci": "excluded with counts; amplitude-normalized statistic undefined at amplitude zero",
+  "uncertainty_note": "Locus dispersion is not independent population-level uncertainty",
+  "validated": true
+}

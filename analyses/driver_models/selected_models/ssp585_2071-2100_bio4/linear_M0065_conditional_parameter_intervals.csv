@@ -1,0 +1,4 @@
+"parameter","estimate","SE","lower95","upper95","residual_df","interval","parameter_type"
+"(Intercept)",0.0636916444787188,0.000512727393889157,0.0626047109593573,0.0647785779980803,16,"95% pointwise conditional on selected formula; no model-search correction","linear coefficient on standardized predictors"
+"climate_change",0.0119012650418372,0.000913566715738516,0.00996459011995091,0.0138379399637234,16,"95% pointwise conditional on selected formula; no model-search correction","linear coefficient on standardized predictors"
+"Lon",-0.00213245180010285,0.000913566715738516,-0.00406912672198909,-0.00019577687821661,16,"95% pointwise conditional on selected formula; no model-search correction","linear coefficient on standardized predictors"

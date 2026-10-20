@@ -1,0 +1,13 @@
+{
+  "fresh_snmf_K": 4,
+  "repetitions": 10,
+  "seed": 20261013,
+  "method": "mode",
+  "best_repetition": 2,
+  "missing_calls": 19496,
+  "called_genotype_changes": 0,
+  "changed_missing_imputations": 784,
+  "RONA_rows": 6840,
+  "comparison": "Archived validated imputation versus fresh seeded mode imputation versus observed-call population frequencies; no silent change to primary results",
+  "validated": true
+}

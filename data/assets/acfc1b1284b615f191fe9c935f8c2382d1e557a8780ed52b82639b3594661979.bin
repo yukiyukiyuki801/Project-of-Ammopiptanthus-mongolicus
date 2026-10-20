@@ -1,0 +1,41 @@
+Input parameter values:
+               datapath = ../../../ammo_all
+               mcmcpath = ../../../../ammo/ammo_all_deme700
+               prevpath = 
+               gridpath = 
+               distance = euclidean
+                diploid = 1
+                 nIndiv = 217
+                 nSites = 38124
+                 nDemes = 700
+                   seed = 123
+            numMCMCIter = 2000000
+            numBurnIter = 1000000
+            numThinIter = 9999
+              negBiSize = 10
+              negBiProb = 0.670000
+             qVoronoiPr = 0.250000
+             mrateShape = 0.000500
+             qrateShape = 0.002000
+             sigmaShape = 0.001000
+             qrateScale = 0.500000
+             mrateScale = 2.000000
+             sigmaScale = 1.000000
+       mSeedsProposalS2 = 0.010000
+       qSeedsProposalS2 = 0.100000
+       mEffctProposalS2 = 0.100000
+       qEffctProposalS2 = 0.001000
+      mrateMuProposalS2 = 0.010000
+
+Acceptance proportions:
+	(76474/124647) = 61% for proposal type "qTileRate",		 with proposal variance "qEffctProposalS2"
+	(55094/125236) = 44% for proposal type "qTileMove",		 with proposal variance "qSeedsProposalS2"
+	(42671/125076) = 34% for proposal type "qBirthDeath"
+	(199060/374914) = 53% for proposal type "mTileRate",		 with proposal variance "mEffctProposalS2"
+	(34499/249698) = 14% for proposal type "mMeanRate",		 with proposal variance "mrateMuProposalS2"
+	(110201/375221) = 29% for proposal type "mTileMove",		 with proposal variance "mSeedsProposalS2"
+	(42951/375606) = 11% for proposal type "mBirthDeath"
+	(61855/249602) = 25% for proposal type "degrees of freedom"
+
+Final log prior: 59.23
+Final log llike: 68579.45

@@ -1,0 +1,12 @@
+{
+  "validated": true,
+  "validation_only": false,
+  "scenarios": 4,
+  "production_searches": 8,
+  "validation_searches": 16,
+  "grid_cells": 157745,
+  "candidates": 157764,
+  "no_model_refitting": true,
+  "score_tolerance": 1e-10,
+  "numerical_pruning_safety": 2e-14
+}
